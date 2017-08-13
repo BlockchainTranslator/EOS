@@ -1,13 +1,6 @@
-# 中文文案排版指北
-[![devDependency Status](https://david-dm.org/mzlogin/chinese-copywriting-guidelines/dev-status.svg)](https://david-dm.org/mzlogin/chinese-copywriting-guidelines#info=devDependencies)
+# 译文文案排版规范
 
 统一中文文案、排版的相关用法，降低团队成员之间的沟通成本。
-
-Other languages:
-
-- [English](https://github.com/mzlogin/chinese-copywriting-guidelines/blob/Simplified/README.en.md)
-- [Chinese Traditional](https://github.com/sparanoid/chinese-copywriting-guidelines)
-- [Chinese Simplified](README.md)
 
 -----
 
@@ -289,6 +282,3 @@ Microsoft 有个 [`-ms-text-autospace`](http://msdn.microsoft.com/en-us/library/
 - [引号 - 维基百科](http://zh.wikipedia.org/wiki/%E5%BC%95%E8%99%9F)
 - [疑问惊叹号 - 维基百科](http://zh.wikipedia.org/wiki/%E7%96%91%E5%95%8F%E9%A9%9A%E5%98%86%E8%99%9F)
 
-## CopyRight
-
-[中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
