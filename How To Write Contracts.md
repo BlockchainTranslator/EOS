@@ -12,11 +12,16 @@ Introduction to writing contracts for EOS.IO.
 (1)EOS.IO contracts (aka applications) are deployed to a blockchain as pre-compiled Web Assembly (aka WASM). (2)WASM is compiled from C/C++ using LLVM and clang, which means that you will require knowledge of C/C++ in order to develop your blockchain applications.(3) While it is possible to develop in C, we strongly recommend that all developers use the EOS.IO C++ API which provides much stronger type safety and is generally easier to read.  
 (1)EOS.IO 合约（应用程序）以预编译的 Web Assembly（WASM）的形式部署在区块链上。(2)WASM 使用 C/C++ 编写，通过 LLVM 和 clang 编译，这意味着你需要 C/C++ 的知识才能开发你的区块链应用。(3)虽然可以用 C 语言来开发，但是我们强烈推荐所有开发者使用 EOS.IO 的 C++ API，它是强类型安全的，而且通常更容易阅读。
 
-| 第一段        | 张奎           | 胡亮  |
+| 第一段审核结果        | 张奎           | 胡亮  |
 | ------------- |:-------------| :-----|
 | (1)      |  |  |
 | (2)      |       |    |
-| (3) |       |    |
+| (3) |       |    |
+
+讨论区：
+(1)
+(2)
+(3)
 
 ### Application Structure
 ### 应用程序结构
