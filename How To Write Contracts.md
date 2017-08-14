@@ -1,26 +1,34 @@
 https://eosio.github.io/eos/group__contractdev.html
 # How To Write Contracts
-# ÈçºÎ±àĞ´ºÏÔ¼
+# å¦‚ä½•ç¼–å†™åˆçº¦
 Introduction to writing contracts for EOS.IO.  
-½éÉÜÈçºÎÎª EOS.IO ±àĞ´ºÏÔ¼¡£
+ä»‹ç»å¦‚ä½•ä¸º EOS.IO ç¼–å†™åˆçº¦ã€‚
 
 ## Detailed Description
-## ÏêÏ¸ËµÃ÷  
+## è¯¦ç»†è¯´æ˜  
 ### Background
-### ±³¾°
-EOS.IO contracts (aka applications) are deployed to a blockchain as pre-compiled Web Assembly (aka WASM). WASM is compiled from C/C++ using LLVM and clang, which means that you will require knowledge of C/C++ in order to develop your blockchain applications. While it is possible to develop in C, we strongly recommend that all developers use the EOS.IO C++ API which provides much stronger type safety and is generally easier to read.  
-EOS.IO ºÏÔ¼£¨Ó¦ÓÃ³ÌĞò£©ÒÔÔ¤±àÒëµÄ Web Assembly£¨WASM£©µÄĞÎÊ½²¿ÊğÔÚÇø¿éÁ´ÉÏ¡£WASM Ê¹ÓÃ C/C++ ±àĞ´£¬Í¨¹ı LLVM ºÍ clang ±àÒë£¬ÕâÒâÎ¶×ÅÄãĞèÒª C/C++ µÄÖªÊ¶²ÅÄÜ¿ª·¢ÄãµÄÇø¿éÁ´Ó¦ÓÃ¡£ËäÈ»¿ÉÒÔÓÃ C ÓïÑÔÀ´¿ª·¢£¬µ«ÊÇÎÒÃÇÇ¿ÁÒÍÆ¼öËùÓĞ¿ª·¢ÕßÊ¹ÓÃ EOS.IO µÄ C++ API£¬ËüÊÇÇ¿ÀàĞÍ°²È«µÄ£¬¶øÇÒÍ¨³£¸üÈİÒ×ÔÄ¶Á¡£
+### èƒŒæ™¯
+ç¬¬ä¸€æ®µ  
+(1)EOS.IO contracts (aka applications) are deployed to a blockchain as pre-compiled Web Assembly (aka WASM). (2)WASM is compiled from C/C++ using LLVM and clang, which means that you will require knowledge of C/C++ in order to develop your blockchain applications.(3) While it is possible to develop in C, we strongly recommend that all developers use the EOS.IO C++ API which provides much stronger type safety and is generally easier to read. Â 
+(1)EOS.IO åˆçº¦ï¼ˆåº”ç”¨ç¨‹åºï¼‰ä»¥é¢„ç¼–è¯‘çš„ Web Assemblyï¼ˆWASMï¼‰çš„å½¢å¼éƒ¨ç½²åœ¨åŒºå—é“¾ä¸Šã€‚(2)WASM ä½¿ç”¨ C/C++ ç¼–å†™ï¼Œé€šè¿‡ LLVM å’Œ clang ç¼–è¯‘ï¼Œè¿™æ„å‘³ç€ä½ éœ€è¦ C/C++ çš„çŸ¥è¯†æ‰èƒ½å¼€å‘ä½ çš„åŒºå—é“¾åº”ç”¨ã€‚(3)è™½ç„¶å¯ä»¥ç”¨ C è¯­è¨€æ¥å¼€å‘ï¼Œä½†æ˜¯æˆ‘ä»¬å¼ºçƒˆæ¨èæ‰€æœ‰å¼€å‘è€…ä½¿ç”¨ EOS.IO çš„ C++ APIï¼Œå®ƒæ˜¯å¼ºç±»å‹å®‰å…¨çš„ï¼Œè€Œä¸”é€šå¸¸æ›´å®¹æ˜“é˜…è¯»ã€‚
+
+| ç¬¬ä¸€æ®µ Â  Â  Â   | å¼ å¥Â  Â  Â  Â  Â   | èƒ¡äº®Â  |
+| ------------- |:-------------| :-----|
+| (1)      |  |  |
+| (2)      |       |    |
+| (3) |       |    |
+
 ### Application Structure
-### Ó¦ÓÃ³ÌĞò½á¹¹
+### åº”ç”¨ç¨‹åºç»“æ„
 EOS.IO applications are designed around event (aka message) handlers that respond to user actions. For example, a user might transfer tokens to another user. This event can be processed and potentially rejected by the sender, the receiver, and the currency application itself.  
-EOS.IO Ó¦ÓÃ³ÌĞòÊÇÎ§ÈÆÏìÓ¦ÓÃ»§ĞĞÎªµÄÊÂ¼ş£¨ÏûÏ¢£©´¦ÀíÀ´Éè¼ÆµÄ¡£ÀıÈç£¬Ò»¸öÓÃ»§×ªÒÆ tokens ¸øÁíÍâÒ»¸öÓÃ»§¡£Õâ¸öÊÂ¼ş¿ÉÒÔ±»·¢ËÍ·½£¬½ÓÊÕ·½»òÕßµ±Ç°Ó¦ÓÃ³ÌĞò±¾Éí½øĞĞ´¦Àí»òÕß¾Ü¾ø¡£  
+EOS.IO åº”ç”¨ç¨‹åºæ˜¯å›´ç»•å“åº”ç”¨æˆ·è¡Œä¸ºçš„äº‹ä»¶ï¼ˆæ¶ˆæ¯ï¼‰å¤„ç†æ¥è®¾è®¡çš„ã€‚ä¾‹å¦‚ï¼Œä¸€ä¸ªç”¨æˆ·è½¬ç§» tokens ç»™å¦å¤–ä¸€ä¸ªç”¨æˆ·ã€‚è¿™ä¸ªäº‹ä»¶å¯ä»¥è¢«å‘é€æ–¹ï¼Œæ¥æ”¶æ–¹æˆ–è€…å½“å‰åº”ç”¨ç¨‹åºæœ¬èº«è¿›è¡Œå¤„ç†æˆ–è€…æ‹’ç»ã€‚  
 As an application developer you get to decide what actions users can take and which handlers may or must be called in response to those events.  
-×÷ÎªÓ¦ÓÃ³ÌĞòµÄ¿ª·¢Õß£¬ÄãĞèÒª¾ö¶¨ÓÃ»§¿ÉÒÔ´¥·¢Ê²Ã´ĞĞÎª£¬ÒÔ¼°ÄÄĞ©ÊÂ¼ş´¦Àíº¯ÊıÓ¦¸Ã»òÕß±ØĞë±»µ÷ÓÃÒÔÏìÓ¦ÕâĞ©ÊÂ¼ş¡£
+ä½œä¸ºåº”ç”¨ç¨‹åºçš„å¼€å‘è€…ï¼Œä½ éœ€è¦å†³å®šç”¨æˆ·å¯ä»¥è§¦å‘ä»€ä¹ˆè¡Œä¸ºï¼Œä»¥åŠå“ªäº›äº‹ä»¶å¤„ç†å‡½æ•°åº”è¯¥æˆ–è€…å¿…é¡»è¢«è°ƒç”¨ä»¥å“åº”è¿™äº›äº‹ä»¶ã€‚
 ### Entry Points
-### Èë¿Úµã
+### å…¥å£ç‚¹
 
 EOS.IO applications have a apply which is like main in traditional applications:  
-EOS.IO Ó¦ÓÃ³ÌĞòÌá¹©ÀàËÆ´«Í³Ó¦ÓÃ³ÌĞòµÄ main ·½·¨ÏàÍ¬×÷ÓÃµÄ apply ·½·¨×÷ÎªÈë¿Úµã£º
+EOS.IO åº”ç”¨ç¨‹åºæä¾›ç±»ä¼¼ä¼ ç»Ÿåº”ç”¨ç¨‹åºçš„ main æ–¹æ³•ç›¸åŒä½œç”¨çš„ apply æ–¹æ³•ä½œä¸ºå…¥å£ç‚¹ï¼š
 
 ```C
 extern "C" {
@@ -30,14 +38,14 @@ extern "C" {
 ```
 
 main is give the arguments code and action which uniquely identify every event in the system. For example, code could be a currency contract and action could be transfer. This event (code,action) may be passed to several contracts including the sender and receiver. It is up to your application to figure out what to do in response to such an event.  
-main ·½·¨°üº¬ code ºÍ action Á½¸ö²ÎÊı£¬ÔÚÏµÍ³ÄÚÍ¨¹ıÕâÁ½¸ö²ÎÊı¿ÉÎ¨Ò»±êÊ¶Ã¿¸öÊÂ¼ş¡£ÀıÈç£¬code ¿ÉÒÔÊÇÒ»¸öÏÖ½ğºÏÔ¼£¬¶ø action ¾ÍÊÇ×ªÒÆµÄĞĞÎª¡£Õâ¸öÊÂ¼ş£¨code£¬action£©¿ÉÒÔ±»´«µİµ½°üÀ¨·¢ËÍÕßºÍ½ÓÊÕÕßµÄ¶à¸öºÏÔ¼ÖĞ¡£ÄãµÄÓ¦ÓÃ³ÌĞò¾ÍĞèÒªÃ÷È·ÈçºÎÏìÓ¦Õâ¸öÊÂ¼ş¡£
+main æ–¹æ³•åŒ…å« code å’Œ action ä¸¤ä¸ªå‚æ•°ï¼Œåœ¨ç³»ç»Ÿå†…é€šè¿‡è¿™ä¸¤ä¸ªå‚æ•°å¯å”¯ä¸€æ ‡è¯†æ¯ä¸ªäº‹ä»¶ã€‚ä¾‹å¦‚ï¼Œcode å¯ä»¥æ˜¯ä¸€ä¸ªç°é‡‘åˆçº¦ï¼Œè€Œ action å°±æ˜¯è½¬ç§»çš„è¡Œä¸ºã€‚è¿™ä¸ªäº‹ä»¶ï¼ˆcodeï¼Œactionï¼‰å¯ä»¥è¢«ä¼ é€’åˆ°åŒ…æ‹¬å‘é€è€…å’Œæ¥æ”¶è€…çš„å¤šä¸ªåˆçº¦ä¸­ã€‚ä½ çš„åº”ç”¨ç¨‹åºå°±éœ€è¦æ˜ç¡®å¦‚ä½•å“åº”è¿™ä¸ªäº‹ä»¶ã€‚
 init is another entry point that is called once immediately after loading the code. It is where you should perform one-time initialization of state.
-init ÊÇ¼ÓÔØ´úÂëºó»á±»Á¢¼´µ÷ÓÃ£¬ÇÒÖ»±»µ÷ÓÃÒ»´ÎµÄÁíÍâÒ»¸öÈë¿Úµã¡£ÔÚÕâÀïÄã¿ÉÒÔÊµÏÖÒ»´ÎĞÔµÄ×´Ì¬³õÊ¼»¯¡£
+init æ˜¯åŠ è½½ä»£ç åä¼šè¢«ç«‹å³è°ƒç”¨ï¼Œä¸”åªè¢«è°ƒç”¨ä¸€æ¬¡çš„å¦å¤–ä¸€ä¸ªå…¥å£ç‚¹ã€‚åœ¨è¿™é‡Œä½ å¯ä»¥å®ç°ä¸€æ¬¡æ€§çš„çŠ¶æ€åˆå§‹åŒ–ã€‚
 
 ### Example Apply Entry Handler
-### apply Èë¿Ú´¦Àíº¯ÊıµÄÊ¾Àı
+### apply å…¥å£å¤„ç†å‡½æ•°çš„ç¤ºä¾‹
 Generally speaking, you should use your entry handler to dispatch events to functions that implement the majority of your logic and optionally reject events that your contract is unable or unwilling to accept.  
-Ò»°ãÀ´Ëµ£¬ÄãÓ¦¸ÃÊ¹ÓÃÈë¿Ú´¦Àíº¯ÊıÈ¥·Ö·¢ÊÂ¼şµ½¶ÔÓ¦µÄ·½·¨£¬ÕâĞ©·½·¨ÊµÏÖÖ÷ÒªµÄÂß¼­£¬ÒÔ¼°¾Ü¾øºÏÔ¼²»Ê¶±ğ»òÕß²»Ó¦¸Ã½ÓÊÜµÄÊÂ¼ş¡£
+ä¸€èˆ¬æ¥è¯´ï¼Œä½ åº”è¯¥ä½¿ç”¨å…¥å£å¤„ç†å‡½æ•°å»åˆ†å‘äº‹ä»¶åˆ°å¯¹åº”çš„æ–¹æ³•ï¼Œè¿™äº›æ–¹æ³•å®ç°ä¸»è¦çš„é€»è¾‘ï¼Œä»¥åŠæ‹’ç»åˆçº¦ä¸è¯†åˆ«æˆ–è€…ä¸åº”è¯¥æ¥å—çš„äº‹ä»¶ã€‚
 
 ```C
 extern "C" {
@@ -52,6 +60,6 @@ extern "C" {
 }
 ```
 #### Note
-#### ËµÃ÷
+#### è¯´æ˜
 When defining your entry points it is required that they are placed in an extern "C" code block so that c++ name mangling does not get applied to the function.  
-µ±Äã¶¨ÒåÈë¿ÚµãÊ±£¬ĞèÒª½«´úÂë·ÅÔÚ extern "C" ´úÂë¿éÖĞÊ¹µÃ C++ Ãû×Ö¸Ä±à²»»áÓ¦ÓÃµ½¸Ã·½·¨ÉÏ¡£
+å½“ä½ å®šä¹‰å…¥å£ç‚¹æ—¶ï¼Œéœ€è¦å°†ä»£ç æ”¾åœ¨ extern "C" ä»£ç å—ä¸­ä½¿å¾— C++ åå­—æ”¹ç¼–ä¸ä¼šåº”ç”¨åˆ°è¯¥æ–¹æ³•ä¸Šã€‚
