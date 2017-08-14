@@ -19,9 +19,9 @@ Introduction to writing contracts for EOS.IO.
 | (3) |       |    |
 
 讨论区：
-(1)
-(2)
-(3)
+(1)  
+(2)  
+(3)  
 
 ### Application Structure
 ### 应用程序结构
