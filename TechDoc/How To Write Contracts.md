@@ -6,6 +6,7 @@ Introduction to writing contracts for EOS.IO.
 
 # Modules  
 # 模块  
+
  	Database API  
   数据库API  
  	APIs that store and retreive data on the blockchainEOS.IO organizes data according to the following broad structure:  
@@ -25,7 +26,7 @@ Introduction to writing contracts for EOS.IO.
  	Token API  
   令牌 API  
  	Defines the ABI for interfacing with standard-compatible token messages and database tables.  
-  定义进行标准兼容令牌消息和数据库表的API。  
+  定义进行标准兼容令牌消息和数据库表的ABI。  
  	Builtin Types  
   内置类型  
  	Specifies typedefs and aliases.  
