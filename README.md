@@ -51,7 +51,7 @@
 
 - **专家组**
 
-    @梓岑@YOYOW、程亮、@Alex
+    @梓岑@YOYOW、程亮、@Alex、ranger-老石
 
 - **翻译组**
 
