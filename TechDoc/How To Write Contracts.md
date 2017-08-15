@@ -18,17 +18,21 @@ Modules
  	Define API for querying message properties.  
   查询消息属性  
  	Console API  
-  控制台API
- 	Enables applications to log/print text messages.
-  应用程序记录文本消息日志
+  控制台API  
+ 	Enables applications to log/print text messages.  
+  应用程序记录文本消息日志  
 
- 	Token API
-  令牌 API
- 	Defines the ABI for interfacing with standard-compatible token messages and database tables.
-  定义进行标准兼容令牌消息和数据库表的API。
+ 	Token API  
+  令牌 API  
+ 	Defines the ABI for interfacing with standard-compatible token messages and database tables.  
+  定义进行标准兼容令牌消息和数据库表的API。  
 
- 	Builtin Types
- 	Specifies typedefs and aliases.
+ 	Builtin Types  
+  内置类型  
+ 	Specifies typedefs and aliases.  
+  指定typedef和别名  
+
+
 ## Detailed Description
 ## 详细说明  
 ### Background
