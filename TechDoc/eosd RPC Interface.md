@@ -18,7 +18,7 @@ plugin = eos::chain_api_plugin
 
 使用 eosd 前需要先开启 API 插件，在 config.ini 中加入如下行开启
 
-plugin = eos::chain_api_plugin
+> plugin = eos::chain_api_plugin
 
 
 By default an HTTP server will start on 127.0.0.1:8888; however, you can also change this with the following configureation line:
