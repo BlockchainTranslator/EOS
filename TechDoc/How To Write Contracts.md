@@ -4,6 +4,31 @@ https://eosio.github.io/eos/group__contractdev.html
 Introduction to writing contracts for EOS.IO.  
 介绍如何为 EOS.IO 编写合约。
 
+Modules
+ 	Database API  
+  数据库API  
+ 	APIs that store and retreive data on the blockchainEOS.IO organizes data according to the following broad structure:  
+  在区块链上存储和检索数据。EOS.IO根据一下数据结构组织数据。  
+ 	Math API  
+  数学API  
+ 	Defines common math functions.  
+  定义通用的数据方法。  
+ 	Message API  
+  消息API  
+ 	Define API for querying message properties.  
+  查询消息属性  
+ 	Console API  
+  控制台API
+ 	Enables applications to log/print text messages.
+  应用程序记录文本消息日志
+
+ 	Token API
+  令牌 API
+ 	Defines the ABI for interfacing with standard-compatible token messages and database tables.
+  定义进行标准兼容令牌消息和数据库表的API。
+
+ 	Builtin Types
+ 	Specifies typedefs and aliases.
 ## Detailed Description
 ## 详细说明  
 ### Background
