@@ -21,83 +21,88 @@ plugin = eos::chain_api_plugin
 > plugin = eos::chain_api_plugin
 
 
-By default an HTTP server will start on 127.0.0.1:8888; however, you can also change this with the following configureation line:
-http-server-endpoint = 127.0.0.1:8888
+> By default an HTTP server will start on 127.0.0.1:8888; however, you can also change this with the following configureation line:
+> http-server-endpoint = 127.0.0.1:8888
 
 默认 HTTP服务地址、端口为127.0.0.1:8888，也可以在下面的配置中更改
 
-http-server-endpoint = 127.0.0.1:8888
+> http-server-endpoint = 127.0.0.1:8888
 
 get_info
 ----------
 
 The get_info RPC command can be found at:
-curl http://127.0.0.1:8888/v1/chain/get_info 
+
+> curl http://127.0.0.1:8888/v1/chain/get_info 
+
 And it should return something like:
-{ 
-"head_block_num":449,
-"last_irreversible_block_num": 434,
-"head_block_id":"000001c1a0f072a5ca76831ac6c6e2988efcf162e953eb40046ec2ceca817a9f",
-"head_block_time":"2017-07-18T21:02:24",
-"head_block_producer":"initd",
-"recent_slots":"0000000000000000000000000000000000000000000000000000000000001111",
-"participation_rate":"0.06250000000000000"
-}
+
+> { 
+> "head_block_num":449,
+> "last_irreversible_block_num": 434,
+> "head_block_id":"000001c1a0f072a5ca76831ac6c6e2988efcf162e953eb40046ec2ceca817a9f",
+> "head_block_time":"2017-07-18T21:02:24",
+> "head_block_producer":"initd",
+> "recent_slots":"0000000000000000000000000000000000000000000000000000000000001111",
+> "participation_rate":"0.06250000000000000"
+> }
 
 get_info RPC 命令如下:
 
-curl http://127.0.0.1:8888/v1/chain/get_info
+> curl http://127.0.0.1:8888/v1/chain/get_info
 
 它将返回类似以下内容： 
-{ 
-   "head_block_num":449,
-   "last_irreversible_block_num": 434,
-   "head_block_id":"000001c1a0f072a5ca76831ac6c6e2988efcf162e953eb40046ec2ceca817a9f",
-   "head_block_time":"2017-07-18T21:02:24",
-   "head_block_producer":"initd",
-   "recent_slots":"0000000000000000000000000000000000000000000000000000000000001111",
-   "participation_rate":"0.06250000000000000"
-}
+
+> { 
+>    "head_block_num":449,
+>    "last_irreversible_block_num": 434,
+>    "head_block_id":"000001c1a0f072a5ca76831ac6c6e2988efcf162e953eb40046ec2ceca817a9f",
+>    "head_block_time":"2017-07-18T21:02:24",
+>    "head_block_producer":"initd",
+>    "recent_slots":"0000000000000000000000000000000000000000000000000000000000001111",
+>    "participation_rate":"0.06250000000000000"
+> }
 
 get_block
 ----------------
 
 Example get_block Usage
-curl http://localhost:8888/v1/chain/get_block -X POST -d '{"block_num_or_id":5}'
-curl http://localhost:8888/v1/chain/get_block -X POST -d '{"block_num_or_id":0000000445a9f27898383fd7de32835d5d6a978cc14ce40d9f327b5329de796b}'
+
+> curl http://localhost:8888/v1/chain/get_block -X POST -d '{"block_num_or_id":5}'
+> curl http://localhost:8888/v1/chain/get_block -X POST -d  '{"block_num_or_id":0000000445a9f27898383fd7de32835d5d6a978cc14ce40d9f327b5329de796b}'
 
 get_block 示例：
 
-curl  http://localhost:8888/v1/chain/get_block -X POST -d '{"block_num_or_id":5}'
-curl  http://localhost:8888/v1/chain/get_block -X POST -d '{"block_num_or_id":0000000445a9f27898383fd7de32835d5d6a978cc14ce40d9f327b5329de796b}'
+> curl  http://localhost:8888/v1/chain/get_block -X POST -d '{"block_num_or_id":5}'
+> curl  http://localhost:8888/v1/chain/get_block -X POST -d '{"block_num_or_id":0000000445a9f27898383fd7de32835d5d6a978cc14ce40d9f327b5329de796b}'
 
 Example get_block Result
-{
-"previous": "0000000445a9f27898383fd7de32835d5d6a978cc14ce40d9f327b5329de796b",
-"timestamp": "2017-07-18T20:16:36",
-"transaction_merkle_root": "0000000000000000000000000000000000000000000000000000000000000000",
-"producer": "initf",
-"producer_changes": [ ],
-"producer_signature": "204cb94b3186c3b4a7f88be4e9db9f8af2ffdb7ef0f27a065c8177a5fcfacf876f684e59c39fb009903c0c59220b147bb07f1144df1c65d26c57b534a76dd29073",
+> {
+> "previous": "0000000445a9f27898383fd7de32835d5d6a978cc14ce40d9f327b5329de796b",
+> "timestamp": "2017-07-18T20:16:36",
+> "transaction_merkle_root": "0000000000000000000000000000000000000000000000000000000000000000",
+> "producer": "initf",
+> "producer_changes": [ ],
+> "producer_signature":  "204cb94b3186c3b4a7f88be4e9db9f8af2ffdb7ef0f27a065c8177a5fcfacf876f684e59c39fb009903c0c59220b147bb07f1144df1c65d26c57b534a76dd29073",
 "cycles": [ ],
 "id":"000000050c0175cbf218a70131ddc3c3fab8b6e954edef77e0bfe7c36b599b1d",
 "block_num":5,
 "refBlockPrefix":27728114
-}
+> }
 
  get_block 返回信息示例：
-{
-    "previous": "0000000445a9f27898383fd7de32835d5d6a978cc14ce40d9f327b5329de796b",
-    "timestamp": "2017-07-18T20:16:36",
-    "transaction_merkle_root": "0000000000000000000000000000000000000000000000000000000000000000",
-    "producer": "initf",
-    "producer_changes": [ ],
-    "producer_signature": "204cb94b3186c3b4a7f88be4e9db9f8af2ffdb7ef0f27a065c8177a5fcfacf876f684e59c39fb009903c0c59220b147bb07f1144df1c65d26c57b534a76dd29073",
-    "cycles": [ ],
-    "id":"000000050c0175cbf218a70131ddc3c3fab8b6e954edef77e0bfe7c36b599b1d",
-    "block_num":5,
-    "refBlockPrefix":27728114
-}
+> {
+>     "previous": "0000000445a9f27898383fd7de32835d5d6a978cc14ce40d9f327b5329de796b",
+>     "timestamp": "2017-07-18T20:16:36",
+>     "transaction_merkle_root": "0000000000000000000000000000000000000000000000000000000000000000",
+>     "producer": "initf",
+>     "producer_changes": [ ],
+>     "producer_signature":  "204cb94b3186c3b4a7f88be4e9db9f8af2ffdb7ef0f27a065c8177a5fcfacf876f684e59c39fb009903c0c59220b147bb07f1144df1c65d26c57b534a76dd29073",
+>     "cycles": [ ],
+>     "id":"000000050c0175cbf218a70131ddc3c3fab8b6e954edef77e0bfe7c36b599b1d",
+>     "block_num":5,
+>     "refBlockPrefix":27728114
+> }
 
 push_transaction
 ------------------
