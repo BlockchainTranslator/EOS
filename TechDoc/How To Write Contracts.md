@@ -8,7 +8,7 @@ Introduction to writing contracts for EOS.IO.
 # 模块  
   [Database API](#)  
    	APIs that store and retreive data on the blockchain EOS.IO organizes data according to the following broad structure:  
-   	在区块链存储和检索数据的接口。EOS.IO根据以下数据结构组织数据。
+   	在区块链存储和检索数据的接口。EOS.IO根据以下数据结构组织数据。  
   [Math API](#)  
    	Defines common math functions.  
    	定义了通用的数学函数。  
