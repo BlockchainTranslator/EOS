@@ -30,7 +30,7 @@ extern "C" {
 ```
 
 main is give the arguments code and action which uniquely identify every event in the system. For example, code could be a currency contract and action could be transfer. This event (code,action) may be passed to several contracts including the sender and receiver. It is up to your application to figure out what to do in response to such an event.  
-main 方法包含 code 和 action 两个参数，在系统内通过这两个参数可唯一标识每个事件。例如，code 可以是一个现金合约，而 action 就是转移的行为。这个事件（code，action）可以被传递到包括发送者和接收者的多个合约中。你的应用程序就需要明确如何响应这个事件。
+main 方法包含 code 和 action 两个参数，在系统内通过这两个参数可唯一标识每个事件。例如，code 可以是一个现金合约，而 action 就是转移的行为。这个事件（code，action）可以被传递到包括发送者和接收者的多个合约中。你的应用程序就需要明确如何响应这个事件。  
 init is another entry point that is called once immediately after loading the code. It is where you should perform one-time initialization of state.
 init 是加载代码后会被立即调用，且只被调用一次的另外一个入口点。在这里你可以实现一次性的状态初始化。
 
