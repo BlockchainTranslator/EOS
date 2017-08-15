@@ -1,8 +1,8 @@
 
 >原文链接：<https://eosio.github.io/eos/group__contractdev.html>
 
---
 >翻译：[区块链中文字幕组 - 张奎](https://github.com/byzhangkui)
+
 >校对：[区块链中文字幕组 - gumoon](https://github.com/gumoon)
 
 # How To Write Contracts
@@ -119,7 +119,8 @@ extern "C" {
 
 >**Note**
 >When defining your entry points it is required that they are placed in an extern "C" code block so that c++ name mangling[^footnote] does not get applied to the function. 
->**说明** 
+
+>**说明**
 >当你定义入口点时，需要将代码放在 extern "C" 代码块中使得 C++ 名字修饰[^footnote]不会应用到该方法上。
 
 [^footnote]: *name mangling* 名字修饰，又译做名字粉碎、名字重整，是编译器在函数、结构体、类或其它的数据类型的名字中编码附加信息一种方法，以消除二义性。应用场景如区分重载函数，标识调用约定等。
