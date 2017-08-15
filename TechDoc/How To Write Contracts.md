@@ -1,6 +1,7 @@
-
 >原文链接：<https://eosio.github.io/eos/group__contractdev.html>
+>
 >翻译：[区块链中文字幕组 - 张奎](https://github.com/byzhangkui)
+>
 >校对：[区块链中文字幕组 - gumoon](https://github.com/gumoon)
 
 # How To Write Contracts
