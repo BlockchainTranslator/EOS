@@ -14,6 +14,7 @@ Before you can query eosd you must first enable an API plugin. To do this add 
 plugin = eos::chain_api_plugin
 
 区块 API 配置
+-------------
 
 使用 eosd 前需要先开启 API 插件，在 config.ini 中加入如下行开启
 
@@ -26,7 +27,10 @@ http-server-endpoint = 127.0.0.1:8888
 默认 HTTP服务地址、端口为127.0.0.1:8888，也可以在下面的配置中更改
 
 http-server-endpoint = 127.0.0.1:8888
+
 get_info
+----------
+
 The get_info RPC command can be found at:
 curl http://127.0.0.1:8888/v1/chain/get_info 
 And it should return something like:
@@ -39,7 +43,7 @@ And it should return something like:
 "recent_slots":"0000000000000000000000000000000000000000000000000000000000001111",
 "participation_rate":"0.06250000000000000"
 }
-get_info
+
 get_info RPC 命令如下:
 
 curl http://127.0.0.1:8888/v1/chain/get_info
@@ -56,11 +60,12 @@ curl http://127.0.0.1:8888/v1/chain/get_info
 }
 
 get_block
+----------------
+
 Example get_block Usage
 curl http://localhost:8888/v1/chain/get_block -X POST -d '{"block_num_or_id":5}'
 curl http://localhost:8888/v1/chain/get_block -X POST -d '{"block_num_or_id":0000000445a9f27898383fd7de32835d5d6a978cc14ce40d9f327b5329de796b}'
 
-get_block
 get_block 示例：
 
 curl  http://localhost:8888/v1/chain/get_block -X POST -d '{"block_num_or_id":5}'
@@ -95,6 +100,7 @@ Example get_block Result
 }
 
 push_transaction
+------------------
 This method expects a transaction in JSON format and will attempt to apply it to the blockchain,
 push_transaction
 
@@ -133,6 +139,7 @@ Content-Length: 1466
 ...错误信息...
 
 Example push_transaction Usage
+----------------------------------
 This example assumes a transfer operation. The refBlockNum and refBlockPrefix are provided as a result of /v1/chain/get_block
 curl http://localhost:8888/v1/chain/push_transaction -X POST -d '{"refBlockNum":"5","refBlockPrefix":"27728114","expiration":"2017-07-18T22:28:49","scope":["initb","initc"],"messages":[{"code":"currency","type":"transfer","recipients":["initb","initc"],"authorization":[{"account":"initb","permission":"active"}],"data":"c9252a0000000000050f14dc29000000d00700000000000008454f530000000000"}],"signatures":[],"authorizations":[]}'
 
