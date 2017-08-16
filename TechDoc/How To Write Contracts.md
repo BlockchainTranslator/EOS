@@ -14,21 +14,21 @@ Introduction to writing contracts for EOS.IO.
 
 [Database API](#)
 
-APIs that store and retreive data on the blockchain EOS.IO organizes data according to the following broad structure:
+APIs that store and retreive data on the blockchain 
 
-在区块链存储和检索数据的接口。EOS.IO根据以下数据结构组织数据。  
+在区块链存储和检索数据的接口。
    	
 [Math API](#)
 
 Defines common math functions.
 
-定义了通用的数学函数。  
+定义常用数学函数。  
   
 [Message API](#)
 
 Define API for querying message properties.
 
-定义了查询消息属性的接口。
+定义查询消息属性接口。
 
 [Console API](#)
 
@@ -40,13 +40,13 @@ Enables applications to log/print text messages.
 
 Defines the ABI for interfacing with standard-compatible token messages and database tables.
 
-定义了标准兼容的 token 消息和数据库表之间交互的ABI（应用系统二进制接口）
+定义标准兼容的 token 消息和数据库表之间交互的ABI（应用系统二进制接口）
 
 [Builtin Types](#)
 
 Specifies typedefs and aliases.
 
-类型定义和别名。    
+指定类型定义和别名。    
 
 ## Detailed Description 详细说明
 ### Background 背景
@@ -103,7 +103,7 @@ extern "C" {
 }
 ```
 
->**Note  说明 **
+>**Note  说明**
 >
 >When defining your entry points it is required that they are placed in an extern "C" code block so that c++ name mangling[^footnote] does not get applied to the function. 
 
