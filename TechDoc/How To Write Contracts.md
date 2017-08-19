@@ -4,11 +4,11 @@
 >
 >审核：区块链中文字幕组 - [梓岑](https://yoyow.org/)
 
-# How To Write Contracts EOS 介绍如何为 EOS.IO 编写智能合约
+# How To Write Contracts EOS 如何为 EOS.IO 编写智能合约
 
 Introduction to writing contracts for EOS.IO.  
 
-介绍如何为 EOS.IO 编写合约。
+EOS.IO 合约编写简介。
 
 ## Modules  模块
 
