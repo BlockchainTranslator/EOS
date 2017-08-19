@@ -28,19 +28,19 @@ Defines common math functions.
 
 Define API for querying message properties.
 
-定义查询消息属性接口。
+定义消息属性查询接口。
 
 [Console API](#)
 
 Enables applications to log/print text messages.
 
-支持应用程序记录文本消息日志。
+支持应用程序记录/打印文本消息。
 
 [Token API](#)
 
 Defines the ABI for interfacing with standard-compatible token messages and database tables.
 
-定义标准兼容的 token 消息和数据库表之间交互的ABI（应用系统二进制接口）
+定义ABI（应用系统二进制接口），实现与标准兼容的 token 消息及数据库表之间的交互
 
 [Builtin Types](#)
 
@@ -52,7 +52,7 @@ Specifies typedefs and aliases.
 ### Background 背景
 EOS.IO contracts (aka applications) are deployed to a blockchain as pre-compiled Web Assembly (aka WASM). WASM is compiled from C/C++ using LLVM and clang, which means that you will require knowledge of C/C++ in order to develop your blockchain applications. While it is possible to develop in C, we strongly recommend that all developers use the EOS.IO C++ API which provides much stronger type safety and is generally easier to read.
 
-EOS.IO 合约（应用程序）以预编译的 Web Assembly（WASM）形式部署在区块链上。WASM 使用 C/C++ 编写，通过 LLVM 和 clang 编译，这意味着，开发 EOS.IO 智能合约首先需要具备 C/C++ 基础。不过，虽然可以用 C 语言来开发，但我们强烈推荐使用强类型安全性的 C++ 接口，通常也更容易阅读。
+EOS.IO 合约（应用程序）以预编译的 Web Assembly（WASM）形式部署在区块链上。WASM 使用 C/C++ 编写，通过 LLVM 和 clang 编译，这意味着，开发 EOS.IO 智能合约首先需要具备 C/C++ 基础。不过，虽然可以用 C 语言来开发，但我们强烈推荐使用C++ 接口。C++ 接口是强类型安全性的 ，并且也更容易阅读。
 
 ### Application Structure 应用程序结构
 
