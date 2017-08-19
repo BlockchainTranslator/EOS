@@ -174,6 +174,7 @@ Just because the transaction is pushed locally does not mean that the transactio
 因为交易只在本地提交所以并不意味交易已经被打包在区块中。
 
 Error Response
+
 If an error occurs it will return either HTTP 400 (Invalid arguments) or 500 (Internal Server Error)
 
 ```
