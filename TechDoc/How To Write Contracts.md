@@ -82,13 +82,13 @@ apply 方法包含 code 和 action 两个参数，在系统内通过这两个参
 
 init is another entry point that is called once immediately after loading the code. It is where you should perform one-time initialization of state.
 
-init 是另外的一个入口点，在加载代码后会被立即调用，且只被调用一次的。在这里你可以实现一次性的状态初始化。
+init 是另外一个程序入口点，在加载代码后会被立即调用，且只被调用一次的。在这里你可以实现一次性的状态初始化。
 
 #### Example Apply Entry Handler 入口处理函数的示例
 
 Generally speaking, you should use your entry handler to dispatch events to functions that implement the majority of your logic and optionally reject events that your contract is unable or unwilling to accept.  
 
-一般来说，你应该使用入口处理函数去分发事件到对应的方法，这些方法实现主要的逻辑，以及拒绝合约不识别或者不应该接受的事件。
+一般来说，你应该使用入口处理函数去分发事件到对应的方法。这些方法实现主要的处理逻辑，或者选择性地拒绝合约不识别或者不应该接受的事件。
 
 ```C
 extern "C" {
