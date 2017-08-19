@@ -62,7 +62,7 @@ EOS.IO 应用程序是围绕响应用户行为的事件（消息）处理来设�
 
 As an application developer you get to decide what actions users can take and which handlers may or must be called in response to those events.  
 
-开发者需要决定用户可以触发哪些行为，以及哪些处理函数应该或者必须被调用，用以作为响应。
+开发者需要决定用户可以触发哪些行为，以及哪些处理函数应该或者必须被调用，用以作为对这些事件的响应。
 
 #### Entry Points 入口点
 EOS.IO applications have a apply which is like main in traditional applications:  
