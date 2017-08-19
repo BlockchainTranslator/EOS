@@ -62,12 +62,12 @@ EOS.IO 应用程序是围绕响应用户行为的事件（消息）处理来设�
 
 As an application developer you get to decide what actions users can take and which handlers may or must be called in response to those events.  
 
-开发这需要决定用户可以触发哪些行为，以及哪些处理函数应该或者必须被调用以作为响应。
+开发者需要决定用户可以触发哪些行为，以及哪些处理函数应该或者必须被调，用以作为响应。
 
 #### Entry Points 入口点
 EOS.IO applications have a apply which is like main in traditional applications:  
 
-EOS.IO 应用程序提供类似传统应用程序的 main 方法相同作用的 apply 方法作为入口点：
+EOS.IO 应用程序提供 apply 方法作为入口点，类似传统应用程序的 main 方法：
 
 ```C
 extern "C" {
@@ -78,11 +78,11 @@ extern "C" {
 
 main is give the arguments code and action which uniquely identify every event in the system. For example, code could be a currency contract and action could be transfer. This event (code,action) may be passed to several contracts including the sender and receiver. It is up to your application to figure out what to do in response to such an event.  
 
-apply 方法包含 code 和 action 两个参数，在系统内通过这两个参数可唯一标识每个事件。例如，code 可以是一个现金合约，而 action 就是转移的行为。这个事件（code，action）可以被传递到包括发送者和接收者的多个合约中。应用程序需要明确如何响应这个事件。  
+apply 方法包含 code 和 action 两个参数，在系统内通过这两个参数可唯一标识每个事件。例如，code 可以是一个现金合约，而 action 就是转移的行为。这个事件（code，action）可以被传递到包括发送者和接收者的多个合约中。如何响应一个事件, 由应用程序确定。 
 
 init is another entry point that is called once immediately after loading the code. It is where you should perform one-time initialization of state.
 
-init 是加载代码后会被立即调用，且只被调用一次的另外一个入口点。在这里你可以实现一次性的状态初始化。
+init 是另外的一个入口点，在加载代码后会被立即调用，且只被调用一次的。在这里你可以实现一次性的状态初始化。
 
 #### Example Apply Entry Handler 入口处理函数的示例
 
