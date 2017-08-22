@@ -2,6 +2,7 @@ eosd RPC Interface -- eosd RPC接口
 ---------------------
 
 Describes how to interface with eosd over HTTP RPC. More...
+
 eosd uses a REST RPC interface where plugins can register their own endpoints with the API server. This page will explain how to use some of the APIs to get information about the blockchain and send transactions.
 
 描述如何通过 HTTP RPC 协议使用 eosd 接口。 详情...
