@@ -19,20 +19,8 @@ eosc是用来与eosd 提供的REST api接口进行交互的命令行工具。为
 
 After starting eosd you should be able to query the current blockchain state like so:
 
-```
-./eosc info
-{
- "head_block_num": 25048,
- "last_irreversible_block_num": 25027,
- "head_block_id": "000061d8ae49d6af614e02779e19261959f22d6d9f37906ed5db2dabd88be142",
- "head_block_time": "2017-07-25T17:44:48",
- "head_block_producer": "initi",
- "recent_slots": "1110000000000000000000000000000000000000000000000000000000000011",
- "participation_rate": "0.07812500000000000"
-}
-```
-
 启动eosd后，就可以查询当前的区块状态，如下所示：
+
 ```
 ./eosc info
 {
@@ -46,36 +34,25 @@ After starting eosd you should be able to query the current blockchain state lik
 }
 ```
 
-
-Creating an Account
+Creating an Account   创建账户
 ---
 In order to create an account you will need two new keys: owener and active. You can ask eosc to create some keys for you:
-```
-./eosc create key
-public: EOS4toFS3YXEQCkuuw1aqDLrtHim86Gz9u3hBdcBw5KNPZcursVHq
-private: 5JKbLfCXgcafDQVwHMm3shHt6iRWgrr9adcmt6vX3FNjAEtJGaT
-```
 
-创建账户
----
 为了创建一个帐户，您需要两个新的密钥：owener和active。您可以使用eosc创建密钥：
+
 ```
 ./eosc create key
 public: EOS4toFS3YXEQCkuuw1aqDLrtHim86Gz9u3hBdcBw5KNPZcursVHq
 private: 5JKbLfCXgcafDQVwHMm3shHt6iRWgrr9adcmt6vX3FNjAEtJGaT
 ```
 
-Note
+Note  注意
 
 eosc does not save the generated private key.
 
-
-Next we will create the account tester, but because all accounts need to be created by an existing account we will ask the inita account to create tester. inita was specified in the genesis file.
-
-注意
-
 eosc不保存生成的私钥。
 
+Next we will create the account tester, but because all accounts need to be created by an existing account we will ask the inita account to create tester. inita was specified in the genesis file.
 
 接下来，我们将创建该帐户tester，但是由于所有帐户都需要由现有帐户创建，我们将要求inita帐户创建tester。inita用户由创世块配置文件设定。
 
@@ -115,7 +92,6 @@ eosc不保存生成的私钥。
 ```
 
 After creating the account we can view the current account status like so:
-
 创建帐户后，我们可以查看当前帐户状态：
 
 ```
@@ -128,6 +104,7 @@ After creating the account we can view the current account status like so:
   "last_unstaking_time": "1969-12-31T23:59:59"
 }
 ```
+
 You will note that there is no balance because almost all genesis EOS tokens are currently allocated to the eos account.
 
 你可能会注意到，帐户余额为0，因为几乎所有的EOS代币目前都被分配到eos帐户中。
@@ -166,17 +143,14 @@ You will note that there is no balance because almost all genesis EOS tokens are
 }
 ```
 
-Note
-
+Note  注意
 
 The eos account happens to have an ABI (Application Binary Interface) defined which provides meta-data to tools that want to interface with the eos contract.
 We can fund our tester account via eosc with the following command:
 
-注意
-
-
 该eos帐户刚好配有一个ABI（应用程序二进制接口），它提供元数据给eos智能合约交互工具。
 使用 eosc 命令可以给 tester 帐户充值：
+
 ```
 ./eosc transfer eos tester 1000
 {
@@ -223,8 +197,8 @@ We can fund our tester account via eosc with the following command:
   }
 }
 ```
-Now we can verify that the funds were received.
 
+Now we can verify that the funds were received.
 
 现在我们可以验证收到的资金。
 
@@ -240,17 +214,13 @@ Now we can verify that the funds were received.
 
 ```
 
-Creating a Contract
+Creating a Contract  创建合约
 ---
 
 In this section we will use eosc to create and publish a currency contract. You can find the example currency contract in the eos/contracts/currency directory.
 The first step is to create an account for currency. We will have the tester account create the currency account.
 
-
-创建合约
----
 在本节中，我们将用于eosc创建和发布智能合约。示例在eos/contracts/currency目录中。
-
 第一步是创建合约账号。我们将使用tester帐户创建currency帐户。
 
 ```
@@ -258,7 +228,6 @@ The first step is to create an account for currency. We will have the tester acc
 ```
 
 The next step is to publish the contract (.wast) and its abi (.abi)
-
 
 下一步是发布合约（.wast）及其abi（.abi）
 
@@ -365,11 +334,8 @@ The exec command takes the following arguments:
 •	authorization - 授权操作的帐户和权限级别
 ```
 
-Note
+Note  注意
 
 at this time the blockchain is not validating signatures so anyone can do anything provided they simply declare the proper authority. In the future this will direct the wallet on which keys to use to sign it. Also future revisions of this API may automatically detect scope and authorization via a trial run of the contract.
-
-注意
-
 
 目前，区块链没有验证签名，所以所有帐户都可以做任何事情，只要他们声明有相应的权限。以后，将直接使用钱包中的私钥签名。此API的未来版本也可能会通过合约的试运行来自动检测授权和范围。
