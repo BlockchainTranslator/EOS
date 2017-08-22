@@ -5,9 +5,12 @@ Tool for sending transactions and querying state from eosd. More...
 EOS命令行客户端（eosc）,
 用于从eosd发送事务和查询状态的工具。 更多...
 
-Introduction to EOSC  EOSC简介
+Introduction to EOSC     EOSC简介
 ---
 eosc is a command line tool that interfaces with the REST api exposed by eosd. In order to use eosc you will need to have a local copy of eosd running and configured to load the 'eos::chain_api_plugin'.
+
+eosc是用来与eosd 提供的REST api接口进行交互的命令行工具。为了使用eosc，需要在本地运行的 eosd，并且已配置加载 'eos :: chain_api_plugin' 插件。
+
 ```
 # Plugin(s) to enable, may be specified multiple times
  plugin = eos::producer_plugin
@@ -16,7 +19,6 @@ eosc is a command line tool that interfaces with the REST api exposed by eosd. I
 
 
 ---
-eosc是用来与eosd 提供的REST api接口进行交互的命令行工具。为了使用eosc，需要在本地运行的 eosd，并且已配置加载 'eos :: chain_api_plugin' 插件。
 ```
 ＃启用的插件，可以指定多个
 
