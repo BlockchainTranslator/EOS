@@ -17,15 +17,6 @@ eosc是用来与eosd 提供的REST api接口进行交互的命令行工具。为
  plugin = eos::chain_api_plugin
 ```
 
-
----
-```
-＃启用的插件，可以指定多个
-
- plugin = eos::producer_plugin
- plugin = eos::chain_api_plugin
-```
-
 After starting eosd you should be able to query the current blockchain state like so:
 
 ```
