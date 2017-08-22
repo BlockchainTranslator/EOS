@@ -34,7 +34,7 @@ After starting eosd you should be able to query the current blockchain state lik
 }
 ```
 
-Creating an Account   创建账户
+Creating an Account -- 创建账户
 ---
 In order to create an account you will need two new keys: owener and active. You can ask eosc to create some keys for you:
 
@@ -215,7 +215,7 @@ Now we can verify that the funds were received.
 
 ```
 
-Creating a Contract  创建合约
+Creating a Contract -- 创建合约
 ---
 
 In this section we will use eosc to create and publish a currency contract. You can find the example currency contract in the eos/contracts/currency directory.
