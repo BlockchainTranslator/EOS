@@ -84,7 +84,7 @@ There is also a helpful index of [all documentation](https://eosio.github.io/eos
 
 We have also created a new developer channel on Telegram ( tg://join?invite=EaEnSUPktgfoI-XPfMYtcQ ). This channel is heavily moderated to keep the topic focused on developers helping developers. If you have questions this is the best place to get real-time support from the community. Our developers will also monitor this chat and attempt to help as time permits.
 
-我们还在 Telegram 上创建了一个新的开发者频道 [Telegram](tg://join?invite=EaEnSUPktgfoI-XPfMYtcQ) 。这个频道做了比较严格的限制，以保持主题聚焦在开发人员的互助上。如果您有疑问，这是获得社区实时支持的最佳途径。我们的开发人员也会监控该频道上的讨论，并会在时间允许的情况下提供协助。
+我们还在 Telegram 上创建了一个新的开发者频道 Telegram ( tg://join?invite=EaEnSUPktgfoI-XPfMYtcQ ) 。这个频道做了比较严格的限制，以保持主题聚焦在开发人员的互助上。如果您有疑问，这是获得社区实时支持的最佳途径。我们的开发人员也会监控该频道上的讨论，并会在时间允许的情况下提供协助。
 
 We would also like to establish the [#eosdev](https://steemit.com/trending/eosdev) tag here on steemit. If you have developer questions and/or answers please post under this tag. I will attempt to follow it and turn it into our own stack exchange. Quality questions, answers, and tutorials will receive up votes.
 
