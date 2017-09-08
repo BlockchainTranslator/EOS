@@ -9,7 +9,7 @@ The EOS.IO software introduces a new blockchain architecture designed to enable 
 
 EOS.IO软件引入了一种新的块链架构，旨在实现分布式应用的性能扩展。这是通过创建一个可以构建应用程序的类似操作系统的架构来实现的。该软件架构提供帐户，身份验证，数据库，异步通信以及在数以百计的CPU或群集上的程序调度。该技术的最终形式是一个块链体系架构，该区块链每秒可以支持数百万个交易，同时普通用户无需支付使用费用。
 
-Background 背景
+1.Background 背景
 --------------
 
 Blockchain technology was introduced in 2008 with the launch of the bitcoin currency, and since then entrepreneurs and developers have been attempting to generalize the technology in order to support a wider range of applications on a single blockchain platform.
@@ -24,7 +24,7 @@ Existing blockchain platforms are burdened by large fees and limited computation
 
 由于现有的块链平台使用费用高昂，性能有限，阻碍了区块链应用的广泛传播。
 
-Requirements for Blockchain Applications--区块链应用的要求
+2.Requirements for Blockchain Applications--区块链应用的要求
 ---------------------------------------------------------
 
 In order to gain widespread use, applications on the blockchain require a platform that is flexible enough to meet the following requirements:
@@ -76,7 +76,7 @@ Large scale applications need to divide the workload across multiple CPUs and co
 
 大规模应用程序需要在多个CPU和计算机之间划分工作负载。
 
-Consensus Algorithm (DPOS) 共识算法（DPOS）
+3.Consensus Algorithm (DPOS) 共识算法（DPOS）
 -----------------------------------------
 
 EOS.IO software utilizes the only decentralized consensus algorithm capable of meeting the performance requirements of applications on the blockchain, Delegated Proof of Stake (DPOS). Under this algorithm, those who hold tokens on a blockchain may select block producers through a continuous approval voting system and anyone may choose to participate in block production and will be given an opportunity to produce blocks proportional to the total votes they have received relative to all other producers. For private blockchains the management will use the tokens to add and remove IT staff.
@@ -136,7 +136,7 @@ Over time all users end up directly confirming the blockchain which makes it dif
 
 随着时间的推移，所有用户最终直接确认块链，这使得难以伪造假冒链，因为假冒将无法从合法链路迁移交易。
 
-Accounts 帐户
+4.Accounts 帐户
 ------------
 
 The EOS.IO software permits all accounts to be referenced by a unique human readable name of 2 to 32 characters in length. The name is chosen by the creator of the account. All accounts must be funded with the minimal account balance at the time they are created to cover the cost of storing account data. Account names also support namespaces such that the owner of account @domain is the only one who can create the account @user.domain.
@@ -270,7 +270,7 @@ This process is also very different from a simple multi-signature arrangement. W
 
 这个过程与简单的多重签名机制有极大的不同。通过多重签名的交易，会有一个对象会执行并参与每一个交易；而通过恢复过程，恢复过程的操作者仅参与了恢复的过程，并没有权力参与日常的交易。这极大降低了相关参与者的成本和法律责任。
 
-Deterministic Parallel Execution of Applications -- 应用程序的确定性并行执行
+5.Deterministic Parallel Execution of Applications -- 应用程序的确定性并行执行
 ---------------------------------------------------------------------------
 
 Blockchain consensus depends upon deterministic (reproducible) behavior. This means all parallel execution must be free from the use of mutexes or other locking primitives. Without locks there must be some way to guarantee that all accounts can only read and write their own private database. It also means that each account processes messages sequentially and that parallelism will be at the account level.
@@ -378,7 +378,7 @@ This subjective evaluation of computational cost frees the blockchain from havin
 
 这种对计算、资源成本的主观评估将使区块链不必精确地去度量运行一个任务需要多长时间。有了这个设计，就不需要精确地数指令，这将极大地增加优化的机会，而不会打破共识。
 
-Token Model and Resource Usage -- 令牌模型和资源使用
+6.Token Model and Resource Usage -- 令牌模型和资源使用
 --------------------------------------------------
 
 All blockchains are resource constrained and require a system to prevent abuse. With the EOS.IO software, there are three broad classes of resources that are consumed by applications:
@@ -478,7 +478,7 @@ In addition to electing block producers, based on the EOS.IO software, users can
 
 除了加入以EOS.IO系统为基础的区块生成者团队，用户还可以选择3个社区福利应用，也称为智能合约。这3个应用程序最多能按配置的比例接收到每年的令牌配额减去已支付给区块生成者的部分。这些智能合约将根据每个应用程序从令牌持有者收到的选票比例来收取令牌。经选举的应用程序或智能合约可以由新当选的应用程序或令牌持有人的智能合约所替代。
 
-Governance 治理
+7.Governance 治理
 ---------------
 
 Governance is the process by which people reach consensus on subjective matters that cannot be captured entirely by software algorithms. The EOS.IO software implements a governance process that efficiently directs the existing influence of block producers. Absent a defined governance process, prior blockchains relied ad hoc, informal, and often controversial governance processes that result in unpredictable outcomes.
@@ -556,7 +556,7 @@ The block producers may accelerate the process if a software change is required 
 
 面临一个损害用户利益的有害漏洞或安全漏洞时，区块生产者可以加速宪法变更过程。一般来说，加速新特性更新过程或修复无害漏洞，都是违反宪法的行为。
 
-Scripts & Virtual Machines 脚本&虚拟机
+8.Scripts & Virtual Machines 脚本&虚拟机
 -------------------------------------
 
 The EOS.IO software will be first and foremost a platform for coordinating the delivery of authenticated messages to accounts. The details of scripting language and virtual machine are implementation specific details that are mostly independent from the design of the EOS.IO technology. Any language or virtual machine that is deterministic and properly sandboxed with sufficient performance can be integrated with the EOS.IO software API.
@@ -625,7 +625,7 @@ This virtual machine has been used for most existing smart contracts and could b
 
 这个虚拟机已经被用于大多数现有的智能合约，并且可以在EOS系统区块链上使用。可以想象，在EOS操作系统区块链上，EVM合约可以在内部沙箱中运行，只需要少量适配就可以与其他EOS应用程序交互。
 
-Inter Blockchain Communication 跨链交互
+9.Inter Blockchain Communication 跨链交互
 --------------------------------------
 
 EOS.IO software is designed to facilitate inter-blockchain communication. This is achieved by making it easy to generate proof of message existence and proof of message sequence. These proofs combined with an application architecture designed around message passing enables the details of inter-blockchain communication and proof validation to be hidden from application developers.
@@ -677,7 +677,7 @@ When using merkle proofs from outside blockchains, there is a significant differ
 
 使用外部区块链的默克尔证明时，知道所有已处理的交易是有效的和知道有没有交易被忽略，这两者之间有巨大的不同。因为不可能证明所有最近交易是已知的，但有可能证明历史交易数据之间没有缺失。EOS操作系统通过分配一个顺序的标识编号给每一笔到达账户的信息来完成这个功能，用户可以使用这些标号来证明所有给这个账号的消息已经被处理并且是被按顺序处理的。
 
-Conclusion 结论
+10.Conclusion 结论
 --------------
 
 The EOS.IO software is designed from experience with proven concepts and best practices, and represents fundamental advancements in blockchain technology. The software is part of a holistic blueprint for a globally scalable blockchain society in which decentralized applications can be easily deployed and governed.
