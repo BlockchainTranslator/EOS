@@ -1,6 +1,8 @@
 EOS.IO Technical White Paper -- EOS 技术白皮书
 ---------------------------------------------
 DRAFT: June 5, 2017
+翻译：Harvey老狼、谭智勇、宋承根@OracleChain，梓岑@YOYOW
+对照整理：何德林
 
 Abstract: 摘要
 --------------
