@@ -1,13 +1,16 @@
 EOS.IO Technical White Paper -- EOS 技术白皮书
+---------------------------------------------
 DRAFT: June 5, 2017
 
 Abstract: 摘要
+--------------
 
 The EOS.IO software introduces a new blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications. This is achieved by creating an operating system-like construct upon which applications can be built. The software provides accounts, authentication, databases, asynchronous communication and the scheduling of applications across hundreds of CPU cores or clusters. The resulting technology is a blockchain architecture that scales to millions of transactions per second, eliminates user fees, and allows for quick and easy deployment of decentralized applications.
 
 EOS.IO软件引入了一种新的块链架构，旨在实现分布式应用的性能扩展。这是通过创建一个可以构建应用程序的类似操作系统的架构来实现的。该软件架构提供帐户，身份验证，数据库，异步通信以及在数以百计的CPU或群集上的程序调度。该技术的最终形式是一个块链体系架构，该区块链每秒可以支持数百万个交易，同时普通用户无需支付使用费用。
 
 Background 背景
+--------------
 
 Blockchain technology was introduced in 2008 with the launch of the bitcoin currency, and since then entrepreneurs and developers have been attempting to generalize the technology in order to support a wider range of applications on a single blockchain platform.
 
@@ -22,23 +25,27 @@ Existing blockchain platforms are burdened by large fees and limited computation
 由于现有的块链平台使用费用高昂，性能有限，阻碍了区块链应用的广泛传播。
 
 Requirements for Blockchain Applications--区块链应用的要求
+---------------------------------------------------------
 
 In order to gain widespread use, applications on the blockchain require a platform that is flexible enough to meet the following requirements:
 成为一个成功的区块链应用平台块，应该需要满足以下要求：
 
 Support Millions of Users 支持百万级别用户
+----------------------------------------
 
 Disrupting businesses such as Ebay, Uber, AirBnB, and Facebook, require blockchain technology capable of handling tens of millions of active daily users. In certain cases, applications may not work unless a critical mass of users is reached and therefore a platform that can handle mass number of users is paramount.
 
 如Ebay，Uber，AirBnB和Facebook这样的应用，需要能够处理数千万日活跃用户的区块链技术。 在某些情况下，应用程序可能无法正常工作，除非达到了大量用户，因此可以处理大量用户数量的平台至关重要。
 
 Free Usage 免费使用
+------------------
 
 Application developers need the flexibility to offer users free services; Users should not have to pay in order to use the platform or benefit from its services. A blockchain platform that is free to use for users will likely gain more widespread adoption. Developers and businesses can then create effective monetization strategies.
 
 有时候应用开发人员需要灵活的为用户提供免费服务; 用户不必为了使用平台而付出费用。可以免费使用的块链平台自然可能会得到更多的关注。有了足够的用户规模，开发者和企业可以创建对应的盈利模式。
 
 Easy Upgrades and Bug Recovery 轻松升级和Bug恢复
+-----------------------------------------------
 
 Businesses building blockchain based applications need the flexibility to enhance their applications with new features.
 
@@ -49,24 +56,28 @@ All non-trivial software is subject to bugs, even with the most rigorous of form
 所有软件都有可能受到bug的影响。一个区块链底层平台在遭遇bug的时候，需要能够从bug中修复错误。
 
 Low Latency 低延迟
+------------------
 
 A good user experience demands reliable feedback with delay of no more than a few seconds. Longer delays frustrate users and make applications built on a blockchain less competitive with existing non-blockchain alternatives.
 
 及时的反馈是良好用户体验的基础。延迟时间如果超过了几秒钟，会大大影响用户体验，严重降低程序的竞争力。
 
 Sequential Performance 串行性能
+------------------------------
 
 There are some applications that just cannot be implemented with parallel algorithms due to sequentially dependent steps. Applications such as exchanges need enough sequential performance to handle high volumes and therefore a platform with fast sequential performance is required.
 
 有些应用程序由于命令执行必须是顺序的，从而无法用并行算法进行实现。诸如交易所之类的应用经常需要处理大量的串行操作，因此一个成功的区块链架构需要具有强大的串行性能。
 
 Parallel Performance 并行性能
+----------------------------
 
 Large scale applications need to divide the workload across multiple CPUs and computers.
 
 大规模应用程序需要在多个CPU和计算机之间划分工作负载。
 
 Consensus Algorithm (DPOS) 共识算法（DPOS）
+-----------------------------------------
 
 EOS.IO software utilizes the only decentralized consensus algorithm capable of meeting the performance requirements of applications on the blockchain, Delegated Proof of Stake (DPOS). Under this algorithm, those who hold tokens on a blockchain may select block producers through a continuous approval voting system and anyone may choose to participate in block production and will be given an opportunity to produce blocks proportional to the total votes they have received relative to all other producers. For private blockchains the management will use the tokens to add and remove IT staff.
 
@@ -89,6 +100,7 @@ Under normal conditions a DPOS blockchain does not experience any forks because 
 在正常情况下，DPOS块链不会经历任何叉，因为块生产者合作生产区块而不是竞争。如果有区块分叉，共识将自动切换到最长的链条。具有更多生产者的区块链长度将比具有较少生产者的区块链增长速度更快。此外，没有块生产者应该同时在两个区块链分叉上生产块。如果一个块生产者发现这么做了，就可能被投票出局。
 
 Transaction Confirmation 交易确认
+--------------------------------
 
 Typical DPOS blockchains have 100% block producer participation. A transaction can be considered confirmed with 99.9% certainty after an average of 1.5 seconds from time of broadcast.
 
@@ -107,6 +119,7 @@ The response to such a warning depends entirely upon the nature of the business 
 对这种警告的反应完全取决于业务交易的性质，但最简单的反应是等待15/21确认，直到警告停止。
 
 Transaction as Proof of Stake (TaPoS) 交易证明（TaPoS）
+-----------------------------------------------------
 
 The EOS.IO software requires every transaction to include the hash of a recent block header. This hash serves two purposes:
 
@@ -124,6 +137,7 @@ Over time all users end up directly confirming the blockchain which makes it dif
 随着时间的推移，所有用户最终直接确认块链，这使得难以伪造假冒链，因为假冒将无法从合法链路迁移交易。
 
 Accounts 帐户
+------------
 
 The EOS.IO software permits all accounts to be referenced by a unique human readable name of 2 to 32 characters in length. The name is chosen by the creator of the account. All accounts must be funded with the minimal account balance at the time they are created to cover the cost of storing account data. Account names also support namespaces such that the owner of account @domain is the only one who can create the account @user.domain.
 
@@ -134,12 +148,14 @@ In a decentralized context, application developers will pay the nominal cost of 
 在去中心化的情况下，应用程序开发人员将支付创建帐户名义上的成本以注册新用户。通常企业已经以广告和免费服务等形式为获取每个客户花费了大量资金。相比之下，创建新的区块链帐户所需的资金成本是微不足道的。并且幸运的是，没有必要为已经由另一个应用程序注册的用户创建帐户。
 
 Messages & Handlers -- 消息和消息处理程序
+---------------------------------------
 
 Each account can send structured messages to other accounts and may define scripts to handle messages when they are received. The EOS.IO software gives each account its own private database which can only be accessed by its own message handlers. Message handling scripts can also send messages to other accounts. The combination of messages and automated message handlers is how EOS.IO defines smart contracts.
 
 每个帐户可以将结构化消息发送到其他帐户，并且可以定义消息被接受后的处理脚本。EOS.IO软件为每个帐户提供其自己独有的数据库，只能由自己的消息处理程序访问。消息处理脚本还可以向其他帐户发送消息。消息和自动的消息处理程序的组合正是EOS.IO定义智能合约的方式。
 
 Role Based Permission Management -- 基于角色的权限管理
+----------------------------------------------------
 
 Permission management involves determining whether or not a message is properly authorized. The simplest form of permission management is checking that a transaction has the required signatures, but this implies that required signatures are already known. Generally authority is bound to individuals or groups of individuals and is often compartmentalized. The EOS.IO software provides a declarative permission management system that gives accounts fine grained and high level control over who can do what and when.
 
@@ -158,6 +174,7 @@ EOS.IO software allows accounts can define what combination of keys and/or other
 EOS.IO软件允许帐户可以定义与其他帐户密钥的“and”和“or”的组合，并且把这个组合以将特定类型的消息发送到另一个帐户。例如，可以为用户的社交媒体帐号提供一个密钥，另一个用于交易。甚至用户可以给予其他帐户许可让其代表自己的帐户行事，而无需向其他帐户分配密钥。
 
 Named Permission Levels--命名权限级别
+-----------------------------------
 
 Using the EOS.IO software, accounts can define named permission levels each of which can be derived from higher level named permissions. Each named permission level defines an authority; an authority is a threshold multi-signature check consisting of keys and/or named permission levels of other accounts. For example, an account's "Friend" permission level can be set for the account to be controlled equally by any of the account's friends.
 
@@ -168,6 +185,7 @@ Another example is the Steem blockchain which has three hard-coded named permiss
 另一个例子是Steem区块链，其具有三个硬编码命名的权限别：owner，active和posting。P*osting权限只能执行诸如投票和发布等社交行为，而active权限可以做除了更改所有者的所有事情。owner*权限实质是被保留了起来，它能够做所有一切。EOS.IO通过允许每个帐户持有者定义自己的权限层次结构以及动作的分组来实现类似的管理理念。
 
 Named Message Handler Groups -- 命名消息处理程序组
+------------------------------------------------
 
 The EOS.IO software allows each account to organize its own message handlers into named and nested groups. These named message handler groups can be referenced by other accounts when they configure their permission levels.
 
@@ -182,12 +200,14 @@ Under this model it is possible for an exchange contract to group order creation
 在这种模式下，可以将创建和取消订单的交易合约与存取款的交易合约分离。这种交易合约的分组对用户使用交易合约提供了较大便利。
 
 Permission Mapping -- 权限映射
+-----------------------------
 
 EOS.IO software allows each account to define a mapping between a Named Message Handler Group of any account and their own Named Permission Level. For example, an account holder could map the account holder's social media application to the account holder's "Friend" permission group. With this mapping, any friend could post as the account holder on the account holder's social media. Even though they would post as the account holder, they would still use their own keys to sign the message. This means it is always possible to identify which friends used the account and in what way.
 
 EOS.IO软件允许每个帐户定义任何帐户的命名消息处理程序组与其自己的命名权限级别之间的映射。例如，账户持有人可以将账户持有人的社交媒体应用程序映射到帐户持有者的“朋友”权限组。通过此映射，帐户的任何朋友都可以和帐户持有者一样，在帐户的社交媒体上发布内容。即使他们将作为帐户持有者发布，他们仍然会使用自己的密钥来签名。这意味着总是可以辨别出来哪些朋友以何种方式使用了其帐户。
 
 Evaluating Permissions 权限评估
+------------------------------
 
 When delivering a message of type "Action", from @alice to @bob the EOS.IO software will first check to see if @alice has defined a permission mapping for @bob.groupa.subgroup.Action. If nothing is found then a mapping for @bob.groupa.subgroup then @bob.groupa, and lastly @bob will be checked. If no further match is found, then the assumed mapping will be to the named permission group @alice.active.
 
@@ -198,12 +218,14 @@ Once a mapping is identified then signing authority is validated using the thres
 一旦识别出权限映射，则启动多签名阈值校验过程。如果校验成功，所命名的权限将与关联的权限建立关联。如果失败，那么它会遍历父权限，最终遍历到其所有者的权限@alice.owner。
 
 Default Permission Groups 默认权限组
+-----------------------------------
 
 The technology also allows all accounts have an "owner" group which can do everything, and an "active" group which can do everything except change the owner group. All other permission groups are derived from "active".
 
 该技术还允许所有帐户都有一个可以做所有事情的“owner”权限组，和一个除了更改所有者组之外可以执行所有操作的“active”权限组。所有其他权限组均派生自“active”权限组。
 
 Parallel Evaluation of Permissions 权限的并行评估
+-----------------------------------------------
 
 The permission evaluation process is "read-only" and changes to permissions made by transactions do not take effect until the end of a block. This means that all keys and permission evaluation for all transactions can be executed in parallel. Furthermore, this means that a rapid validation of permission is possible without starting the costly application logic that would have to be rolled back. Lastly, it means that transaction permissions can be evaluated as pending transactions are received and do not need to be re-evaluated as they are applied.
 
@@ -218,6 +240,7 @@ When replaying the blockchain to regenerate the deterministic state from the log
 当区块链消息被重放，来从消息日志中重新生成确定状态时，并不需要再次评估权限。事务被包含在一个已知的状态良好的区块中的事实使其可以跳过这个步骤。这极大地减少了重放之前的区块链数据相关的计算量。
 
 Messages with Mandatory Delay 有强制延迟的消息
+--------------------------------------------
 
 Time is a critical component of security. In most cases, it is not possible to know if a private key has been stolen until it has been used. Time based security is even more critical when people have applications that require keys be kept on computers connected to the internet for daily use. The EOS.IO software enables application developers to indicate that certain messages must wait a minimum period of time after being included in a block before they can be applied. During this time they can be canceled.
 
@@ -232,6 +255,7 @@ The required delay depends upon how sensitive an operation is. Paying for a coff
 所需的延迟取决于操作的重要程度。支付一杯咖啡可以毫不拖延地在几秒钟内确认，而买房子可能需要72小时清算周期。将整个帐户转移到新的控制者手上可能最多需要30天。具体延迟的选择取决于应用程序开发者和用户。
 
 Recovery from Stolen Keys 密钥被盗后的恢复
+----------------------------------------
 
 The EOS.IO software provides users a way to restore control of their account when their keys are stolen. An account owner can use any owner key that was active in the last 30 days along with approval from their designated account recovery partner to reset the owner key on their account. The account recovery partner cannot reset control of the account without the help of the owner.
 
@@ -247,6 +271,7 @@ This process is also very different from a simple multi-signature arrangement. W
 这个过程与简单的多重签名机制有极大的不同。通过多重签名的交易，会有一个对象会执行并参与每一个交易；而通过恢复过程，恢复过程的操作者仅参与了恢复的过程，并没有权力参与日常的交易。这极大降低了相关参与者的成本和法律责任。
 
 Deterministic Parallel Execution of Applications -- 应用程序的确定性并行执行
+---------------------------------------------------------------------------
 
 Blockchain consensus depends upon deterministic (reproducible) behavior. This means all parallel execution must be free from the use of mutexes or other locking primitives. Without locks there must be some way to guarantee that all accounts can only read and write their own private database. It also means that each account processes messages sequentially and that parallelism will be at the account level.
 
@@ -261,6 +286,7 @@ Part of parallel execution means that when a script generates a new message it d
 并行执行还意味着当脚本生成新消息时，它不会立即发送，而是在下一个周期中发送它。无法立即发送的原因是因为接收方可能会在另一个线程中主动修改自己的状态。
 
 Minimizing Communication Latency 通信延迟优化
+--------------------------------------------
 
 Latency is the time it takes for one account to send a message to another account and then receive a response. The goal is to enable two accounts to exchange messages back and forth within a single block without having to wait 3 seconds between each message. To enable this, the EOS.IO software divides each block into cycles. Each cycle is divided into threads and each thread contains a list of transactions. Each transaction contains a set of messages to be delivered. This structure can be visualized as a tree where alternating layers are processed sequentially and in parallel.
 
@@ -294,12 +320,14 @@ It is possible to use static analysis of a block to verify that within a given c
 可以使用区块的静态分析来验证在给定周期内是否存在两个线程包含修改同一个帐户的事务。只要这种静态分析机制一直起作用，就可以通过并行运行所有线程来处理区块。
 
 Read-Only Message Handlers -- 只读消息处理
+-----------------------------------------
 
 Some accounts may be able to process a message on a pass/fail basis without modifying their internal state. If this is the case then these handlers can be executed in parallel so long as only read-only message handlers for a particular account are included in one or more threads within a particular cycle.
 
 部分账户可能会处理一些只需要决定通过与否的消息，而不会改变自己内在状态。这种情形下，只需要有一个或多个进程包含这个特殊账户下的只读消息处理器，这些处理就能并行进行。
 
 Atomic Transactions with Multiple Accounts -- 多账户原子交易
+----------------------------------------------------------
 
 Sometimes it is desirable to ensure that messages are delivered to and accepted by multiple accounts atomically. In this case both messages are placed in one transaction and both accounts will be assigned the same thread and the messages applied sequentially. This situation is not ideal for performance and when it comes to "billing" users for usage, they will get billed by the number of unique accounts referenced by a transaction.
 
@@ -309,6 +337,7 @@ For performance and cost reasons it is best to minimize atomic operations involv
 出于性能和费用的考虑，最好将涉及两个或更多帐户的原子操作最小化
 
 Partial Evaluation of Blockchain State -- 部分区块链状态评估
+----------------------------------------------------------
 
 Scaling blockchain technology necessitates that components are modular. Everyone should not have to run everything, especially if they only need to use a small subset of the applications.
 
@@ -327,6 +356,7 @@ All state communication among accounts must be passed via messages included in t
 因此，所有帐户间的状态通信必须通过区块链上的消息进行传递。
 
 Subjective Best Effort Scheduling -- 自主最优任务安排
+---------------------------------------------------
 
 The EOS.IO software cannot obligate block producers to deliver any message to any other account. Each block producer makes their own subjective measurement of the computational complexity and time required to process a transaction. This applies whether a transaction is generated by a user or automatically by a script.
 
@@ -349,6 +379,7 @@ This subjective evaluation of computational cost frees the blockchain from havin
 这种对计算、资源成本的主观评估将使区块链不必精确地去度量运行一个任务需要多长时间。有了这个设计，就不需要精确地数指令，这将极大地增加优化的机会，而不会打破共识。
 
 Token Model and Resource Usage -- 令牌模型和资源使用
+--------------------------------------------------
 
 All blockchains are resource constrained and require a system to prevent abuse. With the EOS.IO software, there are three broad classes of resources that are consumed by applications:
 
@@ -383,6 +414,7 @@ Using the EOS.IO software, bandwidth and computational capacity are allocated on
 使用EOS.IO系统，带宽和计算能力将被分配到部分储备基础中，因为它们是短暂的(未使用的容量不能存储下来为将来使用)。EOS. IO系统将使用类似于Steem的算法来限制带宽使用速率。
 
 Objective and Subjective Measurements 目标和主观度量
+--------------------------------------------------
 
 As discussed earlier, instrumenting computational usage has a significant impact on performance and optimization; therefore, all resource usage constraints are ultimately subjective and enforcement is done by block producers according to their individual algorithms and estimates.
 
@@ -393,6 +425,7 @@ That said, there are certain things that are trivial to measure objectively. The
 也就是说，从客观角度来说，有些事情是微不足道的。站在客观的角度，传递的消息数量和存储在内部数据库中的数据的大小都是很便宜的。EOS.IO系统允许区块生成者能够在这些客观度量上应用相同的算法，但是也可以在主观度量上选择更严格的主观算法。
 
 Receiver Pays 接收方支付
+-----------------------
 
 Traditionally, it is the business that pays for office space, computational power, and other costs required to run the business. The customer buys specific products from the business and the revenue from those product sales is used to cover the business costs of operation. Similarly, no website obligates its visitors to make micropayments for visiting its website to cover hosting costs. Therefore, decentralized applications should not force its customers to pay the blockchain directly for the use of the blockchain.
 
@@ -403,12 +436,14 @@ The EOS.IO software does not require its users to pay directly to the blockchain
 EOS.IO系统不要求用户直接向区块链支付，因此不限制或阻止企业确定其产品的货币化策略。
 
 Delegating Capacity 授权能力
+---------------------------
 
 If a blockchain is launched using the EOS.IO software and tokens are held by a holder who may not have an immediate need to consume all or part of the available bandwidth, such holder can choose to give or rent the unconsumed bandwidth to others; the block producers running EOS.IO software will recognize this delegation of capacity and allocate bandwidth accordingly.
 
 如果一个区块链是使用EOS.IO系统开发的，而其令牌是由一个持票人持有，他可能不需要立即消耗全部或部分可用带宽，这样的持有者可以选择将未消耗的带宽给予或租给他人；使用EOS.IO 系统的区块生成者将识别这样的授权并直接分配相应的带宽。
 
 Separating Transaction costs from Token Value -- 将交易成本与令牌价值分开
+-----------------------------------------------------------------------
 
 One of the major benefits of the EOS.IO software is that the amount of bandwidth available to an application is entirely independent of any token price. If an application owner holds a relevant number of tokens, then the application can run indefinitely within a fixed state and bandwidth usage. Developers and users are unaffected from any price volatility in the token market and therefore not reliant on a price feed. The EOS.IO software enables block producers to naturally increase bandwidth, computation, and storage available per token independent of the token's value.
 
@@ -419,6 +454,7 @@ The EOS.IO software awards block producers tokens every time they produce the bl
 EOS.IO系统将奖励那些生成了区块的区块生成者一定的令牌。令牌的值将影响一个区块生成者能够购买的带宽、存储和计算量；这个模型自然会利用上升的令牌价值来提高网络性能。
 
 State Storage Costs 状态存储成本
+------------------------------
 
 While bandwidth and computation can be delegated, storage of application state will require an application developer to hold tokens until that state is deleted. If state is never deleted then the tokens are effectively removed from circulation.
 
@@ -429,18 +465,21 @@ Every user account requires a certain amount of storage; therefore, every accoun
 每个用户帐户需要一定数量的存储空间；因此，每个帐户必须保持最低余额。随着网络存储容量的增加，最低余额的要求将会下降。
 
 Block Rewards 块奖励
+-------------------
 
 EOS.IO software awards new tokens to a block producer every time a block is produced. The number of tokens created is determined by the median of the desired pay published by all block producers. The EOS.IO software may be configured to enforce a cap on producer awards such that the total annual increase in token supply does not exceed 5%.
 
 每次生成一个块时，EOS.IO系统都会奖励该区块生成者一个新的令牌。所创建的令牌数量由所有区块生成者所公布的期望报酬的中位数决定。EOS.IO系统可能被配置为限制区块生成者所得奖励上限，这样，令牌供应的年总增长不超过5%。
 
 Community Benefit Applications 社区福利应用
+------------------------------------------
 
 In addition to electing block producers, based on the EOS.IO software, users can elect 3 community benefit applications also known as smart contracts. These 3 applications will receive tokens of up to a configured percent of the token supply per annum minus the tokens that have been paid to block producers. These smart contracts will receive tokens proportional to the votes each application has received from token holders. The elected applications or smart contracts can be replaced by newly elected applications or smart contracts by token holders.
 
 除了加入以EOS.IO系统为基础的区块生成者团队，用户还可以选择3个社区福利应用，也称为智能合约。这3个应用程序最多能按配置的比例接收到每年的令牌配额减去已支付给区块生成者的部分。这些智能合约将根据每个应用程序从令牌持有者收到的选票比例来收取令牌。经选举的应用程序或智能合约可以由新当选的应用程序或令牌持有人的智能合约所替代。
 
 Governance 治理
+---------------
 
 Governance is the process by which people reach consensus on subjective matters that cannot be captured entirely by software algorithms. The EOS.IO software implements a governance process that efficiently directs the existing influence of block producers. Absent a defined governance process, prior blockchains relied ad hoc, informal, and often controversial governance processes that result in unpredictable outcomes.
 
@@ -455,6 +494,7 @@ Part of the EOS.IO software is the election of block producers. Before any chang
 EOS.IO系统的一部分是区块生成者的选举。在对区块链进行任何更改之前，这些区块生成者必须批准它。如果区块生成者拒绝做出让令牌持有人所期望的改变，那么他们可以被投票否决。如果区块生成者未经令牌持有者允许进行更改，那么所有其他非生产的全节点验证器(交换器等)将拒绝更改。
 
 Freezing Accounts 冻结账户
+--------------------------
 
 Sometimes a smart contact behaves in an aberrant or unpredictable manner and fails to perform as intended; other times an application or account may discover an exploit that enables it to consume an unreasonable amount of resources. When such issues inevitably occur, the block producers have the power to rectify such situations.
 
@@ -465,12 +505,14 @@ The block producers on all blockchains have the power to select which transactio
 所有区块链的区块生成者有权选择哪些交易被包含在区块中，从而使他们有冻结帐户的能力。EOS.IO系统通过冻结一个帐户到17 / 21活跃区块生成者的投票结论中，使这一授权成为正式结论。如果生成者滥用权力，他们可以被淘汰，账户将被解冻。
 
 Changing Account Code -- 改变帐户代码
+------------------------------------
 
 When all else fails and an "unstoppable application" acts in an unpredictable manner, the EOS.IO software allows the block producers to replace the account's code without hard forking the entire blockchain. Similar to the process of freezing an account, this replacement of the code requires a 17/21 vote of elected block producers.
 
 当其他一切都失败了，而“不可阻挡的应用程序”以一种不可预知的方式运行时，EOS.IO系统允许区块生成者在不需要硬分叉整个区块链的情况下替换帐户的代码。与冻结帐户的过程类似，此代码的替换需要17 / 21被选中的区块生成者的投票。
 
 Constitution 宪法
+----------------
 
 The EOS.IO software enables blockchains to establish a peer-to-peer terms of service agreement or a binding contract among those users who sign it, referred to as a "constitution". The content of this constitution defines obligations among the users which cannot be entirely enforced by code and facilitates dispute resolution by establishing jurisdiction and choice of law along with other mutually accepted rules. Every transaction broadcast on the network must incorporate the hash of the constitution as part of the signature and thereby explicitly binds the signer to the contract.
 
@@ -481,6 +523,7 @@ The constitution also defines the human-readable intent of the source code proto
 宪法还定义了源代码协议的人类可读性intent（意图）。当出现系统错误时，intent（意图）可用来区分这个错误是bug还是系统特性，并且判断社区对此的修复措施是否正确。
 
 Upgrading the Protocol & Constitution -- 升级协议和宪法
+-----------------------------------------------------
 
 The EOS.IO software define a process by which the protocol as defined by the canonical source code and its constitution, can be updated using the following process:
 
@@ -507,30 +550,35 @@ By default configuration of the EOS.IO software, the process of updating the blo
 根据EOS操作系统的默认配置，更新区块链来添加新功能这一进程需要2到3个月时间，而修复那些不需要更改宪法的非关键性漏洞需要1到2个月时间。
 
 Emergency Changes 紧急变更
+-------------------------
 
 The block producers may accelerate the process if a software change is required to fix a harmful bug or security exploit that is actively harming users. Generally speaking it could be against the constitution for accelerated updates to introduce new features or fix harmless bugs.
 
 面临一个损害用户利益的有害漏洞或安全漏洞时，区块生产者可以加速宪法变更过程。一般来说，加速新特性更新过程或修复无害漏洞，都是违反宪法的行为。
 
 Scripts & Virtual Machines 脚本&虚拟机
+-------------------------------------
 
 The EOS.IO software will be first and foremost a platform for coordinating the delivery of authenticated messages to accounts. The details of scripting language and virtual machine are implementation specific details that are mostly independent from the design of the EOS.IO technology. Any language or virtual machine that is deterministic and properly sandboxed with sufficient performance can be integrated with the EOS.IO software API.
 
 EOS操作系统将首先作为一个传递账户间已认证信息的平台。脚本语言和虚拟机的实现将独立于EOS操作系统技术，任何开发语言或虚拟机，只要有适当的、性能足够的沙箱，都可以通过API与EOS集成在一起。
 
 Schema Defined Messages --模式定义的消息
+---------------------------------------
 
 All messages sent between accounts are defined by a schema which is part of the blockchain consensus state. This schema allows seamless conversion between binary and JSON representation of the messages.
 
 在账户之间发送的所有消息都是由区块链共识状态的一个模式定义的，该架构允许消息在二进制和JSON格式之间的无缝转换。
 
 Schema Defined Database -- 模式定义的数据库
+------------------------------------------
 
 Database state is also defined using a similar schema. This ensures that all data stored by all applications is in a format that can be interpreted as human readable JSON but stored and manipulated with the efficiency of binary.
 
 数据库状态也使用类似的模式定义，这确保所有应用程序存储的数据都以一种格式呈现，同时具备JSON的人类可读性，以及二进制格式的高效率存储和易操作性。
 
 Separating Authentication from Application - 将身份验证与应用程序分离
+-------------------------------------------------------------------
 
 To maximize parallelization opportunities and minimize the computational debt associated with regenerating application state from the transaction log, EOS.IO separates validation logic into three sections:
 
@@ -553,12 +601,14 @@ Authentication is the read-only process of verifying that a message can be appli
 身份验证是验证消息是否可以应用的只读过程，应用程序实际上就是在做这项工作。实时的计算都需要执行，但交易一旦被包含在区块链中，就不再需要执行身份验证操作了。
 
 Virtual Machine Independent Architecture -- 虚拟机独立架构
+---------------------------------------------------------
 
 It is the intention of the EOS.IO software that multiple virtual machines can be supported and new virtual machines added over time as necessary. For this reason, this paper will not discuss the details of any particular language or virtual machine. That said, there are two virtual machines that are currently being evaluated for use within EOS.IO.
 
 这是EOS操作系统软件的目的是可以支持多种虚拟机，同时可以随着时间推移持续按需求增加新的虚拟机。出于这个原因，本文不会讨论任何特定语言或虚拟机的细节，但即便如此，目前也已经有三种虚拟机正在评估接入EOS系统。
 
 Web Assembly (WASM)  Web组件(WASM)
+---------------------------------
 
 Web Assembly is an emerging web standard for building high performance web applications. With a few small modifications Web Assembly can be made deterministic and sandboxed. The benefit of Web Assembly is the widespread support from industry and that it enables contracts to be developed in familiar languages such as C or C++.
 
@@ -569,18 +619,21 @@ Ethereum developers have already begun modifying Web Assembly to provide suitabl
 以太发人员已经开始适配WASM，以提供适当的沙箱并使用以太坊WASM定义(https://github.com/ewasm/design)。这种方法很容易改编后用于EOS系统软件集成。
 
 Ethereum Virtual Machine (EVM) 以太虚拟机(EVM)
+---------------------------------------------
 
 This virtual machine has been used for most existing smart contracts and could be adapted to work within an EOS.IO blockchain. It is conceivable that EVM contracts could be run within their own sandbox inside an EOS.IO blockchain and that with some adaptation EVM contracts could communicate with other EOS.IO blockchain applications.
 
 这个虚拟机已经被用于大多数现有的智能合约，并且可以在EOS系统区块链上使用。可以想象，在EOS操作系统区块链上，EVM合约可以在内部沙箱中运行，只需要少量适配就可以与其他EOS应用程序交互。
 
 Inter Blockchain Communication 跨链交互
+--------------------------------------
 
 EOS.IO software is designed to facilitate inter-blockchain communication. This is achieved by making it easy to generate proof of message existence and proof of message sequence. These proofs combined with an application architecture designed around message passing enables the details of inter-blockchain communication and proof validation to be hidden from application developers.
 
 EOS操作系统旨在促进区块链间的跨链交互，这是通过简化消息存在证明和消息序列证明来实现的。这些证明与围绕信息传送的应用架构设计相结合，同时可以隐藏跨链交互和验证的细节，避免向应用程序开发人员公开。
 
 Merkle Proofs for Light Client Validation (LCV) --用于轻客户端验证的默克尔证明(LCV)
+--------------------------------------------------------------------------------
 
 Integrating with other blockchains is much easier if clients do not need to process all transactions. After all, an exchange only cares about transfers in and out of the exchange and nothing more. It would also be ideal if the exchange chain could utilize lightweight merkle proofs of deposit rather than having to trust its own block producers entirely. At the very least a chain's block producers would like to maintain the smallest possible overhead when synchronizing with another blockchain.
 
@@ -611,18 +664,21 @@ After a certain density of interconnectedness it becomes more efficient to simpl
 在链与链之间经过一定密度的相互关联之后。他们将会变得越来越高效。一条链可能会包含另外一条链的全部历史记录，那么就不再需要互相证明。从性能的角度来说，这将极大地减少链间互相证明操作的频率。
 
 Latency of Interchain Communication 跨链通信延迟
+-----------------------------------------------
 
 When communicating with another outside blockchain, block producers must wait until there is 100% certainty that a transaction has been irreversibly confirmed by the other blockchain before accepting it as a valid input. Using EOS.IO software and DPOS with 3 second blocks and 21 producers, this takes approximately 45 seconds. If a chain's block producers do not wait for irreversibility it would be like an exchange accepting a deposit that was later reversed and could impact the validity of the a chain's consensus.
 
 与其他区块链通信的时候，矿工必须等待其他区块链不可逆地确认之后才会接受其为有效的输入。使用EOS系统软件，凭借出块时间为秒的委任权益证明以及21个矿工，这大概只需要45秒的确认时间。如果某个链上的矿工不等到交易确认，就像一个交易所接受了一笔存款而后又撤销这笔操作，这会影响这条链共识的有效性。
 
 Proof of Completeness -- 完成证明
+--------------------------------
 
 When using merkle proofs from outside blockchains, there is a significant difference between knowing that all transactions processed are valid and knowing that no transactions have been skipped or omitted. While it is impossible to prove that all of the most recent transactions are known, it is possible to prove that there have been no gaps in the transaction history. The EOS.IO software facilitates this by assigning a sequence number to every message delivered to every account. A user can use these sequence numbers to prove that all messages intended for a particular account have been processed and that they were processed in order.
 
 使用外部区块链的默克尔证明时，知道所有已处理的交易是有效的和知道有没有交易被忽略，这两者之间有巨大的不同。因为不可能证明所有最近交易是已知的，但有可能证明历史交易数据之间没有缺失。EOS操作系统通过分配一个顺序的标识编号给每一笔到达账户的信息来完成这个功能，用户可以使用这些标号来证明所有给这个账号的消息已经被处理并且是被按顺序处理的。
 
 Conclusion 结论
+--------------
 
 The EOS.IO software is designed from experience with proven concepts and best practices, and represents fundamental advancements in blockchain technology. The software is part of a holistic blueprint for a globally scalable blockchain society in which decentralized applications can be easily deployed and governed.
 
