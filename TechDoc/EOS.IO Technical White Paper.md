@@ -1,8 +1,9 @@
 EOS.IO Technical White Paper -- EOS 技术白皮书
 ---------------------------------------------
 DRAFT: June 5, 2017
-翻译：Harvey老狼、谭智勇、宋承根@OracleChain，梓岑@YOYOW
+翻译：Harvey老狼、谭智勇、宋承根@OracleChain，梓岑@YOYOW，Yeung杨扬
 对照整理：何德林
+校验：Yeung杨扬 (尚未完成，至115行）
 
 Abstract: 摘要
 --------------
@@ -37,14 +38,15 @@ Support Millions of Users 支持百万级别用户
 
 Disrupting businesses such as Ebay, Uber, AirBnB, and Facebook, require blockchain technology capable of handling tens of millions of active daily users. In certain cases, applications may not work unless a critical mass of users is reached and therefore a platform that can handle mass number of users is paramount.
 
-如Ebay，Uber，AirBnB和Facebook这样的应用，需要能够处理数千万日活跃用户的区块链技术。 在某些情况下，应用程序可能无法正常工作，除非达到了大量用户，因此可以处理大量用户数量的平台至关重要。
+如Ebay，Uber，AirBnB和Facebook这样的应用，需要能够处理数千万日活跃用户的区块链技术。 在某些情况下，除非累积了大量用户，否则相关应用可能无法正常工作。因此可以处理大量用户数量的平台是至关重要的。
 
 Free Usage 免费使用
 ------------------
 
 Application developers need the flexibility to offer users free services; Users should not have to pay in order to use the platform or benefit from its services. A blockchain platform that is free to use for users will likely gain more widespread adoption. Developers and businesses can then create effective monetization strategies.
 
-有时候应用开发人员需要灵活的为用户提供免费服务; 用户不必为了使用平台而付出费用。可以免费使用的块链平台自然可能会得到更多的关注。有了足够的用户规模，开发者和企业可以创建对应的盈利模式。
+有时候应用开发人员需要一些灵活性来为用户提供免费服务; 用户不必为了使用平台或相应服务而付出费用。可以免费使用的区块链平台自然可能会得到更多的关注。有了足够的用户规模，开发者和企业可以创建对应的盈利模式。
+
 
 Easy Upgrades and Bug Recovery 轻松升级和Bug恢复
 -----------------------------------------------
@@ -55,7 +57,7 @@ Businesses building blockchain based applications need the flexibility to enhanc
 
 All non-trivial software is subject to bugs, even with the most rigorous of formal verification. The platform must be robust enough to fix bugs when they inevitably occur.
 
-所有软件都有可能受到bug的影响。一个区块链底层平台在遭遇bug的时候，需要能够从bug中修复错误。
+所有软件都有可能受到bug的影响。一个区块链底层平台在遭遇bug的时候，需要能够从bug中修复错误并维持系统的稳定性。
 
 Low Latency 低延迟
 ------------------
@@ -78,16 +80,16 @@ Large scale applications need to divide the workload across multiple CPUs and co
 
 大规模应用程序需要在多个CPU和计算机之间划分工作负载。
 
-3.Consensus Algorithm (DPOS) 共识算法（DPOS）
+3.Consensus Algorithm (DPOS) 共识算法（DPOS，代议制权益证明共识）
 -----------------------------------------
 
 EOS.IO software utilizes the only decentralized consensus algorithm capable of meeting the performance requirements of applications on the blockchain, Delegated Proof of Stake (DPOS). Under this algorithm, those who hold tokens on a blockchain may select block producers through a continuous approval voting system and anyone may choose to participate in block production and will be given an opportunity to produce blocks proportional to the total votes they have received relative to all other producers. For private blockchains the management will use the tokens to add and remove IT staff.
 
-EOS.IO软件架构中采用目前为止唯一能够复合上述性能要求的区块链共识算（DPOS）。根据这种算法，全网持有代币的人可以通过投票系统来选择区块生产者，一旦当选任何人都可以参与区块的生产。
+EOS.IO软件架构中采用目前为止唯一能够符合上述性能要求的区块链共识算法（DPOS，代议制权益证明共识）。根据这种算法，全网持有代币的人可以通过投票系统来选择区块生产者。区块生产者的产生过程是由获得的票数除以总票数计算得出，（任何区块链生产者）一旦当选就可以参与区块的生产。在联盟链或者私链的应用中，管理员可以使用代币增加或者移除IT员工。
 
 The EOS.IO software enables blocks to be produced exactly every 3 seconds and exactly one producer is authorized to produce a block at any given point in time. If the block is not produced at the scheduled time then the block for that time slot is skipped. When one or more blocks are skipped, there is a 6 or more second gap in the blockchain.
 
-EOS.IO里预计每3秒生产一个区块。任何时刻，只有一个生产者被授权产生区块。如果在某个时间内没有成功出块，则跳过该块。
+EOS.IO里预计每3秒生产一个区块。任何时刻，只有一个生产者被授权产生区块。如果在某个时间内没有成功出块，则跳过该块。举例来说，如果跳过一个块，则前后两个块就会有超过6秒的延迟。
 
 Using the EOS.IO software blocks are produced in rounds of 21. At the start of each round 21 unique block producers are chosen. The top 20 by total approval are automatically chosen every round and the last producer is chosen proportional to their number of votes relative to other producers. The selected producers are shuffled using a pseudorandom number derived from the block time. This shuffling is done to ensure that all producers maintain balanced connectivity to all other producers.
 
@@ -99,7 +101,7 @@ If a producer misses a block and has not produced any block within the last 24 h
 
 Under normal conditions a DPOS blockchain does not experience any forks because the block producers cooperate to produce blocks rather than compete. In the event there is a fork, consensus will automatically switch to the longest chain. This metric works because the rate at which blocks are added to a blockchain chain fork is directly correlated to the percentage of block producers that share the same consensus. In other words, a blockchain fork with more producers on it will grow in length faster than one with fewer producers. Furthermore, no block producer should be producing blocks on two forks at the same time. If a block producer is caught doing this then such block producer will likely be voted out. Cryptographic evidence of such double-production may also be used to automatically remove abusers.
 
-在正常情况下，DPOS块链不会经历任何叉，因为块生产者合作生产区块而不是竞争。如果有区块分叉，共识将自动切换到最长的链条。具有更多生产者的区块链长度将比具有较少生产者的区块链增长速度更快。此外，没有块生产者应该同时在两个区块链分叉上生产块。如果一个块生产者发现这么做了，就可能被投票出局。
+在正常情况下，DPOS区块链不会经历任何叉，因为区块生产者合作生产区块而不是竞争。如果有区块分叉，共识将自动切换到最长的链条。具有更多生产者的区块链长度将比具有较少生产者的区块链增长速度更快。此外，区块生产者不应该同时在分叉后的两个区块链上生产块。如果一个区块生产者被发现这么做了，就可能被投票出局。这种双挖的密码证据会被用来自动移除不守规矩的生产者。
 
 Transaction Confirmation 交易确认
 --------------------------------
