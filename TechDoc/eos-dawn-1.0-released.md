@@ -49,7 +49,7 @@ EOS.IO 破晓2.0，下一个重要的预览版，将在年底发布。EOS.IO 破
 
 * Resource Rate Limiting (preventing spam / abuse) 资源限速（阻止垃圾和滥用）
 * Merkle Tree Generation (for cross chain communication) Merkle 生成树 （为跨链通信）
-* Upgrade Management and Governance 更新 Management 和 Governance
+* Upgrade Management and Governance 升级 Management 和 Governance
 * More robust SDK 更健壮的SDK
 * General Infrastructure improvements 常规底层架构改进
 * Example Snapshot from ERC20 tokens  例证 ERC20 tokens 快照
