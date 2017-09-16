@@ -1,7 +1,9 @@
 # Dawn 1.0 Released 破晓1.0发布
 
 > 本文翻译自：https://steemit.com/eos/@eosio/dawn-1-0-released
+> 
 > 译者：[区块链中文字幕组胡亮](https://github.com/gumoon)
+> 
 > 翻译时间：2017-09-16
 
 ![](https://steemitimages.com/0x0/https://steemitimages.![](https://steemitimages.com/DQmXVhr94HbKPQUybpAPZfeptwuuEEb9P4WE4NDV68tXMnX/image.png)/DQmXVhr94HbKPQUybpAPZfeptwuuEEb9P4WE4NDV68tXMnX/image.png)
