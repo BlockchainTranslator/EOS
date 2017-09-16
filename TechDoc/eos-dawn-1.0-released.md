@@ -59,5 +59,7 @@ There's still much to be done, but everyone working on the EOS.IO software is ve
 还有很多工作要做，但是在很好的完成了第一阶段的工作后，为 EOS.IO 软件工作每一个人都非常兴奋。我们期待着持续传递区块链技术的前景。
 
 > 译者：[gumoon](https://github.com/gumoon)
+> 翻译时间：2017-09-16
+
 
 
