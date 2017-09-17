@@ -40,7 +40,7 @@ EOS.IO 破晓系列产品代表了早期的 `alpha-quality` 软件，适合那�
 
     此版本中不包含在第二阶段的功能
 
-* 已知的问题
+* 存在的问题说明
 
     性能
 
@@ -211,7 +211,7 @@ In v1.0 there is no API exposed for Accounts.
 P2P code may become unstable when stressed due to lack of rate limiting
 a. work around - keep all producers on a single node
 
-## 已知的开放问题
+## 存在的问题说明
 
 API 尚末完整
 
