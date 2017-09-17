@@ -42,7 +42,7 @@ EOS.IO 破晓系列产品代表了早期的 `alpha-quality` 软件，适合那�
 
 * 存在的问题说明
 
-    性能
+    性能测试
 
 * 问题日志
 
@@ -233,13 +233,13 @@ the HTTP interface is currently a bottleneck in submitting transactions to the n
 the signature verification is not yet multi-threaded
 This release is designed to help developers build their applications. It does not provide a benchmarking toolkit.
 
-## 性能
+## 性能测试
 
 
 我们已经有一些工具，使我们能够在某些受控条件下以每秒超过10,000 TPS的速度对代码进行基准测试，但是基于以下多种原因，可靠地再现基准和得到一致的结果仍然为时过早：
 
 * 您必须操作多节点网络并将事务推送到多个不同的节点
-* 块生产算法当前没有时间限制生成，这意味着基准不能正确捕获“积压”或生成瓶颈
+* 块生成算法当前没有时间限制，意味着测试不能正确形成“积压”效果或生成瓶颈
 * HTTP接口当前是向网络提交事务的瓶颈
 * 签名验证还没有多线程
 
