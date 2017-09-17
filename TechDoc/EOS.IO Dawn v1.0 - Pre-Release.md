@@ -121,15 +121,15 @@ Per the EOS.IO Roadmap, this release represents Phase 1, the Minimal Viable Test
 
 ### Documentation
 ---
-virtual machine API
-deferred / inline messaging
-user-local storage for contracts
-3 built in database types
-basic developer documentation
-installation and setup
-build and deployment
-tutorial for trying out blockchain commands
-Doxygen based API reference
+* virtual machine API
+* deferred / inline messaging
+* user-local storage for contracts
+* 3 built in database types
+* basic developer documentation
+* installation and setup
+* build and deployment
+* tutorial for trying out blockchain commands
+* Doxygen based API reference
 
 
 ### 文档
