@@ -9,7 +9,7 @@ The Dawn series of EOS.IO software releases represent early alpha-quality softwa
 EOS.IO 破晓系列产品代表早期的 alpha 版本，适合那些希望在EOS.IO系统上进行早期开发的人员。
 
 
-## Table of Contents  目录
+## Table of Contents  
 
 * Who This Release is For
 * Phase 1 Features Included in this Release
@@ -22,6 +22,8 @@ EOS.IO 破晓系列产品代表早期的 alpha 版本，适合那些希望在EOS
     Benchmarking
 
 * History of Issues
+
+## 目录
 
 * 使用人员
 
@@ -79,16 +81,15 @@ Per the EOS.IO Roadmap, this release represents Phase 1, the Minimal Viable Test
 * `build.sh` 用于安装依赖项并自动构建eos
 * `eoscpp` 为智能合约开发者创建合约
 
-
 ### Example Contracts 智能合约示例
 --- 
-#### native contracts 原生智能合约
+#### native contracts 
 * native currency
 * staking
 * producer voting
 * code updating
 * permission updating
-
+#### 原生智能合约
 * 原生虚拟货币
 * 对赌合约
 * 生产者投票
@@ -101,7 +102,7 @@ Per the EOS.IO Roadmap, this release represents Phase 1, the Minimal Viable Test
 * simpledb
 * social 社会
 
-### Documentation  文档
+### Documentation
 ---
 * virtual machine API
 * deferred / inline messaging
@@ -112,7 +113,7 @@ Per the EOS.IO Roadmap, this release represents Phase 1, the Minimal Viable Test
 * build and deployment
 * tutorial for trying out blockchain commands
 * Doxygen based API reference
-
+### 文档
 * 虚拟机API
 * 延迟/内联消息传递
 * 用户本地存储的合约
