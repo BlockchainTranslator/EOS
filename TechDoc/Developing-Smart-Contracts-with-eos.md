@@ -2,7 +2,7 @@
 
 > 本文翻译自：https://eosio.github.io/eos/md_contracts_eoslib_tutorial.html
 > 
-> 译者：[区块链中文字幕组胡亮](https://github.com/gumoon)
+> 译者：[区块链中文字幕组 胡亮](https://github.com/gumoon)
 > 
 > 翻译时间：2017-09-20
 
@@ -95,7 +95,7 @@ extern "C" {
 
 This contract implements the two entry points, init and apply. All it does is log the messages delivered and makes no other checks. Anyone can deliver any message at any time provided the block producers allow it. Absent any required signatures, the contract will be billed for the bandwidth consumed.
 
-这个合约实现两个入口点：init 和 apply。他们都仅仅是打印了日志，而没有做其他的校验。所以，任何人都可以在任何时间给它发送区块链生产者允许的消息。不带任何签名的合约将会产生带宽消费的账单。
+这个合约实现两个入口点：init 和 apply。他们都仅仅是打印了日志，而没有做其他的校验。所以，任何人都可以在任何时间发生任何消息，只要区块生产者允许。不带任何签名的合约将会产生带宽消费的账单。
 
 You can compile this contract into a text version of WASM (.wast) like so:
 
@@ -519,7 +519,7 @@ Transfer 50 from currency to inita
 
 So far we used the C API because it is the lowest level API that is directly exposed by EOS.IO to the WASM virtual machine. Fortunately, eoslib provides a higher level API that removes much of the boiler plate.
 
-到此为止，我们已经使用 C 语言接口实现了读消息。C语言接口是 EOS.IO 暴露给 WASM 虚拟机的低级别接口。幸运的是， `eoslib` 提供更高级别的接口，来帮助我们屏蔽很多底层细节。
+到此为止，我们已经使用 C 语言接口实现了读消息。C语言接口是 EOS.IO 暴露给 WASM 虚拟机的最低级别接口。幸运的是， `eoslib` 提供更高级别的接口，来帮助我们屏蔽很多底层细节。
 
 ```
 namespace eos {
