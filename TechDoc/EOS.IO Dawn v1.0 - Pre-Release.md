@@ -1,4 +1,10 @@
-# EOS.IO Dawn v1.0 - Pre-Release   EOS.IO 破晓 v1.0 - 预览版
+# EOS.IO Dawn v1.0 - Pre-Release    EOS.IO 破晓 v1.0 - 预览版
+
+本文翻译自：https://github.com/EOSIO/eos/releases
+
+译者：区块链中文字幕组 鱼
+
+翻译时间：2017-09-20
 
 EOS.IO Dawn 1.0 is the first pre-release of the EOS.IO SDK (Software Development Kit).
 
