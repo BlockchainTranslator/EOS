@@ -67,12 +67,14 @@ Per the EOS.IO Roadmap, this release represents Phase 1, the Minimal Viable Test
 
 根据EOS.IO路线图，此版本拥有第一阶段的功能，最小的开发测试环境。
 
-### Programs 应用程序
+### Programs 
 
 * a standalone node eosd that produces blocks and adds them to the blockchain
 * a client eosc that provides a command line interface
 * eos-walletd provides a client wallet server
 * a utility launcher that creates a local testnet
+
+### 应用程序
 
 * `eosd` 一个独立运行的节点，具有生成区块并将它们添加到块链的功能
 * `eosc` 一个提供命令行界面的客户端
