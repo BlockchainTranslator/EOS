@@ -565,7 +565,7 @@ After compiling and uploading it you should get the same results as the C versio
 
 One of the most common requirements of any contract is to define who is allowed to perform the action. In the case of a curency transfer, we want require that the account defined by the from parameter signs off on the message.
 
-一个普遍的合约需求是定义谁被允许执行某个 action 。在金钱交易的案例中，我们要求转出账户的消息带签名。
+一个通用的合约需求是定义谁被允许执行某个 action 。在金融交易的案例中，我们要求转出账户的消息带签名。
 
 The EOS.IO software will take care of enforcing and validating the signatures, all you need to do is require the necessary authority.
 
