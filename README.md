@@ -60,7 +60,13 @@
   
 - **运营组**
 
-    浅浅的月光杨若暄、StarFading、楚青歌  
+    浅浅的月光杨若暄、StarFading、楚青歌
+    
+
+资料来源
+-------------------------------
+
+EOS官方博客： [https://steemit.com/@eosio](https://steemit.com/@eosio)    
    
 
 当前工作
