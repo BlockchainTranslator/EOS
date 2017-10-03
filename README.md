@@ -51,12 +51,13 @@
 
 - **专家组**
 
-    @梓岑@YOYOW、程亮、@Alex、@馋嘴猫在路上、@ranger-老石
+    @梓岑@YOYOW、程亮、@Alex、@馋嘴猫在路上、@ranger-老石、@咕噜 BIHU.COM
 
 - **翻译组**
 
-    王明华-BCT001、张  奎-BCT002、胡  亮-BCT003、程 伟-BCT004、鱼-BCT005、龙心小台-BCT006  
-  
+    王明华-BCT001、张  奎-BCT002、胡  亮-BCT003、程 伟-BCT004、鱼-BCT005、龙心小台-BCT006、晓顿-BCT007
+    林炜鑫-BCT008、胖子Ricky-BCT008、AMY、楷书、Haoshi Hu、茶猫、小丹、凯风自南
+  
 - **运营组**
 
     浅浅的月光杨若暄、StarFading、楚青歌  
