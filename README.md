@@ -72,6 +72,8 @@ EOS开发博客：[https://steemit.com/trending/eos](https://steemit.com/trendin
 
 EOS开发文档：[https://eosio.github.io/eos/index.html](https://eosio.github.io/eos/index.html)
 
+EOS资料库：[https://eos.io/resources/](https://eos.io/resources)
+
 EOS开发GIT：[https://github.com/EOSIO/eos](https://github.com/EOSIO/eos)
 
 EOS官方网站：[https://eos.io/](https://eos.io)
