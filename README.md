@@ -66,8 +66,12 @@
 资料来源
 -------------------------------
 
-EOS官方博客： [https://steemit.com/@eosio](https://steemit.com/@eosio)    
-   
+EOS官方博客：[https://steemit.com/@eosio](https://steemit.com/@eosio)    
+
+EOS开发文档：[https://eosio.github.io/eos/index.html](https://eosio.github.io/eos/index.html)
+
+EOS官方网站：[https://github.com/EOSIO/eos](https://github.com/EOSIO/eos)
+
 
 当前工作
 -------------------------------
