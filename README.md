@@ -74,6 +74,8 @@ EOS开发文档：[https://eosio.github.io/eos/index.html](https://eosio.github.
 
 EOS资料库：[https://eos.io/resources/](https://eos.io/resources)
 
+EOS论坛：  [https://eostalk.io/](https://eostalk.io)
+
 EOS开发GIT：[https://github.com/EOSIO/eos](https://github.com/EOSIO/eos)
 
 EOS官方网站：[https://eos.io/](https://eos.io)
