@@ -46,7 +46,7 @@ For a quick tutorial on how to create accounts, transfer funds, upload contracts
 
 关于如何创建帐户，转移资产，上传合约以及通过 `eosc` 和 `eosd` 与这些合约进行交互的快速教程，请参阅：
 
-[eosc - 命令行客户端](https://github.com/BlockChainTranslator/EOS/blob/master/TechDoc/EOS%20Command%20Line%20Client.md)  
+[eosc - 命令行客户端](https://github.com/BlockchainTranslator/EOS/blob/master/TechDoc/EOS%20Command%20Line%20Client.md)  
 
 ## Current Development Status -- 开发现状
 
