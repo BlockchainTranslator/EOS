@@ -1,4 +1,5 @@
 Introducing EOS.IO Storage--EOS.IO 存储 - 官方白皮书
+--------------------------------------------------
 
 > 本文翻译自：https://eosio.github.io/eos/md_contracts_eoslib_tutorial.html
 > 
