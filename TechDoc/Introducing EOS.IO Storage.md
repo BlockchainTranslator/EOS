@@ -214,7 +214,7 @@ have, and CCR is the constant reserve ratio.
 
 下面的方程将Balance定义为所有各方消耗的储存量的总数。Supply是供应量区块生产者的实际拥有的存储总量，而CCR是恒定的准备金率。
 
-![image]https://github.com/BlockchainTranslator/EOS/blob/master/TechDoc/pics/Introducing%20EOS.IO%20Storage-Price.jpg
+![image](https://github.com/BlockchainTranslator/EOS/blob/master/TechDoc/pics/Introducing%20EOS.IO%20Storage-Price.jpg)
 
 Collectively the block producers may adjust the CRR (up or down), or adjust the total storage
 supply (up or down), but may never decrease the storage supply below what has already been
