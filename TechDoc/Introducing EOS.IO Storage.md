@@ -1,4 +1,11 @@
 Introducing EOS.IO Storage--EOS.IO 存储 - 官方白皮书
+
+> 本文翻译自：https://eosio.github.io/eos/md_contracts_eoslib_tutorial.html
+> 
+> 译者：区块链中文字幕组 [胡亮](https://github.com/gumoon)
+> 
+> 翻译时间：2017-09-20
+
 ---------------------------
 Abstract: ​EOS.IO Storage is a proposed decentralized file system designed to
 give everyone the ability to permanently store and host files accessible by any
