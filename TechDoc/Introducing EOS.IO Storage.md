@@ -1,4 +1,4 @@
-Introducing EOS.IO Storage--EOS.IO 存储 - 官方白皮书
+Introducing EOS.IO Storage--EOS.IO 存储简介
 --------------------------------------------------
 
 > 本文翻译自：https://github.com/EOSIO/Documentation/raw/master/EOS.IO%20Storage.pdf
