@@ -74,7 +74,7 @@ For information about the available APIs please see:
 
 关于可用 API 的信息，请参阅：
 
-[如何撰写合同](https://github.com/BlockChainTranslator/EOS/blob/master/TechDoc/How%20To%20Write%20Contracts.md)  
+[如何编写合约](https://github.com/BlockChainTranslator/EOS/blob/master/TechDoc/How%20To%20Write%20Contracts.md)  
 
 There is also a helpful index of [all documentation](https://eosio.github.io/eos/modules.html).
 
