@@ -1,4 +1,4 @@
-Introducing EOS.IO Storage
+Introducing EOS.IO Storage--EOS.IO 存储 - 官方白皮书
 ---------------------------
 Abstract: ​EOS.IO Storage is a proposed decentralized file system designed to
 give everyone the ability to permanently store and host files accessible by any
@@ -11,6 +11,10 @@ EOS.IO software, EOS.IO Storage will be a service provided by block producers
 for those who hold tokens on a blockchain that adopts the EOS.IO software. The
 block producers would be incentivized to replicate and host these files, allowing
 anyone with an Internet browser to access them.
+
+EOS.IO存储是一种建议的去中心化的文件系统，旨在为每个人提供永久存储和托管任何网页浏览器可访问的文件的能力。
+与其他建议的替代方案不同，除了完全可退还的存款之外，EOS.IO存储上的存储或带宽将不会产生预付费用或固定费用。用户可以在需要存储和带宽的时候持有代币，并且在不需要存储和带宽的时候出售代币。
+基于星际间文件系统（IPFS）和EOS.IO软件，EOS.IO存储服务将由区块生产者提供，并且为那些持有基于EOS.IO软件的区块链的令牌的人提供服务。区块生产者被激励去复制和托管那些允许任何人通过Internet浏览器的访问的文件。
 
 Background
 ----------
