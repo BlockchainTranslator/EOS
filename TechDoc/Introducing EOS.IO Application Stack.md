@@ -12,7 +12,7 @@ After three years of experience with BitShares and Steem, it has become abundant
 
 在 BitShares 和 Steem 的三年经验之后，开发去中心化的应用程序需要的不仅仅是一个快速的块链，它还需要能够为数百万并发用户提供可用体验的基础设施。在 steemit.com 的早期，用户期望提供自己的图像托管。这使得界面难以使用，容易出现图像破损。
 
-![image](/home/jonas/projects/EOS/TechDoc/pics/introducing-eos.io-application-stack.png)
+![image](https://github.com/BlockchainTranslator/EOS/blob/master/TechDoc/pics/introducing-eos.io-application-stack.png)
 
 With the EOS.IO software, we, at block.one, envision a world where block producers provide general purpose infrastructure that allows developers to build and deploy their applications without having to run any servers themselves. This includes applications as complex as [steemit](https://steemit.com/), [DTube](https://dtube.video/), and [decentralized exchanges](https://bitshares.org/).
 
