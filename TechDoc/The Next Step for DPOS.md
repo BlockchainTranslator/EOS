@@ -1,29 +1,54 @@
 The next step for DPOS: Decentralized block producers
-============================================================
-[link](https://steemit.com/eos/@samupaha/the-next-step-for-dpos-decentralized-block-producers)
+--------------------------------------------------
+
+DPOS 的下一步: 区块生产者的去中心化
+--------------------------------------------------
+
+> 本文翻译自：(https://steemit.com/eos/@samupaha/the-next-step-for-dpos-decentralized-block-producers)
+> 
+> 译者：区块链中文字幕组 [荆凯(shuke0327)] (https://github.com/shuke0327)
+> 
+> 翻译时间：2017-10-14
+
+---------------------------
 
 One of the most common criticisms against delegated proof of stake systems is the perceived lack of decentralization. 21 block producers (per round) might seem very low number, even though it's still very high compared to proof of work systems which are usually fully controlled by less than ten mining pools.
 
+对委托权益证明系统最常见的批评之一是其缺乏去中心化。 区块生产者有21个(每一轮)，这数量似乎很少，虽然与工作量证明系统相比已经算很多了，后者通常被不到十个矿池全权掌控。
+
 When the centralization by mining pool is pointed out, POW proponents will give a counter-argument:  _"It's not really that bad because miners can change their mining pool whenever they want."_  Which is true, of course. If a mining pool does something bad, it can lose a lot of hashing power very quickly because miners just choose another pool.
+
+当人们指出矿池的中心化时，POW 拥护者会反驳称: _"由于矿工可以随时切换矿池，所以这并没有那么糟糕。“_ 这说法当然正确。 如果矿池做了坏事，矿工只要选择其它矿池，它会很快失去大量的hash算力。
 
 That made me think... Could we implement something similar in DPOS?
 
+这促使我思考... 我们在 DPOS 中，能否做类似的实现？
+
 This post is mostly from the perspective of EOS, but ideas can be applied to Steem, Bitshares and other DPOS blockchains, too.
+
+这篇帖子主要从 EOS 的角度讨论，但这一想法对 Steem、Bitshares 和其它采用 DPOS 的区块链也同样适用。
 
 ### Formalization of block producer's responsibilities
 
+### 生产者责任的形式化
 
 In EOS, block producers will have quite a lot of responsibilities.
 
+在EOS中，区块生产者将会有很多职责。
+
 Technical:
 
+技术：
+
+
 *   Creating blocks
-
+*   创建区块
 *   File hosting
-
+*   文件托管
 *   Back-up servers
-
+*   备份服务器
 *   Seed node
+*   种子节点
 
 Governance:
 
