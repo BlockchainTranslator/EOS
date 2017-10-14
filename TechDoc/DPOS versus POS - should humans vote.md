@@ -9,7 +9,7 @@
 The debate around POS versus DPOS seems to represent quite a philosophical divide. I have read and listened to various views, some quite strident, polemical. From a technical standpoint I am satisfied that both systems are resilient to attacks, that neither is inherently more vulnerable, that both approaches are viable. So why choose one over the other? While both approaches are viable I think that they would nonetheless produce very different chains.
 
 
-有关POS与DPOS的讨论，看起来像是一个哲学辩题。我阅读、听取了各种各样的观点，有些非常尖锐，像是论战。从技术的角度来看，我觉得这两个系统都有抵御攻击能力，没有哪个一个方法更脆弱，两种方法都是可行的。那为什么要进行比较和选择呢？因为，虽然这两种方法都是可行的，但我认为它们会产生非常不同的区块链。 
+有关POS与DPOS的讨论，看起来像是一个哲学辩题。我阅读、听取了各种各样的观点，有些非常尖锐，像是论战。从技术的角度来看，我觉得这两个系统都有抵御攻击能力，没有哪个一个方法更脆弱，两种方法都是可行的。为什么要进行比较和选择呢？因为，虽然这两种方法都是可行的，但我认为它们会产生非常不同的区块链。 
 
 In POS to become a block producer I need to stake a bond and have suitable hardware to run the software. That's it. The implementation then takes over without any more of my involvement. The hardware hurdle is significant. How good does it have to be to run the software? Perhaps systems will be designed that will be able to harness distributed/disparate computing power making for a very decentralized platform. If anyone with even a small stake and a home pc could participate that would be great. But it's a challenging problem. I hope it can be done in a scalable way with low latency and sufficient transaction throughput. I hope that it can be done in a way that can succeed.
 
