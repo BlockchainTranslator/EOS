@@ -55,3 +55,5 @@ Am I missing something? Do I have it all wrong?
 
 [点击查看更多的译文...](https://github.com/BlockchainTranslator/EOS/blob/master/1%E3%80%81%E5%B7%B2%E8%AF%91%E6%96%87%E7%AB%A0.md)。
 
+#### 本文译者：
+
