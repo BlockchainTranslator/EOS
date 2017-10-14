@@ -56,7 +56,7 @@
 - **翻译组**
 
     王明华-BCT001、张  奎-BCT002、胡  亮-BCT003、程 伟-BCT004、鱼-BCT005、龙心小台-BCT006、晓顿-BCT007、
-    林炜鑫-BCT008、胖子Ricky-BCT009、AMY-BCT010、楷书-BCT011、Haoshi Hu-BCT012、茶猫-BCT013、小丹-BCT014、凯风自南-BCT015
+    林炜鑫-BCT008、胖子Ricky-BCT009、AMY-BCT010、楷书-BCT011、Haoshi Hu-BCT012、茶猫-BCT013、小丹-BCT014、荆凯(shuke0327)-BCT015
   
 - **运营组**
 
