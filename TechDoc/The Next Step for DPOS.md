@@ -28,85 +28,61 @@ This post is mostly from the perspective of EOS, but ideas can be applied to Ste
 
 这篇帖子主要从 EOS 的角度讨论，但这一思路对 Steem、Bitshares 和其它采用 DPOS 的区块链也同样适用。
 
-### Formalization of block producer's responsibilities
 
-### 生产者责任的形式化
+### Formalization of block producer's responsibilities 生产者责任的构成
+--------------------------------------------------------
 
 In EOS, block producers will have quite a lot of responsibilities.
 
 在EOS中，区块生产者将会有很多职责。
 
-Technical:
-
-技术：
+Technical-技术：
 
 
-*   Creating blocks
-*   创建区块
+*   Creating blocks-创建区块
+*   File hosting-文件托管
+*   Back-up servers-备份服务器
+*   Seed node-种子节点
 
-*   File hosting
-*   文件托管
+Governance-治理：
 
-*   Back-up servers
-*   备份服务器
+*   Following the constitution-遵照宪法
 
-*   Seed node
-*   种子节点
+*   Account freezing, misbehaving contracts-冻结账户和恶意的合同
 
-Governance:
-
-治理：
-
-*   Following the constitution
-*   遵照宪法
-
-*   Account freezing, misbehaving contracts
-*   冻结账户和恶意的合同
-
-*   Take-down notices of files
-*   记录文件通知
+*   Take-down notices of file-记录文件通知
 
 *   Hard and soft forks, fees (account creation), parameters (blocksize, rate-limited capacity)
-*   软硬分叉，费用 （创建帐户），参数 （块大小，限速容量）
+    软硬分叉，费用 （创建帐户），参数 （块大小，限速容量）
 
-Leadership:
-
-领导力：
+Leadership-领导力：
 
 *   Something like a CEO in a traditional company, keeping everything internal in control
-*   类似传统公司的 CEO，掌控内部所有事物
+    类似传统公司的 CEO，掌控内部所有事物
 
-*   Communication with other block producers
-*   与其他区块生产者沟通
+*   Communication with other block producers-与其他区块生产者沟通
 
-*   Campaign to get elected as a BP
-*   竞选 BP (区块生产者)
+*   Campaign to get elected as a BP-竞选 BP (区块生产者)
 
-Possible extra services:
-可能的额外服务：
+Possible extra services-可能的额外服务：
 
-*   Account recovery
-*   帐户恢复
+*   Account recovery-帐户恢复
 
-*   Account creation
-*   创建帐户
+*   Account creation-创建帐户
 
-*   Oracles
-*   预言（Oracles）
+*   Oracles-预言
 
-*   Price feeds
-*   喂价
+*   Price feeds-喂价
 
-*   Dispute resolution service
-*   解决冲突的服务
+*   Dispute resolution service-解决冲突的服务
 
 As you can see, running a BP is much more than just a server creating blocks. One person might be able to handle everything in the beginning, but when the ecosystem grows, this will require a team.
 
 如你所见，运行 BP 远远不止用一台服务器创建区块那么简单。刚开始也许一个人能够处理所有事情，但随着生态系统的成长，就需要团队了。
 
-### Decentralization of a block producer
 
-### 单个区块生产者的去中心化
+### Decentralization of a block producer 单个区块生产者的去中心化
+--------------------------------------------------------
 
 When we know all the responsibilities of a BP, we can break them down into smaller jobs which can be done by separate individuals or organizations. This will give us several different options.
 
@@ -120,9 +96,9 @@ Decentralized block producers (DBP) will create some benefits for the ecosystem.
 
 去中心化的区块生产者 (DBP) 会使生态系统收益。让我们做一下更详细的分析。
 
-#### Additional layer of decentralization
 
-#### 去中心化的附加层
+#### Additional layer of decentralization 去中心化的附加层
+--------------------------------------------------------
 
 While 21 BPs for DPOS is probably more than enough to create a robust system, a little bit more decentralization wouldn't be a bad thing. Adding more BPs per round isn't a good option, it would mean that the BP layer just gets a little bit more decentralized. But adding another layer to the system would create more decentralization without any negative side effects, like slowing the system or making it more expensive to run.
 
@@ -139,9 +115,9 @@ It will be much harder for BPs to conspire against the ecosystem. And of course,
 
 这也会让 BP（译者注： 区块生产者）密谋反对生态系统的难度大大增加。当然，对 BP 的攻击也会更难，因为 BP 并不是单个实体。
 
-#### Lower barriers to entry
 
-#### 降低进入门槛
+#### Lower barriers to entry 降低进入门槛
+--------------------------------------------------------
 
 There have been fears that when the system grows, the barrier to entry will become too high. Being a BP might require big investments to server infrastructure to ensure capacity and that will discourage people to become a BP.
 
@@ -151,9 +127,9 @@ Instead of taking care of all responsibilities of a BP, individual or organizati
 
 个人或组织可以不必承担 BP 的全部职责，而是只从其中一件事开始做起，比如文件存储。他们可以识别出文件存储能力比别人低的DBP，然后主动提出来替换它。获得了金钱和声誉后，他们也可以开始承担其它的职责。
 
-#### Specialization
 
-#### 专业化分工
+#### Specialization 专业化分工
+--------------------------------------------------------
 
 Usually, the system becomes more efficient when individuals and organizations specialize in certain work. They can focus on the one thing and become really good at that. They don't need to spend resources trying to become great at everything – often that means they are going to be weak at some things.
 
@@ -163,9 +139,9 @@ When people/organizations specialize, they can produce the services at lower cos
 
 当人/组织分工明确时，他们能够以更低成本提供服务。在 EOS 之中这会非常有益，因为 BP 可以为 blockchain 提供更强的处理能力。
 
-#### Self-healing
 
-#### 自我修复
+#### Self-healing 自我修复
+--------------------------------------------------------
 
 DBPs can monitor their capacity and uptime and see how well they are doing compared to others. If some part of their DBP organization seems to be weaker than others, they can find a better partner. This is probably more efficient compared to a centralized BP, which has to either make an effort to learn how to do a better job or hire somebody to do it.
 
@@ -175,9 +151,9 @@ DBP can just look at possible alternatives (assuming there are markets for them)
 
 DBP 只用考虑可能的备选方案 （假设存在这一供应市场），将表现差的合作者换成表现更好的。当集成不同的 BP 服务的流程正式形成时，可以很容易做到。
 
-#### Voter apathy
 
-#### 投票者的冷漠
+#### Voter apathy 投票者的冷漠
+--------------------------------------------------------
 
 One of the weaknesses of DPOS is voter apathy. A large percentage of the voters don't check their voting list often enough and make changes when necessary. The result is that many potentially good BPs won't be voted in and some underperforming will be staying.
 
@@ -191,9 +167,9 @@ It's much easier to handle certain questions one at a time, like file storage ca
 
 一次处理一个特定问题要容易得多，例如文件存储能力的问题。很难对有不同长处和短处的 BP 进行比较，并选出对整个生态系统而言更有利的组合。大部分人都很懒，不会经常这么做。
 
-#### Learning decentralized governance
 
-#### 学习去中心化的治理
+#### Learning decentralized governance 学习去中心化的治理
+--------------------------------------------------------
 
 Good governance is hard. Especially when the governed group is distributed around the world. DBPs have to be well-governed, otherwise, they will be voted out. Block producing is so essential task that underperformance won't be tolerated for long. This creates a big incentive for DBPs design efficient governance models for cooperation.
 
@@ -207,13 +183,9 @@ Hopefully, there will be lots of different governance models tried for DBPs. Ove
 
 有希望出现很多对不同的 DBPs 治理模式的尝试。随着时间的推移，坏的模式会被淘汰，好的将会蓬勃发展。可以从中学到很多经验，如何成功创建真实的去中心化组织。 迄今为止还只是谈论（如何创建去中心化的组织），通过反复试错来进行的有意识的学习并不够。
 
-### Conclusion
 
-### 结论
-
+### Conclusion 结论
+--------------------------------------------------------
 If we think block producers as "mining pools" instead of single entities, we can achieve an additional layer in the decentralization of DPOS. This will create several benefits for the ecosystem.
 
 如果我们将区块生产者视作“矿池”，而不是单个的实体，我们会在 DPOS 的去中心化中得到一个附加层。这会为生态系统带来多种益处。
-
-[1]:https://steemit.com/@samupaha
-[2]:https://steemit.com/trending/eos
