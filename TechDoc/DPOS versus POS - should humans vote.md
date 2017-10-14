@@ -9,7 +9,7 @@
 The debate around POS versus DPOS seems to represent quite a philosophical divide. I have read and listened to various views, some quite strident, polemical. From a technical standpoint I am satisfied that both systems are resilient to attacks, that neither is inherently more vulnerable, that both approaches are viable. So why choose one over the other? While both approaches are viable I think that they would nonetheless produce very different chains.
 
 
-有关POS与DPOS的讨论，看起来像是一个哲学辩题。我阅读、听取了各种各样的观点，有些非常尖锐，像是论战。从技术的角度来看，我觉得这两个系统都有抵御攻击能力，没有哪个一个方法更脆弱，两种方法都是可行的。为什么要进行比较和选择呢？因为，虽然这两种方法都是可行的，但我认为它们会产生非常不同的区块链。 
+有关POS与DPOS的讨论，看起来像是一个哲学思辩。我阅读、听取了各种各样的观点，有些非常尖锐，像是论战。从技术的角度来看，我觉得这两个系统都有抵御攻击能力，没有哪个一个方法更脆弱，两种方法都是可行的。为什么要进行比较和选择呢？因为，虽然这两种方法都是可行的，但我认为它们会产生非常不同的区块链。 
 
 In POS to become a block producer I need to stake a bond and have suitable hardware to run the software. That's it. The implementation then takes over without any more of my involvement. The hardware hurdle is significant. How good does it have to be to run the software? Perhaps systems will be designed that will be able to harness distributed/disparate computing power making for a very decentralized platform. If anyone with even a small stake and a home pc could participate that would be great. But it's a challenging problem. I hope it can be done in a scalable way with low latency and sufficient transaction throughput. I hope that it can be done in a way that can succeed.
 
@@ -17,7 +17,7 @@ In POS to become a block producer I need to stake a bond and have suitable hardw
 
 In DPOS block producers are voted in and campaign for the privilege, perhaps offering something more, working harder. More concentrated and powerful hardware that allows the platform to scale is deployed in the service of the community. Steemit has 21 block producers with many more at the ready waiting for your vote, campaigning for your attention. The voting makes the system agile. DPOS can respond to change more easily since change is not always a code change. Change, for some things, is only as far away as a vote. DPOS puts the community centre stage. It asks us to participate, requires us to pay attention. When B1 talks about aligning interests it is human interests that they are talking about, it is human interests that are being aligned. Not just the consensus algorithm's interests. You express your interests with your vote.
 
-对于DPOS，出块人由投票选出，他们需要努力竞选以争取出块权，也许是提供更多的东西，或者工作更加努力。更加集中和强大的硬件，允许平台获得良好扩展性，部署以服务于社区。 Steemit有21个出块者，并有更多的候选出块者等待投票，并努力竞选以吸引你的注意。投票使系统更加灵活。 DPOS可以更方便地响应变更，因为变更并不总是代码变更。对某些事情而言，变更像投票一样遥远地存在。 DPOS使社区成为舞台中心。它要求我们积极地参与，要我们投入更多的注意力。当B1谈论协调利益时，讨论的是人的利益，是人的利益被调整。这不只是共识算法的事情。您需要通过投票表达您的利益。
+对于DPOS，出块人由投票选出，他们需要努力竞选以争取出块权，也许是提供更多的东西，或者工作更加努力。更加集中和强大的硬件，使平台获得良好扩展性，部署以服务于社区。 Steemit有21个出块者，并有更多的备用出块者等待投票，并努力竞选以吸引你的注意。投票使系统更加灵活。 DPOS可以更方便地响应变更，因为变更并不总是代码变更。对某些事情而言，变更像投票一样遥远地存在。 DPOS使社区成为舞台中心。它要求我们积极地参与，要我们投入更多的注意力。当B1谈论协调利益时，讨论的是人的利益，是人的利益被调整。这不只是共识算法的事情。您需要通过投票表达您的利益。
 
 I'd like to see POS ala ethereum, rchain, cardano etc. go forward. I can't wait to see what happens, to see how they evolve. They might be well suited to some types of applications where human voting is actually not desired. Where humans get in the way. Maybe human voting is fundamentally flawed.
 
@@ -25,7 +25,7 @@ I'd like to see POS ala ethereum, rchain, cardano etc. go forward. I can't wait 
 
 Or maybe if we can't participate, if we can't co-operate, if we can't be bothered to understand the issues and cast our votes then we are stuffed anyway.
 
-或者我们无法参与，或者我们无法合作，或者我们不能费心去理解问题，投票像是废物一样无意义。
+或者我们无法参与，或者我们无法合作，或者我们不能费心去理解问题，投票像是废物。
 
 POS versus DPOS. An interesting debate! There is fantastic research going on around POS that will undoubtedly lead somewhere. I am certain that important benefits will emerge. But so too with DPOS. I guess that what I am really arguing is that DPOS has certain properties that make it central to the decentralization of politics and governance. It is the only consensus algorithm that is socially disruptive in a good way! The AI apocalypse is less likely under DPOS! BTS and Steemit prove that strong communities can form around DPOS. Of course there is more to be done, but that's up to us. This article by @samupaha talks about how DPOS could evolve to become even more human centric, how it could be even more in the service of and run by us humans. A great post.
 
@@ -37,7 +37,7 @@ At the end of the day we are building these systems for us humans aren't we? Whi
 
 While it will be interesting to see how it all plays out in the years ahead I believe that we need a scalable platform now. ASAP. And notwithstanding some unexpected developments elsewhere I believe that platform is EOS!
 
-虽然，在未来的时间里，看到结果如何呈现出来，是很有趣的事情。但我相信，现在最重要的是，我们要尽快的有一个可扩展的平台。尽管在其他地方，可能会有一些意想不到的发展，但我相信这个平台是EOS！
+虽然，在未来的时间里，看结果如何呈现出来，是很有趣的事情。但我相信，现在最重要的是，我们要尽快的有一个可扩展的平台。尽管在其他地方，可能会有一些意想不到的发展，但我相信这个平台是EOS！
 
 Am I missing something? Do I have it all wrong?
 
