@@ -1,3 +1,11 @@
+# DPOS versus POS - should humans vote?  DPOS 对比 POS，人是否应该投票？
+
+> 本文翻译自：https://steemit.com/eos/@mjhomb/dpos-versus-pos-should-humans-vote
+> 
+> 译者：[区块链中文字幕组 何德林](https://github.com/BlockchainTranslator/EOS)
+> 
+> 翻译时间：2017-10-14
+
 The debate around POS versus DPOS seems to represent quite a philosophical divide. I have read and listened to various views, some quite strident, polemical. From a technical standpoint I am satisfied that both systems are resilient to attacks, that neither is inherently more vulnerable, that both approaches are viable. So why choose one over the other? While both approaches are viable I think that they would nonetheless produce very different chains.
 
 
