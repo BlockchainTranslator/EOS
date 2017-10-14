@@ -51,5 +51,7 @@ Am I missing something? Do I have it all wrong?
 
 如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号w1791520555。
 
-[查看更多的译文，点击...](https://github.com/BlockchainTranslator/EOS/blob/master/1%E3%80%81%E5%B7%B2%E8%AF%91%E6%96%87%E7%AB%A0.md)。
+[点击查看更多的译文...](https://github.com/BlockchainTranslator/EOS/blob/master/1%E3%80%81%E5%B7%B2%E8%AF%91%E6%96%87%E7%AB%A0.md)。
+
+版权所有，转载需完整注明以上内容。
 
