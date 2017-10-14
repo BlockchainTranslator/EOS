@@ -51,10 +51,11 @@ Am I missing something? Do I have it all wrong?
 
 如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
 
-版权所有，转载需完整注明以上内容。
-
-[点击查看更多的译文...](https://github.com/BlockchainTranslator/EOS/blob/master/1%E3%80%81%E5%B7%B2%E8%AF%91%E6%96%87%E7%AB%A0.md)。
+[点击查看GIT及更多的译文...](https://github.com/BlockchainTranslator/EOS/blob/master/1%E3%80%81%E5%B7%B2%E8%AF%91%E6%96%87%E7%AB%A0.md)。
 
 #### 本文译者简介：
 
 何德林 区块链技术爱好者，热衷于区块链业务创新研究与分析，欢迎加微信号:tongxwl
+
+版权所有，转载需完整注明以上内容。
+
