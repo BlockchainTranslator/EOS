@@ -37,7 +37,7 @@ At the end of the day we are building these systems for us humans aren't we? Whi
 
 While it will be interesting to see how it all plays out in the years ahead I believe that we need a scalable platform now. ASAP. And notwithstanding some unexpected developments elsewhere I believe that platform is EOS!
 
-虽然，在未来的时间里，看到它如何呈现出来，是很有趣的事情，但我相信，现在最重要的是，我们要尽快的有一个可扩展的平台。尽管在其他地方，可能会有一些意想不到的发展，但我相信这个平台是EOS！
+虽然，在未来的时间里，看到结果如何呈现出来，是很有趣的事情。但我相信，现在最重要的是，我们要尽快的有一个可扩展的平台。尽管在其他地方，可能会有一些意想不到的发展，但我相信这个平台是EOS！
 
 Am I missing something? Do I have it all wrong?
 
