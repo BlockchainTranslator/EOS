@@ -2,7 +2,7 @@
 
 > 本文翻译自：https://steemit.com/eos/@mjhomb/dpos-versus-pos-should-humans-vote
 > 
-> 译者：[区块链中文字幕组 何德林](https://github.com/BlockchainTranslator/EOS)
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [何德林](https://github.com/BlockchainTranslator/EOS)
 > 
 > 翻译时间：2017-10-14
 
