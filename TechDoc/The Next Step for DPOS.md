@@ -27,7 +27,6 @@ This post is mostly from the perspective of EOS, but ideas can be applied to Ste
 
 
 ## Formalization of block producer's responsibilities 生产者责任的构成
---------------------------------------------------------
 
 In EOS, block producers will have quite a lot of responsibilities.
 
@@ -82,7 +81,6 @@ As you can see, running a BP is much more than just a server creating blocks. On
 
 
 ## Decentralization of a block producer 单个区块生产者的去中心化
---------------------------------------------------------
 
 When we know all the responsibilities of a BP, we can break them down into smaller jobs which can be done by separate individuals or organizations. This will give us several different options.
 
@@ -98,7 +96,6 @@ Decentralized block producers (DBP) will create some benefits for the ecosystem.
 
 
 ### Additional layer of decentralization 去中心化的附加层
---------------------------------------------------------
 
 While 21 BPs for DPOS is probably more than enough to create a robust system, a little bit more decentralization wouldn't be a bad thing. Adding more BPs per round isn't a good option, it would mean that the BP layer just gets a little bit more decentralized. But adding another layer to the system would create more decentralization without any negative side effects, like slowing the system or making it more expensive to run.
 
@@ -117,7 +114,6 @@ It will be much harder for BPs to conspire against the ecosystem. And of course,
 
 
 ### Lower barriers to entry 降低进入门槛
---------------------------------------------------------
 
 There have been fears that when the system grows, the barrier to entry will become too high. Being a BP might require big investments to server infrastructure to ensure capacity and that will discourage people to become a BP.
 
@@ -129,7 +125,6 @@ Instead of taking care of all responsibilities of a BP, individual or organizati
 
 
 ### Specialization 专业化分工
---------------------------------------------------------
 
 Usually, the system becomes more efficient when individuals and organizations specialize in certain work. They can focus on the one thing and become really good at that. They don't need to spend resources trying to become great at everything – often that means they are going to be weak at some things.
 
@@ -141,7 +136,6 @@ When people/organizations specialize, they can produce the services at lower cos
 
 
 ### Self-healing 自我修复
---------------------------------------------------------
 
 DBPs can monitor their capacity and uptime and see how well they are doing compared to others. If some part of their DBP organization seems to be weaker than others, they can find a better partner. This is probably more efficient compared to a centralized BP, which has to either make an effort to learn how to do a better job or hire somebody to do it.
 
@@ -153,7 +147,6 @@ DBP 只用考虑可能的备选方案 （假设存在这一供应市场），将
 
 
 ### Voter apathy 投票者的冷漠
---------------------------------------------------------
 
 One of the weaknesses of DPOS is voter apathy. A large percentage of the voters don't check their voting list often enough and make changes when necessary. The result is that many potentially good BPs won't be voted in and some underperforming will be staying.
 
@@ -169,7 +162,6 @@ It's much easier to handle certain questions one at a time, like file storage ca
 
 
 ### Learning decentralized governance 学习去中心化的治理
---------------------------------------------------------
 
 Good governance is hard. Especially when the governed group is distributed around the world. DBPs have to be well-governed, otherwise, they will be voted out. Block producing is so essential task that underperformance won't be tolerated for long. This creates a big incentive for DBPs design efficient governance models for cooperation.
 
@@ -185,7 +177,6 @@ Hopefully, there will be lots of different governance models tried for DBPs. Ove
 
 
 ## Conclusion 结论
---------------------------------------------------------
 
 If we think block producers as "mining pools" instead of single entities, we can achieve an additional layer in the decentralization of DPOS. This will create several benefits for the ecosystem.
 
