@@ -29,7 +29,7 @@ Or maybe if we can't participate, if we can't co-operate, if we can't be bothere
 
 POS versus DPOS. An interesting debate! There is fantastic research going on around POS that will undoubtedly lead somewhere. I am certain that important benefits will emerge. But so too with DPOS. I guess that what I am really arguing is that DPOS has certain properties that make it central to the decentralization of politics and governance. It is the only consensus algorithm that is socially disruptive in a good way! The AI apocalypse is less likely under DPOS! BTS and Steemit prove that strong communities can form around DPOS. Of course there is more to be done, but that's up to us. This article by @samupaha talks about how DPOS could evolve to become even more human centric, how it could be even more in the service of and run by us humans. A great post.
 
-POS与DPOS，是一个有趣的讨论！围绕POS已经有一些不错的研究，这些研究在某些地方得到了应用。我敢肯定，一些重要的成果将会出现。 DPOS也是如此。我想我真正在要讨论的是，DPOS具有某些属性，使其成为去中心化的政治和治理架构下的核心。它是唯一一种，通过良好的方式，进行社会干预的共识方法。基于DPOS，人工智能接管世界的事情不太可能发生！ BTS和Steemit，证明强大的社区可以通过DPOS形成。当然还有很多的事情要做，这取决于我们的努力。 @samupaha的这篇文章谈论了DPOS将如何更加以人为中心进行发展，如何能够更多的服务于我们人类，并由我们人类来运行管理。一个很不错的帖子。
+POS与DPOS，是一个有趣的讨论！围绕POS已经有一些不错的研究，这些研究在某些地方得到了应用。我敢肯定，一些重要的成果将会出现。 DPOS也是如此。我想我真正在要讨论的是，DPOS具有某些属性，使其成为去中心化的政治和治理架构下的核心。它是唯一一种，通过良好的方式，进行社会干预的共识方法。在DPOS条件下，人工智能接管世界的事情不太可能发生！ BTS和Steemit，证明强大的社区可以通过DPOS形成。当然还有很多的事情要做，这取决于我们的努力。 @samupaha的这篇文章谈论了DPOS将如何更加以人为中心进行发展，如何能够更多的服务于我们人类，并由我们人类来运行管理。一个很不错的帖子。
 
 At the end of the day we are building these systems for us humans aren't we? Which consensus algorithm do you vote for?
 
