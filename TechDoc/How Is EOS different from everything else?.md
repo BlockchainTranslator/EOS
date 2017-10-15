@@ -43,8 +43,8 @@ EOS区块链是一个完全自给自足，财务自足，链上治理的分发�
 Slow predictable creation of new tokens (max 5% annually) are distributed by the community through elected smart contracts to fund network operation and growth.  
 社区通过选举智能合约分发新的代币（每年最多5％），为网络运营和增长提供资金。  
 
-One of the largest and most diversified blockchain communities  
-最大和最多元化的块链社区之一  
+## One of the largest and most diversified blockchain communities  
+## 最大和最多元化的块链社区之一  
 EOS is built on the backbone of the Delegated Proof of Stake (DPOS) community that has built and run the largest smart businesses in the blockchain ecosystem today - BitShares and Steem. With more than a billion dollars in market capitalization and more network activity than both Bitcoin and Ethereum combined, this community has begun pushing its innovations to the forefront of the space and are expanding the boundaries of what is capable.  
 EOS建立在DPOS社区的骨干网上，该社区今天已经在区块链生态上构建并运行着最大的智能业务 - BitShares和Steem。 这个社区有着超过10亿美元的市值，以及比比特币和以太坊网络总和更多的网络活动，社区已经开始将其创新推向了这个领域的前沿，并且扩大了能力的界限。  
 
