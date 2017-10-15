@@ -1,5 +1,4 @@
-#EOS - Unlocking true value through utility & social consensus
-EOS - 通过增强社会共识与实用性释放新的价值  
+# EOS - Unlocking true value through utility & social consensus  EOS - 通过增强社会共识与实用性释放新的价值  
 
 > 本文翻译自：https://steemit.com/eos/@Delamande/Unlocking true value through utility & social consensus 
 > 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) 
@@ -11,7 +10,7 @@ begins the process of rebuilding and massively upgrading the internet,
 the barriers (performance, censorship, utility) that currently prevent human beings from defining and expressing what they truly value,
 will be removed.
 
-当EOS正在打造去中心化应用（DAPP）最强的基础设施之时，一场重塑和大规模升级互联网的革命已然开始。现在当人们把自己定义为有价值的事物向区块链转移过程中
+EOS正在打造去中心化应用（DAPP）最强的基础设施，由此，一场重塑和大规模升级互联网的革命已然开始。现在当人们把自己定义为有价值的事物向区块链转移过程中
 遇到的障碍（如性能问题、共识机制、实用性等），也会被得以消除。
 
 With the removal of those barriers, aided by massive innovation and an explosive proliferation in the launch and diversity of decentralised applications (dapps,) 
