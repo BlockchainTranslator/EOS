@@ -62,3 +62,23 @@ This is not investment advice. All crypto related investments are extraordinaril
 always perform your own extensive due diligence.
 
 数字货币投资领域存在着极大的风险，此文不构成任何投资建议。投资有风险，入市需谨慎。
+
+----------------------------------------------------
+
+#### 区块链中文字幕组
+
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
+
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
+
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
+
+#### 本文译者简介
+
+范楷书 区块链技术爱好者，区块链项目与比特币价值投资者，EOS粉丝. 欢迎加微信号:FSK818
+
+#### 版权所有
+
+转载需完整注明以上内容。
+
+----------------------------------------------------
