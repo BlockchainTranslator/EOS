@@ -1,5 +1,5 @@
-#EOS - Unlocking true value through utility & social consensus
-EOS - 通过增强社会共识与实用性释放新的价值  
+# EOS - Unlocking true value through utility & social consensus
+  EOS - 通过增强社会共识与实用性释放新的价值  
 
 > 本文翻译自：https://steemit.com/eos/@Delamande/Unlocking true value through utility & social consensus 
 > 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) 
