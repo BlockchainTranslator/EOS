@@ -62,11 +62,15 @@ For any information on inviting speakers, additional material, or general enquir
 
 #### 本文译者简介
 
-胡亮 区块链技术爱好者
+林炜鑫 区块链技术爱好者
 
 #### 版权所有
 
 转载需完整注明以上内容。
 
 ----------------------------------------------------
+
+本文由币乎社区（bihu.com）内容支持计划赞助
+
+
 
