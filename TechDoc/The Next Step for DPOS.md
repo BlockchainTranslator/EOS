@@ -2,9 +2,9 @@ The next step for DPOS: Decentralized block producers（DPOS 的下一步: 区�
 --------------------------------------------------
 
 > 本文翻译自：(https://steemit.com/eos/@samupaha/the-next-step-for-dpos-decentralized-block-producers)
-> 
+>
 > 译者：区块链中文字幕组 [荆凯(shuke0327)] (https://github.com/shuke0327)
-> 
+>
 > 翻译时间：2017-10-14
 
 ---------------------------
@@ -181,3 +181,23 @@ Hopefully, there will be lots of different governance models tried for DBPs. Ove
 If we think block producers as "mining pools" instead of single entities, we can achieve an additional layer in the decentralization of DPOS. This will create several benefits for the ecosystem.
 
 如果我们将区块生产者视作“矿池”，而不是单个的实体，我们会在 DPOS 的去中心化中得到一个附加层。这会为生态系统带来多种益处。
+
+----------------------------------------------------
+
+#### 区块链中文字幕组
+
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
+
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
+
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
+
+#### 本文译者简介
+
+荆凯(id: shuke0327) 程序员，区块链技术爱好者，自由主义者. 欢迎加微信号:shuke0327 或关注公众号: 增长之道
+
+#### 版权所有
+
+转载需完整注明以上内容。
+
+----------------------------------------------------

@@ -2,15 +2,15 @@ Introducing EOS.IO Application Stack--EOS.IO 应用程序栈
 ------------------------------------------------------
 
 > 本文翻译自：https://steemit.com/eos/@eosio/introducing-eos-io-application-stack
-> 
+>
 > 译者：区块链中文字幕组 [Xuming Meng](https://github.com/jonas-meng)
-> 
+>
 > 翻译时间：2017-10-11
 
 ---------------------------
 After three years of experience with BitShares and Steem, it has become abundantly clear that developing decentralized applications requires much more than a fast blockchain. It also requires infrastructure capable of offering a usable experience to millions of concurrent users. In the early days of steemit.com, users were expected to provide their own image hosting. This made the interface difficult to use and prone to broken images.
 
-在 BitShares 和 Steem 的三年经验之后，开发去中心化的应用程序需要的不仅仅是一个快速的区块链，它还需要能够为数百万并发用户提供可用体验的基础设施。在 steemit.com 的早期，用户期望提供自己的图像托管。这使得界面难以使用，容易出现图像破损。
+在 BitShares 和 Steem 的三年经验之后，开发去中心化的应用程序需要的不仅仅需要一个高速的区块链，它还需要能够为数百万并发用户提供可用体验的基础设施。在 steemit.com 的早期，用户期望提供自己(链上)的图像托管。这使得界面难以使用，容易出现图像破损。
 
 ![image](https://github.com/BlockchainTranslator/EOS/blob/master/TechDoc/pics/introducing-eos.io-application-stack.png)
 
@@ -36,24 +36,24 @@ EOS.IO Query Services--EOS.IO 查询服务
 -------------------------------------
 In addition to hosting files, block producers will be expected to run API nodes that are able to query the blockchain database state on behalf of applications. These APIs will likely be a combination of Graph QL and custom Web Assembly based queries. This makes it trivial for applications to get the information they need without having to run and maintain their own scalable hosting services.
 
-除了托管文件外，区块生产者还将运行能够代替应用程序去查询块链数据库状态的 API 节点。这些 API 可能是基于 Graph QL 和 Web 组件的查询的组合。这使得应用程序无需运行和维护自己的可扩展托管服务就可以获得所需的信息。
+除了托管文件外，区块生产者还将运行能够代理应用程序去查询区块链数据库状态的 API 节点。这些 API 可能是基于 Graph QL 和 自定义 Web 组件查询的组合。这使得应用程序无需运行和维护自己的可扩展托管服务就可以获得所需的信息。
 
 block.one will design and publish open source micro-services that block producers can deploy to map the blockchain database state into more traditional databases for the purpose of scaling read access, maintainability, and additional indexing. This software will facilitate application developers and block producers to build web applications that interact with traditional database APIs.
 
-block.one将设计和发布开源微服务，区块生产者可以部署该微服务将块链接数据库状态映射到更传统的数据库中，其目的是为了扩展读访问能力，可维护性和附加索引。该软件将帮助应用程序开发人员和区块生产者构建与传统数据库 API 进行交互的Web应用程序。
+block.one将设计和发布开源微服务，区块生产者可以部署该微服务将区块链接数据库状态映射到更传统的数据库中，其目的是为了扩展读访问能力，可维护性和附加索引。该软件将帮助应用程序开发人员和区块生产者构建与传统数据库 API 进行交互的Web应用程序。
 
 Resource Limits--资源限制
 ------------------------
 Applications consume bandwidth, computation, and storage both on the blockchain and for the interface. Block producers will necessarily have to rate limit access to prevent abuse. This is accomplished for file downloading and API queries the same way bandwidth and CPU time is measured for blockchain updates. Users who hold a small amount of native tokens in a staking contract should be able to have a reasonable level of free access to most applications.
 
-应用程序在区块链和接口上都占用带宽，计算和存储。区块生产者必须通过访问限制来防止滥用。对于文件下载和 API 查询的访问限制是通过和测量块链更新的带宽和CPU时间相同的方式来实现的。在合同中持有少量原生代币的用户应该具有对大多数应用程序免费访问的合理级别。
+应用程序在区块链和接口上都占用带宽，计算和存储。区块生产者必须通过访问限制来防止滥用。对于文件下载和 API 查询的访问限制是通过与测量区块链更新的带宽和CPU时间相同的方式来实现的。在股权合约中持有少量原生代币的用户应该在合理级别上享有对大多数应用程序免费访问的能力。
 
 The usage model will support balancing resource usage billing to either the individual users downloading the file or to the individual who uploaded it in the first place. This mirrors the model where websites pay to provide hosting but adds the flexibility of transparently moving the bill and rate limiting to the users who ultimately have control over their consumption. This is critical for bandwidth intensive applications like dtube.com .
 
-资源使用模型将支持在下载文件的个人用户和上传文件的用户之间平衡资源使用量的费用。这个模式复制了网站付费提供托管的模式，但增加了将账单和利率限制透明地转移到控制消费的用户的灵活性。这对于像 dtube.com 这样的带宽密集型应用程序至关重要。
+资源使用模型将支持在下载文件的个人用户和上传文件的用户之间平衡资源使用量的费用。这个模式复制了网站付费提供托管的模式，但增加了将账单和资源限制透明地转移到控制消费的用户的灵活性。这对于像 dtube.com 这样的带宽密集型应用程序至关重要。
 
 Custom Application Infrastructure--定制应用基础架构
 ------------------------------------------------
 block.one recognizes that there are limits to what kind of applications can be built using the general purpose infrastructure provided by block producers. Specifically, applications that require server-side rendering (e.g., steemit) or that require custom database indices maintained by custom micro-services (e.g., market history) may require custom server infrastructure hosted by the application developer or other parties. Developers of these applications can benefit from the same scalable architecture used by block producers to deploy their own customized API and Query Services. This will help developers rapidly bring scalable application infrastructure to market.
 
-block.one 认识到在区块生成者提供的通用基础架构上构建应用程序的局限性。具体来说，需要服务端呈现（如，steemit）或需要由定制微服务维护的自定义数据库索引（例如，市场历史）的应用程序可能需要由应用程序开发人员或其他方托管的定制服务器基础架构。这些应用程序的开发人员可以从被区块生产者用来部署自己的定制 API 查询服务的相同的可扩展架构中获益。这将有助于开发人员将可扩展应用程序基础架构带入市场
+block.one 认识到在区块生成者提供的通用基础架构上构建应用程序的局限性。具体来说，需要服务端渲染（如，steemit）或需要由定制微服务维护的自定义数据库索引（例如，市场历史）的应用程序可能需要由应用程序开发人员或其他托管方来定制服务器基础架构。这些应用程序的开发人员可以从被区块生产者用来部署自己的定制 API 查询服务的相同的可扩展架构中获益。这将有助于开发人员快速地将可扩展应用程序基础架构推向市场。

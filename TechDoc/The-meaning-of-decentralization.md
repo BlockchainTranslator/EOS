@@ -252,3 +252,19 @@ Clear norms about what the fundamental properties that the protocol is supposed 
 This third kind of decentralization, decentralization as undesired-coordination-avoidance, is thus perhaps the most difficult to achieve, and tradeoffs are unavoidable. Perhaps the best solution may be to rely heavily on the one group that is guaranteed to be fairly decentralized: the protocol’s users.
 
 这第三种去中心化， 避免有害协调，也最难达到，权衡是不可避免的。也许最好的解决方案可能是, 依赖一个保证相当分散的群体: 协议的用户。
+
+----------------------------------------------------
+
+#### 区块链中文字幕组
+
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
+
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
+
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
+
+#### 版权所有
+
+转载需完整注明以上内容。
+
+----------------------------------------------------
