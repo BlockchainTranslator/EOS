@@ -80,10 +80,6 @@ Thanks to Scott Nolan, Joey Krug, and Dan Romero for conversations which lead to
 
 [点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
 
-#### 本文译者简介
-
-AMY REN 区块连爱好者，公众号“区块连学习笔记”建立者，欢迎加微信：Amyrenlin
-
 #### 版权所有
 
 转载需完整注明以上内容。
