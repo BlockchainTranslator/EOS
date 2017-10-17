@@ -1,12 +1,11 @@
 
+# How Is EOS different from everything else?  EOS与其他区块链平台有什么不同？  
+
 >原文链接：<https://steemit.com/eos/@eosio/how-is-eos-different-from-everything-else>
 >
->翻译：区块链中文字幕组 - [张奎](https://github.com/byzhangkui)
+>翻译：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS)  [张奎](https://github.com/byzhangkui)
 >
 > 翻译时间：2017-10-15
-
-# How Is EOS different from everything else?  
-# EOS与其他区块链平台有什么不同？  
 
 Hi Everyone,  
 大家好，  
@@ -55,3 +54,20 @@ More information coming this week.
 敬请期待本周更多的信息。  
 
 block.one  
+
+#### 区块链中文字幕组
+
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
+
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
+
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
+
+#### 本文译者简介
+
+张奎 区块链技术爱好者，热衷于区块链业务创新研究与分析，欢迎加微信号:tongxwl
+
+本文由币乎社区（bihu.com）内容支持计划赞助。
+
+版权所有，转载需完整注明以上内容。
+
