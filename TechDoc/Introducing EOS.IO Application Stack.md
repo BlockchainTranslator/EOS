@@ -3,7 +3,7 @@ Introducing EOS.IO Application Stack--EOS.IO 应用程序栈
 
 > 本文翻译自：https://steemit.com/eos/@eosio/introducing-eos-io-application-stack
 >
-> 译者：区块链中文字幕组 [Xuming Meng](https://github.com/jonas-meng)
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS)  [Xuming Meng](https://github.com/jonas-meng)
 >
 > 翻译时间：2017-10-11
 
@@ -57,3 +57,23 @@ Custom Application Infrastructure--定制应用基础架构
 block.one recognizes that there are limits to what kind of applications can be built using the general purpose infrastructure provided by block producers. Specifically, applications that require server-side rendering (e.g., steemit) or that require custom database indices maintained by custom micro-services (e.g., market history) may require custom server infrastructure hosted by the application developer or other parties. Developers of these applications can benefit from the same scalable architecture used by block producers to deploy their own customized API and Query Services. This will help developers rapidly bring scalable application infrastructure to market.
 
 block.one 认识到在区块生成者提供的通用基础架构上构建应用程序的局限性。具体来说，需要服务端渲染（如，steemit）或需要由定制微服务维护的自定义数据库索引（例如，市场历史）的应用程序可能需要由应用程序开发人员或其他托管方来定制服务器基础架构。这些应用程序的开发人员可以从被区块生产者用来部署自己的定制 API 查询服务的相同的可扩展架构中获益。这将有助于开发人员快速地将可扩展应用程序基础架构推向市场。
+
+----------------------------------------------------
+
+#### 区块链中文字幕组
+
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
+
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
+
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
+
+#### 本文译者简介
+
+抖抖，在读博士，专注区块链技术研究与行业分析，欢迎加微信号:jonas-meng
+
+本文由币乎社区（bihu.com）内容支持计划赞助。
+
+版权所有，转载需完整注明以上内容。
+
+----------------------------------------------------

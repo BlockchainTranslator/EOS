@@ -1,10 +1,10 @@
-The next step for DPOS: Decentralized block producers（DPOS 的下一步: 区块生产者的去中心化）
+The next step for DPOS: Decentralized block producers  DPOS 的下一步: 区块生产者的去中心化
 --------------------------------------------------
 
-> 本文翻译自：(https://steemit.com/eos/@samupaha/the-next-step-for-dpos-decentralized-block-producers)
->
-> 译者：区块链中文字幕组 [荆凯(shuke0327)] (https://github.com/shuke0327)
->
+> 本文翻译自：https://steemit.com/eos/@samupaha/the-next-step-for-dpos-decentralized-block-producers
+> 
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS)  [荆凯](https://github.com/shuke0327)
+> 
 > 翻译时间：2017-10-14
 
 ---------------------------
@@ -194,10 +194,10 @@ If we think block producers as "mining pools" instead of single entities, we can
 
 #### 本文译者简介
 
-荆凯(id: shuke0327) 程序员，区块链技术爱好者，自由主义者. 欢迎加微信号:shuke0327 或关注公众号: 增长之道
+荆凯，程序员，坚信区块链将会改变潮水的方向。欢迎加微信: shuke0327，或者关注公众号: 增长之道
 
-#### 版权所有
+本文由币乎社区（bihu.com）内容支持计划赞助。
 
-转载需完整注明以上内容。
+版权所有，转载需完整注明以上内容。
 
 ----------------------------------------------------

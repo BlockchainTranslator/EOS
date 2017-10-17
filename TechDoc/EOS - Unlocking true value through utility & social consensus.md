@@ -1,8 +1,8 @@
 # EOS - Unlocking true value through utility & social consensus  EOS - 通过增强社会共识与实用性释放新的价值  
 
-> 本文翻译自： https://steemit.com/eos/@benjojo/eos-unlocking-true-value-through-utility-and-social-consensus
-
-> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) 
+> 本文翻译自：https://steemit.com/eos/@benjojo/eos-unlocking-true-value-through-utility-and-social-consensus
+> 
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS)  [楷书](https://github.com/van888888/EOS)
 > 
 > 翻译时间：2017-10-14
 
@@ -81,8 +81,8 @@ always perform your own extensive due diligence.
 
 范楷书 区块链技术爱好者，区块链项目与比特币价值投资者，EOS粉丝. 欢迎加微信号:FSK818
 
-#### 版权所有
+本文由币乎社区（bihu.com）内容支持计划赞助。
 
-转载需完整注明以上内容。
+版权所有，转载需完整注明以上内容。
 
 ----------------------------------------------------
