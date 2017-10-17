@@ -101,7 +101,8 @@ Zooming out a bit, the future of decentralized exchange is mind boggling. The nu
 本文由币乎社区（bihu.com）内容支持计划赞助。
 
 #### 本文译者简介
-茶猫 产品经理，区块链技术爱好者，致力于区块链产品分析，欢迎添加微信公众号：比特知道
+茶猫 产品经理，区块链技术爱好者，致力于区块链产品分析，欢迎添加微信公众号：bitzhidao
 
-#### 版权所有
-转载需完整注明以上内容
+本文由币乎社区（bihu.com）内容支持计划赞助。
+
+版权所有，转载需完整注明以上内容。
