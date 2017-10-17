@@ -1,9 +1,12 @@
-10 reasons to buy EOS tokens right now
-===
-现在购买EOS的十大理由
-===
+# 10 reasons to buy EOS tokens right now 现在购买EOS的十大理由
 
-来源： https://medium.com/@yobanjo/10-reasons-to-buy-eos-tokens-right-now-3a4fa8015c14
+> 本文翻译自：https://medium.com/@yobanjo/10-reasons-to-buy-eos-tokens-right-now-3a4fa8015c14
+>
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [oscnet](https://github.com/BlockchainTranslator/EOS)
+>
+> 翻译时间：2017-10-16
+
+===
 
 EOS caused quite some stir when Dan Larimer gave his presentation a few months ago. The project is said to “deliver on the promises of Ethereum” which means that almost everything is possible using a blockchain. Make sure to read my first [EOS article](https://medium.com/@yobanjo/eos-is-nailing-it-almost-100-aafa3f6410f5) which explains some of the benefits of EOS over other smart-contract systems. But for now let’s jump to the top 10 reasons to be long on the EOS token.
 
@@ -106,3 +109,25 @@ Disclosure: I own EOS for the long term.
 
 
 披露：本人长期持有EOS。
+
+
+----------------------------------------------------
+
+#### 区块链中文字幕组
+
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
+
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
+
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
+
+#### 本文译者简介
+
+鱼 区块链技术爱好者，热衷于区块链业务创新研究与分析，欢迎加微信号:oscnet
+
+#### 版权所有
+
+转载需完整注明以上内容。
+
+----------------------------------------------------
+
