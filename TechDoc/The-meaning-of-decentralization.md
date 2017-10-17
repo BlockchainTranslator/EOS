@@ -1,9 +1,8 @@
-# The Meaning of Decentralization
-# 去中心化的含义
+# The Meaning of Decentralization   去中心化的含义
 
 > 本文翻译自：https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274
 > 
-> 译者：[区块链中文字幕组 小丹](https://github.com/zhuangjun)
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [小丹](https://github.com/zhuangjun)
 > 
 > 翻译时间：2017-10-12
 
@@ -263,8 +262,12 @@ This third kind of decentralization, decentralization as undesired-coordination-
 
 [点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
 
-#### 版权所有
+#### 本文译者简介
 
-转载需完整注明以上内容。
+何德林 区块链技术爱好者，热衷于区块链业务创新研究与分析，欢迎加微信号:tongxwl
+
+本文由币乎社区（bihu.com）内容支持计划赞助。
+
+版权所有，转载需完整注明以上内容。
 
 ----------------------------------------------------
