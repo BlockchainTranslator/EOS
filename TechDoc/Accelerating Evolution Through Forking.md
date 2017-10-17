@@ -2,7 +2,7 @@
 
 > 本文翻译自：https://medium.com/@FEhrsam/accelerating-evolution-through-forking-6b0bba85a2ba
 > 
-> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [龙心小台](https://github.com/BlockchainTranslator/EOS)
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [龙心小台](https://github.com/xnylong/EOS)
 > 
 > 翻译时间：2017-10-14
 
@@ -80,12 +80,8 @@ Thanks to Scott Nolan, Joey Krug, and Dan Romero for conversations which lead to
 
 [点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
 
-#### 本文译者简介
+本文由币乎社区（bihu.com）内容支持计划赞助。
 
-AMY REN 区块连爱好者，公众号“区块连学习笔记”建立者，欢迎加微信：Amyrenlin
-
-#### 版权所有
-
-转载需完整注明以上内容。
+版权所有，转载需完整注明以上内容。
 
 ----------------------------------------------------
