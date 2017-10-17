@@ -3,7 +3,7 @@ Introducing EOS.IO Application Stack--EOS.IO 应用程序栈
 
 > 本文翻译自：https://steemit.com/eos/@eosio/introducing-eos-io-application-stack
 >
-> 译者：区块链中文字幕组 [Xuming Meng](https://github.com/jonas-meng)
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS)  [Xuming Meng](https://github.com/jonas-meng)
 >
 > 翻译时间：2017-10-11
 
