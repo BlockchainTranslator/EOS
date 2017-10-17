@@ -194,7 +194,7 @@ If we think block producers as "mining pools" instead of single entities, we can
 
 #### 本文译者简介
 
-何德林 区块链技术爱好者，热衷于区块链业务创新研究与分析，欢迎加微信号:tongxwl
+荆凯，程序员，坚信区块链将会改变潮水的方向。欢迎加微信: shuke0327，或者关注公众号: 增长之道
 
 本文由币乎社区（bihu.com）内容支持计划赞助。
 
