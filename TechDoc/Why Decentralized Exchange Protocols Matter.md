@@ -1,10 +1,12 @@
+
+# Why Decentralized Exchange Protocols Matter 为什么去中心化的交易协议是至关重要
+
 > 本文翻译自：https://medium.com/@FEhrsam/why-decentralized-exchange-protocols-matter-58fb5e08b320
 
->译者：区块链字幕组 茶猫
+>译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [茶猫](https://github.com/BlockchainTranslator/EOS)
 
 >翻译时间：2017-10-14
 >
-
 
 Decentralized exchange is early today but feels like it will be essential in a few years.
 
@@ -93,13 +95,13 @@ Zooming out a bit, the future of decentralized exchange is mind boggling. The nu
 
 作者：Fred Ehrsam 
 
-##### 区块链中文字幕组
+#### 区块链中文字幕组
 致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
 如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号：w1791520555
 本文由币乎社区（bihu.com）内容支持计划赞助。
 
-##### 本文译者简介
+#### 本文译者简介
 茶猫 产品经理，区块链技术爱好者，致力于区块链产品分析。
 
-##### 版权所有
+#### 版权所有
 转载需完整注明以上内容
