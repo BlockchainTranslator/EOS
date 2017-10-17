@@ -2,7 +2,7 @@
 
 > 本文翻译自：https://medium.com/@yobanjo/10-reasons-to-buy-eos-tokens-right-now-3a4fa8015c14
 >
-> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [oscnet](https://github.com/BlockchainTranslator/EOS)
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [鱼](https://github.com/oscnet)
 >
 > 翻译时间：2017-10-16
 
@@ -108,7 +108,6 @@ Disclosure: I own EOS for the long term.
 
 披露：本人长期持有EOS。
 
-
 ----------------------------------------------------
 
 #### 区块链中文字幕组
@@ -123,9 +122,9 @@ Disclosure: I own EOS for the long term.
 
 鱼 区块链技术爱好者，热衷于区块链业务创新研究与分析，欢迎加微信号:oscnet
 
-#### 版权所有
+本文由币乎社区（bihu.com）内容支持计划赞助。
 
-转载需完整注明以上内容。
+版权所有，转载需完整注明以上内容。
 
 ----------------------------------------------------
 
