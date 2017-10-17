@@ -55,8 +55,8 @@ It’s important to note there’s always an additional risk with new design cho
  
 AMY REN 区块连爱好者，公众号“区块连学习笔记”建立者，欢迎加微信：Amyrenlin
  
-#### 版权所有
- 
-转载需完整注明以上内容。
+本文由币乎社区（bihu.com）内容支持计划赞助。
+
+版权所有，转载需完整注明以上内容。
  
  -----------------------------------------------------
