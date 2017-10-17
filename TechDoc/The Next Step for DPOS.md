@@ -3,7 +3,7 @@ The next step for DPOS: Decentralized block producers  DPOS 的下一步: 区块
 
 > 本文翻译自：https://steemit.com/eos/@samupaha/the-next-step-for-dpos-decentralized-block-producers
 > 
-> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS)  [荆凯(shuke0327)]  (https://github.com/shuke0327)
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS)  [荆凯](https://github.com/shuke0327)
 > 
 > 翻译时间：2017-10-14
 
