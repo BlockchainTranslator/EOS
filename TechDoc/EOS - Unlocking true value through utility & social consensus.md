@@ -2,7 +2,7 @@
 
 > 本文翻译自：https://steemit.com/eos/@benjojo/eos-unlocking-true-value-through-utility-and-social-consensus
 
-> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS)  []()
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS)  [楷书](https://github.com/van888888/EOS)
 > 
 > 翻译时间：2017-10-14
 
