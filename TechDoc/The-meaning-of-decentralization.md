@@ -264,7 +264,7 @@ This third kind of decentralization, decentralization as undesired-coordination-
 
 #### 本文译者简介
 
-何德林 区块链技术爱好者，热衷于区块链业务创新研究与分析，欢迎加微信号:tongxwl
+小丹 区块链技术爱好者  热衷于区块链底层技术研究 ， 欢迎加微信号 zhuangjun0606
 
 本文由币乎社区（bihu.com）内容支持计划赞助。
 
