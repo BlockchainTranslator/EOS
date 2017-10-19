@@ -86,7 +86,7 @@ In coming together in a UTXO state machine, an unknown number of people want to 
 
 A messaging flow can handle this conundrum easily. If the blockchain intermediator (the miner in a PoW design, or the producer in DPOS) receives a steady series of messages for bids and offers, he simply collects them up in order and hands them to the “book contract” which internally constructs the book, decides on the swap price, and sends new messages out confirming the contract’s outcome.
 
-![Figure 6 - the Red Pill Trading Book of Messages.png](https://steemitimages.com/DQmNzTscBAsyDuG1p4wPdg4TbzhpuvPDzttjDyxcVHcCKcv/Figure%206%20-%20the%20Red%20Pill%20Trading%20Book%20of%20Messages.png)
+![Figure 6 - the Red Pill Trading Book of Messages.png](![Figure 6 - the Red Pill Trading Book of Messages.png](https://steemitimages.com/0x0/https://steemitimages.com/DQmNzTscBAsyDuG1p4wPdg4TbzhpuvPDzttjDyxcVHcCKcv/Figure%206%20-%20the%20Red%20Pill%20Trading%20Book%20of%20Messages.png)
 
 The messages are logged, but the state (e.g., UTXO) is implied, which means it is constructed by the computer internally, and then (can be) thrown away. As long as the blockchain has decided on the strict set of messages - both which messages and in what order - the result is deterministic because every other node runs the same contract for each set of the same input messages, and concurs on the output messages.
 
