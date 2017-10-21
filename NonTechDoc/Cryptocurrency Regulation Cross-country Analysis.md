@@ -1,4 +1,4 @@
-# Cryptocurrency Regulation Cross-country Analysis  
+# Cryptocurrency Regulation Cross-Country Analysis  
 # 加密货币监管 -- 跨国分析
 
 > 本文翻译自：https://medium.com/blackmoon-crypto/cryptocurrency-regulation-cross-country-analysis-67452f1df80e
