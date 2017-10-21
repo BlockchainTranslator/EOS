@@ -1,6 +1,5 @@
 # The Future of Enigma and Data | Enigma和数据的未来
-###### Our deepest exploration yet of where Enigma is going
-###### Enigma迄今为止最深度的解读
+###### Our deepest exploration yet of where Enigma is going | Enigma迄今为止最深度的解读
 
 > 本文翻译自：https://blog.enigma.co/the-future-of-enigma-and-data-d5fb6ce450af
 >
@@ -10,29 +9,29 @@
 
 Hello from the Enigma team! With our ENG token distribution taking place tomorrow, October 11, we are taking a moment to reflect on Enigma and Catalyst — both where we are currently and where we are going.
 
-大家好，这是来自Enigma团队的问候! 我们的ENG代币将在10月11日发售，值此时机让我们来花点时间谈谈 Enigma 和 Catalyst 目前的近况以及我们的目标。
+大家好，这是来自Enigma团队的问候! 我们的 ENG 代币将在10月11日发售，值此时机让我们来花点时间谈谈 Enigma 和 Catalyst 目前的近况以及我们的目标。
 
 As you’ll read below, we have already accomplished a great deal and in some cases (as with Catalyst development) exceeded our own expectations. However, we know that we stand at the beginning of a long journey alongside our users, partners, and contributors, and we’re excited to share a bit more about our vision with you. This post will be our most thorough explanation yet of the importance and scale of the Enigma protocol, our protocol roadmap, the long-term functionality of the ENG token, and our vision for Catalyst on Enigma.
 
-正如你即将在下文了解到的，我们已经完成了大量的工作，同时在项目的某些部分(例如 Catalyst 的开发)已超出了我们的预期。然而我们深知，对于将长期同我们的用户、合作伙伴以及支持者一起为这个项目的成功去努力而言，这仅仅只是一个开始。能与你分享我们更多的见解，我们感到十分兴奋。这篇文章将是我们至今为止对 Engima 项目做的最为透彻的解释，包括 Enigma 协议重要性和范围、我们协议的路线图、ENG 代币的长期功能以及我们对基于 Enigma 协议的 Catalyst 项目的展望。
+正如你即将在下文了解到的，我们已经完成了大量的工作，同时在项目的某些部分(例如 Catalyst 的开发)已超出了我们的预期。然而我们深知，对于将长期同我们的用户、合作伙伴以及支持者一起为这个项目的成功去努力而言，这仅仅只是一个开始。能与你分享我们更多的见解，我们感到十分兴奋。这篇文章将是我们至今为止对 Engima 项目做的最为透彻的介绍，包括 Enigma 协议重要性和范围、我们协议的路线图、ENG 代币的长期功能以及我们对基于 Enigma 协议的 Catalyst 项目的展望。
 
 __Enigma’s [primary aim](https://www.enigma.co/enigma_full.pdf) is to revolutionize the way data is shared, aggregated and monetized__ through the Enigma decentralized data marketplace protocol and the utility token for the Enigma protocol, ENG. While blockchains are a form of a decentralized database, their biggest flaws are scalability and privacy. Enigma seeks to enable the scalability of blockchains by providing a complementary off-chain data network, where larger quantities of information can be securely shared and processed without incurring severe on-chain costs. As the decentralized web continues to scale, our protocol will provide a necessary second-layer network that can handle more data, faster, and with better privacy features. We believe this is the missing piece necessary for mass adoption of decentralized applications.
 
-__Enigma[最主要的目标](https://www.enigma.co/enigma_full.pdf)就是通过去中心化数据市场和协议中的 ENG 代币去变革数据分享，聚合以及货币化的方式。__虽然区块链是一种形式的去中心化数据库，但是其最大的缺陷是可扩展性和隐私性。Enigma旨在通过提供一个配套的 off-chain 数据网络来实现, 从而更大量的信息可以在不产生大量 on-chain 交易费用的前提下被安全的共享和处理。随着去中心化网络的不断扩展，我们的协议将提供不可或缺的第二层网络，它可以帮助处理更多的数据，更快速，并且拥有更好的隐私特性。我们相信这是大量去中心化应用所必需而又缺失的部分。
+__Enigma[最主要的目标](https://www.enigma.co/enigma_full.pdf)就是通过去中心化数据市场和协议中的 ENG 代币去变革数据分享，聚合以及货币化的方式__。虽然区块链是一种形式的去中心化数据库，但是其最大的缺陷是可扩展性和隐私性。Enigma 旨在通过提供一个配套的 off-chain 数据网络来实现, 从而更大量的信息可以在不产生大量 on-chain 交易费用的前提下被安全的共享和处理。随着去中心化网络的不断扩展，我们的协议将提供不可或缺的第二层网络，它可以帮助处理更多的数据，更快速，并且拥有更好的隐私特性。我们相信这是大量去中心化应用所必需而目前又缺失的部分。
 
 As we shall explain, this is an ambitious vision that rivals the scale of large projects like Ethereum and Filecoin while complementing their functionality. In addition to our data protocol, we are building products (such as Catalyst) that will democratize the tools for interacting with and consuming data. As you’ll read below, on our data marketplace and in all products built on the protocol, the ENG token is the key to the network.
 
-正如我们将要解释的，这是一个雄心勃勃的愿景，与以太坊和星际网络等大型项目的规模相媲美，同时补足它们的不足。除了我们的数据协议外，我们正在构建很多产品(像 Catalyst ),  使得交互和使用数据的工具民主化。正如你将了解到的，在我们的数据市场和所有基于该协议构建的产品中，ENG 代币在网络中扮演者很关键的角色。
+正如我们将要解释的，这是一个雄心勃勃的愿景，可与以太坊和星际网络等大型项目的规模相媲美，同时补足它们的不足。除了我们的数据协议外，我们正在构建很多产品(像 Catalyst ),  使得交互和使用数据的工具民主化。正如你将了解到的，在我们的数据市场和所有基于该协议构建的产品中，ENG 代币在网络中扮演者很关键的角色。
 
 ## Where We Are | 我们现在的情况
 
 Today Enigma is better positioned to achieve our long-term vision than ever. [We successfully completed our ENG token sale](https://blog.enigma.co/thank-you-from-enigma-8bebe101b535), raising our full hard cap of $45 million within hours. Out of over 40,000 interested contributors, we accepted contributions from over 5,000 individuals. We have built a community of tens of thousands of Enigma supporters, and our product Catalyst has over 15,000 users. With this sound financial standing and broad support and engagement from our community, partners and investors, we are very optimistic about the potential of Enigma.
 
-今天Enigma比以往任何时候都更有能力实现我们的长期愿景。 [我们成功的完成了我们ENG代币的销售](https://blog.enigma.co/thank-you-from-enigma-8bebe101b535)， 几个小时之内达到了4500万美元的硬顶。在超过40000名有兴趣的参与者中，我们接受了其中5000人的贡献。 我们建立了数以万计人参与的 Enigma 支持者社区，我们的产品 Catalyst 已经超过15000名用户。凭借着健全的财务状况、董事会的支持以及我们的社区、合作伙伴和投资者的踊跃参与， 我们对Enigma的潜力非常乐观。
+今天 Enigma 比以往任何时候都更有能力实现我们的长期愿景。 [我们成功的完成了我们ENG代币的销售](https://blog.enigma.co/thank-you-from-enigma-8bebe101b535)， 几个小时之内达到了4500万美元的硬顶。在超过40000名有兴趣的参与者中，我们接受了其中5000人的贡献。 我们建立了数以万计人参与的 Enigma 支持者社区，我们的产品 Catalyst 已经超过15000名用户。凭借着健全的财务状况、董事会的支持以及我们的社区、合作伙伴和投资者的踊跃参与，我们对 Enigma 的潜力非常乐观。
 
 However, optimism is nothing without execution. We have prioritized having a tangible product that serves a strong use case for the community from day one, and Catalyst has been available in alpha for months. Excitingly, __we are well ahead of our initial development schedule for Catalyst.__ Many of the features scheduled for Q1 2018 are already available: we have released [live trading](https://blog.enigma.co/enigma-catalyst-live-trading-released-1cf056762065) capabilities and [minute-level data granularity](https://blog.enigma.co/catalyst-down-to-the-minute-ca3e44b1faad), and we are also finalizing the integration of our backtesting engine with our live trading engine. This week we are adding the ability to see [the availability of data on Catalyst in real-time](https://blog.enigma.co/the-wild-west-of-crypto-the-lack-of-standards-and-what-to-do-about-it-1f6860f88656). Our continued strong execution will show that we are well-equipped to achieve our goals in this fast-moving and evolving space.
 
-不过，乐观是没有执行力的。我们从第一天起就重点考虑为社区提供一个真正有用的产品，为此 Catalyst 的 Alpha 版本已经运行了数月了。令人兴奋的是__我们远远超过了我们当初制定的 Catalyst 开发时间表__。很多安排在2018年第一季度的功能已经完成供使用：我们已经发布了[实时交易](https://blog.enigma.co/enigma-catalyst-live-trading-released-1cf056762065)功能和[分钟级别的数据粒度](https://blog.enigma.co/catalyst-down-to-the-minute-ca3e44b1faad)，我们也正在完成我们的回测引擎和我们实时交易引擎的整合。本周我们正在增加[]实时监测 Catalyst 数据可用性](https://blog.enigma.co/the-wild-west-of-crypto-the-lack-of-standards-and-what-to-do-about-it-1f6860f88656)的功能。我们持续和强大的执行力将表明我们有能力在这个快速进步和变革的时代漂亮的完成我们的目标。
+不过，乐观是没有执行力的。我们从第一天起就重点考虑为社区提供一个真正有用的产品，为此 Catalyst 的 Alpha 版本已经运行了数月了。令人兴奋的是__我们远远超过了我们当初制定的 Catalyst 开发时间表。__很多安排在2018年第一季度的功能已经完成可供使用：我们已经发布了[实时交易](https://blog.enigma.co/enigma-catalyst-live-trading-released-1cf056762065)功能和[分钟级别的数据粒度](https://blog.enigma.co/catalyst-down-to-the-minute-ca3e44b1faad)，我们也正在完成对我们的回测引擎和我们实时交易引擎的整合。本周我们正在增加[实时监测 Catalyst 数据可用性](https://blog.enigma.co/the-wild-west-of-crypto-the-lack-of-standards-and-what-to-do-about-it-1f6860f88656)的功能。我们持续和强大的执行力将表明我们有能力在这个快速进步和变革的时代漂亮的完成我们的目标。
 
 Our priorities for the immediate future remain developing our product and protocol, but equally important is the development of strong partnerships inside and outside the crypto space. We are proud to be a member of [MIT’s STEX25](https://blog.enigma.co/enigma-part-of-mit-stex25-652e0580ee1f), a startup accelerator focused on fostering collaboration between MIT-connected startups and member companies of MIT’s Industrial Liaison Program (ILP). We will stay in constant communication with our community as we form new partnerships and relationships.
 
@@ -164,7 +163,8 @@ The Enigma Team | Enigma 团队
 
 #### 本文译者简介
 
-胖哥Ricky 区块链技术爱好者，资深技术达人，开设技术性关于区块链公众号：__胖哥说币__ 
+胖哥Ricky 区块链技术爱好者，资深技术达人，开设技术性关于区块链公众号：__胖哥说币__
+
 以非典型技术男的角度分享技术性币圈观点。
 
 本文由币乎社区（bihu.com）内容支持计划赞助。
