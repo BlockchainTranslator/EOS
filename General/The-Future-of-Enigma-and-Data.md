@@ -69,7 +69,7 @@ We’ve chosen to capture our milestones in phases to allow us to reasonably det
 
 __Phase 1__ deals primarily with setting the foundation for a data marketplace. It includes the on-chain portion, dealing with contextual information about data-sets, namespaces, and subscriptions. These contracts will be developed in Ethereum, and will operate directly with Enigma tokens (ENG). At this point, all data-sets will be provided off-chain by one or several data providers, but there will be no network logic connecting these (yet).
 
-__第一阶段__ 主要处理数据市场的基础架构。该阶段包括实现 on-chain 部分来处理数据集、命名空间和订阅的相关上下文信息。这些合约将基于以太坊开发，同时将直接使用Enigma代币ENG来进行操作。在那时，所有的数据集将由一个或多个数据供给者以 off-chain 的方式来提供，但是没有实现连接他们的网络逻辑。
+__第一阶段__ 主要处理数据市场的基础架构。该阶段包括实现 on-chain 部分来处理数据集、命名空间和订阅的相关上下文信息。这些合约将基于以太坊开发，同时将直接使用 Enigma 代币 ENG 来进行操作。在那时，所有的数据集将由一个或多个数据供给者以 off-chain 的方式来提供，但是没有实现连接他们的网络逻辑。
 
 __Phase 2__ includes the first implementation of an off-chain network, which will run on a federated network of known nodes (a-la sidechains). This could also be considered the MVP of the Enigma protocol — one that operates under a restricted threat model.
 
@@ -77,7 +77,7 @@ __第二阶段__ 包括 off-chain 网络的第一个实现，它将运行在已�
 
 __Phase 3__ is where things get really interesting, and we launch our open off-chain network where anyone can become a node and provide storage and computational resources in return for ENG tokens. __Note that there will never be additional tokens created__ — incentives are derived solely from fees, and from the incentive pool reserved by Enigma at the birth of our token tomorrow. Finally, __Phase 4__ is where we introduce important privacy features for protecting data in the network. This would allow extending the usability of our data protocol to practically all kinds of data streams, including those that include personally identifiable information (PII).
 
-__第三阶段__ 是项目将变得非常的有趣，我们将启动我们的开放 off-chain 网络，任何人都能成为节点并提供存储和计算资源来赚取 ENG 代币。__需要说明的是代币用不增发—— 奖励完全来自于网络使用者支付的费用，__ 以及来自于 Enigma 明天分发中所预保留的奖励池。最后，__第四阶段__ 将致力于为保护网络中数据而引入的重要隐私特性。这将允许将数据协议的可用性扩展到几乎所有类型的数据流，包括包含个人身份信息(PII)的数据流。
+__第三阶段__ 是项目将变得非常的有趣，我们将启动我们的开放 off-chain 网络，任何人都能成为节点并提供存储和计算资源来赚取 ENG 代币。__需要说明的是代币永不增发—— 奖励完全来自于网络使用者支付的费用，__ 以及来自于 Enigma 明天分发中所预保留的奖励池。最后，__第四阶段__ 将致力于为保护网络中数据而引入的重要隐私特性。这将允许将数据协议的可用性扩展到几乎所有类型的数据流，包括包含个人身份信息(PII)的数据流。
 
 This is our vision for the future of the Enigma protocol. But in order to fully comprehend this vision, we must understand where Catalyst fits in as well.
 
@@ -95,11 +95,11 @@ As we mentioned above, Catalyst is the first product that will be implemented on
 
 2、Demonstrating our ability to execute. The Enigma team is committed to delivering on our long term vision, but we don’t ask our community to rely solely on promises. By making our project public-facing and immediately providing an open-source product for anyone to use, we hold ourselves accountable.
 
-2、展示我们的执行力。Enigma 团队致力于实现我们的长期愿景，但是我不主张我们的社区完全依靠承诺。通过让我们的项目面向公众以及将马上提供一个开源产品供任何人使用，我们要负起责任来。
+2、展示我们的执行力。Enigma 团队致力于实现我们的长期愿景，但是我不主张我们对社区完全只依靠承诺。通过让我们的项目面向公众以及将马上提供一个开源产品供任何人使用，我们要负起这方面责任来。
 
 3、Establishing and testing the Enigma protocol. In its alpha stages Catalyst’s data is built centrally, but as we develop our protocol we will migrate all Catalyst data to the Enigma network. Building and scaling Catalyst provides a powerful stress test for the Enigma protocol, ensuring that it can operate at scale.
 
-3、建立和测试 Enigma 协议。在 alpha 阶段，Catalyst的数据是中心化构建的， 但是我们将开发我们的协议，并将所有的 Catalyst 数据迁移到 Enigma 网络。构建和伸缩 Catalyst 对 Enigma 协议进行了一个强有力的压力测试， 保证协议能够在更大规模上运行。
+3、建立和测试 Enigma 协议。在 alpha 阶段，Catalyst 的数据是中心化构建的， 但是我们将开发我们的协议，并将所有的 Catalyst 数据迁移到 Enigma 网络。构建和伸缩 Catalyst 对 Enigma 协议进行了一个强有力的压力测试， 保证协议能够在更大规模上运行。
 
 To the first and second points above, we are well ahead of our initial roadmap for the Catalyst product. For example, we have released live trading four months in advance, currently supporting two exchanges and in the process of adding a third. We are also actively expanding the data sets available for consumption on Catalyst.
 
@@ -133,7 +133,7 @@ __尝试 Catalyst__.  Catalyst alpha版本已经在 [www.enigma.co/catalyst](htt
 
 __Join our community__. Our [Telegram](https://t.me/enigmacatalyst) community is over 7,500 members strong, and we have a new Discord channel of over 1,000 members. If you’d like to register for our Slack (12,000 users and home of our developer community), please message @thisistor on Telegram with your email address. Public Slack registrations are still currently closed. For further important Enigma announcements, follow this blog and our [Twitter](https://twitter.com/enigmampc).
 
-__加入我们的社区__。 我们的 [Telegram](https://t.me/enigmacatalyst) 社区已经超过了7500名成员， 同时我们有新的 Dicord 频道也吵过了1000人。如果你希望加入我们的 Slack(12000用户和我们开发者的聚集地)， 请在 Telegram 群发你的邮箱地址给 @thisistor 。 公共的 Slack 注册目前任然被关闭。 想关注之后的重要信息， 请关注这个博客和我们的[推特](https://twitter.com/enigmampc)。
+__加入我们的社区__。 我们的 [Telegram](https://t.me/enigmacatalyst) 社区已经超过了7500名成员， 同时我们有新的 Dicord 频道也吵过了1000人。如果你希望加入我们的 Slack(12000用户和我们开发者的聚集地)， 请在 Telegram 群发你的邮箱地址给 @thisistor 。 公开的 Slack 注册目前任然被关闭。 想关注之后的重要信息， 请关注这个博客和我们的[推特](https://twitter.com/enigmampc)。
 
 __Submit content__. If you are using Catalyst and are interested in writing about your experiences and learnings, we’d love to publish your work. We’ve published [some great articles](https://blog.enigma.co/markowitz-portfolio-optimization-for-cryptocurrencies-in-catalyst-b23c38652556) from community members previously, so please get in touch with @thisistor on Telegram if you’re interested.
 
