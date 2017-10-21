@@ -12,13 +12,13 @@ Probably you’ve already heard about EOS, a blockchain project of Steemit confo
 很可能你已经听说过一个Steemi创始人Dan Larimer刚创立的项目——EOS，并对它与其他区块链项目的不同之处表示疑惑。尤其是你想投资EOS的ICO或者在链上创立应用的话。最好的答案你能够在EOS的白皮书里找到，不过如果你还没有准备好阅读白皮书全文（大概47000字数），那么这篇摘要很适合你阅读。
 
 
-##Basic Characteristics 基本特征
+## Basic Characteristics 基本特征
 
 EOS is a blockchain in production meant to be an operating system for decentralized apps. It will be capable of supporting millions of users and is built for apps as big as Facebook, Uber, AirBnB, or Ebay. It will be free for end users with no transactions fees, unlike Bitcoin and Ethereum. It will be lightning fast and able to compete by performance with non-blockchain apps. It will be easy to upgrade and the upgrades won’t result in blockchain forks, again unlike it’s the case with Bitcoin and Ethereum.
 
 EOS是一个为了给分布式应用提供操作系统的区块链产品。它能够支持百万级用户并为类似Facebook, Uber, AirBnB, 或者 Ebay 这么大体量的应用程序提供操作系统。不同于比特币和以太坊，它将是免费提供给终端用户并且不收取交易费用。它将是闪电般的快速，并且能够通过与非区块链应用程序的性能竞争。与比特币和以太坊不同的是，它很容易升级并且它的升级不会导致区块链分叉。
 
-##Consensus 一致性
+## Consensus 一致性
 
 EOS software uses [Delegated Proof of Stake](https://steemit.com/dpos/@dantheman/dpos-consensus-algorithm-this-missing-white-paper) (DPOS) consensus algorithm as the only one capable to meet the the performance requirements. It means EOS token holders vote for block producers which don’t compete for blocks but rather cooperate.
 
@@ -28,7 +28,7 @@ In case of a software fork the longest chain branch will be chosen automatically
 
 面临软件分叉时，最长的链分支将会自动被选中，所以区块链分叉将不会分生。
 
-##Accounts 账户
+## Accounts 账户
 All EOS accounts have human readable names chosen by the account creator, like in Steem blockchain. There will be also namespaces like @user.domain available for @domain account owners.
 
 就像在Steem区块链中一样，所有EOS账户都是由账户创建者选择的人类可读的名字。同样的，这也会有名称空间像@@user.domain提供给@domain账户所有者。
@@ -42,7 +42,7 @@ Accounts and scripts can exchange messages and this is how smart contracts will 
 
 账户和脚本能够自动交换消息，这就是智能合约的定义。
 
-##Security 安全性
+## Security 安全性
 
 EOS implements sophisticated permission management and multi user control over funds which is the best defence against hacking.
 
@@ -52,7 +52,7 @@ Sensitive actions could have a mandatory delay defending account owners against 
 
 敏感的机制设计会有一个强制性的延迟，来保护账户所有者不受密钥盗窃的影响。即使密钥被盗，先进的帐户恢复也会提供保护。
 
-##Tokens 令牌
+## Tokens 令牌
 
 The EOS blockchain will be resource constrained. There are 3 types of resources in EOS — bandwidth and log storage, CPU, and RAM. Resources allocated to apps will be measured in tokens directly and so will be independent on token price volatility. Block producers will be paid in tokens and will spend these for better equipment increasing the network performance.
 
@@ -63,7 +63,7 @@ EOS区块链将会受到资源的限制。在EOS中有三种类型的资源—�
 
 用户将会投票选出3款社区福利应用程序，它们能够在新的年度中获得一定比例的令牌供应份额，这个比例将是5%。
 
-##Governance 治理
+## Governance 治理
 Governance is the process of reaching consensus in cases when no software algorithms can help.
 
 治理是指在没有软件算法能起效的情况下达成共识的过程。
@@ -80,15 +80,15 @@ The constitution and the EOS protocol can be updated if at least 17 of 21 block 
 
 如果21个区块开发者中，至少有17个在30天内保持对其的同意，则社区宪法和EOS协议将可以升级。接下来还需要30天的同意来部署这一改变。因此，非关键的修复需要1-2个月的时间，重要的软件分叉则大约需要2-3个月。紧急漏洞会被立刻修复。在不影响整个区块链的情况下，关键性应用程序将被冻结。
 
-##Thank you for reading! Feel free to share ideas and information related to EOS in comments!
+## Thank you for reading! Feel free to share ideas and information related to EOS in comments!
 
-##谢谢你的阅读！欢迎你在评论区自由地分享关于EOS的想法和资讯
-##Credits 感谢
+## 谢谢你的阅读！欢迎你在评论区自由地分享关于EOS的想法和资讯
+## Credits 感谢
 [Photo by paul morris](https://unsplash.com/photos/IHKBF23A_iw) on Unsplash
 
 图片是来自paul morris在Unsplash平台上发布
 
-##Related posts 相关文献
+## Related posts 相关文献
 [How to buy and claim EOS tokens: a step by step tutorial](https://steemit.com/eos/@vitkolesnik/how-to-buy-and-claim-eos-tokens-a-step-by-step-tutorial)
 
 ----------------------------------------------------
