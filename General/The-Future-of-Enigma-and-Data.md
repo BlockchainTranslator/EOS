@@ -35,7 +35,7 @@ However, optimism is nothing without execution. We have prioritized having a tan
 
 Our priorities for the immediate future remain developing our product and protocol, but equally important is the development of strong partnerships inside and outside the crypto space. We are proud to be a member of [MIT’s STEX25](https://blog.enigma.co/enigma-part-of-mit-stex25-652e0580ee1f), a startup accelerator focused on fostering collaboration between MIT-connected startups and member companies of MIT’s Industrial Liaison Program (ILP). We will stay in constant communication with our community as we form new partnerships and relationships.
 
-我们近期的工作重点仍然是开发我们的产品和协议，但同样重要的是在加密数字产业领域对内对外发展更强的合作伙伴关系。我们很骄傲的成为 [MIT STEX25](https://blog.enigma.co/enigma-part-of-mit-stex25-652e0580ee1f) 的成员，它是一个专注于建立MIT相关的创业项目和MIT产业合作计划成员公司合作的创业孵化器。当我们建立新的合作伙伴关系时，我们将持续与我们的社区进行沟通。
+我们近期的工作重点仍然是开发我们的产品和协议，但同样重要的是在加密数字产业领域对内对外发展更强的合作伙伴关系。我们很骄傲的成为 [MIT STEX25](https://blog.enigma.co/enigma-part-of-mit-stex25-652e0580ee1f) 的成员，它是一个专注于建立 MIT 相关的创业项目和 MIT 产业合作计划成员公司合作的创业孵化器。当我们建立新的合作伙伴关系时，我们将持续与我们的社区进行沟通。
 
 This next phase of growth is challenging and exciting, and we look forward to continuing to justify the support you’ve shown us. As you are our partners on our journey, we are excited to give you a closer look at Enigma’s and Catalyst’s future.
 
@@ -45,19 +45,19 @@ This next phase of growth is challenging and exciting, and we look forward to co
 
 The original narrative of the web is one of radical decentralization and freedom. During the last decade, the web’s incredible growth was coupled with increased centralization. Few large companies now own important junctures of the web, and consequently a lot of the data created on the web. Data is quickly becoming the most valuable digital asset, and is the backbone of every system. As discussed in our [Beyond Catalyst: Enigma’s Vision for the Future of Data](https://blog.enigma.co/beyond-catalyst-enigmas-vision-for-the-future-of-data-22fbb5845556) post, the only way to capture the value of all data on the web is by starting from scratch and coming up with a single, open-source protocol for permanently storing, sharing and processing of data. In other words, we need to build a data marketplace for the web, one that is unstoppable (and therefore decentralized), open and secure.
 
-网络最原始的解释是一种激进的权利下放和自由。在过去的十年中，网络难以置信的增长也伴随着中心化的增长。很少的几家大公司现在拥有着最关键的几个网络站点，而且大量的数据在网络上创造。数据正在迅速成为最有价值的数字资产，同时也是每一个系统的支柱。正如我们在 [Beyond Catalyst: Enigma’s Vision for the Future of Data](https://blog.enigma.co/beyond-catalyst-enigmas-vision-for-the-future-of-data-22fbb5845556) 文章中讨论的，获取所有数据价值唯一的方法就是构建一个用于数据永久存储、共享和处理的单一的开源协议。换句话说，我们需要为网络建立一个数据市场，一个不可停止的(区中心)、开放和安全的市场。
+网络最原始的解释是一种激进的权利下放和自由。在过去的十年中，网络难以置信的增长也伴随着中心化的增长。很少的几家大公司现在拥有着最关键的几个网络站点，而且大量的数据在网络上创造。数据正在迅速成为最有价值的数字资产，同时也是每一个系统的支柱。正如我们在 [Beyond Catalyst: Enigma’s Vision for the Future of Data](https://blog.enigma.co/beyond-catalyst-enigmas-vision-for-the-future-of-data-22fbb5845556) 文章中讨论的，获取所有数据价值唯一的方法就是构建一个用于数据永久存储、共享和处理的单一的开源协议。换句话说，我们需要为网络建立一个数据市场，一个永不停止的(去中心的)、开放和安全的市场。
 
 In practice, to build a data marketplace, the Enigma protocol needs to implement the infrastructure for a decentralized database, with storage and computational abilities that far exceed those that blockchains offer. While all blockchains are, in a manner of speaking, protocols for decentralized computing and data storage, their poor scalability and lack of privacy features limit potential use-cases. __We need a second-layer network that can handle more data, faster, and can provide better privacy features — and that’s where the Enigma protocol comes in.__
 
-实际上，为了构建一个数据市场，Enigma协议需要实现一个去中心化数据库的基础架构，它的存储和计算能力远远超过当前区块链所能提供的。虽然从某种意义上说所有的区块链都是去中心化的计算和存储协议，但是较弱的可扩展性和隐私的缺乏限制了其在这个场景下的使用。__我们需要一个能够处理更多的数据，更快速，并且拥有更好隐私特性的第二层网络——这就是Enigma协议的由来。__
+实际上，为了构建一个数据市场，Enigma协议需要实现一个去中心化数据库的基础架构，它的存储和计算能力远远超过当前区块链所能提供的。虽然从某种意义上说所有的区块链都是去中心化的计算和存储协议，但是较弱的可扩展性和隐私的缺乏限制了其在这个场景下的使用。__我们需要一个能够处理更多的数据，更快速，并且拥有更好隐私特性的第二层网络——这就是 Enigma 协议的由来。__
 
 Our protocol is based on the ideas presented in the [2015 Enigma whitepaper](https://enigma.co/enigma_full.pdf), as well as in our subsequent work ([paper](https://enigma.co/ZNP15.pdf), [thesis](https://dspace.mit.edu/handle/1721.1/105933)). It aspires to complement a blockchain (of any kind) with an off-chain data network (essentially — a single, always-on decentralized database), in much the same way that payment networks (e.g., Raiden) offer better financial transactions scalability. Essential to the Enigma network is the ENG token, which we are distributing to our token holders on October 11th.
 
-我们的协议是基于2015年Engma白皮书以及随后的一些工作([文章](https://enigma.co/ZNP15.pdf)、[论文](https://dspace.mit.edu/handle/1721.1/105933))中提出的想法。它希望用一个 off-chain 的数据网络(本质上是一个统一的，永不离线的去中心化数据库)，与之很类似的是支付网络(例如，雷电网络)能提供更好的资产交易扩展性。Enigma网络不可或缺的基本要素事 ENG 代币， 我们将在10月11日向希望持有者发售。
+我们的协议是基于[2015年 Engma 白皮书](https://enigma.co/enigma_full.pdf)以及随后的一些工作([文章](https://enigma.co/ZNP15.pdf)、[论文](https://dspace.mit.edu/handle/1721.1/105933))中提出的想法。它希望用一个 off-chain 的数据网络(本质上是一个统一的，永不离线的去中心化数据库)，与之很类似的是支付网络(例如，雷电网络)能提供更好的资产交易扩展性。Enigma网络不可或缺的基本要素是 ENG 代币， 我们将在10月11日向希望持有者发售。
 
 If successful, the Enigma protocol could become the cornerstone of the new decentralized web — storing the long tail of data for people, apps and organizations. In the shorter-term, it can become a necessary piece of building decentralized apps. If Filecoin (or others) is designed to assist with permanent file storage, and Ethereum (and other blockchains) enable transfer of value and strong validation properties, Enigma can become the database of choice for these apps. Achieving this vision is a long term endeavor that will require us to venture far into the frontiers of computer science. Given our background and prior work in the space, our ties to academia, our dedicated partners and investors, and the funding contributed by our community, we believe Enigma can meet these ambitious goals.
 
-如果成功，Enigma 协议可能成为新一代去中心化网络的基石，为用户、应用和组织提供长尾的数据存储。在短期内，它可以成为构建去中心化应用的必备组成部分。如果Filecoin类似的技术致力于提供文件的永久存储，而以太坊（和其他区块链）可以传递价值和提供强验证属性，Enigma 则可以作为这些应用的首选数据库。实现这一愿景需要长期努力，这要求我们致力于探索计算机科学的前沿。鉴于我们在这个领域的背景和前期工作，以及得到我们社区中学术界，忠实的合作伙伴以及投资人的支持，我们相信 Enigma能够实现这些雄心勃勃的目标。
+如果成功，Enigma 协议可能成为新一代去中心化网络的基石，为用户、应用和组织提供长尾的数据存储。在短期内，它可以成为构建去中心化应用的必备组成部分。如果Filecoin类似的技术致力于提供文件的永久存储，而以太坊（和其他区块链）可以传递价值和提供强验证属性，Enigma 则可以作为这些应用的首选数据库。实现这一愿景需要长期努力，这要求我们致力于探索计算机科学的前沿。鉴于我们在这个领域的背景和前期工作，以及得到了我们社区中学术界，忠实的合作伙伴以及投资人的支持，我们相信 Enigma 能够实现这些雄心勃勃的目标。
 
 The milestones below provide a good first approximation of the development process we need to work through going forward. As our work grows and evolves, these milestones may shift somewhat, but not our goal of revolutionizing data.
 
@@ -69,15 +69,15 @@ We’ve chosen to capture our milestones in phases to allow us to reasonably det
 
 __Phase 1__ deals primarily with setting the foundation for a data marketplace. It includes the on-chain portion, dealing with contextual information about data-sets, namespaces, and subscriptions. These contracts will be developed in Ethereum, and will operate directly with Enigma tokens (ENG). At this point, all data-sets will be provided off-chain by one or several data providers, but there will be no network logic connecting these (yet).
 
-__第一阶段__主要处理数据市场的基础架构。该阶段包括实现 on-chain 部分来处理数据集、命名空间和订阅的相关上下文信息。这些合约将基于以太坊开发，同时将直接使用Enigma代币ENG来进行操作。在那时，所有的数据集将由一个或多个数据供给者以 off-chain 的方式来提供，但是没有实现连接他们的网络逻辑。
+__第一阶段__ 主要处理数据市场的基础架构。该阶段包括实现 on-chain 部分来处理数据集、命名空间和订阅的相关上下文信息。这些合约将基于以太坊开发，同时将直接使用Enigma代币ENG来进行操作。在那时，所有的数据集将由一个或多个数据供给者以 off-chain 的方式来提供，但是没有实现连接他们的网络逻辑。
 
 __Phase 2__ includes the first implementation of an off-chain network, which will run on a federated network of known nodes (a-la sidechains). This could also be considered the MVP of the Enigma protocol — one that operates under a restricted threat model.
 
-__第二阶段__包括 off-chain 网络的第一个实现，它将运行在已知节点组成的联盟网络上。这可以被认为是 Enigma 协议中的 MVP——先将在一个受限威胁模型中运行。
+__第二阶段__ 包括 off-chain 网络的第一个实现，它将运行在已知节点组成的联盟网络上。这可以被认为是 Enigma 协议中的 MVP——先将在一个受限威胁模型中运行。
 
 __Phase 3__ is where things get really interesting, and we launch our open off-chain network where anyone can become a node and provide storage and computational resources in return for ENG tokens. __Note that there will never be additional tokens created__ — incentives are derived solely from fees, and from the incentive pool reserved by Enigma at the birth of our token tomorrow. Finally, __Phase 4__ is where we introduce important privacy features for protecting data in the network. This would allow extending the usability of our data protocol to practically all kinds of data streams, including those that include personally identifiable information (PII).
 
-__第三阶段__是项目将变得非常的有趣，我们将启动我们的开放 off-chain 网络，任何人都能成为节点并提供存储和计算资源来赚取 ENG 代币。__需要说明的是代币用不增发—— 奖励完全来自于网络使用者支付的费用，__以及来自于 Enigma 明天分发中所预保留的奖励池。最后，__第四阶段__将致力于为保护网络中数据而引入的重要隐私特性。这将允许将数据协议的可用性扩展到几乎所有类型的数据流，包括包含个人身份信息(PII)的数据流。
+__第三阶段__ 是项目将变得非常的有趣，我们将启动我们的开放 off-chain 网络，任何人都能成为节点并提供存储和计算资源来赚取 ENG 代币。__需要说明的是代币用不增发—— 奖励完全来自于网络使用者支付的费用，__ 以及来自于 Enigma 明天分发中所预保留的奖励池。最后，__第四阶段__ 将致力于为保护网络中数据而引入的重要隐私特性。这将允许将数据协议的可用性扩展到几乎所有类型的数据流，包括包含个人身份信息(PII)的数据流。
 
 This is our vision for the future of the Enigma protocol. But in order to fully comprehend this vision, we must understand where Catalyst fits in as well.
 
