@@ -18,12 +18,12 @@ My name is Adam Ludwin and I run a company called Chain. I have been working in 
 
 Last week you said a few things about Bitcoin:
 
-上周你说了一些关于比特币的事情：
+上周你说了一些关于比特币的事情：
 
 * THIS IS THE LAST TIME I TALK ABOUT BITCOIN.
 * 这是我最后一次说比特币了
 * BITCOIN IS 'A GREAT PRODUCT' IF YOU ARE A CRIMINAL
-* 如果你是罪犯， 那比特币个'伟大的工具'
+* 如果你是罪犯， 那比特币个'伟大的工具'
 * GOVERMENTS LIKE TO CONTROL THEIR ECONOMIES, CURRENCIES
 * 政府喜欢控制经济和货币
 * GOVERMENTS ARE GOING TO CRUSH THEIR BITCOIN ONE DAY.
@@ -72,7 +72,7 @@ The reality is nuanced and important. Which is why I’ve decided to write you t
 * Very few people in academia or government understand what’s going on
 * 学术界或政府很少有人懂
 * Very few people buying cryptocurrencies understand what’s going on
-* 投资数字货币的很少有人懂
+* 投资数字货币的很少有人懂
 * It’s very possible I don’t understand what’s going on
 * 可能我也不懂
 
@@ -83,7 +83,7 @@ Also:
 * Banks and governments aren’t going away
 * 银行和政府并没有消失
 * Traditional software isn’t going away
-* 传统软件并没有消失
+* 传统软件并没有消失
 
 In short: there’s a lot of noise. But there is also signal. To find it, we need to start by defining cryptocurrency.
 
@@ -99,7 +99,7 @@ Without a working definition we are lost. Most people arguing about cryptocurren
 
 If this is true, your point of view on cryptocurrencies has very little to do with what you think about them in comparison to traditional currencies or securities, and everything to do with your opinion of decentralized applications and their value relative to current software models.
 
-如果是这样，那对数字货币的观点， 是不同通过对比数字货币和传统货币/证券， 或者对比去中心化软件和现有软件模式得来的.
+如果是这样，那对数字货币的观点， 是不同通过对比数字货币和传统货币/证券， 或者对比去中心化软件和现有软件模式得来的.
 
 Don’t have an opinion on decentralized applications? Then you can’t possibly have one on cryptocurrencies yet, so read on.
 
@@ -122,7 +122,7 @@ To understand what I mean, think about other asset classes and what form of orga
 要理解我的意思的话, 来考虑下其他资产类别以及它们所服务的组织形式:
 
 * Corporate equities serve companies
-* 公司股票服务公司
+* 公司股票服务公司
 * Government bonds serve nations states municipalities
 * 政府债券服务国家，州，市
 * Mortgages serve property owners
@@ -141,7 +141,7 @@ Decentralized applications are a new form of organization and a new form of soft
 
 How different? Imagine the following: you grew up in a rainforest and I brought you a cactus and told you it was a tree. How would you react? You’d probably laugh and say it’s not a tree because there’s no point in a tree being a stumpy water tank covered in armor — after all, water is abundant here in the rainforest! This, roughly, is the reaction of many people working in Silicon Valley to decentralized applications.
 
-有什么不同？想象一下: 你在雨林里长大, 我给你带了一个仙人掌, 告诉你那是一棵树。你会怎么反应？你可能会笑着说这不是一棵树, 因为在树的定义里没有任何一点提到被刺覆盖的粗短水箱--毕竟, 雨林里的水是丰富的!这大概是硅谷许多人对去中心化应用的反应。
+有什么不同？想象一下: 你在雨林里长大, 我给你带了一个仙人掌, 告诉你那是一棵树。你会怎么反应？你可能会笑着说这不是一棵树, 因为在树的定义里没有任何一点提到被刺覆盖的粗短水箱--毕竟, 雨林里的水是丰富的!这大概是硅谷许多人对去中心化应用的反应。
 
 But I diagress. I owe you an important explanation:
 
@@ -165,7 +165,7 @@ Let’s go back to the birth of this idea.
 
 It’s November 2008. The nadir of the financial crisis.
 
-那是在2008年11月，金融危机的最低点。
+那是在2008年11月，金融危机的最低点。
 
 An anonymous person publishes a paper explaining how to make electronic payments without a trusted central party like Chase or PayPal or the Federal Reserve. It’s the first decentralized application of this kind ever proposed.
 
@@ -185,11 +185,11 @@ How does it work? How is it possible to send an electronic payment without a des
 
 The paper proposes a solution: form a peer-to-peer network. Make it public. Announce your transaction to everyone. In your announcement, point to the specific funds on the network you want to spend. Cryptographically sign your announcement with the same software key that is linked to those funds so we know they’re yours.
 
-这篇论文提出了一个方案： 组织一个公开的点对点网络， 向每个节点广播你的交易。 在广播消息中申明在这个网络中你想要花费的资金， 再用对应的秘钥签名，我们就知道这笔资金是属于你的。
+这篇论文提出了一个方案： 组织一个公开的点对点网络， 向每个节点广播你的交易。 在广播消息中申明在这个网络中你想要花费的资金， 再用对应的秘钥签名，我们就知道这笔资金是属于你的。
 
 It almost works. We need one more thing: a way to make sure that if you broadcast two competing announcements (that is, if you try to spend the same funds twice) that only one of your attempts counts.
 
-这几乎就能运行了。但还有件事: 我们需要一种方法来确保，如果您广播两个相互竞争的交易公告 (比如, 同一笔钱你想使用两次), 只有一个生效。
+这几乎就能运行了。但还有件事: 我们需要一种方法来确保，如果您广播两个相互竞争的交易公告 (比如, 同一笔钱你想使用两次), 只有一个生效。
 
 Bad solution: designate a party to timestamp the transactions and only include the transaction that came first. We’re back to square one. We have a trusted intermediary.
 
@@ -197,7 +197,7 @@ Bad solution: designate a party to timestamp the transactions and only include t
 
 Breakthrough solution: let entities compete to be the “timestamper!” We can’t avoid the need for one, but we can avoid designating one in advance or using the same one for every batch of transactions.
 
-突破性方案： 让节点竞争成为这个“见证人”。 我们不能避免需要一个， 但我们可以避免预先指定或每次交易都使用同一个。
+突破性方案： 让节点竞争成为这个“见证人”。 我们不能避免需要一个， 但我们可以避免预先指定或每次交易都使用同一个。
 
 “Let entities compete.” Sounds like a market economy. What’s missing? A reward for winning. An incentive. An asset.
 
@@ -205,15 +205,15 @@ Breakthrough solution: let entities compete to be the “timestamper!” We can�
 
 Let’s call that asset Bitcoin. Let’s call the entities competing for the right to timestamp the latest batch of announced transactions “miners.” Let’s make sure anyone can join this contest at any time by making the code and network open.
 
-让我们称这种资产为比特币。让我们把这些竞争交易记账权的人叫做"矿工"。让我们通过公开代码和网络，来确保任何人任何时候都可以加入这个竞赛。
+让我们称这种资产为比特币。让我们把这些竞争交易记账权的人叫做"矿工"。让我们通过公开代码和网络，来确保任何人任何时候都可以加入这个竞赛。
 
 Now we need an actual contest. The paper proposes one. On your mark, get set: find a random number generated by the network! The number is really, really hard to find. So hard that the only way to find it is to use tons of processing power and burn through electricity. It’s a computing version of what Veruca Salt made her dad and his poor factory workers do in Willy Wonka. A brute force search for a golden ticket (or in this case, a golden number).
 
-现在我们需要一个真正的竞赛。这篇论文提议了一个：找到一个由这个网络生成的随机数! 这个数字真的很难找到，找到它的唯一途径是进行超量的计算。
+现在我们需要一个真正的竞赛。这篇论文提议了一个：找到一个由这个网络生成的随机数! 这个数字真的很难找到，找到它的唯一途径是进行超量的计算。
 
 Why the elaborate and expensive competition to do something as simple as timestamp transactions for the network? So that we can be sure the competitors have incurred a real financial cost. That way, if they win the race to find the random number and become the designated timestamper for a given batch of transactions, they won’t use that power for evil (like censoring transactions). Instead, they will meticulously scan each pending transaction, eliminate any attempts by users to spend the same funds twice, ensure all rules are followed, and broadcast the validated batch to the rest of the network.
 
-为什么要通过这么复杂而昂贵的竞争来达到简单加个时间戳就可以搞定的事情呢？ 因为这样我们才能肯定竞争者有了真正的财务成本。 这样, 如果他们赢得了找到随机数的比赛, 并成为指定交易的仲裁人, 他们就不会使用这种权力做坏事 (例如修改交易)。 相反, 他们将仔细审视每笔待处理的交易,排除那些尝试把一笔资金使用两次的交易, 确保遵循所有规则, 并将验证过的交易广播到网络的其余部分。
+为什么要通过这么复杂而昂贵的竞争来达到简单加个时间戳就可以搞定的事情呢？ 因为这样我们才能肯定竞争者有了真正的财务成本。 这样, 如果他们赢得了找到随机数的比赛, 并成为指定交易的仲裁人, 他们就不会使用这种权力做坏事 (例如修改交易)。 相反, 他们将仔细审视每笔待处理的交易,排除那些尝试把一笔资金使用两次的交易, 确保遵循所有规则, 并将验证过的交易广播到网络的其余部分。
 
 Because if they do indeed follow the rules, the network is programmed to reward them…
 
@@ -233,7 +233,7 @@ You know, like Adam Smith said:
 
 > It is not from the benevolence of the butcher, the brewer or the baker, that we expect our dinner, but from their regard to their own self interest.
 
-> 我们期待的晚餐, 不是来自屠夫, 酿酒商或面包师的仁慈, 而是来自于他们的对自己利益的考虑。
+> 我们期待的晚餐, 不是来自屠夫, 酿酒商或面包师的仁慈,而是来自于他们的对自己利益的考虑。
 
 Crypto assets: the invisible hand… of the internet.
 
@@ -247,7 +247,7 @@ And since these miners have debts to pay (mostly electricity bills), they will l
 
 Eureka! We have killed two birds with one stone: the financial reward that substitutes our need for a trusted central party with a marketplace of competing yet honest timestampers is the same asset that ends up in circulation for use as a digital bearer instrument in an electronic payments network that has no central party (it’s circular, I know).
 
-耶！ 我们做到了一石二鸟：这种把我们对信任的中央机构的需求替换为算力竞争经济奖励，和最终在流通中被用作电子支付网络中的数字承载工具， 是同一种资产（我知道这有点绕）。
+耶！ 我们做到了一石二鸟：这种把我们对信任的中央机构的需求替换为算力竞争经济奖励，和最终在流通中被用作电子支付网络中的数字承载工具， 是同一种资产（我知道这有点绕）。
 
 （译者注： 流通的代币和给矿工奖励是同一种）
 
@@ -277,7 +277,7 @@ Warning: this one is a bit confusing because it’s meta.
 
 There’s a decentralized application called Ethereum that is a decentralized application for launching decentralized applications. I am sure by now you have heard of “initial coin offerings” (ICOs) and “tokens.” Most of these are issued on top of Ethereum. Instead of building a decentralized application from scratch the way Bitcoin was, you can build one on top of Ethereum much more easily because a) the network already exists and b) it’s not designed for a specific application but rather as a platform to build applications that can execute arbitrary code. It is “featureless.”
 
-有一个去中心化的应用叫以太坊, 它是用于启动去中心化应用的去中心化应用。我敢肯定, 现在你已经听说了 "初始代币发行" (ICOs) 和 "代币"。大多数这些都是在以太坊上面发布的。不用像比特币一样从头开始构建一个去中心化应用, 你可以很容易基于以太坊创建一个, 因为以太坊 a) 网络已经存在和 b) 它不是为一个特定的应用程序设计的, 而是作为一个平台来构建可以执行任意代码的应用程序。
+有一个去中心化的应用叫以太坊, 它是用于启动去中心化应用的去中心化应用。我敢肯定, 现在你已经听说了 "初始代币发行" (ICOs) 和 "代币"。大多数这些都是在以太坊上面发布的。不用像比特币一样从头开始构建一个去中心化应用, 你可以很容易基于以太坊创建一个, 因为以太坊 a) 网络已经存在和 b) 它不是为一个特定的应用程序设计的, 而是作为一个平台来构建可以执行任意代码的应用程序。
 
 Ethereum’s protocol incentivizes entities to contribute computing resources to the network. Doing so earns these entities Ether, the crypto asset of Ethereum. This makes Ethereum a new kind of computing platform for this new class of software (decentralized apps). It’s not cloud computing because Ethereum itself is decentralized (like aether, get it?). That’s why its founder, Vitalik Buterin, refers to Ethereum as a “world computer.”
 
@@ -324,7 +324,7 @@ In fact, on almost every dimension, decentralized services are worse than their 
 
 And no, this isn’t just because they are new. This won’t fundamentally change with bigger blocks, lightning networks, sharding, forks, self-amending ledgers, or any other technical solutions.
 
-而且, 这不仅仅是因为它们还是新事物。大区块, 闪电网络, 分区, 分叉, 改进账本, 或任何其他技术方案， 都不会从根本上改变它们。
+而且, 这不仅仅是因为它们还是新事物。大区块, 闪电网络, 分区, 分叉, 改进账本, 或任何其他技术方案， 都不会从根本上改变它们。
 
 That’s because there are structural trade-offs that result directly from the primary design goal of these services, beneath which all other goals must be subordinated in order for them to be relevant: decentralization.
 
@@ -373,11 +373,11 @@ Censorship resistance means that access to decentralized applications is open an
 
 More concretely, nothing can stop me from sending Bitcoin to anyone I please. Nothing can stop me from executing code on Ethereum. Nothing can stop me from storing files on Filecoin. As long as I have an internet connection and pay the network’s transaction fee, denominated in its crypto asset, I am free to do what I want.
 
-更具体地说, 没有什么能阻止我把比特币发送给任何我愿意的人。没有什么能阻止我在以太坊上执行代码。没有什么能阻止我在 Filecoin 上存储文件。只要我有连接的网络并且支付交易费, 我就可以自由交易加密数字资产。
+更具体地说, 没有什么能阻止我把比特币发送给任何我愿意的人。没有什么能阻止我在以太坊上执行代码。没有什么能阻止我在 Filecoin 上存储文件。只要我有连接的网络并且支付交易费, 我就可以自由交易加密数字资产。
 
 (If Bitcoin is capitalism distilled, it’s also a kind of freedom distilled. Which is why libertarians can get a bit obsessed.)
 
-(如果比特币是资本主义蒸馏出来产物, 它也是一种自由主义蒸馏出来产物。这就是为什么自由主义者会有点痴迷。）
+(如果比特币是资本主义蒸馏出来产物, 它也是一种自由主义蒸馏出来产物。这就是为什么自由主义者会有点痴迷。）
 
 And for readers who are crypto enthusiasts and don’t want to take my word for it, will you at least listen to Adam Back and Charlie Lee?
 
@@ -416,20 +416,20 @@ While there is not a lot of good data, actual users of decentralized application
 虽然没有很多好的数据, 但去中心化应用的实际用户似乎分为两类:
 
 1. People who are off the grid: that is, in countries where access to competently operated traditional services is limited (for any number of reasons) but where internet is not
-1. 在有互联网， 但是传统服务受限国家（无论什么原因）的人们
+1. 在有互联网， 但是传统服务受限国家（无论什么原因）的人们
 2. People who want to be off the grid: that is, people who don’t want their transactions censored or known
 2. 那些不希望他们的交易被审查或知道的人们
 
 With that framework in mind we can ask:
 
-基于这个框架， 我们可以问：
+基于这个框架， 我们可以问：
 
 * For whom is Bitcoin the best/only way to make a payment?
-* 对谁来说， 比特币是做好的/唯一的支付方式
+* 对谁来说， 比特币是做好的/唯一的支付方式
 * For whom is Filecoin the best/only way to store a file?
-* 对谁来说， Filecoin是做好的/唯一的存储方式
+* 对谁来说， Filecoin是做好的/唯一的存储方式
 * For whom is Ethereum the best/only way to compute code?
-* 对谁来说， 以太坊是做好的/唯一的计算方式
+* 对谁来说， 以太坊是做好的/唯一的计算方式
 
 These are the questions that get at the heart of the value proposition of the technology.
 
@@ -457,7 +457,7 @@ Since Ethereum is a platform, its value is ultimately a function of the value of
 
 While it’s early, if none of the 730+ decentralized apps built on Ethereum so far seem useful, that may be telling. Even in year 1 of the web we had chat rooms, email, cat photos, and sports scores. What are the equivalent killer applications on Ethereum today?
 
-虽然还在早期, 但如果建立在以太坊上的730多个去中心化应用，没有一个有用, 这可能说明了点什么。网络出现的第一年，出现了聊天室，电子邮件，猫照片和体育赛事。 今天以太坊的等效杀手级应用程序是什么？
+虽然还在早期, 但如果建立在以太坊上的730多个去中心化应用，没有一个有用, 这可能说明了点什么。网络出现的第一年，出现了聊天室，电子邮件，猫照片和体育赛事。 今天以太坊的等效杀手级应用程序是什么？
 
 So where does this leave us?
 
@@ -493,7 +493,7 @@ That’s not a bad argument and I tend to agree.
 
 Bitcoin is up 5x in a year, Ethereum is up 30x. The total market cap of all cryptocurrencies is ~$175B, up from $12B just a year ago. Why?
 
-比特币在一年内上升5倍, 以太坊上升了30倍。整个数字货币的总市值从去年的120亿美元上升到1750亿美元。为什么?
+比特币在一年内上升5倍, 以太坊上升了30倍。整个数字货币的总市值从去年的120亿美元上升到1750亿美元。为什么?
 
 As in every mania in history, it is currently rational to be irrational.
 
@@ -567,7 +567,7 @@ As long as that blue line keeps going up.
 
 Consider the following. The total market cap of crypto assets has been increasing by an order of magnitude every few years. Where will they be in 2022? It’s certain that many (most?) of the crypto assets launching today won’t make it. But neither did most of the ones that were launched back in the 2013/4 boom (when they were referred to as “alt coins”). Though an important alt coin from 2014 did stick around and drove the most recent boom to new heights by being the platform to power all the others: Ethereum.
 
-考虑以下这点。 数字资产的总市值每隔几年就会增加一个数量级。 到2022年会如何呢？ 可以肯定的是目前很多（大多数）的加密资产无法活到哪个时候。但是2013，2014年发行的数字资产（被称为山寨币）也没有活到现在。 即便这样，2014年一个重要的山寨币坚持下来了， 并作为平台把最近的热潮推向了新的高度：它就是以太坊
+考虑以下这点。 数字资产的总市值每隔几年就会增加一个数量级。 到2022年会如何呢？可以肯定的是目前很多（大多数）的加密资产无法活到哪个时候。但是2013，2014年发行的数字资产（被称为山寨币）也没有活到现在。 即便这样，2014年一个重要的山寨币坚持下来了， 并作为平台把最近的热潮推向了新的高度：它就是以太坊
 
 ![](pics/![](pics/a-letter-to-jamie-dimon-4.png)
 
@@ -582,7 +582,7 @@ Allow me to summarize.
 * Cryptocurrencies (which I prefer to call crypto assets) are a new asset class that enable decentralized applications
 * 数字货币（我称之为加密数字资产）是一种新的资产类别， 它使得去中心化应用成为可能。
 * Decentralized applications enable services we already have today, like payments, storage, or computing, but without a central operator of those services
-* 去中心化应用提供我们现在已经有的服务， 像支付， 存储或者计算， 但是不需要中心化组织。
+* 去中心化应用提供我们现在已经有的服务， 像支付， 存储或者计算， 但是不需要中心化组织。
 * This software model is useful to people who need censorship resistance which tend to be people that are either off the grid or who want to be off the grid
 * 这个软件对想要绕开审查的人群有用
 * Most everyone else is better off using normal applications because they are 10x better on every other dimension, at least for now
@@ -590,11 +590,11 @@ Allow me to summarize.
 * Society’s embrace or rejection of new technology is hard to predict (think about encrypted messaging)
 * 社会对新技术的拥抱或拒绝很难预测 (参考加密消息)
 * In the long-run, the value of a crypto asset will rise and fall in proportion to the use of the decentralized application it enables
-* 长期来看， 加密资产的价值取决于对应的去中心化应用的使用比例
+* 长期来看， 加密资产的价值取决于对应的去中心化应用的使用比例
 * In the short-run, there will be extreme volatility as FOMO competes with FUD, confusion competes with understanding, and greed competes with fear (on both the buyer side and the issuer side)
 * 在短期内, 在疑惑与理解，贪婪与恐惧， 价格将有极端的波动性
 * Most people buying into crypto assets have checked their judgement at the door
-* 大部分购买加密资产的都没有经过认真思考
+* 大部分购买加密资产的都没有经过认真思考
 * Many sellers of new crypto assets aren’t actually building decentralized applications but are instead shoe-horning an ICO into their service because of the market mania; that doesn’t mean decentralized applications are bad, it just means people are capitalizing on the confusion and are probably themselves confused
 * 大部分加密资产的发行方并不是真正的构建去中心化应用，而是在它们的服务中装入ICO， 因为ICO市场太疯狂了。 这并不意味这去中心化应用是糟糕的， 而只是说人们可以利用这种混乱， 或者他们本身也感到疑惑。
 * Don’t bet against crypto assets in the long-run: as we approach the 10 year anniversary of the Bitcoin paper it is clear that they aren’t going anywhere and that decentralized applications may very well find an important place alongside all the other forms of organization we have come to take for granted.
@@ -608,7 +608,7 @@ p.s. —You may have noticed that I didn’t use the word “blockchain” in th
 
 p.p.s — There is another, related market I didn’t talk about: cryptographic ledgers in the enterprise. More on that soon.
 
-再另外 - 还有一块我没有谈到的市场：  企业中的加密账本。 这个我以后会说。
+再另外 - 还有一块我没有谈到的市场：  企业中的加密账本。这个我以后会说。
 
 ----------------------------------------------------
 
