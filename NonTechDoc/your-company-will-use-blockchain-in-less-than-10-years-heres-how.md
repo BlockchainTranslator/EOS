@@ -7,11 +7,11 @@
 > 翻译时间：2017-10-22
 
 
-##Your company will use blockchain in less than 10 years — here’s how
+## Your company will use blockchain in less than 10 years — here’s how
 
 SPOILER: It doesn’t matter which industry you’re in.
 
-###无论什么行业不到10年您的公司都将用到区块链技术
+### 无论什么行业不到10年您的公司都将用到区块链技术
 
 ![](https://cdn-images-1.medium.com/max/2000/1*5rheZyqpkO1oUbvObLFHlA.png)
 
@@ -45,9 +45,9 @@ Put simply, a blockchain is a database. It’s an ever-growing database of diffe
 
 2. No single individual or organization maintains the database; several thousand individuals do, and everyone has a copy of the database themselves.
 
-1. 一旦数据存储在数据库中，它就永远不会被修改或删除。区块上的每个记录将永久保存。
+1、 一旦数据存储在数据库中，它就永远不会被修改或删除。区块上的每个记录将永久保存。
 
-2. 不是由个别人或组织维护操控数据库; 它由几千个人维护且每个人都保存有数据库本身。
+2、 不是由个别人或组织维护操控数据库; 它由几千个人维护且每个人都保存有数据库本身。
 
 To understand how several people are able to keep their copies of the database in sync with everyone else’s, imagine this:
 
