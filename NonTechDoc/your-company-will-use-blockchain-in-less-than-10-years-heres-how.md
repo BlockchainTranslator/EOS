@@ -86,7 +86,7 @@ Below, we discuss five different ways blockchain will affect your company.
 
 下面，我们将讨论区链接将影响您公司的五种不同方式。
 
-###1) Contracts 📝合同
+### 1) Contracts 📝合同
 
 “Until the contract is signed, nothing is real.”
 — Glenn Danzig
@@ -114,7 +114,7 @@ Imagine you’re in a band and you want to sell your music to someone, meaning y
 想像你拥有一个乐队，想把你的音乐卖给某人，这意味着你必须转移一个音频文件。你怎么能确定买家在收到货物后会付款呢？同时，买方也可能疑虑，如果先付款，您可能不发送音频文件。智能合约确保一旦买家付钱，音频文件将立即发送给买方。智能合约一旦部署，没有人可以阻止合同执行。所以双方都可以相信它。
 
 
-###2) Payments💸付款
+### 2) Payments💸付款
 
 “If you think nobody cares about you, try missing a couple of payments.”
 — Steven Wright
@@ -132,7 +132,7 @@ One of the benefits of decentralized money is that payments can be transferred d
 ![](https://cdn-images-1.medium.com/max/800/0*iautf19MwuP3Ml9N.jpg)
 
 
-###3) Recruiting 👩🏻‍🚀招聘
+### 3) Recruiting 👩🏻‍🚀招聘
 
 “We’re going to become caretakers for the robots. That’s what the next generation of work is going to be.”
 
@@ -161,7 +161,7 @@ To make sure this doesn’t happen, the reference system should be a two-way str
 
 为了防止这种情况出现，系统应该是双向的。这样，员工也可以对他们的雇主进行评估，如果需要，也可以双方互评。 并且声誉不好的雇主的评分权重将比有信誉的雇主低。
 
-###4) Cloud storage 💾云存储
+### 4) Cloud storage 💾云存储
 
 “Behind every cloud is another cloud.”
 — Judy Garland
@@ -189,7 +189,7 @@ Also, in centralized systems, the strength of the system depends on how secure o
 
 此外，在集中式系统中，安全取决于一家公司的服务器的安全性。使用区块链，没有一个设备包含完整的文件，这使得黑客几乎不可能获取数据。
 
-###5) Less hierarchy, better governance 👨🏻‍🔧减少公司治理层次 提高管理效率
+### 5) Less hierarchy, better governance 👨🏻‍🔧减少公司治理层次 提高管理效率
 
 Companies will thrive in an environment where power is not limited to the hands of a few, yet this is the way organizations are often structured.
 
@@ -210,7 +210,7 @@ Every proposal gets submitted in the form of a Smart Contract on which everyone 
 
 ![](https://cdn-images-1.medium.com/max/800/0*J8q9ItjenPswm6MH.png)
 
-###Blockchain is coming… 区块链正在来临...
+### Blockchain is coming… 区块链正在来临...
 
 These are the few areas that your business might adopt blockchains sooner than you expect, but the possibilities are endless. There are several mental models that you can use to think of blockchains. When it comes to identifying the potential of blockchains in business, I like to think of blockchain as a method to make strangers work together. Be it your employees, or your partners, or the supply chain, or anybody else, blockchains will soon penetrate your organization in more ways than one.
 
