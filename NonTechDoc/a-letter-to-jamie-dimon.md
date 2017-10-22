@@ -122,7 +122,7 @@ To understand what I mean, think about other asset classes and what form of orga
 要理解我的意思的话, 来考虑下其他资产类别以及它们所服务的组织形式:
 
 * Corporate equities serve companies
-* 公司股票服务公司
+* 公司股票服务公司
 * Government bonds serve nations states municipalities
 * 政府债券服务国家，州，市
 * Mortgages serve property owners
