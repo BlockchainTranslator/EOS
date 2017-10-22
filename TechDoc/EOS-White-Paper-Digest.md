@@ -52,16 +52,16 @@ Sensitive actions could have a mandatory delay defending account owners against 
 
 敏感的机制设计会有一个强制性的延迟，来保护账户所有者不受密钥盗窃的影响。即使密钥被盗，先进的帐户恢复也会提供保护。
 
-## Tokens 令牌
+## Tokens 代币
 
 The EOS blockchain will be resource constrained. There are 3 types of resources in EOS — bandwidth and log storage, CPU, and RAM. Resources allocated to apps will be measured in tokens directly and so will be independent on token price volatility. Block producers will be paid in tokens and will spend these for better equipment increasing the network performance.
 
-EOS区块链将会受到资源的限制。在EOS中有三种类型的资源——带宽和日志存储、CPU和RAM。分配给应用程序的资源将直接用令牌来衡量，因此将独立于令牌价格波动。区块开发者将获得令牌支付并利用它们购买更好的设备，为了提升整个网络性能。
+EOS区块链将会受到资源的限制。在EOS中有三种类型的资源——带宽和日志存储、CPU和RAM。分配给应用程序的资源将直接用代币来衡量，因此将独立于代币价格波动。区块开发者将获得代币支付并利用它们购买更好的设备，为了提升整个网络性能。
 
 
 3 community benefit apps will be chosen by user votes to receive a percentage from new annual token supply which could be capped to 5%.
 
-用户将会投票选出3款社区福利应用程序，它们能够在新的年度中获得一定比例的令牌供应份额，这个比例将是5%。
+用户将会投票选出3款社区福利应用程序，它们能够在新的年度中获得一定比例的代币供应份额，这个比例将是5%。
 
 ## Governance 治理
 Governance is the process of reaching consensus in cases when no software algorithms can help.
