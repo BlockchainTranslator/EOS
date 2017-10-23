@@ -12,7 +12,7 @@ Fabian Schuh 工程博士 是一位企业家和热心的区块链布道者，他
 
 Disclaimer: The following article constitutes my personal opinion about the technology developed by Daniel Larimer and shall under no circumstances be interpreted as investment advice
 
-免责声明： 本文是对Daniel Larimer技术开发的个人观念，在任何情况下都不被解释为投资建议。
+免责声明： 本文是对Daniel Larimer（BM）技术开发的个人观念，在任何情况下都不被解释为投资建议。
 
 Historical Facts about Daniel Larimer and his Contributions to the Blockchain Industry
 Daniel Larimer 的经历和对区块链领域的贡献
@@ -94,7 +94,7 @@ For one, the block.one team seems to have a highly experienced management team a
 EOS will be Larimer's 4th public blockchain platform in 4 years and I personally have no doubt that Dan will deliver. Those that want to find out more about the software itself, can find all the current code on github.
 
 ### EOS 软件
-EOS 将是BM四年当中的第四个公开区块链平台，就我而言我毫无质疑的相信他能做出成品。如果你对EOS软件本身的代码有更多的兴趣，可以去github上进行查看。
+EOS 将是BM（Dan Larimer 的另一个外号 Byte Master,以下简称Dan 为 BM）四年当中的第四个公开区块链平台，就我而言我毫无质疑的相信他能做出成品。如果你对EOS软件本身的代码有更多的兴趣，可以去github上进行查看。
 
 ### Is there a sound technical approach to EOS.IO?
 Larimer and block.one are now developing new blockchain software they call EOS.IO. In a presentation at Consensus 2017, block.one made several bold claims about the projected capabilities of their software, among these claims are:
@@ -235,7 +235,7 @@ EOS正由一个屡创区块链软件开发纪录的顶尖团队操刀打造。
 
 茶猫 产品经理，区块链技术爱好者，致力于区块链产品分析。 微信公众号：bitzhidao
 
-范楷书 区块链爱好者，比特币及数字货币价值投资着，EOS真爱粉丝  微信号：FSK818
+范楷书 区块链爱好者，比特币及数字货币价值投资者，EOS真爱粉丝  微信号：FSK818
 
 ### 版权所有
 
