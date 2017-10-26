@@ -1,5 +1,5 @@
 ## Decentralized Internet on Blockchain
-## 分散式互联网
+## 基于区块链的去中心化互联网
 
 > 本文翻译自：https://blog.chain.com/a-letter-to-jamie-dimon-de89d417cb80
 > 
@@ -9,7 +9,7 @@
 
 ***How blockchain can mobilize a community to provide Internet for each other and create a new sharing economy***
 
-区块链如何动员社区互相提供互联网，创造新的分享经济
+***区块链如何动员社区互相提供互联网，创造新的分享经济***
 
 My goal and dream for the past few years has been to replace Internet Service Providers (ISPs) through the power of the community. So I set out a personal and professional journey to start OISP, which stands for the Open Internet Socialization Project.
 
@@ -23,19 +23,21 @@ What does this look like? Instead of paying ISPs, you pay your neighbor for offe
 
 Before we dive into the details, let’s ask an important question. Do we really need to change the way we get Internet?
 
-我过去几年的目标和梦想是通过社区的力量取代互联网服务提供商（ISP）。所以我开始一个个人和专业的旅程来启动OISP，它代表了开放互联网社会化项目。 
+我过去几年的目标和梦想是通过社区的力量取代互联网服务提供商（ISP）。所以我开始一个个人和专业的旅程来启动OISP。 OISP是指开放互联网社会化项目。 
 
-我以为我像这样的初学者很聪明，但是我开始在谈话中大声说出来。即使如此，我也不能想到一个更简洁的话来描述我的团队和我正在努力做什么。 
+我觉得我用首字母缩写很明智，直到我在和别人的交流中说出来。 几遍如此，我还是想不出一组更简洁的词语来描述我和我的团队正在努力做什么。
 
 核心原则很简单：社区成员拥有互联互通的手段。他们也从该交付中获利。 
 
-这就是我社会化的意思。共享成本，也分享利润。我们，社区，共同成为我们自己的ISP的成本和努力。我们也分享了该公用事业的利润。 
+这就是我社会化的意思。共享成本，也分享利润。我们，社区，共享成为我们自己的ISP的成本，也分享了这个社区事业的利润。 
 
-这是什么样子？您不需要支付互联网服务提供商，而是向邻居付款以提供上网功能。钱留在社区，互联网的成本便宜得多。 
+这会是怎么样的呢？您不需要向IPS付费，而是向邻居付款以提供上网功能。钱留在社区，互联网的成本便宜得多。 
 
 在我们深入细节之前，让我们来问一个重要的问题。我们真的需要改变我们上网的方式吗？
 
 ### **The Future of Communication**
+
+### **通信的未来**
 
 Over the last 25 years, American taxpayers have paid $400 billion ($5000 per household) to make sure that we get Internet. We paid for the infrastructure that ISPs use and we still find ourselves with some of the slowest Internet in the developed world. On top of that, we don’t even pay a fair price for it.
 
