@@ -43,6 +43,8 @@ Obviously, once the new currency goes live you could no longer pull out.  This 
 
 You can read Buterin and Teutsch's full whitepaper here.
 
+这一方案的详细白皮书稍候奉上。
+
 Author: Ross Davis
 San Francisco News Desk
 
