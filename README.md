@@ -51,7 +51,7 @@
 
 - **专家组**
 
-    @梓岑@YOYOW、程亮、@Alex、@馋嘴猫在路上、@ranger-老石、@咕噜 BIHU.COM
+    @梓岑@YOYOW、程亮、@Alex、@馋嘴猫在路上、@ranger-老石、@咕噜 BIHU.COM、许昕 Xin
 
 - **翻译组**
 
