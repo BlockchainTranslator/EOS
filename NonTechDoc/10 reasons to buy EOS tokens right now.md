@@ -9,7 +9,7 @@
 
 EOS caused quite some stir when Dan Larimer gave his presentation a few months ago. The project is said to “deliver on the promises of Ethereum” which means that almost everything is possible using a blockchain. Make sure to read my first [EOS article](https://medium.com/@yobanjo/eos-is-nailing-it-almost-100-aafa3f6410f5) which explains some of the benefits of EOS over other smart-contract systems. But for now let’s jump to the top 10 reasons to be long on the EOS token.
 
-Dan Larimer 几个月前的演讲使EOS引起了轰动。此项目被称为“履行了以太坊的承诺”，意味着几乎所有的事情都可以使用块链来解决。请阅读我的第一个[EOS文章](https://medium.com/@yobanjo/eos-is-nailing-it-almost-100-aafa3f6410f5)，其中解释了EOS与其他智能合约系统的一些优势。现在我们来看看购买EOS令牌的前10大原因。
+Dan Larimer 几个月前的演讲使EOS引起了轰动。此项目被称为是“履行了以太坊的承诺”，意味着几乎所有的事情都可以使用块链来解决。请阅读我的第一个[EOS文章](https://medium.com/@yobanjo/eos-is-nailing-it-almost-100-aafa3f6410f5)，其中解释了EOS与其他智能合约系统的一些优势。现在我们来看看购买EOS令牌的前10大原因。
 
 
 1. 90% discount from the peak price
@@ -31,7 +31,7 @@ Currently we’re seeing “Fase 1” which brings us a standalone node. Don’t
 
 2、今年第一个P2P测试网络
 
-目前“阶段1”的开发已经使 EOS能做为一个独立的节点运行。但是如果你不是极客，不要试图编译，编译源代码还是很有难度的。根据第2阶段路线图预计今年将允许节点相互连接。这意味着我们能够在节点间生成事务。即所谓的“最小测试网络”。允许人们进行测试。
+目前“阶段1”的开发已经使 EOS能做为一个独立的节点运行。但是如果你不是极客，不要试图从编译源代码开始，编译源代码还是很有难度的。根据第2阶段路线图预计今年将允许节点相互连接。这意味着我们能够在节点间生成事务。即所谓的“最小测试网络”。允许人们进行广泛地测试。
 
 3. EOS is still completely misunderstood by a lot of people
 
@@ -127,4 +127,3 @@ Disclosure: I own EOS for the long term.
 版权所有，转载需完整注明以上内容。
 
 ----------------------------------------------------
-

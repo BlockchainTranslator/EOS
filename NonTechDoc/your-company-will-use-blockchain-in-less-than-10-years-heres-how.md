@@ -26,7 +26,7 @@ No, I am not talking about decentralizing money. I am referring to the decentral
 
 You might have come across people who deny the potential of blockchains and tell you not to buy into the hype. My advice: do not pay too much attention to them.
 
-你可能会遇到那些怀疑区块链的潜力，并告诉你不要买入炒作的人。我的建议是：不用太在意这些人。
+你可能会遇到那些怀疑区块链的潜力的人，并告诉你不要买入炒作比特币。我的建议是：不用太在意这些人。
 
 >The businesses who don’t adapt to the decentralized world of the future will soon become businesses of the past.
 
@@ -34,7 +34,7 @@ You might have come across people who deny the potential of blockchains and tell
 
 In this article, we discuss five different ways blockchain will fit into your company in less than ten years from now. So let’s start with the basics: what is blockchain exactly?
 
-在这篇文章中，我们将讨论末来十年内区块链应用在公司中的五种不同方式。让我们从最基础的开始学习：到底什么是区块链？
+在这篇文章中，我们将讨论末来十年内区块链应用在公司中的五种不同方式。让我们从最基础的开始：到底什么是区块链？
 
 
 Put simply, a blockchain is a database. It’s an ever-growing database of different kinds of data and it has quite remarkable properties:

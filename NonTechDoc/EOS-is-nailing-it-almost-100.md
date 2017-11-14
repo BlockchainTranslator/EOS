@@ -1,6 +1,6 @@
 # EOS is nailing it (almost 100%) | EOS 正迈向成功 (几乎100%)
 
-> 本文翻译自：https://hackernoon.com/your-company-will-use-blockchain-in-less-than-10-years-heres-how-6d9da452fa8d
+> 本文翻译自：https://medium.com/@yobanjo/eos-is-nailing-it-almost-100-aafa3f6410f5
 >
 > 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [oscnet](https://github.com/oscnet)
 >
@@ -14,17 +14,17 @@ Dan Larimer surprised a lot of people with a brand new cryptoproject. The BitSha
 
 As I remember reading about Bitshares and DACs in the early beginnings of crypto I decided to give EOS (and Dan) a fair chance. I read their whitepaper and watched a presentation to see what the fuzz was all about. And boy, did we got some claims! EOS claims to support millions of transactions per second so it can become the operating system for the blockchain world. There’s no need for users to pay anything (!) and even social networks like Facebook could run on EOS. Dan even got as far as saying that each Facebook-like could be a blockchain interaction on EOS.
 
-我记得早期我就读到过有关 Bitshares 和 DAC 的文章，所以我决定给EOS（和 Dan）一个公平的机会。我阅读他们的白皮书，观看了演示文稿，想了解 EOS 到底是什么东东。特别的，我们在其中看到了一些声明！EOS声称每秒支持数百万次交易，因此它可以成为区块链世界的操作系统。使用时用户不需要支付任何东西！甚至像 Facebook 这样的社交网络也可以在 EOS 上运行。Dan 甚至还说，类似 Facebook 的程序都可以成为跟 EOS 交互的区块链应用。
+我记得早期我就读到过有关 Bitshares 和 DAC 的文章，所以我决定给EOS（和 Dan）一个公平的机会。我阅读他们的白皮书，观看了演示文稿，想了解 EOS 到底是什么东东。特别的，我们在其中看到了一些技术声明！EOS声称每秒能支持数百万次交易，因此它可以成为区块链世界的操作系统。使用时用户不需要支付任何费用！甚至像 Facebook 这样的社交网络也可以在 EOS 上运行。Dan 甚至还说，类似 Facebook 的程序都可以成为跟 EOS 交互的区块链应用。
 
 ## The idea |想法
 
 Are you still here? I’m actually surprised I am. I criticized Ethereum and all their similar claims (infinite sharding!) in quite a number of posts. But Dan Larimer is even beyond the Ethereum claims with his lack of transaction costs and “likes” on a blockchain. Time to look at his magic ingredients on how to make a network like that even possible.
 
-你还在阅读吗？我真的对此感到很惊讶。我在很多帖子中批评过以太坊和所有类似（无限分片！）的声明。但 Dan Larimer 甚至超越了以太坊，没有交易成本，一切“运行”在区块链上。现在让我们看看，他是如何神奇的将实现这样的网络成为可能。
+你还在阅读吗？我真的对这些感到很惊讶。我在很多帖子中批评过以太坊和所有类似（无限分片！）的声称。但 Dan Larimer 声称 EOS 远远超越了以太坊，它没有交易成本，一切“运行”在区块链上。现在让我们看看，他是如何神奇的将实现这样的网络成为可能。
 
 Dan is the inventor of Delegated Proof Of Stake (DPOS) and this is quite different from miners fighting to solve a hash contest. In short you have several miners that mine certain blocks if they’re allowed to by stakeholders. So instead of getting trust from hashpower you gain trust by nodes in the network that own coins. But wait a second; in EOS things are even different than that. In EOS; App-devs can actually pick certain miners to make their blocks… How can that ever be secure?
 
-Dan 是委托权益证明（DPOS）的发明者，这与矿工们为解决 hash (哈希)竞赛而奋斗是截然不同的。简而言之，DPOS 就是在利益相关者允许下，你可以用矿工来挖掘某些区块。通过拥有金钱（coin） 的网络节点而不是算力获得信任。但是等一下，在EOS中，情况甚至更为不同，EOS 应用程序开发人员实际上可以挑选某些矿工来创建自己的区块......(这种情况下)如何才能保证安全？
+Dan 是委托权益证明（DPOS）的发明者，这与矿工们为解决 hash (哈希)竞赛而奋斗是截然不同的。简而言之，DPOS 就是在利益相关者允许下，你可以用矿工来挖掘某些区块。通过拥有金钱（coin） 的网络节点而不是算力获得信任。但是等一下，在EOS中，情况甚至更为不同，EOS 应用程序开发人员实际上可以挑选某些矿工来创建自己的区块......(这种情况下)如何才能保证网络安全？
 
 ## The whole network | 整个网络
 
