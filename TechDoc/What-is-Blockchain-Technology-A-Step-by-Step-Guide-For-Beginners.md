@@ -7,7 +7,7 @@ An in-depth guide by BlockGeeks
 >
 >翻译：区块链中文字幕组 - [张奎](https://github.com/byzhangkui)
 >
-> 翻译时间：2017-11-15
+> 翻译时间：2017-11-20
 
 ## Is blockchain technology the new internet?  
 ## 区块链技术是新的互联网吗？  
@@ -32,14 +32,14 @@ Don＆Alex Tapscott，《区块链革命》（2016）的作者。
 
 ## A distributed database  
 ## 一个分布式数据库  
-Picture a spreadsheet that is duplicated thousands of times across a network of computers. Then imagine that this network is designed to regularly update this spreadsheet and you have a basic understanding of the blockchain.
-想象一下一个通过计算机网络被传播，并重复存储数千次的电子表格。这个网络的目的是定期更新这个电子表格，这样你对区块链就有一个基本的了解。
+Picture a spreadsheet that is duplicated thousands of times across a network of computers. Then imagine that this network is designed to regularly update this spreadsheet and you have a basic understanding of the blockchain.  
+想象一下一个通过计算机网络被传播，并重复存储数千次的电子表格。这个网络的目的是定期更新这个电子表格，这样你对区块链就有一个基本的了解。  
 
-Information held on a blockchain exists as a shared — and continually reconciled — database. This is a way of using the network that has obvious benefits. The blockchain database isn’t stored in any single location, meaning the records it keeps are truly public and easily verifiable. No centralized version of this information exists for a hacker to corrupt. Hosted by millions of computers simultaneously, its data is accessible to anyone on the internet.
-在区块链上保存的信息是保存在一个共享的、持续保持一致的数据库中。这样使用网络具有明显优点。区块链数据库不是存储在任何单节点，这意味着它保存的记录是真正公开并且容易验证的。这些信息不存在一个中心版本可让黑客破坏。数百万台计算机同时托管这些数据，互联网上的任何人都可以访问这些数据。
+Information held on a blockchain exists as a shared — and continually reconciled — database. This is a way of using the network that has obvious benefits. The blockchain database isn’t stored in any single location, meaning the records it keeps are truly public and easily verifiable. No centralized version of this information exists for a hacker to corrupt. Hosted by millions of computers simultaneously, its data is accessible to anyone on the internet.  
+在区块链上保存的信息是保存在一个共享的、持续保持一致的数据库中。这样使用网络具有明显优点。区块链数据库不是存储在任何单节点，这意味着它保存的记录是真正公开并且容易验证的。这些信息不存在一个中心版本可让黑客破坏。数百万台计算机同时托管这些数据，互联网上的任何人都可以访问这些数据。  
 
-To go in deeper with the Google spreadsheet analogy, I would like you to read this piece from a blockchain specialist.
-我们用Google电子表格做类比来深入了解区块链，我希望您能阅读这篇区块链专家的文章。
+To go in deeper with the Google spreadsheet analogy, I would like you to read this piece from a blockchain specialist.  
+我们用Google电子表格做类比来深入了解区块链，我希望您能阅读这篇区块链专家的文章。  
 
 ## Blockchain as Google Docs
 ## 区块链与谷歌文档
@@ -69,19 +69,19 @@ Blockchain technology is like the internet in that it has a built-in robustness.
 Bitcoin was invented in 2008. Since that time, the Bitcoin blockchain has operated without significant disruption. (To date, any of problems associated with Bitcoin have been due to hacking or mismanagement. In other words, these problems come from bad intention and human error, not flaws in the underlying concepts.)  
 比特币在2008年被发明。自从那时起，比特币区块链没有中断运行。（至今为止，比特币发生的任何问题都是因为黑客攻击或者管理不善造成。换句话说，这些问题都是由于恶意攻击或者人为错误造成，而不是概念上的缺陷。）
 
-The internet itself has proven to be durable for almost 30 years. It’s a track record that bodes well for blockchain technology as it continues to be developed.
+The internet itself has proven to be durable for almost 30 years. It’s a track record that bodes well for blockchain technology as it continues to be developed.  
 互联网本身持续运行了30年。这是一个有利于区块链技术持续发展的良好记录。
 
-“As revolutionary as it sounds, Blockchain truly is a mechanism to bring everyone to the highest degree of accountability. No more missed transactions, human or machine errors, or even an exchange that was not done with the consent of the parties involved. Above anything else, the most critical area where Blockchain helps is to guarantee the validity of a transaction by recording it not only on a main register but a connected distributed system of registers, all of which are connected through a secure validation mechanism.”
+“As revolutionary as it sounds, Blockchain truly is a mechanism to bring everyone to the highest degree of accountability. No more missed transactions, human or machine errors, or even an exchange that was not done with the consent of the parties involved. Above anything else, the most critical area where Blockchain helps is to guarantee the validity of a transaction by recording it not only on a main register but a connected distributed system of registers, all of which are connected through a secure validation mechanism.”  
 “作为一个革命性的发明，区块链提供一个机制让每个人获得最大程度的责任。不再有丢失的转账，人或机器错误，甚至是没有参与方同意的交换。区块链最重要的是保证一个交易不仅仅被记录在一个主账簿上，而且还记录在互相链接的分布式帐簿里，这些账簿通过一个安全验证的机制来连接。”
 
 – Ian Khan, TEDx Speaker | Author | Technology Futurist
 - Ian Khan，TEDx演讲者，作家，未来学家
 
 # Transparent and incorruptible  
-#
+# 透明和不可篡改
 The blockchain network lives in a state of consensus, one that automatically checks in with itself every ten minutes.  A kind of self-auditing ecosystem of a digital value, the network reconciles every transaction that happens in ten-minute intervals. Each group of these transactions is referred to as a “block”. Two important properties result from this:  
-区块链网络没10分钟会进行自检，使得其一直保持一致的状态。作为一种具有自审查机制的数字货币生态，这个网络会核对10分钟内发生的每笔交易。
+区块链网络每10分钟会进行自检，使得其一直保持一致的状态。作为一种具有自审查机制的数字货币生态，这个网络会核对10分钟内发生的每笔交易。
 
 1、**Transparency** data is embedded within the network as a whole, by definition it is public.  
 1、**透明** 网络中的数据是一个公开的整体。  
@@ -106,20 +106,20 @@ A network of so-called computing “nodes” make up the blockchain.
 
 > 节点（连接在区块链网络中的计算机使用一个客户端运行验证和分发交易的任务）保留一个区块链的副本，在这个节点加入区块链网络时会自动的下载下来。
 
-Together they create a powerful second-level network, a wholly different vision for how the internet can function.  
-他们一起创造了一个强大的y与互联网完全不同的二级网络。
+Together they create a powerful second-level network, a wholly different vision for how the internet can function.    
+他们一起创造了一个强大的与互联网完全不同的二级网络。
 
-Every node is an “administrator” of the blockchain, and joins the network voluntarily (in this sense, the network is decentralized). However, each one has an incentive for participating in the network: the chance of winning Bitcoins.
+Every node is an “administrator” of the blockchain, and joins the network voluntarily (in this sense, the network is decentralized). However, each one has an incentive for participating in the network: the chance of winning Bitcoins.  
 每个节点都是区块链的“管理者”，并且自愿的加入网络（因此，这个网络是去中心化的）。然而，每个人都有加入这个网络的动机：获取比特币的机会。  
 
 Nodes are said to be “mining” Bitcoin, but the term is something of a misnomer. In fact, each one is competing to win Bitcoins by solving computational puzzles. Bitcoin was the raison d’etre of the blockchain as it was originally conceived. It’s now recognized to be only the first of many potential applications of the technology.  
 节点被称作“挖矿”，但这种说法并不准确。事实上，每个节点都在通过解决一个计算谜题的竞争来赢得比特币。比特币就像这个区块链最初构想的那样。现在已经认识到，这只是众多潜在用途中的第一个应用。
 
 There are an estimated 700 Bitcoin-like cryptocurrencies (exchangeable value tokens) already available. As well, a range of other potential adaptations of the original blockchain concept are currently active, or in development.
-目前有着多大700种的类比特币的加密货币（可交换的代币）。此外，一大批潜在的基于原始区块链概念的应用正在运行或者在开发中。
+目前有着多达700种的类比特币的加密货币（可交换的代币）。此外，一大批潜在的基于原始区块链概念的应用正在运行或者在开发中。
 
 > “Bitcoin has the same character a fax machine had. A single fax machine is a doorstop. The world where everyone has a fax machine is an immensely valuable thing.”
-Larry Summers, Former US Secretary of the Treasury
+Larry Summers, Former US Secretary of the Treasury  
 > “比特币具有传真机相同的特征。单个传真机就是一个大门，让这世界每一个人都拥有传真机是极具价值的事情。”
 前美国财政部长拉里·萨默斯（Larry Summers）
 
@@ -149,16 +149,16 @@ As web infrastructure, you don’t need to know about the blockchain for it to b
 Currently, finance offers the strongest use cases for the technology. International remittances, for instance. The World Bank estimates that over $430 billion US in money transfers were sent in 2015. And at the moment there is a high demand for blockchain developers.  
  当前，金融为这项技术提供了强有力的场景。例如，国际汇款。世界银行估计，在2015年产生了超过4300亿美元的资金转移。这对区块链开发者提出了很高的要求。  
 
-The blockchain potentially cuts out the middleman for these types of transactions.  Personal computing became accessible to the general public with the invention of the Graphical User Interface (GUI), which took the form of a “desktop”. Similarly, the most common GUI devised for the blockchain are the so-called “wallet” applications, which people use to buy things with Bitcoin, and store it along with other cryptocurrencies.
+The blockchain potentially cuts out the middleman for these types of transactions.  Personal computing became accessible to the general public with the invention of the Graphical User Interface (GUI), which took the form of a “desktop”. Similarly, the most common GUI devised for the blockchain are the so-called “wallet” applications, which people use to buy things with Bitcoin, and store it along with other cryptocurrencies.  
 区块链潜在的消除了这类转账的中间商。由于用户图形界面的使用，个人电脑在大众中普及起来。同样的，为区块链设计的通用用户图形界面就是“钱包”程序，人们可以用比特币来购物，也可以存储其他类型的加密货币。  
 
-Transactions online are closely connected to the processes of identity verification. It is easy to imagine that wallet apps will transform in the coming years to include other types of identity management.  
+Transactions online are closely connected to the processes of identity verification. It is easy to imagine that wallet apps will transform in the coming years to include other types of identity management.   
 在线交易和身份验证紧密关联。很容易想象，钱包应用未来几年会包含其他类型的身份验证。  
 
-> “Online identity and reputation will be decentralized. We will own the data that belongs to us.”
+> “Online identity and reputation will be decentralized. We will own the data that belongs to us.”  
 William Mougayar, author The Business Blockchain: Promise, Practice, and Application of the Next Internet Technology (2016)
 
-> “在线身份和信用将去中心化。我们将拥有属于我们自己的数据”
+> “在线身份和信用将去中心化。我们将拥有属于我们自己的数据”  
 William Mougayar，著有《区块链商业：下一代互联网技术的承诺，实践和应用（2016）》
 
 # The Blockchain & Enhanced security   
@@ -170,19 +170,19 @@ Its network lacks centralized points of vulnerability that computer hackers can 
 它的网络没有黑客可以攻击的中心节点。每个人都知道当今网络存在的安全问题。我们都依赖“用户名/密码”的系统来保护我们在线身份和资产。  
 
 The basis for this are the so-called public and private “keys”. A “public key” (a long, randomly-generated string of numbers) is a users’ address on the blockchain. Bitcoins sent across the network gets recorded as belonging to that address. The “private key” is like a password that gives its owner access to their Bitcoin or other digital assets. Store your data on the blockchain and it is incorruptible. This is true, although protecting your digital assets will also require safeguarding of your private key by printing it out, creating what’s referred to as a paper wallet.  
-这个机制的基础是公钥和私钥。“公钥”（随机生产的一长串数字）是用户在区块链上的地址。通过网络发送的比特币被记录属于这个地址。“私钥”像一个密码，用户用来管理他们的比特币或者其他数字资产。存储在区块链上的数据是不可篡改的。保护你的数字资产需要将你的私钥打印出来安全保存，创建所谓的纸钱包。
+这个机制的基础是公钥和私钥。“公钥”（随机生产的一长串数字）是用户在区块链上的地址。通过网络发送的比特币被记录属于这个地址。“私钥”像一个密码，人们用来管理他们的比特币或者其他数字资产。存储在区块链上的数据是不可篡改的。保护你的数字资产需要将你的私钥打印出来安全保存，创建所谓的纸钱包。
 
 ![](https://blockgeeks.com/wp-content/uploads/2016/09/image-2-1.png)
 
 # A second-level network
 # 二级网络  
-With blockchain technology, the web gains a new layer of functionality.
+With blockchain technology, the web gains a new layer of functionality.  
 互联网利用区块链技术获得来一个新的能力层。  
 
-Already, users can transact directly with one another — Bitcoin transactions in 2016 averaged over $200,000 US per day. With the added security brought by the blockchain new internet business are on track to unbundle the traditional institutions of finance.
+Already, users can transact directly with one another — Bitcoin transactions in 2016 averaged over $200,000 US per day. With the added security brought by the blockchain new internet business are on track to unbundle the traditional institutions of finance.  
 人们已经可以直接转账给另一个人 -- 比特币在2016年平均一天有20万美元的交易。随着区块链带来的安全性增强，新的互联网商业正在瓦解传统的金融机构。
 
-Goldman Sachs believes that blockchain technology holds great potential especially to optimize clearing and settlements, and could represent global savings of up to $6bn per year.
+Goldman Sachs believes that blockchain technology holds great potential especially to optimize clearing and settlements, and could represent global savings of up to $6bn per year.  
 高盛认为，区块链技术具有巨大的潜力，特别是在优化清算和结算方面，全球每年可以节省高达60亿美元。
 
 > “2017 will be a pivotal year for blockchain tech. Many of the startups in the space will either begin generating revenue – via providing products the market demands/values – or vaporize due to running out of cash. In other words, 2017 should be the year where there is more implementation of products utilizing blockchain tech, and less talk about blockchain tech being the magical pixie dust that can just be sprinkled atop everything. Of course, from a customers viewpoint, this will not be obvious as blockchain tech should dominantly be invisible – even as its features and functionality improve peoples’/business’ lives. I personally am familiar with a number of large-scale blockchain tech use cases that are launching soon/2017. This implementation stage, which 2017 should represent, is a crucial step in the larger adoption of blockchain tech, as it will allow skeptics to see the functionality, rather than just hear of its promise.”
