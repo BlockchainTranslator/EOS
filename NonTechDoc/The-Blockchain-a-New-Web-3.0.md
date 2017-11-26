@@ -1,5 +1,5 @@
 # The Blockchain a New Web 3.0?
-# 区块链是新的Web 3.0？
+# 区块链是新的Web 3.0吗？
 
 >原文链接：<https://steemit.com/eos/@eosio/who-should-control-a-blockchain>
 >
