@@ -71,11 +71,11 @@ We encourage an open healthy debate on this issue and will continue to leverage 
 
 [点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
 
-#### 版权所有
-
-本文译者简介
+#### 本文译者简介
 
 张奎 区块链技术爱好者，热衷于区块链相关技术研究，欢迎加微信号:mazeboy
+
+本文由币乎社区（bihu.com）内容支持计划赞助。
 
 版权所有，转载需完整注明以上内容。
 
