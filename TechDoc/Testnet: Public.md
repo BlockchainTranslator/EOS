@@ -15,7 +15,7 @@ The Public Testnet exists to support developers and testers who are already work
 
 The Public Testnet allows developers to work with free test tokens, provided during signup. Access the signup page [here](https://docs.google.com/forms/d/e/1FAIpQLSel3HVFb22zYaAJfUtu_IzFgIJ4OATb0jQ3H2FV-HbwnJ090g/viewform).
 
-公共测试网允许开发人员使用免费的测试代币，注册时提供的。在这里访问注册页面。
+公共测试网允许开发人员使用免费的测试代币，注册时提供的。[在这里访问注册页面](https://docs.google.com/forms/d/e/1FAIpQLSel3HVFb22zYaAJfUtu_IzFgIJ4OATb0jQ3H2FV-HbwnJ090g/viewform)。
 
 ## Differences between Testnet and Mainnet | 测试网和主网的区别
 
