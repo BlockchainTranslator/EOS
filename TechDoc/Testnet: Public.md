@@ -13,7 +13,7 @@ The Public Testnet exists to support developers and testers who are already work
 
 公共测试网是为了已经在使用自己的独立(私有)测试网的开发人员和测试人员准备的，他们希望在公共网上测试他们的代码，没有公共生产网(主网)上工作的问题和限制。
 
-The Public Testnet allows developers to work with free test tokens, provided during signup. Access the signup page ![here](https://docs.google.com/forms/d/e/1FAIpQLSel3HVFb22zYaAJfUtu_IzFgIJ4OATb0jQ3H2FV-HbwnJ090g/viewform).
+The Public Testnet allows developers to work with free test tokens, provided during signup. Access the signup page [here](https://docs.google.com/forms/d/e/1FAIpQLSel3HVFb22zYaAJfUtu_IzFgIJ4OATb0jQ3H2FV-HbwnJ090g/viewform).
 
 公共测试网允许开发人员使用免费的测试代币，注册时提供的。在这里访问注册页面。
 
