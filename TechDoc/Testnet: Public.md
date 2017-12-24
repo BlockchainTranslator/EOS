@@ -1,4 +1,13 @@
-Overview 概述
+# Testnet: Public
+
+
+> 本文翻译自：https://github.com/EOSIO/eos/wiki/Testnet%3A%20Public
+> 
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [何德林](https://github.com/BlockchainTranslator/EOS)
+> 
+> 翻译时间：2017-11-26
+
+## Overview 概述
 
 The Public Testnet exists to support developers and testers who are already working with their own standalone (private) testnet and who want to test their code on a public net, but without the issues and restrictions of working on a public production net ("mainnet").
 
@@ -8,7 +17,7 @@ The Public Testnet allows developers to work with free test tokens, provided dur
 
 公共测试网允许开发人员使用免费的测试代币，注册时提供的。在这里访问注册页面。
 
-Differences between Testnet and Mainnet | 测试网和主网的区别
+## Differences between Testnet and Mainnet | 测试网和主网的区别
 
 There are several differences between the Public Testnet and the public Mainnet. As of this writing, they include:
 
@@ -44,13 +53,13 @@ The Testnet is currently configured such that block-producing nodes will only be
 
 测试网络目前已经配置好，区块生成节点只能在核心开发人员设置和操作的主机上运行。主网的块产生节点将运行在由令牌持有者投票选择的主机上。
 
-Nodes 节点
+## Nodes 节点
 
 The Testnet consists of block-producing nodes and non-producing nodes.
 
 测试网络由区块生成节点和非生成节点组成。
 
-Public Testnet Endpoints
+## Public Testnet Endpoints
 
 公共测试网络的接入点
 
@@ -69,7 +78,7 @@ You can test the connection using curl
 
 $ curl testnet1.eos.io/v1/chain/get_info
 
-Connecting Local EOSD with Public Testnet
+## Connecting Local EOSD with Public Testnet
 
 连接本地EOSD到公共测试网络
 
@@ -89,7 +98,7 @@ Modify block-interval-seconds to match the testnet, which is 2. Otherwise, your 
 
 block-interval-seconds = 2
 
-Connecting Local EOSC with Public Testnet
+## Connecting Local EOSC with Public Testnet
 
 连接本地EOSC到公共测试网络
 
@@ -115,7 +124,7 @@ Then specify your local wallet endpoint and port when using eosc, unless you ove
 
 $ eosc -H ${http_endpoint} -p 80 ${options} --wallet-host ${wallet_endpoint} --wallet-port ${wallet_port} ${subcommand}
 
-Accounts on Testnet  测试网络帐户
+## Accounts on Testnet  测试网络帐户
 
 Before you begin first you'll need your account name and EOS public key handy.
 在开始之前，您需要获得你的帐户名和EOS公钥。
@@ -146,7 +155,7 @@ Once you have your account name, you can choose how you would like to interact w
 
 一旦你有的帐户名，你可以选择如何喜欢的方式与EOS交互。
 
-Web Wallet (End Users)  Web钱包（终端用户）
+## Web Wallet (End Users)  Web钱包（终端用户）
 
 Visit the Testnet Web Wallet 访问测试网网页钱包
 
@@ -173,7 +182,7 @@ Click "Add Account"
 
 点击 "Add Account"
 
-Command Line (Developers)
+## Command Line (Developers)
 
 命令行(开发人员)
 
