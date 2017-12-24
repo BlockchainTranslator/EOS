@@ -5,7 +5,7 @@
 > 
 > 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [何德林](https://github.com/BlockchainTranslator/EOS)
 > 
-> 翻译时间：2017-11-26
+> 翻译时间：2017-12-24
 
 ## Overview | 概述
 
