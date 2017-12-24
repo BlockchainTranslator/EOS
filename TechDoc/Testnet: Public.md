@@ -23,33 +23,25 @@ There are several differences between the Public Testnet and the public Mainnet.
 
 公共测试网和公共主网之间有一些区别。在撰写本文时，它们包括:
 
-* * Existence *. The public mainnet doesn't exist yet, and the public testnet does.
+* Existence. The public mainnet doesn't exist yet, and the public testnet does.
 
-* -存在性-。公共主网还不存在，但公共测试网已存在。
+* 存在性。 公共主网还不存在，但公共测试网已存在。
 
-* Genesis block. 创世区块
+* Genesis block. The mainnet genesis block is different from the testnet genesis block. The Testnet genesis block includes a faucet account and several "initx" accounts (inita - initu) used by the core development team during testing. At least some of these initx accounts are also present in the provided genesis block of standalone private testnets.
 
-* The mainnet genesis block is different from the testnet genesis block. The Testnet genesis block includes a faucet account and several "initx" accounts (inita - initu) used by the core development team during testing. At least some of these initx accounts are also present in the provided genesis block of standalone private testnets.
+*  创世区块。 主网的创世区块与测试网的创世区块不同。测试网的创世区块包含一个faucet帐户和几个“initx”帐户(inita - initu)，在测试期间由核心开发团队使用。至少,其中一些initx帐户也出现在，私有测试网络的创世区块中。
 
-* 主网的创世区块与测试网的创世区块不同。测试网的创世区块包含一个faucet帐户和几个“initx”帐户(inita - initu)，在测试期间由核心开发团队使用。至少,其中一些initx帐户也出现在，私有测试网络的创世区块中。
+* Resets. The Testnet is subject to resets as needed to support testing.
 
-* Resets. 重置。
+* 重置。 测试网络需要重新设置以支持测试。
 
-* The Testnet is subject to resets as needed to support testing.
+* Versions. The Testnet can actually include multiple testnets with different addresses and different reset cycles, depending on the needs and desires of the development community.
 
-* 测试网络需要重新设置以支持测试。
+* 版本。 测试网络实际上可以包含多个测试网络，具有不同地址和不同复位周期，具体取决于开发社区的需求。
 
-* Versions. 版本。
+* Hosting. The Testnet is currently configured such that block-producing nodes will only be run on hosts set up and operated by the core developers. The Mainnet's block producing nodes will run on hosts selected by a vote of the token holders.
 
-* The Testnet can actually include multiple testnets with different addresses and different reset cycles, depending on the needs and desires of the development community.
-
-* 测试网络实际上可以包含多个测试网络，具有不同地址和不同复位周期，具体取决于开发社区的需求。
-
-* Hosting. 主机
-
-* The Testnet is currently configured such that block-producing nodes will only be run on hosts set up and operated by the core developers. The Mainnet's block producing nodes will run on hosts selected by a vote of the token holders.
-
-* 测试网络目前已经配置好，区块生成节点只能在核心开发人员设置和操作的主机上运行。主网的块产生节点将运行在由令牌持有者投票选择的主机上。
+* 主机 测试网络目前已经配置好，区块生成节点只能在核心开发人员设置和操作的主机上运行。主网的块产生节点将运行在由令牌持有者投票选择的主机上。
 
 ## Nodes 节点
 
