@@ -29,11 +29,11 @@ There are several differences between the Public Testnet and the public Mainnet.
 
 * Genesis block. The mainnet genesis block is different from the testnet genesis block. The Testnet genesis block includes a faucet account and several "initx" accounts (inita - initu) used by the core development team during testing. At least some of these initx accounts are also present in the provided genesis block of standalone private testnets.
 
-*  创世区块。 主网的创世区块与测试网的创世区块不同。测试网的创世区块包含一个faucet帐户和几个“initx”帐户(inita - initu)，在测试期间由核心开发团队使用。至少,其中一些initx帐户也出现在，私有测试网络的创世区块中。
+*  创世区块。 主网的创世区块与测试网的创世区块不同。测试网的创世区块包含一个faucet帐户和几个“initx”帐户(inita - initu)，在测试期间由核心开发团队使用。其中一些initx帐户也出现在，私有测试网络的创世区块中。
 
 * Resets. The Testnet is subject to resets as needed to support testing.
 
-* 重置。 测试网络需要重新设置以支持测试。
+* 重置。 测试网络需要重置以支持测试。
 
 * Versions. The Testnet can actually include multiple testnets with different addresses and different reset cycles, depending on the needs and desires of the development community.
 
@@ -66,7 +66,7 @@ You can test the connection using curl
 
 你可以用curl进行连接测试。
 
-$ curl testnet1.eos.io/v1/chain/get_info
+    $ curl testnet1.eos.io/v1/chain/get_info
 
 ## Connecting Local EOSD with Public Testnet
 
