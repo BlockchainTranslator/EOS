@@ -23,7 +23,7 @@ There are several differences between the Public Testnet and the public Mainnet.
 
 公共测试网和公共主网之间有一些区别。在撰写本文时，它们包括:
 
-* -Existence-. The public mainnet doesn't exist yet, and the public testnet does.
+* *Existence*. The public mainnet doesn't exist yet, and the public testnet does.
 
 * -存在性-。公共主网还不存在，但公共测试网已存在。
 
