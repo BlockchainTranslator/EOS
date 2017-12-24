@@ -59,7 +59,9 @@ The following is the list of currently available Public Testnets:
 Testnet1
 
 HTTP Endpoint: testnet1.eos.io
+
 P2P Endpoint: p2p-testnet1.eos.io:9876
+
 Web Wallet Endpoint: t1wallet.eos.io, t1api.eos.io, t1readonly.eos.io
 
 You can test the connection using curl
@@ -76,17 +78,17 @@ In order to connect your local eosd to the public testnet, ensure your machine's
 
 为将您的本地eosd连接到公共测试网络，须确保您的机器时钟是准确的，且需要修改您的config.ini如下:
 
-Add p2p-peer-address field with one of the valid public testnet p2p endpoint
+    Add p2p-peer-address field with one of the valid public testnet p2p endpoint
 
 将公共测试网络的p2p接入点增加到 p2p-peer-address
 
-p2p-peer-address = p2p-testnet1.eos.io
+    p2p-peer-address = p2p-testnet1.eos.io
 
 Modify block-interval-seconds to match the testnet, which is 2. Otherwise, your local eosd node won't be able to sync with the public testnet.
 
 修改block -interval- seconds为2，以匹配网络。否则，本地的eosd节点将无法与公共测试网同步。
 
-block-interval-seconds = 2
+    block-interval-seconds = 2
 
 ## Connecting Local EOSC with Public Testnet
 
@@ -96,17 +98,17 @@ You can connect your local eosc with public testnet by using the http endpoint a
 
 您可以连接本地eosc和公共testnet，通过使用http端点作为主机名，端口为80:
 
-$ eosc -H ${http_endpoint} -p 80 ${options} ${subcommand}
+    $ eosc -H ${http_endpoint} -p 80 ${options} ${subcommand}
 
 Furthermore, public testnet does not provide any wallet functionality. In order to be able to sign transaction/ push transaction/ wallet operation, you will need to connect your local wallet with eosc when you are connecting to public testnet. To do so, ensure that you have your local wallet running.
 
 此外，公共测试网络不提供任何钱包功能。为了能够签署交易/推送交易/钱包操作，当你连接到公共测试时，你需要将你的本地钱包与eosc连接起来。要做到这一点，你要确保你的本地钱包在运行。
 
-$ eos-walletd
+    $ eos-walletd
 
-# this will create a data-dir folder inside your current working directory, this data-dir folder will contain your private keys encrypted with the wallet password
+    # this will create a data-dir folder inside your current working directory, this data-dir folder will contain your private keys encrypted with the wallet password
 
-这将在当前工作目录中创建一个data dir文件夹，data dir文件夹将包含你的私匙，使用钱包密码加密过的
+    这将在当前工作目录中创建一个data dir文件夹，data dir文件夹将包含你的私匙，使用钱包密码加密过的
 
 Then specify your local wallet endpoint and port when using eosc, unless you override it, wallet_endpoint will be localhost and wallet_port will be 8888.
 
