@@ -1,86 +1,108 @@
-- [1. Wallets](#1-wallets)
-- [2. Accounts](#2-accounts)
-- [3. Authorities and Permissions](#3-authorities-and-permissions)
-- [4. Putting it all Together](#4-putting-it-all-together)
-  * [4.1 Default Account Configuration (Single-Sig)](#41-default-account-configuration-single-sig)
-  * [4.2 Multi-sig Account & Custom Permissions](#42-multi-sig-account--custom-permissions)
+# Accounts & Permissions
+# 账户和权限
 
-An **account** is human readable identifier that is stored on the blockchain. Every transaction has it's permissions evaluated under the configured authority of an account. Each named permission has a threshold that must be met for a transactions signed under that authority to be considered valid. Transactions are signed by utilizing a **client** that has a loaded and unlocked wallet. A wallet is software that protects and makes use of your keys. These keys may or maybe not be permissioned to an account authority on the blockchain.
 
-## 1. Wallets
+> 本文翻译自：https://github.com/EOSIO/eos/wiki/Accounts%20%26%20Permissions
+> 
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [林炜鑫](https://github.com/weixin1993)
+> 
+> 翻译时间：2017-12-31
 
-Wallets are clients that store keys that may or may not be associated to the permissions of one or more accounts. Ideally a wallet has a locked (encrypted) and unlocked (decrypted) state that is protected by a highly entropied password. The EOSIO/eos repository comes bundled with a command line interface client called `eosc` that includes a wallet as part of its functionality. 
 
-## 2. Accounts
+ - [1.Wallets 钱包](#wallets)
+ - [2.Accounts 账号](#accounts)
+ - [3.Authorities and Permissions 许可和权限](#permissions)
+ - [4.Putting it all Together 把它们放在一起](#together)
+-- [4.1 Default Account Configuration (Single-Sig) 默认账户配置（单机）](#4-Putting-it-all-Together)
+-- [4.2 Multi-sig Account & Custom Permissions]()
 
-An account is a human readable name that is stored on the blockchain. It can be owned by an individual or group of individuals depending on permissions configuration. An account is required to transfer or otherwise push a transaction to the blockchain. 
+An account is a human-readable identifier that is stored on the blockchain. Every transaction has its permissions evaluated under the configured authority of an account. Each named permission has a threshold that must be met for a transaction signed under that authority to be considered valid. Transactions are signed by utilizing a client that has a loaded and unlocked wallet. A wallet is software that protects and makes use of your keys. These keys may or maybe not be permissioned to an account authority on the blockchain.
 
-## 3. Authorities and Permissions
+帐户是一种人类可读的、存储在区块链中的标识符。每一笔交易都有其权限，这个权限是在一个配置好的账户许可下进行评估的。每个指定的权限都有一个阈值，该阈值必须满足在该许可认为是有效的且签署好的交易。交易的签署是通过使用一个已装载并解锁的钱包的客户端来签署的。钱包是一种保护和使用你的密钥的软件。这些密钥可能、也可能不会授权给区块链上的一个账户许可。
 
-Authorities determine whether or not any given message is properly authorized. 
+<a name="wallets">
+## 1. Wallets | 钱包
+Wallets are clients that store keys that may or may not be associated with the permissions of one or more accounts. Ideally a wallet has a locked (encrypted) and unlocked (decrypted) state that is protected by a high entropy password. The EOSIO/eos repository comes bundled with a command line interface client called eosc that includes a wallet as part of its functionality.
 
-Every account has two _native_ named permissions
+钱包是存储密钥的客户端，而这些密钥可能或者可能不会与一个或多个帐户的权限相关联。理想状况下，钱包有一个锁定（加密）和解锁（解密）的状态，该状态由高熵密码保护。
+钱包是存储密钥的客户端，这些密钥可能与一个或多个帐户的权限相关联。理想情况下，钱包有一个锁定(加密)和解锁(解密)的状态，该状态由高熵密码保护。EOSIO/eos存储库绑定了一个名为eosc的命令行接口客户端，该客户端包含一个钱包作为其功能的一部分。
+</a>
+
+<a name="accounts">
+##2.Accounts | 账号
+An account is a human-readable name that is stored on the blockchain. It can be owned by an individual or group of individuals depending on permissions configuration. An account is required to transfer or otherwise push a transaction to the blockchain.
+
+一个帐户是一个人类可读的、存储在区块链的名字。它可以由个人或群体拥有，这取决于权限配置。一个账户被要求转移或将一个交易推到区块链。
+</a>
+
+<a name="permissions">
+##3. Authorities and Permissions | 许可和权限
+
+Authorities determine whether or not any given message is properly authorized.
+
+许可决定是否给予适当的授权。
+
+Every account has two native named permissions.
+
+每个账户都有两种本地指定权限。
+
 
 - `owner` authority symbolizes ownership of an account. There are only a few transactions that require this authority, but most notably, are messages that make any kind of change to the owner authority. Generally, it is suggested that owner is kept in cold storage and not shared with anyone. `owner` can be used to recover another permission that may have been compromised.
-- `active` authority is used for transferring funds, voting for producers and making other high level account changes. 
 
-In addition to the _native_ permissions, an account can possess custom named permissions that are available to further extend account management. Custom permissions are incredibly flexible and address numerous possible use cases when implemented. Much of this is up to the developer community in how they are employed, and what conventions if any, are adopted.
+- `所有者`许可象征着一个账户的所有权。只有很少的交易需要这个许可，但最值得注意的是，消息是指对所有者许可进行任何更改的消息。一般情况下，建议所有者用冷钱包的方式储存并不与任何人分享。`所有者`可以被用来恢复另一个可能已经被破坏的权限。
 
-Permission for any given authority can be assigned to one or multiple `public keys` or a valid `account name`. 
+- `active` authority is used for transferring funds, voting for producers and making other high-level account changes.
 
-## 4. Putting it all Together
+- `活跃者`的许可用来转账、为生产者投票以及使其他高等级账户改变。
 
-Below is the combination of all the above concepts and some loose examples of how they might be practically employed. 
+In addition to the native permissions, an account can possess custom named permissions that are available to further extend account management. Custom permissions are incredibly flexible and address numerous possible use cases when implemented. Much of this is up to the developer community in how they are employed, and what conventions if any, are adopted.
 
-### 4.1 Default Account Configuration (Single-Sig)
+除了本机权限之外，帐户还可以拥有用于进一步扩展帐户管理的自定义权限。自定义权限非常灵活，并在实现时能够处理大量可能发生的用例。这在很大程度上取决于开发人员如何使用他们，以及采用了什么约定。
 
-This is how an account is configured after it has been created, it has a single key for both the **owner** and **active** permissions, both keys with a weight of **1** and permissions both with a threshold of **1**. The default configuration requires a single signature to authorize a message for the native permissions.
+Permission for any given authority can be assigned to one or multiple `public keys` or a valid `account name`.
 
-#### __*@bob account authorities*__
+任何授权的权限都可以分配给一个或多个`公钥`或一个有效的帐户名。
 
-| Permission | Account                                               | Weight | Threshold |
-|------------|-------------------------------------------------------|--------|-----------|
-| owner      |                                                       |        | 1         |
-|            | EOS5EzTZZQQxdrDaJAPD9pDzGJZ5bj34HaAb8yuvjFHGWzqV25Dch | 1      |           |
-| active     |                                                       |        | 1         |
-|            | EOS61chK8GbH4ukWcbom8HgK95AeUfP8MBPn7XRq8FeMBYYTgwmcX | 1      |           |
+</a>
 
-In the `@bob` account example, this table shows that @bob's owner key has a permissioned weight of 1, and the required threshold to push a transaction under that authority is 1. 
+<a name="together">
+##4. Putting it all Together | 把他们放在一起
 
-To push a transaction under the owner authority, only **@bob** needs to sign the transaction with his owner key for the transaction to be eligible for validation. This key would be stored in a _wallet_, and then processed using `eosc`.
+Below is the combination of all the above concepts and some loose examples of how they might be practically employed.
 
-### 4.2 Multi-sig Account & Custom Permissions
+下面是所有上述概念的组合，以及一些关于如何实际使用它们的简单示例。
+</a>
 
-The below example are authorities for a fictional account named `@multisig`. In this scenario, two users are authoritized to both the `owner` and `active` permissions of a fictional `@multisig` account, with three users permissioned to a custom `publish` permission with varying weight. 
+<a name="default">
+###4.1 Default Account Configuration (Single-Sig)
+###4.1 默认账户配置（单机）
 
-#### __*@multisig account authorities*__
+This is how an account is configured after it has been created, it has a single key for both the **owner** and **active** permissions, both keys with a weight of 1 and permissions both with a threshold of 1. The default configuration requires a single signature to authorize a message for the native permissions.
 
-| Permission | Account                                               | Weight | Threshold |
-|------------|-------------------------------------------------------|--------|-----------|
-| owner      |                                                       |        | 2         |
-|            | @bob                                                  | 1      |           |
-|            | @stacy 	                                              | 1      |           |
-| active     |                                                       |        | 1         |
-|            | @bob                                                  | 1      |           |
-|            | @stacy 	                                              | 1      |           |
-| publish    |                                                       |        | 2         |
-|            | @bob                                                  | 2      |           |
-|            | @stacy 	                                              | 2      |           |
-|            | EOS7Hnv4iBWo1pcEpP8JyFYCJLRUzYcXSqtQBcEnysYDFTEbUpi6y | 1      |           |
+这是介绍创建账户后如何配置账户的方式，它有一个用于 **所有者** 和 **活跃账户** 权限的密钥，这两个密钥的权值以及权限阈值都为1。默认配置需要一个签名来授权给本机权限的消息。
+</a>
 
-In this scenario, a weight threshold of 2 is required to make changes to the `owner` permission level, which means that because all parties have a weight of **1**, all users are required to sign the transaction for it to be fully authorized. 
 
-To send a transaction which requires the *active* authority, the threshold is set to **1**. This implies that only 1 signature is required authorize a message from the *active* authority of the account. 
+----------------------------------------------------
 
-There's also a third *custom named permission* called *publish*. For the sake of this example, the *publish* permission is used to publish posts to the @multisig's blog using a theoretical blog dApp. The *publish* permission has a threshold of **2**, *@bob@** and **@stacy** both have a weight of *2*, and a **public key** has a weight of **1**. This implies that both **@bob** and **@stacy** can publish without an additional signature, whereas the **public key** requires an additional signature in order for a message under the public permission to be authorized. 
+#### 区块链中文字幕组
 
-Thus the above permissions table implies that **@bob** and **@stacy**, as owners of the account, have _elevated priviledges_ similar to a moderator or editor. While this primitive example has limitations particularly with scalability and is not necessarily a good design, it does adequately demonstrate the flexible nature of the EOS permissions system.
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
 
-Also notice in the above table, we've permissions using both an **account name** and a **key**. At first glance this may seem trivial, however it does suggest some added dimensions of flexibility. 
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
 
-**Observations**
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
 
-- @bob and @stacy can be explicitly identified as the owners of this account
-- A third party can remained relatively anonymous in the context of the example **@multisig** account, assuming this key is not permissioned to any another account on the blockchain.
-- @bob and @stacy have elevated priviledges for the the **publish** permissions. 
+#### 本文译者简介
+
+林炜鑫，在读硕士，专注区块链技术研究与行业分析，欢迎加微信号:wxlinzju，微信名：艾米·哈伯
+
+本文由币乎社区（bihu.com）内容支持计划奖励。
+
+版权所有，转载需完整注明以上内容。
+
+----------------------------------------------------
+
+
+
 
