@@ -29,14 +29,14 @@ Wallets are clients that store keys that may or may not be associated with the p
 </a>
 
 <a name="accounts">
-##2.Accounts | 账号
+## 2.Accounts | 账号
 An account is a human-readable name that is stored on the blockchain. It can be owned by an individual or group of individuals depending on permissions configuration. An account is required to transfer or otherwise push a transaction to the blockchain.
 
 一个帐户是一个人类可读的、存储在区块链的名字。它可以由个人或群体拥有，这取决于权限配置。一个账户被要求转移或将一个交易推到区块链。
 </a>
 
 <a name="permissions">
-##3. Authorities and Permissions | 许可和权限
+## 3. Authorities and Permissions | 许可和权限
 
 Authorities determine whether or not any given message is properly authorized.
 
@@ -66,7 +66,7 @@ Permission for any given authority can be assigned to one or multiple `public ke
 </a>
 
 <a name="together">
-##4. Putting it all Together | 把他们放在一起
+## 4. Putting it all Together | 把他们放在一起
 
 Below is the combination of all the above concepts and some loose examples of how they might be practically employed.
 
@@ -74,8 +74,8 @@ Below is the combination of all the above concepts and some loose examples of ho
 </a>
 
 <a name="default">
-###4.1 Default Account Configuration (Single-Sig)
-###4.1 默认账户配置（单机）
+### 4.1 Default Account Configuration (Single-Sig)
+### 4.1 默认账户配置（单机）
 
 This is how an account is configured after it has been created, it has a single key for both the **owner** and **active** permissions, both keys with a weight of 1 and permissions both with a threshold of 1. The default configuration requires a single signature to authorize a message for the native permissions.
 
