@@ -82,7 +82,7 @@ Below is the combination of all the above concepts and some loose examples of ho
 <a name="default">
 This is how an account is configured after it has been created, it has a single key for both the **owner** and **active** permissions, both keys with a weight of 1 and permissions both with a threshold of 1. The default configuration requires a single signature to authorize a message for the native permissions.
 
-这是介绍创建账户后如何配置账户的方式，它有一个用于 **所有者** 和 **活跃者** 权限的密钥，这两个密钥的权值以及权限阈值都为1。默认配置需要一个签名来授权给本机权限的消息。
+这是介绍创建账户后如何配置账户的方式，它有一个用于 `所有者` 和 `活跃者` 权限的密钥，这两个密钥的权值以及权限阈值都为1。默认配置需要一个签名来授权给本机权限的消息。
 </a>
 
 In the @bob account example, this table shows that @bob's owner key has a permissioned weight of 1, and the required threshold to push a transaction under that authority is 1.
@@ -101,7 +101,7 @@ The below examples are authorities for a fictional account named @multisig. In t
 
 ### 4.2多重签名账户和自定义权限
 
-以下的示例是一个名为 @multisig 的虚拟账户的权限。在这个脚本中，两个用户分别被授予虚拟账户@multisig 的所有者和活跃者权限，三个用户分别根据不同的权重授予一个定义的publish 权限。
+以下的示例是一个名为 @multisig 的虚拟账户的权限。在这个脚本中，两个用户分别被授予虚拟账户@multisig 的 `所有者`和 `活跃者`权限，三个用户分别根据不同的权重授予一个定义的publish 权限。
 </a>
 
 In this scenario, a weight threshold of 2 is required to make changes to the owner permission level, which means that because all parties have a weight of 1, all users are required to sign the transaction for it to be fully authorized.
