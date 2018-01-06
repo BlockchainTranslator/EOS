@@ -4,7 +4,8 @@
 
 > 本文翻译自：https://github.com/EOSIO/eos/wiki/Accounts%20%26%20Permissions
 > 
-> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [林炜鑫](https://github.com/weixin1993)
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [林炜鑫](https://github.com/weixin1993) 
+       [区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [Amy](https://github.com/lindasayer)
 > 
 > 翻译时间：2017-12-31
 
@@ -81,7 +82,7 @@ Below is the combination of all the above concepts and some loose examples of ho
 <a name="default">
 This is how an account is configured after it has been created, it has a single key for both the **owner** and **active** permissions, both keys with a weight of 1 and permissions both with a threshold of 1. The default configuration requires a single signature to authorize a message for the native permissions.
 
-这是介绍创建账户后如何配置账户的方式，它有一个用于 **所有者** 和 **活跃账户** 权限的密钥，这两个密钥的权值以及权限阈值都为1。默认配置需要一个签名来授权给本机权限的消息。
+这是介绍创建账户后如何配置账户的方式，它有一个用于 **所有者** 和 **活跃者** 权限的密钥，这两个密钥的权值以及权限阈值都为1。默认配置需要一个签名来授权给本机权限的消息。
 </a>
 
 In the @bob account example, this table shows that @bob's owner key has a permissioned weight of 1, and the required threshold to push a transaction under that authority is 1.
@@ -91,7 +92,7 @@ In the @bob account example, this table shows that @bob's owner key has a permis
 
 To push a transaction under the owner authority, only @bob needs to sign the transaction with his owner key for the transaction to be eligible for validation. This key would be stored in a wallet, and then processed using eosc.
 
-若想在所有者权限下产生一次交易，只需 @bob 用他的所有者密匙对交易进行签名以保证交易通过验证，这个密匙将保存在钱包中，进而利用eosc处理。
+若想在- `所有者`权限下产生一次交易，只需 @bob 用他的- `所有者`密匙对交易进行签名以保证交易通过验证，这个密匙将保存在钱包中，进而利用eosc处理。
 </a>
 
 ### 4.2 Multi-sig Account & Custom Permissions
@@ -105,12 +106,12 @@ The below examples are authorities for a fictional account named @multisig. In t
 
 In this scenario, a weight threshold of 2 is required to make changes to the owner permission level, which means that because all parties have a weight of 1, all users are required to sign the transaction for it to be fully authorized.
 
-在这个脚本中，改变所有者权限水平需要的权重阙值为2，这意味着因为所有的参与方权重都为1，为了一个交易被完整授权，所有的用户都需要签名这个交易。
+在这个脚本中，改变- `所有者`权限水平需要的权重阙值为2，这意味着因为所有的参与方权重都为1，为了一个交易被完整授权，所有的用户都需要签名这个交易。
 </a>
 
 To send a transaction which requires the active authority, the threshold is set to 1. This implies that only 1 signature is required authorize a message from the active authority of the account.
 
-该账户的活跃者权限中发送一笔交易，阙值设置为1。这说明只需要1个用户的签名来授权一个信息。
+该账户的- `活跃者`权限中发送一笔交易，阙值设置为1。这说明只需要1个用户的签名来授权一个信息。
 </a>
 
 There's also a third custom named permission called publish. For the sake of this example, the publish permission is used to publish posts to the @multisig's blog using a theoretical blog dApp. The publish permission has a threshold of 2, @bob@* and @stacy both have a weight of 2, and a public key has a weight of 1. This implies that both @bob and @stacy can publish without an additional signature, whereas the public key requires an additional signature in order for a message under the public permission to be authorized.
@@ -151,6 +152,7 @@ Observations
 #### 本文译者简介
 
 林炜鑫，在读硕士，专注区块链技术研究与行业分析，欢迎加微信号:wxlinzju，微信名：艾米·哈伯
+AMY,区块链爱好者和行业新动向研究者，欢迎加微信号：Amyrenlin, 微信名：AMY
 
 本文由币乎社区（bihu.com）内容支持计划奖励。
 
