@@ -80,7 +80,7 @@ Below is the combination of all the above concepts and some loose examples of ho
 ### 4.1 Default Account Configuration (Single-Sig)
 ### 4.1 默认账户配置（单机）
 <a name="default">
-This is how an account is configured after it has been created, it has a single key for both the *owner* and *active* permissions, both keys with a weight of 1 and permissions both with a threshold of 1. The default configuration requires a single signature to authorize a message for the native permissions.
+This is how an account is configured after it has been created, it has a single key for both the `owner` and `active` permissions, both keys with a weight of 1 and permissions both with a threshold of 1. The default configuration requires a single signature to authorize a message for the native permissions.
 
 这是介绍创建账户后如何配置账户的方式，它有一个用于 `所有者` 和 `活跃者` 权限的密钥，这两个密钥的权值以及权限阈值都为1。默认配置需要一个签名来授权给本机权限的消息。
 </a>
