@@ -15,7 +15,7 @@
  - [3.Authorities and Permissions 许可和权限](#permissions)
  - [4.Putting it all Together 把它们放在一起](#together)
  - [4.1 Default Account Configuration (Single-Sig) 默认账户配置（单机）](#default)
- - [4.2 Multi-sig Account & Custom Permissions](#Multi)
+ - [4.2 Multi-sig Account & Custom Permissions] 多重签名账户和自定义权限(#Multi)
 
 An account is a human-readable identifier that is stored on the blockchain. Every transaction has its permissions evaluated under the configured authority of an account. Each named permission has a threshold that must be met for a transaction signed under that authority to be considered valid. Transactions are signed by utilizing a client that has a loaded and unlocked wallet. A wallet is software that protects and makes use of your keys. These keys may or maybe not be permissioned to an account authority on the blockchain.
 
@@ -86,6 +86,7 @@ This is how an account is configured after it has been created, it has a single 
 </a>
 
 @bob account authorities
+
 | Permission        | Account   |  Weight        | Threshold  |
 | :-----:   | :-----:   | :-----:   | :-----:   | 
 |owner        |       |         |    1     |   
@@ -94,6 +95,7 @@ This is how an account is configured after it has been created, it has a single 
 |        | OS61chK8GbH4ukWcbom8HgK95AeUfP8MBPn7XRq8FeMBYYTgwmcX    |   1    |         |  
 
 @bob账户授权
+
 | 权限        | 账户   |  权重       | 阈值  |
 | :-----:   | :-----:   | :-----:   | :-----:   | 
 |owner        |       |         |    1     |   
@@ -123,6 +125,7 @@ The below examples are authorities for a fictional account named @multisig. In t
 以下的示例是一个名为 @multisig 的虚拟账户的权限。在这个脚本中，两个用户分别被授予虚拟账户@multisig 的 `所有者`和 `活跃者`权限，三个用户分别根据不同的权重授予一个定义的publish 权限。
 
 @multisig account authorities
+
 | Permission        | Account   |  Weight        | Threshold  |
 | :-----:   | :-----:   | :-----:   | :-----:   | 
 |owner        |       |         |    2     |   
@@ -137,6 +140,7 @@ The below examples are authorities for a fictional account named @multisig. In t
 |        | @stacyEOS7Hnv4iBWo1pcEpP8JyFYCJLRUzYcXSqtQBcEnysYDFTEbUpi6y	    |  1      |        |
 
 @多账户权限
+
 | 权限        | 账户   |  权重        | 阈值 |
 | :-----:   | :-----:   | :-----:   | :-----:   | 
 |owner        |       |         |    2     |   
