@@ -85,12 +85,23 @@ This is how an account is configured after it has been created, it has a single 
 这是介绍创建账户后如何配置账户的方式，它有一个用于 `所有者` 和 `活跃者` 权限的密钥，这两个密钥的权值以及权限阈值都为1。默认配置需要一个签名来授权给本机权限的消息。
 </a>
 
-| Permission        | Account   |  Weight        | Threshold  |
+@bob account authorities
+| Permission        | Account   |  Weight        | Threshold  |
 | :-----:   | :-----:   | :-----:   | :-----:   | 
 |owner        |       |         |    1     |   
 |        | EOS5EzTZZQQxdrDaJAPD9pDzGJZ5bj34HaAb8yuvjFHGWzqV25Dch     |  1      |        |     
 | active       |       |         |     1    |   
-|        | OS61chK8GbH4ukWcbom8HgK95AeUfP8MBPn7XRq8FeMBYYTgwmcX    |   1    |         |     
+|        | OS61chK8GbH4ukWcbom8HgK95AeUfP8MBPn7XRq8FeMBYYTgwmcX    |   1    |         |  
+
+@bob账户授权
+| 权限        | 账户   |  权重       | 阈值  |
+| :-----:   | :-----:   | :-----:   | :-----:   | 
+|owner        |       |         |    1     |   
+|        | EOS5EzTZZQQxdrDaJAPD9pDzGJZ5bj34HaAb8yuvjFHGWzqV25Dch     |  1      |        |     
+| active       |       |         |     1    |   
+|        | OS61chK8GbH4ukWcbom8HgK95AeUfP8MBPn7XRq8FeMBYYTgwmcX    |   1    |         |  
+
+
 
 In the @bob account example, this table shows that @bob's owner key has a permissioned weight of 1, and the required threshold to push a transaction under that authority is 1.
 
@@ -110,6 +121,36 @@ The below examples are authorities for a fictional account named @multisig. In t
 ### 4.2多重签名账户和自定义权限
 
 以下的示例是一个名为 @multisig 的虚拟账户的权限。在这个脚本中，两个用户分别被授予虚拟账户@multisig 的 `所有者`和 `活跃者`权限，三个用户分别根据不同的权重授予一个定义的publish 权限。
+
+@multisig account authorities
+| Permission        | Account   |  Weight        | Threshold  |
+| :-----:   | :-----:   | :-----:   | :-----:   | 
+|owner        |       |         |    2     |   
+|        | @bob    |  1      |        |     
+|        | @stacy    |  1      |        |     
+|active        |       |         |    1     |   
+|        | @bob    |  1      |        |     
+|        | @stacy    |  1      |        |   
+|pulish       |       |         |    2     |   
+|        | @bob    |  2     |        |     
+|        | @stacy    |  2     |        |   
+|        | @stacyEOS7Hnv4iBWo1pcEpP8JyFYCJLRUzYcXSqtQBcEnysYDFTEbUpi6y	    |  1      |        |
+
+@多账户权限
+| 权限        | 账户   |  权重        | 阈值 |
+| :-----:   | :-----:   | :-----:   | :-----:   | 
+|owner        |       |         |    2     |   
+|        | @bob    |  1      |        |     
+|        | @stacy    |  1      |        |     
+|active        |       |         |    1     |   
+|        | @bob    |  1      |        |     
+|        | @stacy    |  1      |        |   
+|pulish       |       |         |    2     |   
+|        | @bob    |  2     |        |     
+|        | @stacy    |  2     |        |   
+|        | @stacyEOS7Hnv4iBWo1pcEpP8JyFYCJLRUzYcXSqtQBcEnysYDFTEbUpi6y	    |  1      |        |
+
+
 
 
 In this scenario, a weight threshold of 2 is required to make changes to the owner permission level, which means that because all parties have a weight of 1, all users are required to sign the transaction for it to be fully authorized.
