@@ -80,15 +80,21 @@ Below is the combination of all the above concepts and some loose examples of ho
 ### 4.1 Default Account Configuration (Single-Sig)
 ### 4.1 默认账户配置（单机）
 <a name="default">
-This is how an account is configured after it has been created, it has a single key for both the `owner` and `active` permissions, both keys with a weight of 1 and permissions both with a threshold of 1. The default configuration requires a single signature to authorize a message for the native permissions.
+This is how an account is configured after it has been created, it has a single key for both the `owner`  and `active` permissions, both keys with a weight of 1 and permissions both with a threshold of 1. The default configuration requires a single signature to authorize a message for the native permissions.
 
 这是介绍创建账户后如何配置账户的方式，它有一个用于 `所有者` 和 `活跃者` 权限的密钥，这两个密钥的权值以及权限阈值都为1。默认配置需要一个签名来授权给本机权限的消息。
 </a>
 
+| Permission        | Account   |  Weight        | Threshold  |
+| :-----:   | :-----:   | :-----:   | :-----:   | 
+|owner        |       |         |    1     |   
+|        | EOS5EzTZZQQxdrDaJAPD9pDzGJZ5bj34HaAb8yuvjFHGWzqV25Dch     |  1      |        |     
+| active       |       |         |     1    |   
+|        | OS61chK8GbH4ukWcbom8HgK95AeUfP8MBPn7XRq8FeMBYYTgwmcX    |   1    |         |     
+
 In the @bob account example, this table shows that @bob's owner key has a permissioned weight of 1, and the required threshold to push a transaction under that authority is 1.
 
 在 @bob 这个账户的例子中，这个表格展示了@bob 的 `所有者`密钥的权重为1，在这个权限下产生一次交易需要的阈值为1。
-</a>
 
 To push a transaction under the owner authority, only @bob needs to sign the transaction with his owner key for the transaction to be eligible for validation. This key would be stored in a wallet, and then processed using eosc.
 
