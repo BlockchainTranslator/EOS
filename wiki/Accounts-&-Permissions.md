@@ -14,8 +14,8 @@
  - [2.Accounts 账号](#accounts)
  - [3.Authorities and Permissions 许可和权限](#permissions)
  - [4.Putting it all Together 把它们放在一起](#together)
- -- [4.1 Default Account Configuration (Single-Sig) 默认账户配置（单机）](#default)
- -- [4.2 Multi-sig Account & Custom Permissions](#Multi)
+  -- [4.1 Default Account Configuration (Single-Sig) 默认账户配置（单机）](#default)
+  -- [4.2 Multi-sig Account & Custom Permissions](#Multi)
 
 An account is a human-readable identifier that is stored on the blockchain. Every transaction has its permissions evaluated under the configured authority of an account. Each named permission has a threshold that must be met for a transaction signed under that authority to be considered valid. Transactions are signed by utilizing a client that has a loaded and unlocked wallet. A wallet is software that protects and makes use of your keys. These keys may or maybe not be permissioned to an account authority on the blockchain.
 
