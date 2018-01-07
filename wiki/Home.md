@@ -24,7 +24,7 @@ Welcome to the EOS.IO wiki. This resource is intended as a guide for developers 
   * [Connecting Local EOSC with Public Testnet |  连接本地 EOSC 与公共测试网](Testnet%3A%20Public#connecting-local-eosc-with-public-testnet)
 
   * [Testnet Accounts  | Testnet 帐户](Testnet%3A%20Public#accounts-on-testnet)
-- [Programs & Tools |  程序和工具](Programs-&-Tools) 胡亮 陈伟
+- √ [Programs & Tools |  程序和工具](Programs-&-Tools) 胡亮 陈伟
   * [eosd](Programs-&-Tools#eosd)
   * [eosc](Programs-&-Tools#eosc)
   * [eos-walletd](Programs-&-Tools#eos-walletd)
