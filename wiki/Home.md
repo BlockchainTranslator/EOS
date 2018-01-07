@@ -3,7 +3,7 @@
 
 > 本文翻译自：https://github.com/EOSIO/eos/wiki
 >
-> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) 鱼 何德林
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS)
 >
 > 翻译时间：2017-12-24
 >
@@ -48,7 +48,7 @@ Welcome to the EOS.IO wiki. This resource is intended as a guide for developers 
   * [Purpose  | 目的](CLI%20Wallet#2-purpose)
   * [How to run the Wallet  | 如何运行钱包](CLI%20Wallet#3-how-to-run-the-wallet)
   - [Available Commands |  可用的命令](CLI%20Wallet#4-available-commands)
-- [Database Schema  | 数据库模式](Database%20Schema) 小丹 抖抖
+- √ [Database Schema  | 数据库模式](Database%20Schema) 小丹 抖抖
   * [Primary Schema Relationships  | 主要模式关系](Database%20Schema#1-primary-schema-relationships)
   * [Blocks  | 区块](Database%20Schema#2-blocks)
 
