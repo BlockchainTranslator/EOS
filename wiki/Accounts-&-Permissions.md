@@ -14,8 +14,8 @@
  - [2.Accounts 账号](#accounts)
  - [3.Authorities and Permissions 许可和权限](#permissions)
  - [4.Putting it all Together 把它们放在一起](#together)
-  -- [4.1 Default Account Configuration (Single-Sig) 默认账户配置（单机）](#default)
-  -- [4.2 Multi-sig Account & Custom Permissions](#Multi)
+ - [4.1 Default Account Configuration (Single-Sig) 默认账户配置（单机）](#default)
+ - [4.2 Multi-sig Account & Custom Permissions](#Multi)
 
 An account is a human-readable identifier that is stored on the blockchain. Every transaction has its permissions evaluated under the configured authority of an account. Each named permission has a threshold that must be met for a transaction signed under that authority to be considered valid. Transactions are signed by utilizing a client that has a loaded and unlocked wallet. A wallet is software that protects and makes use of your keys. These keys may or maybe not be permissioned to an account authority on the blockchain.
 
@@ -80,7 +80,7 @@ Below is the combination of all the above concepts and some loose examples of ho
 ### 4.1 Default Account Configuration (Single-Sig)
 ### 4.1 默认账户配置（单机）
 <a name="default">
-This is how an account is configured after it has been created, it has a single key for both the **owner** and **active** permissions, both keys with a weight of 1 and permissions both with a threshold of 1. The default configuration requires a single signature to authorize a message for the native permissions.
+This is how an account is configured after it has been created, it has a single key for both the *owner* and *active* permissions, both keys with a weight of 1 and permissions both with a threshold of 1. The default configuration requires a single signature to authorize a message for the native permissions.
 
 这是介绍创建账户后如何配置账户的方式，它有一个用于 `所有者` 和 `活跃者` 权限的密钥，这两个密钥的权值以及权限阈值都为1。默认配置需要一个签名来授权给本机权限的消息。
 </a>
