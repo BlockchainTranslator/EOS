@@ -60,7 +60,7 @@ To cover my own legal ass here as well here I will talk about the technical part
 So moving your tokens from Ethereum to EOS probably comes down to using your private Ethereum key to claim the tokens on the EOS system. As your token balance is on EOS from the genesis block you can use them from the first seconds that EOS is “live”. And do they have any technical function?? Yes, you need some to create an account and you can stake them for storage or to help a certain dApp. EOS has a maximum inflation rate of 5% per year which means that 5% new tokens will be mined every year. So in the first year, when EOS has 1 billion tokens in circulation this might add up to 50 million tokens. Or almost 1 million new EOS tokens per week for the block producers. And as dApp-developers stake tokens to get resources they also vote for BPs which brings us great competition.
 
 
-因此，将您的代币从以太坊移到EOS可能会使用您的私有以太坊键来声明EOS系统上的代币。由于你的代币平衡来自于创世纪块中的EOS，你可以在EOS“实时”的第一个秒中使用它们。他们有什么技术功能吗?？是的，你需要创建一个账户，然后可以把它们储存起来，或者帮助某个dApp。EOS每年的最高通胀率为5%，这意味着每年将有5%的新币被开采。所以在第一年，当EOS有10亿代币的流通时，这可能会增加5000万个代币。或者是每星期大约有100万个新的EOS代币。而且，当dApp开发者们用代币来获取资源时，他们也会投票给BPs，这给我们带来了巨大的竞争。
+因此，将您的代币从以太坊移到EOS可能会使用您的私有以太坊键来声明EOS系统上的代币。由于你的代币余额来自于创世纪块中的EOS，你可以在EOS“启动”的第一个秒中使用它们。他们有什么技术功能吗?？是的，你需要创建一个账户，然后可以把它们储存起来，或者帮助某个dApp。EOS每年的最高通胀率为5%，这意味着每年将有5%的新币被开采。所以在第一年，当EOS有10亿代币的流通时，这可能会增加5000万个代币。或者是每星期大约有100万个新的EOS代币。而且，当dApp开发者们用代币来获取资源时，他们也会投票给BPs，这给我们带来了巨大的竞争。
 
 
 ### Forks and Airdrops
