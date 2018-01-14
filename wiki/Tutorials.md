@@ -406,7 +406,7 @@ imported private key for: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
 
 Now that the **@inita** account's keys are loaded, execute the `create account` command you crafted before I baited you into a trap, and press enter. 
 
-现在已经加载了**@inita**账号的密钥，执行在我诱你掉入陷阱之前所键入的 `create account` 命令，然后按回车。
+现在已经加载了 **@inita** 账号的密钥，执行在我诱你掉入陷阱之前所键入的 `create account` 命令，然后按回车。
 
 If all goes well, `eosc` will return a json object with a transaction ID, similar to the following
 
