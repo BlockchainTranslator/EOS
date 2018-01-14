@@ -1,11 +1,11 @@
-- [1. Accounts & Wallets](#1-accounts--wallets)
-  * [1.1 Creating and Managing Wallets](#11-creating-and-managing-wallets)
-  * [1.2 Generating and Importing EOS Keys](#12-generating-and-importing-eos-keys)
-  * [1.3 Backing up your Wallet](#13-backing-up-your-wallet)
-  * [1.4 Creating an Account](#14-creating-an-account)
-- [2. Currency Contract Walkthrough](#2-currency-contract-walkthrough)
-- [3. Smart Contract "Hello World"](#3-smart-contract-hello-world)
-- [4. Tic-Tac-Toe](#4-tic-tac-toe)
+- [1. Accounts & Wallets](#1-accounts--wallets--%E8%B4%A6%E6%88%B7%E5%92%8C%E9%92%B1%E5%8C%85)
+  * [1.1 Creating and Managing Wallets](#11-creating-and-managing-wallets--%E5%88%9B%E5%BB%BA%E5%92%8C%E7%AE%A1%E7%90%86%E9%92%B1%E5%8C%85)
+  * [1.2 Generating and Importing EOS Keys](#12-generating-and-importing-eos-keys--%E7%94%9F%E6%88%90%E5%92%8C%E5%AF%BC%E5%85%A5-eos-%E5%AF%86%E9%92%A5)
+  * [1.3 Backing up your Wallet](#13-backing-up-your-wallet--%E5%A4%87%E4%BB%BD%E4%BD%A0%E7%9A%84%E9%92%B1%E5%8C%85)
+  * [1.4 Creating an Account](#14-creating-an-account--%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7)
+- [2. Currency Contract Walkthrough](#2-currency-contract-walkthrough--%E8%B4%A7%E5%B8%81%E5%90%88%E7%BA%A6%E6%BC%94%E7%A4%BA)
+- [3. Smart Contract "Hello World"](#3-smart-contract-hello-world--%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6-hello-world)
+- [4. Tic-Tac-Toe](#4-tic-tac-toe--%E4%BA%95%E5%AD%97%E6%B8%B8%E6%88%8F)
 
 ## 1. Accounts & Wallets | 账户和钱包
 
