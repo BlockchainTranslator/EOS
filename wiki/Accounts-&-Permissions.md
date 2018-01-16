@@ -14,8 +14,8 @@
  - [2.Accounts 账号](#accounts)
  - [3.Authorities and Permissions 许可和权限](#permissions)
  - [4.Putting it all Together 把它们放在一起](#together)
--- [4.1 Default Account Configuration (Single-Sig) 默认账户配置（单机）](#4-Putting-it-all-Together)
--- [4.2 Multi-sig Account & Custom Permissions]()
+ - [4.1 Default Account Configuration (Single-Sig) 默认账户配置（单机）](#default)
+ - [4.2 Multi-sig Account & Custom Permissions  多重签名账户和自定义权限](#Multi)
 
 An account is a human-readable identifier that is stored on the blockchain. Every transaction has its permissions evaluated under the configured authority of an account. Each named permission has a threshold that must be met for a transaction signed under that authority to be considered valid. Transactions are signed by utilizing a client that has a loaded and unlocked wallet. A wallet is software that protects and makes use of your keys. These keys may or maybe not be permissioned to an account authority on the blockchain.
 
@@ -80,54 +80,106 @@ Below is the combination of all the above concepts and some loose examples of ho
 ### 4.1 Default Account Configuration (Single-Sig)
 ### 4.1 默认账户配置（单机）
 <a name="default">
-This is how an account is configured after it has been created, it has a single key for both the **owner** and **active** permissions, both keys with a weight of 1 and permissions both with a threshold of 1. The default configuration requires a single signature to authorize a message for the native permissions.
+This is how an account is configured after it has been created, it has a single key for both the `owner`  and `active` permissions, both keys with a weight of 1 and permissions both with a threshold of 1. The default configuration requires a single signature to authorize a message for the native permissions.
 
 这是介绍创建账户后如何配置账户的方式，它有一个用于 `所有者` 和 `活跃者` 权限的密钥，这两个密钥的权值以及权限阈值都为1。默认配置需要一个签名来授权给本机权限的消息。
 </a>
 
+@bob account authorities
+
+| Permission        | Account   |  Weight        | Threshold  |
+| :-----:   | :-----:   | :-----:   | :-----:   | 
+|owner        |       |         |    1     |   
+|        | EOS5EzTZZQQxdrDaJAPD9pDzGJZ5bj34HaAb8yuvjFHGWzqV25Dch     |  1      |        |     
+| active       |       |         |     1    |   
+|        | OS61chK8GbH4ukWcbom8HgK95AeUfP8MBPn7XRq8FeMBYYTgwmcX    |   1    |         |  
+
+@bob账户授权
+
+| 权限        | 账户   |  权重       | 阈值  |
+| :-----:   | :-----:   | :-----:   | :-----:   | 
+|owner        |       |         |    1     |   
+|        | EOS5EzTZZQQxdrDaJAPD9pDzGJZ5bj34HaAb8yuvjFHGWzqV25Dch     |  1      |        |     
+| active       |       |         |     1    |   
+|        | OS61chK8GbH4ukWcbom8HgK95AeUfP8MBPn7XRq8FeMBYYTgwmcX    |   1    |         |  
+
+
+
 In the @bob account example, this table shows that @bob's owner key has a permissioned weight of 1, and the required threshold to push a transaction under that authority is 1.
 
 在 @bob 这个账户的例子中，这个表格展示了@bob 的 `所有者`密钥的权重为1，在这个权限下产生一次交易需要的阈值为1。
-</a>
 
 To push a transaction under the owner authority, only @bob needs to sign the transaction with his owner key for the transaction to be eligible for validation. This key would be stored in a wallet, and then processed using eosc.
 
 若想在 `所有者`权限下产生一次交易，只需 @bob 用他的 `所有者`密匙对交易进行签名以保证交易通过验证，这个密匙将保存在钱包中，进而利用eosc处理。
-</a>
+
+
 
 ### 4.2 Multi-sig Account & Custom Permissions
-
+<a name="Multi">
 The below examples are authorities for a fictional account named @multisig. In this scenario, two users are authoritized to both the owner and active permissions of a fictional @multisig account, with three users permissioned to a custom publish permission with varying weight.
+</a>
 
 ### 4.2多重签名账户和自定义权限
 
 以下的示例是一个名为 @multisig 的虚拟账户的权限。在这个脚本中，两个用户分别被授予虚拟账户@multisig 的 `所有者`和 `活跃者`权限，三个用户分别根据不同的权重授予一个定义的publish 权限。
-</a>
+
+@multisig account authorities
+
+| Permission        | Account   |  Weight        | Threshold  |
+| :-----:   | :-----:   | :-----:   | :-----:   | 
+|owner        |       |         |    2     |   
+|        | @bob    |  1      |        |     
+|        | @stacy    |  1      |        |     
+|active        |       |         |    1     |   
+|        | @bob    |  1      |        |     
+|        | @stacy    |  1      |        |   
+|pulish       |       |         |    2     |   
+|        | @bob    |  2     |        |     
+|        | @stacy    |  2     |        |   
+|        | @stacyEOS7Hnv4iBWo1pcEpP8JyFYCJLRUzYcXSqtQBcEnysYDFTEbUpi6y	    |  1      |        |
+
+@多账户权限
+
+| 权限        | 账户   |  权重        | 阈值 |
+| :-----:   | :-----:   | :-----:   | :-----:   | 
+|owner        |       |         |    2     |   
+|        | @bob    |  1      |        |     
+|        | @stacy    |  1      |        |     
+|active        |       |         |    1     |   
+|        | @bob    |  1      |        |     
+|        | @stacy    |  1      |        |   
+|pulish       |       |         |    2     |   
+|        | @bob    |  2     |        |     
+|        | @stacy    |  2     |        |   
+|        | @stacyEOS7Hnv4iBWo1pcEpP8JyFYCJLRUzYcXSqtQBcEnysYDFTEbUpi6y	    |  1      |        |
+
+
+
 
 In this scenario, a weight threshold of 2 is required to make changes to the owner permission level, which means that because all parties have a weight of 1, all users are required to sign the transaction for it to be fully authorized.
 
 在这个脚本中，改变 `所有者`权限水平需要的权重阙值为2，这意味着因为所有的参与方权重都为1，为了一个交易被完整授权，所有的用户都需要签名这个交易。
-</a>
+
 
 To send a transaction which requires the active authority, the threshold is set to 1. This implies that only 1 signature is required authorize a message from the active authority of the account.
 
 该账户的 `活跃者`权限中发送一笔交易，阙值设置为1。这说明只需要1个用户的签名来授权一个信息。
-</a>
 
 There's also a third custom named permission called publish. For the sake of this example, the publish permission is used to publish posts to the @multisig's blog using a theoretical blog dApp. The publish permission has a threshold of 2, @bob@* and @stacy both have a weight of 2, and a public key has a weight of 1. This implies that both @bob and @stacy can publish without an additional signature, whereas the public key requires an additional signature in order for a message under the public permission to be authorized.
 
 其中也有第三个名为publish的自定义权限。这个示例中，publish权限是用一个假想的博客dApp在@multisig的博客上发帖子。publish权限阙值为2，@bob和@stacy权重均为2，及一个公钥的权重为1.这说明@bob和@stacy都可以独自发布而不需要额外的签名，但是为了一个信息被授权，则那个公钥需要一个额外的签名。
-</a>
+
 
 Thus the above permissions table implies that @bob and @stacy, as owners of the account, have elevated priviledges similar to a moderator or editor. While this primitive example has limitations particularly with scalability and is not necessarily a good design, it does adequately demonstrate the flexible nature of the EOS permissions system.
 
 因此以上权限表格说明，作为这个账户的所有者，@bob和@stacy提升的特权类似于一个审核者或编辑。虽然这个原始示例有局限性，特别是可扩展性方面，并且不一定是一个好的设计，但它确实充分展示了EOS权限系统的灵活性。
-</a>
+
 
 Also, notice in the above table, we've permissions using both an account name and a key. At first glance this may seem trivial, however it does suggest some added dimensions of flexibility.
 
 另外，请注意上面的表格，我们有同时使用账户名和密匙的权限。乍看起来，这似乎微不足道，但它确实表现了一些额外的灵活性。
-</a>
+
 
 Observations
 • @bob and @stacy can be explicitly identified as the owners of this account
@@ -136,7 +188,7 @@ Observations
 注意
 • @bob和@stacy可以明确地标识为该帐户的所有者。
 • @bob和@stacy为publish 权限增加了特权。
-</a>
+
 
 
 ----------------------------------------------------
