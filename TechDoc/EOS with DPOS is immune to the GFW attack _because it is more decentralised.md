@@ -1,11 +1,11 @@
 
 Rumours are continuing to circulate that China is going to regulate all crypto. The rumours include closing down mining and chopping off Bitcoin itself in the great fire wall (GFW) that controls the in/out pipes for the Internet. However, one letter circulated that claims all this appears to be a fake, but it's scared many nonetheless.
 
-谣言正在继续流传，中国将对所有秘密进行监管。这些传言包括关闭采矿，并在“防火长城”(GFW)中截断比特币，该防火墙控制着互联网的进出管道。然而，有一封信声称这一切看起来都是假的，但却让很多人感到害怕。
+谣言正在持续地流传，中国将对所有加密货币进行监管。这些传言包括关闭矿场，并通过“长城防火”(GFW)屏蔽比特币交易，该防火墙控制着互联网的进出通道。然而，有一封信声称这一切看起来都是假的，然而这却让很多人感到害怕。
 
 Can they shut down the mining? Probably, and to much larger extent than the other governments. The reasons are twofold - censorship is a normal part of life there, and the regulations are much stricter, so (1) censorship works. If you couple this to the fact that the mining companies are big and consume a lot of resource, then we can see them as obvious - (2) big hash factories are hard to hide. Therefore, it is fairly likely that an instruction to cease & desist will be taken seriously. And voluntarily. And there won't be any mucking around with secret nets or pigeon IP or ham radio.
 
-他们能关闭采矿吗?可能，而且在很大程度上比其他政府。原因是双重的——审查制度是生活中正常的一部分，而规章制度要严格得多，所以(1)审查制度有效。如果你把这与矿业公司规模庞大、消耗大量资源的事实结合在一起，那么我们就可以把它们看作是显而易见的——(2)大的哈希工厂是很难隐藏的。因此，很有可能会认真对待停止和停止的指令。和自愿。而且也不会有任何秘密的网络或鸽子的IP或业余无线电。
+他们能关闭矿场吗？可能，而且在很大程度上比其他政府。原因有双方面，——是审查制度是生活中正常的一部分，监管要严格得多，所以审查有效。如果你把这与矿业公司规模庞大、消耗大量资源的事实结合在一起，那么我们就可以把它们看作是显而易见的——(2)大的哈希工厂是很难隐藏的。因此，很有可能会会采取和停止矿场的指令。和自愿。而且也不会有任何秘密的网络或鸽子的IP或业余无线电。
 
 Hashrate-BTC-20170924
 
