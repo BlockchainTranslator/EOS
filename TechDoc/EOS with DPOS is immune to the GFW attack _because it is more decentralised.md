@@ -11,9 +11,10 @@ Hashrate-BTC-20170924
 
 So, the potential attack on Bitcoin and Ethereum is plausible, notwithstanding the likely fake news status of it right now. The ramifications are that about 80% of the mining hashpower would be sliced off, as well as Bitcoin use being isolated within the country. One could even see a potential for Bitcoin to fork into in-country and ex-country chains, something that would align with PRC interests but maybe not with anyone else.
 
-因此，对比特币和Ethereum的潜在攻击是合理的，尽管它现在可能是假新闻。其后果是，大约80%的开采权将被分割，同时比特币在国内也被孤立。人们甚至可以看到，比特币有可能进入国内和国外的连锁店，这将与中国的利益相一致，但可能不会与其他国家的利益相一致。
+因此，对比特币和Ethereum的潜在攻击是合理的，尽管它现在可能是假新闻。其后果是，大约80%的开采权将被分割，同时比特币在国内也被孤立。人们甚至可以看到，比特币有可能进入国内和国外的两条链，这将与中国的利益相一致，但可能不会与其他国家的利益相一致。
 
 Curiously, and arguably intentionally, DPOS is more or less immune to this attack. The reasons are simply that (a) DPOS is far more decentralised than mining and (b) DPOS responds to the shock of country regulation quickly and without losing any efficacy.
+
 奇怪的是，DPOS或多或少地对这种攻击免疫。原因很简单，(a) DPOS远比矿业更分散，(b) DPOS快速响应国家规定的冲击而不失去任何效力。
 
 Mining is more centralised because the forces of centralisation (or economies of scale) on it are much stronger: Bitcoin and Ethereum mining need huge amounts of electricity. As outlined in an old paper (Güring & Grigg 2011), hashing goes to where the electricity is cheapest. Which currently is in places like Inner Mongolia for various reasons that aren't going away. Further, it's not enough to have a few boxes and great net, you have to be a big warehouse. Which means we know where they all are, and they can't move, easily. Lots of electricity, lots of boxes, lots of money, lots of workers: These are highly centralised installations.
