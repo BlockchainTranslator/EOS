@@ -9,7 +9,7 @@ Can they shut down the mining? Probably, and to much larger extent than the othe
 
 ![Hashrate-BTC](https://steemitimages.com/DQmcgdyU1hT7Gie9gQ7GJNntU3rsVjuWW33LpUyQCqZ8x1t/HashrateBTC20170924.png)
 
-Hashrate-BTC-20170924
+                            Hashrate-BTC-20170924
 
 So, the potential attack on Bitcoin and Ethereum is plausible, notwithstanding the likely fake news status of it right now. The ramifications are that about 80% of the mining hashpower would be sliced off, as well as Bitcoin use being isolated within the country. One could even see a potential for Bitcoin to fork into in-country and ex-country chains, something that would align with PRC interests but maybe not with anyone else.
 
@@ -41,7 +41,7 @@ That’s the theory - how do the numbers stack up? If we choose 75% as a suitabl
 这是理论——事实数字会如何严重的？如果我们选择75%作为有效去中心化的合适指标，我们就可以看到上面的图表(上面)，看到8个矿池在所有的哈希比特币中占75%。以太(以下)在5点更糟糕!
 
 ![hashrate-eth](https://steemitimages.com/0x0/https://steemitimages.com/DQmWksHJKPCCfNR6g2UyHpaFYbFgo8f2G7h8Np92SJhWM7M/HashrateETH20170924.png)
-hashrate - eth - 20170924
+                                    hashrate - eth - 20170924
 
 Meanwhile, DPOS is mathematical as the blocks are distributed 1 per round across 21 producers, each round, and then shuffled. Then, 75% of 21 producers is … 16, rounded up, as it was with the others.
 
