@@ -1,4 +1,4 @@
-# EOS with DPOS is immune to the GFW attack _because it is more decentralised_|EOS可以免于长城防火墙的冲击，因为DPOS更去中心化
+# EOS with DPOS is immune to the GFW attack _because it is more decentralised_ | EOS可以免于长城防火墙的冲击，因为DPOS更去中心化
 
 > 本文翻译自：https://steemit.com/eos/@iang/eos-with-dpos-is-immune-to-the-gfw-attack-because-it-is-more-decentralised
 > 
@@ -8,7 +8,7 @@
 
 Rumours are continuing to circulate that China is going to regulate all crypto. The rumours include closing down mining and chopping off Bitcoin itself in the great fire wall (GFW) that controls the in/out pipes for the Internet. However, one letter circulated that claims all this appears to be a fake, but it's scared many nonetheless.
 
-中国将对所有加密货币进行监管的谣言,正在持续流传。这些传言包括关闭矿场，并通过“长城防火”(GFW)屏蔽比特币，该防火墙控制着互联网的进出通道。尽管有一封信声称这一切都是假的，然而这却让很多人感到害怕。
+中国将对所有加密货币进行管制的谣言,正在持续流传。这些传言包括关闭矿场，并通过“长城防火”(GFW)屏蔽比特币，该防火墙控制着互联网的进出通道。尽管有一封信声称这一切都是假的，然而这却让很多人感到害怕。
 
 Can they shut down the mining? Probably, and to much larger extent than the other governments. The reasons are twofold - censorship is a normal part of life there, and the regulations are much stricter, so (1) censorship works. If you couple this to the fact that the mining companies are big and consume a lot of resource, then we can see them as obvious - (2) big hash factories are hard to hide. Therefore, it is fairly likely that an instruction to cease & desist will be taken seriously. And voluntarily. And there won't be any mucking around with secret nets or pigeon IP or ham radio.
 
