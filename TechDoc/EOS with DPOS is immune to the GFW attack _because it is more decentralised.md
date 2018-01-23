@@ -1,3 +1,10 @@
+# EOS with DPOS is immune to the GFW attack _because it is more decentralised_|EOS可以免于长城防火墙的冲击，因为DPOS更去中心化
+
+> 本文翻译自：https://steemit.com/eos/@iang/eos-with-dpos-is-immune-to-the-gfw-attack-because-it-is-more-decentralised
+> 
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [何德林](https://github.com/BlockchainTranslator/EOS)
+> 
+> 翻译时间：2018-1-23
 
 Rumours are continuing to circulate that China is going to regulate all crypto. The rumours include closing down mining and chopping off Bitcoin itself in the great fire wall (GFW) that controls the in/out pipes for the Internet. However, one letter circulated that claims all this appears to be a fake, but it's scared many nonetheless.
 
@@ -48,3 +55,23 @@ Meanwhile, DPOS is mathematical as the blocks are distributed 1 per round across
 Hence, DPOS is far more decentralised than either Bitcoin or Ethereum, by a factor of 2 or 3 if the 75% metric is any guide. The fact that there are many thousands of nodes in a Bitcoin or Ethereum blockchain isn't relevant if the chain is dominated by only a small number of pools, and those pools exist in known, accounted-for places vulnerable to a forking attack. Like China. Like 80%.
 
 因此，DPOS比比特币或以太坊要分散得多，如果75%的标准是任何指南的话，它的分散系数是2或3。一个比特币或以太坊中有成千上万个节点，其实是不准确的，因为被一小部分的矿池所控制，而这些矿池存在于已知的、确定的，容易受到攻击的地方。比如中国，80%左右。
+
+----------------------------------------------------
+
+#### 区块链中文字幕组
+
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
+
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
+
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
+
+#### 本文译者简介
+
+何德林 区块链技术爱好者，热衷于区块链业务创新研究与分析，欢迎加微信号:tongxwl
+
+本文由币乎社区（bihu.com）内容支持计划赞助。
+
+版权所有，转载需完整注明以上内容。
+
+----------------------------------------------------
