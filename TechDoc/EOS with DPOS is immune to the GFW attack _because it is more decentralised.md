@@ -54,7 +54,7 @@ Meanwhile, DPOS is mathematical as the blocks are distributed 1 per round across
 
 Hence, DPOS is far more decentralised than either Bitcoin or Ethereum, by a factor of 2 or 3 if the 75% metric is any guide. The fact that there are many thousands of nodes in a Bitcoin or Ethereum blockchain isn't relevant if the chain is dominated by only a small number of pools, and those pools exist in known, accounted-for places vulnerable to a forking attack. Like China. Like 80%.
 
-因此，DPOS比比特币或以太坊要分散得多，如果75%的标准是任何指南的话，它的分散系数是2或3。一个比特币或以太坊中有成千上万个节点，其实是不准确的，因为被一小部分的矿池所控制，而这些矿池存在于已知的、确定的，容易受到攻击的地方。比如中国，80%左右。
+因此，DPOS比比特币或以太坊要分散得多，如果75%作为评价指标的话，DPOS的去中心化程度是比特币和以太坊的2-3倍（DPOS是16，比特币是8，以太坊是5）。一个比特币或以太坊中有成千上万个节点，其实是不准确的，因为被一小部分的矿池所控制，而这些矿池存在于已知的、确定的，容易受到攻击的地方。比如中国，80%左右。
 
 ----------------------------------------------------
 
@@ -70,7 +70,7 @@ Hence, DPOS is far more decentralised than either Bitcoin or Ethereum, by a fact
 
 何德林 区块链技术爱好者，热衷于区块链业务创新研究与分析，欢迎加微信号:tongxwl
 
-本文由币乎社区（bihu.com）内容支持计划赞助。
+本文由币乎社区（bihu.com）内容支持计划奖励。
 
 版权所有，转载需完整注明以上内容。
 
