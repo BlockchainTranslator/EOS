@@ -42,7 +42,7 @@ That’s the theory - how do the numbers stack up? If we choose 75% as a suitabl
 
 Meanwhile, DPOS is mathematical as the blocks are distributed 1 per round across 21 producers, each round, and then shuffled. Then, 75% of 21 producers is … 16, rounded up, as it was with the others.
 
-然而，DPOS是一个数学规则，每轮由21个生产者组成，每一轮生产1个区块，然后进行重组。75%的21个生产,取整是16。
+然而，DPOS是一个数学规则，每轮由21个生产者组成，每人轮流出块，然后进行重组。75%的21个生产,取整是16。
 
 
 Hence, DPOS is far more decentralised than either Bitcoin or Ethereum, by a factor of 2 or 3 if the 75% metric is any guide. The fact that there are many thousands of nodes in a Bitcoin or Ethereum blockchain isn't relevant if the chain is dominated by only a small number of pools, and those pools exist in known, accounted-for places vulnerable to a forking attack. Like China. Like 80%.
