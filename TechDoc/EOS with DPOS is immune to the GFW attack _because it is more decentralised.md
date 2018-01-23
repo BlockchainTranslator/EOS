@@ -26,7 +26,7 @@ Curiously, and arguably intentionally, DPOS is more or less immune to this attac
 
 Mining is more centralised because the forces of centralisation (or economies of scale) on it are much stronger: Bitcoin and Ethereum mining need huge amounts of electricity. As outlined in an old paper (Güring & Grigg 2011), hashing goes to where the electricity is cheapest. Which currently is in places like Inner Mongolia for various reasons that aren't going away. Further, it's not enough to have a few boxes and great net, you have to be a big warehouse. Which means we know where they all are, and they can't move, easily. Lots of electricity, lots of boxes, lots of money, lots of workers: These are highly centralised installations.
 
-POW挖矿更加中心化,因为它的集中化(或规模经济)的力量更强；比特币和以太挖矿需要大量的电力。正如一篇论文(Guring & Grigg 2011)所概述的那样，哈希去了电力最便宜的地方。目前去了内蒙古等地。此外，仅仅拥有几个盒子和大的网络是不够的，你必须是一个大机房。这意味着，我们知道它们都在哪里，而且它们不能随意移动。很多的电力、箱子、钱、工人，所有这些都是高度集中的。
+POW挖矿更加中心化,因为它的集中化(或规模经济)的力量更强；比特币和以太挖矿需要大量的电力。正如一篇论文(Guring & Grigg 2011)所概述的那样，哈希去了电力最便宜的地方。目前去了内蒙古等地。此外，仅仅拥有几个盒子和大的网络是不够的，你必须是一个大机房。这意味着，我们知道它们都在哪里，而且它们不能随意移动。很多的电力、盒子、钱、工人，所有这些都是高度集中的。
 
 In contrast, the resources used in DPOS are much lighter. They aren't as subject to local circumstances, and are much more easily moved. Basically, each block producer needs a few big boxes with good net. Which exists in most countries, there are even hobby/volunteer sites like Funkfueur in Vienna that would fit the bill, and many countries deliver real fast net to the home with fibre which would likely be enough for a year or two.
 
