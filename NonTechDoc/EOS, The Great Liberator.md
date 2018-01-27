@@ -3,7 +3,9 @@ Jump onto any EOS chat online and the following phrases can be read:
 登上EOS的在线聊天室，以下的句子随处可见：
 
 “EOS to the MOON” -- EOS飞向月球
+
 “EOS is the new ETHEREUM” --EOS是新一代的以太坊
+
 “EOS is going to change the world”--EOS将要改变世界
 
 This kind of online cheerleading is fairly typical in the cryptocurrency world; every coin has its followers, and since most followers have invested time and money into the coin they follow, every coin has its die hard fans. Convinced that their coin will be the one that “changes it all”, they take to their computers to sing the the praises of the tech, the team, and the community. They breathlessly relay the latest news, rumors, price charts, progress, and encourage each other to HODL through the highs and lows of the market. In this regard, the relatively small but dedicated EOS community is rather typical; they love the coin and often talk about its tech, its team and its ability to change the world as we know it. What sets the EOS community apart from other blockchain projects is that they might actually be right.
@@ -54,15 +56,25 @@ What does this mean? Well, let’s do a thought experiment.
 
 Need a home-loan? No need to go to the bank, plug in to your local blockchain-run lending company and get approved; the loan is processed immediately and the money is put into your online wallet. The contract is saved on the blockchain, so the terms cannot be altered. Since overhead is minimal, so is the interest rate; in fact, the company only charges a fraction of a percent on your loan.
 
+需要一个房屋贷款？没有必要去银行，走进你当地的区块链贷款公司，申请批准贷款;贷款立即被处理，钱被放入你的网上钱包。该合同保存在区块链上，所以条款不能更改。因为开销很小，利率也是如此；事实上，公司只收取你贷款的一小部分。
+
 Spending a great deal of time on Twitter? Do your tweets attract a good amount of traffic? What if every “retweet” you got resulted in money, and you could make your living by tweeting? It would only be natural; you provide the content that Twitter relies on, of course you should get paid.
+
+花大量时间在Twitter上？你的Twitter吸引大量的流量?如果你的每一个“转发”都带来了收入，你可以通过推特来谋生？它会是自然的;你提供Twitter所依赖的内容，当然你应该得到报酬。
 
 Live in a country with hyper-inflation? Invest your money into a stable cryptocurrency that is secured not by a government, but by crypto-holders across the globe.
 
-The implications are immense.
+生活在一个通货膨胀过度的国家?把你的钱投资到一种稳定的加密货币上，它不是由政府担保的，而是由全球各地的加密持有者保证的。
+
+The implications are immense. | 影响是巨大的
 
 Meritocracy would be king. Democracy and capitalism, two often-times seemingly incompatible partners would finally peacefully co-exist. Our planet’s most creative, artistic, and passionate souls could survive by their talents, without pesky middle men taking most of the profit. By cutting out centralization, EOS holders envision a world that is more efficient, accessible, and fair. With the EOS blockchain as the backbone of this redistribution of wealth, large swaths of peoples and nations can re-write their destiny; any and everything that exists online today can be reconfigured to perform on the blockchain - let that sink in for a moment.
 
+知识精英是国王。民主和资本主义，这两个经常看似不兼容的方面最终会和平共存。我们这个星球上最具创造力、最具艺术性和激情灵魂，可以靠他们的才能生存，而不需要那些讨厌的中产阶级攫取大部分的利润。通过减少中心化，EOS持有者设想一个更高效、更便捷、更公平的世界。随着EOS区块链作为财富再分配的支柱，很多的民众和国家可以改写他们的命运;今天线上的任何东西都可以被重新配置为在区块链上执行。
+
 This is a game changer. The world would be more meaningfully united.
+
+这是一个游戏规则改变者。世界将更有意义地联合起来。
 
 The Opportunity
 
