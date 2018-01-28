@@ -92,13 +92,20 @@ On Telegram, several EOS centric chats have been created, with the main group bo
 
 A small, unofficial discord channel has a dedicated crew that logs in to discuss rumors and ideas about EOS and its latest developments.
 
+一个小的，非官方的尖锐频道，有一个专门的工作人员，他们登录,以讨论关于EOS的谣言和想法以及它的最新发展。
+
 The EOS sub-reddit is full of believers and naysayers arguing over the merits of the coin and its ability to deliver on its hefty promises.
 
+EOS sub-reddit，充斥着信徒和反对者的争论，他们争论这枚代币的优点，以及它兑现起巨大承诺的能力。
+
 In a decentralized system, these organically forming communities are key to the success of EOS; without a centralized hub, the deployment of EOS and the technology will literally be in the EOS coin holders hands.
+
+在一个去中心化的系统中，这些有机组成的社区是EOS成功的关键；没有一个中心化机构，EOS的部署和机构将掌握在EOS持有者手中。
 
 The EOS community does not take the responsibility lightly, and those that share Larimer’s vision are encouraging spectators to jump on the EOS bandwagon before it’s too late. Early and committed involvement are essential to the success of EOS, and there are a variety of ways to get involved. Join any EOS forum and you can participate in the creation of a launch party, or organize a local meet-up with your fellow EOS enthusiasts. DAPP (decentralized apps) teams are starting to take form over in the EOS opportunities Telegram, and potential block producers are beginning to test the waters over at EOStalk.io, but it’s not too late.
 
 Since EOS is decentralized, there is no job interview, no secret club, no hand you must shake to join the movement - all you have to do is simply join. Find a niche where you feel comfortable, do some networking, make some friends, and work on projects that you enjoy. No where else is the barrier to entry so low.
 
 The message radiating from the EOS community is clear; if you want to you make your dent in the universe, NOW is the time, HERE is the place, and EOS is the conduit.
+
 GET INVOLVED!
