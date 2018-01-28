@@ -104,8 +104,16 @@ In a decentralized system, these organically forming communities are key to the 
 
 The EOS community does not take the responsibility lightly, and those that share Larimer’s vision are encouraging spectators to jump on the EOS bandwagon before it’s too late. Early and committed involvement are essential to the success of EOS, and there are a variety of ways to get involved. Join any EOS forum and you can participate in the creation of a launch party, or organize a local meet-up with your fellow EOS enthusiasts. DAPP (decentralized apps) teams are starting to take form over in the EOS opportunities Telegram, and potential block producers are beginning to test the waters over at EOStalk.io, but it’s not too late.
 
+EOS社区并没有对这一责任掉以轻心，而那些分享Larimer愿景的人也在鼓励旁观者加入到EOS的洪流中，以免为时过晚。早期的参与对于EOS的成功至关重要，并且已经有各种各样的方法来参与。加入任何EOS论坛，你可以参与创建一个组织，或和EOS爱好者组织一个本地meet-up。DAPP(去中心化的应用程序)团队已经开始形成，在EOS的电报中，潜在的区块生产者开始试水，在EOStalk.io，但还不算太晚。
+
 Since EOS is decentralized, there is no job interview, no secret club, no hand you must shake to join the movement - all you have to do is simply join. Find a niche where you feel comfortable, do some networking, make some friends, and work on projects that you enjoy. No where else is the barrier to entry so low.
+
+因为EOS是去中心化的，没有工作面试，没有秘密的俱乐部，没有依赖别人才能加入这个运动——你所要做的，很简单就是加入。找一个你觉得舒服的地方，做一些社交活动，交一些朋友，做一些你喜欢的项目。没有别的地方，有这么低的门槛。
 
 The message radiating from the EOS community is clear; if you want to you make your dent in the universe, NOW is the time, HERE is the place, and EOS is the conduit.
 
+来自EOS社区的消息是清晰的;如果你想在这个世界留下印记，现在正是合适的时间，这里正是合适的地点，EOS正是这个通道。
+
 GET INVOLVED!
+
+参与进来吧！
