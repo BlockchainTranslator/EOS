@@ -76,13 +76,19 @@ This is a game changer. The world would be more meaningfully united.
 
 这是一个游戏规则改变者。世界将更有意义地联合起来。
 
-The Opportunity
+The Opportunity | 机遇
 
 This worldview is reflected in the setup of EOS and the community building efforts already taking shape around the coin itself. Several online forums have been created to discuss EOS and the best ways to get involved. EOStalk.io is dedicated to anything and everything EOS and is built upon the Steem blockchain, the aforementioned Larimer project. There you can find posters from all walks of life discussing the latest EOS news and price charts.
 
+这一世界观反映在EOS及其社区建设上，目前这种努力已经在代币周围形成。目前已创建几个在线论坛，来讨论EOS及其最佳的参与方式。EOStalk.io致力于收集所有的EOS信息，并建立在Steem区块链之上，即上面提到的Larimer项目。在那里你可以找到来自各行各业的，讨论最新的EOS新闻和价格图表的文章。
+
 Another option is forums.eosgo.io for a focused approach, aiming to become the go - to resource for community members come together to plan for the presumed June 2018 launch. The forum is a one-stop networking shop full of entrepreneurs, evangelists, and idealists all working together to breathe life into the newly forming EOS ecosystem.
 
+另一个网站是 forums.eosgo.io，以一种专注的方式，旨在成为社区成员的“go - to”资源，共同筹划2018年6月的主链上线。该论坛是一个一站式的网网站，汇聚了创业者、布道者和理想主义者，他们共同努力为新形成的EOS生态系统注入活力。
+
 On Telegram, several EOS centric chats have been created, with the main group boasting over 27k members.
+
+在电报上，已经创建了几个以EOS为中心的聊天群组，主群有超过2.7万的成员。
 
 A small, unofficial discord channel has a dedicated crew that logs in to discuss rumors and ideas about EOS and its latest developments.
 
