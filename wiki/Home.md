@@ -55,7 +55,7 @@ Welcome to the EOS.IO wiki. This resource is intended as a guide for developers 
   * [Transactions  | 交易](Database%20Schema#3-transaction)
   * [Messages  | 消息](Database%20Schema#4-message)
   * [Accounts  | 帐号](Database%20Schema#5-accounts-collection)
-- [Database API  | 数据库 API](Database%20API) 抖抖 小丹
+- √ [[Database API  | 数据库 API](Database%20API) 抖抖 小丹
   * [Overview  | 概观](Database%20API#1-overview)
   * [Modules  | 模块](Database%20API#2-modules)
   * [Indexes  | 索引](Database%20API#3-indexes)
@@ -68,7 +68,7 @@ Welcome to the EOS.IO wiki. This resource is intended as a guide for developers 
   * [Deploy and update Smart Contract  | 部署和更新智能合约](Smart%20Contract#6-deploy-and-update-smart-contract)
   * [Command Summary |  命令摘要](Smart%20Contract#7-command-summary)
   * [Debugging Smart Contracts  | 调试智能合约](Smart%20Contract#8-debugging-smart-contract)
-- [Tutorials |  教程](Tutorials) 王明华 张奎
+- √ [[Tutorials |  教程](Tutorials) 王明华 张奎
   * [Accounts & Wallets  | 账户和钱包](Tutorials#1-accounts--wallets)
 
   * [Currency Contract Walkthrough  | 合约演练](Tutorials#2-currency-contract-walkthrough)
