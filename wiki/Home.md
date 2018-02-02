@@ -59,7 +59,7 @@ Welcome to the EOS.IO wiki. This resource is intended as a guide for developers 
   * [Overview  | 概观](Database%20API#1-overview)
   * [Modules  | 模块](Database%20API#2-modules)
   * [Indexes  | 索引](Database%20API#3-indexes)
-- [Smart Contracts  | 智能合约](Smart%20Contract) 张奎 王明华
+- √ [Smart Contracts  | 智能合约](Smart%20Contract) 张奎 王明华
   * [Introduction to EOS Smart Contract  | EOS 智能合约介绍](Smart%20Contract#1-introduction-to-eos-smart-contract)
   * [Smart Contract Files  | 智能合约文件](Smart%20Contract#2-smart-contract-files)
   * [Checklist  | 清单](Smart%20Contract#3-checklist)
