@@ -1,6 +1,6 @@
 Jump onto any EOS chat online and the following phrases can be read:
 
-登上EOS的在线聊天室，以下的句子随处可见：
+登上EOS的任何一个在线聊天室，以下的句子随处可见：
 
 “EOS to the MOON” -- EOS飞向月球
 
@@ -10,37 +10,37 @@ Jump onto any EOS chat online and the following phrases can be read:
 
 This kind of online cheerleading is fairly typical in the cryptocurrency world; every coin has its followers, and since most followers have invested time and money into the coin they follow, every coin has its die hard fans. Convinced that their coin will be the one that “changes it all”, they take to their computers to sing the the praises of the tech, the team, and the community. They breathlessly relay the latest news, rumors, price charts, progress, and encourage each other to HODL through the highs and lows of the market. In this regard, the relatively small but dedicated EOS community is rather typical; they love the coin and often talk about its tech, its team and its ability to change the world as we know it. What sets the EOS community apart from other blockchain projects is that they might actually be right.
 
-这种线上啦啦队，在加密货币的世界里是相当常见的；每一枚硬币都有它自己的追随者，大多数追随者都把时间和金钱投入到他们追随的硬币上，每一枚硬币都有它的死忠粉。他们相信他们的硬币将会“改变一切”，他们会用自己的电脑去颂扬他们的技术、团队和社区。他们一刻不停传播着最新的消息、谣言、价格图表、进展，相互鼓励持有，通过市场的涨跌。在这方面，相对较小但专注的EOS社区是相当典型的;他们喜欢这枚硬币，经常谈论它的技术，它的团队以及它改变世界的能力，正如我们所知道的那样。EOS社区与其他区块链项目的区别在于，它们可能是正确的。
+这种线上啦啦队，在加密货币的世界里是相当常见的；每一枚硬币都有它自己的追随者，大多数追随者都把时间和金钱投入到他们追随的虚拟币上，每一种虚拟币都有它的死忠粉。他们相信他们的币将会“改变一切”，他们会用自己的电脑去颂扬他们的技术、团队和社区。他们一刻不停传播着最新的消息、谣言、价格图表、进展，相互鼓励买入，通过市场的涨跌。在这方面，相对较小但专注的EOS社区是相当典型的;他们喜欢这EOS这种币，经常谈论它的技术，它的团队以及它改变世界的能力，正如我们所知道的那样。EOS社区与其他区块链项目的区别在于，它们可能是正确的。
 
-The Visionary | 远景
+The Visionary | 愿景
 
 EOS is the brainchild of Dan Larimer, a mature blockchain developer in the emerging market of alt-coins. While many second generation coins are the result of first-time blockchain developers, Larimer is unique in that EOS will be his third creation and most ambitious project to date. He hopes EOS will become the blockchain platform that allows the world to “decentralize everything”. He plans on doing this by creating a “software” that allows large online companies, or DAPPS to build and run on the EOS platform as smoothly and easily as they would any centralized software; this is a big task.
 
-EOS是Dan Larimer的创意，他是一个成熟的区块链开发者，在代币这一新兴市场里。虽然许多第二代币，第一代区块链开发人员开发的，但Larimer是独一无二的，EOS将是他迄今为止的第三个并最具雄心的项目。他希望EOS将成为区块链平台，让世界“一切去中心化”。他计划通过创建一个“软件”来实现这一目标，该软件允许大型在线公司或DAPPS在EOS平台上构建和运行，像任何中心化的软件一样流畅和轻松;这是一项艰巨的任务。
+EOS是Dan Larimer的创意，他是一个成熟的区块链开发者，在代币这一新兴市场里。虽然许多第二代币，是第一代区块链开发人员开发的，但Larimer是独一无二的，EOS将是他迄今为止的第三个并最具雄心的项目。他希望EOS将成为区块链平台，让世界“一切去中心化”。他计划通过创建一个“软件”来实现这一目标，该软件允许大型在线公司或DAPPS在EOS平台上构建和运行，像任何中心化的软件一样流畅和轻松;这是一项艰巨的任务。
 
 While blockchain technology has had some big wins (Bitcoin and Ethereum are the two “household names”), no one blockchain has been able to “crack the code” as of yet. There are problems. The technology is relatively new, and there are kinks - bugs to be worked out. Blockchains can be slow and congested; systems can go off-line and fall victim to virtual attacks. Not only can transactions be slow, but they can be EXPENSIVE:
 
-虽然区块链技术已经取得了一些重大的进展(比特币和以太坊是两个“家喻户晓的名字”)，但迄今为止还没有一个区块链能够“破解成功之道”。都有问题。这项技术相对较新，有一些缺陷需要解决。区块链可能迟缓而拥挤;系统可以离线并成为虚拟攻击的受害者。交易过程不仅可以迟缓，而且价格昂贵:
+虽然区块链技术已经取得了一些重大的进展(比特币和以太坊是两个“家喻户晓的名字”)，但迄今为止还没有一个区块链能够“破解成功之道”。他们都有一些问题。这项技术相对较新，有一些缺陷需要解决。区块链可能缓慢而拥挤;系统可能离线并成为虚拟攻击的受害者。交易过程不仅可以缓慢，而且价格昂贵:
 
 Blockchains can be hard to build on as well - the foundational code is often hard to decipher, and very restrictive in their language requirements. What should an aspiring blockchain developer do?
 
-区块链也可能很构建，—— 基础代码通常很难理解，而且在开发语言要求也非常高。一个有抱负的区块链开发人员应该怎么办?
+区块链也很难构建，—— 基础代码通常很难理解，而且在开发语言要求也非常高。一个有抱负的区块链开发人员应该怎么办?
 
 Enter EOS | 进入EOS 
 
 Larimer states that EOS will solve all these problems and more; the system will be able to process thousands of transactions a second, it will have NO fees, and it will be “out of the box” ready - in other words, all the pertinent problems currently perplexing the blockchain world would be no more. This kind of talk shouldn’t come as a shock; the volatile alt-coin market rises and falls based on hype, and these kinds of claims are common place in the crypto world, but what sets EOS apart is that Larimer has already delivered on these promises twice before. The creator of not one, but two top 50 coins on coinmarketcap.com, his creations are among the fastest performing blockchains on the market. Bitshares, his original work, is a decentralized financial platform that in many ways, was ahead of its time. With Bitshares Larimer invented DPOS, or delegated proof-of-stake, a system that makes the energy intensive, and hard to break into mining model, obsolete. His next coding project turned into Steem, the backbone of Steemit, a social media site that pays its content creators directly. While other coin communities depend on a promise and a white paper, the EOS community has Larimer.
 
-Larimer指出，EOS将解决所有这些问题；该系统将能够每秒处理数千事务，它将没有任何费用，而且它将“开销即用”——换句话说，当前困扰区块链世界的相关问题将不复存在。这种谈话不让人感到震惊；暴涨暴跌的代币市场是建立在炒作的基础上，这种说法在加密货币的世界中是常见，但是EOS的不同之处在于，Larimer已经在这些承诺上努力两次了。在coinmarketcap.com网站上，他创造了两个前50个货币，他创造的链位列市场上性能最快的区块链之中。他的原创作品Bitshares是一个去中心化的金融平台，在很多方面都领先于时代。通过Bitshares， Larimer发明了DPOS，或委托权益证明，这一系统使得能源密集，并且难以进入的采矿模式，过时了。他的下一个编码项目是Steem，这是一个社交媒体网站，它直接付费给内容创建者。当其他的代币社区依赖于一个承诺和一张白纸时，EOS社区就有了Larimer。
+Larimer指出，EOS将解决以上的这些问题，甚至更多；该系统将能够每秒处理数千事务，它将没有任何交易费用，而且它将“开箱即用”——换句话说，当前困扰区块链世界的这些问题将不复存在。这种谈话不让人感到震惊；暴涨暴跌的代币市场是建立在炒作的基础上，这种说法在加密货币的世界中是常见，但是EOS的不同之处在于，Larimer已经在这些承诺上努力两次了。在coinmarketcap.com网站上，他创造了两个前50的货币，他创造的链位列市场上性能最快的区块链之中。他的原创作品Bitshares是一个去中心化的金融平台，在很多方面都领先于时代。通过Bitshares， Larimer发明了DPOS，或委托权益证明，这一系统使得能源密集并且难以进入的挖矿模式，过时了。他的下一个编码项目是Steem，这是一个社交媒体网站，它直接付费给内容创建者。当其他的代币社区依赖于一个承诺和一张白纸时，EOS社区就有了Larimer。
 
 The New World Economy | 新世界经济
 
 If Facebook’s Mark Zuckerberg’s aim is to “bring the world closer together”, Larimer’s would be to reinvent it. A libertarian, he is not driven by accolades or riches, but rather philosophy. He envisions a new world order in which power and control lies far and wide, with community and cooperation taking center stage. When spoken about abstractly, Larimer’s ambitions may seem euphoric, pie in the sky, or unfocused, but when one begins to explore EOS and the technology behind it, realization dawns that this tool could usher in a new era in humanity, one that could change it all.
 
-如果Facebook的马克•扎克伯格(Mark Zuckerberg)的目标是“让世界变得更紧密”，Larimer将会重新发明定义它。一个自由主义者，他不是被荣誉和财富所驱使，而是哲学。他设想了一种新的世界秩序，在这种秩序中，远离权力和控制，社区和合作将成为中心。当人们抽象地谈论时，Larimer的雄心壮志可能会显得狂热，希望渺茫，或者不专注，但是当一个人开始探索EOS和它背后的技术时，他意识到这个工具可以引领人类进入一个新的时代，一个可以改变一切的时代。
+如果Facebook的马克•扎克伯格(Mark Zuckerberg)的目标是“让世界联系更紧密”，Larimer将会重新定义它。一个自由主义者，他不是被荣誉和财富所驱使，而是思想哲学。他设想了一种新的世界秩序，在这种秩序中，远离权力和控制，社区和合作成为中心。当抽象地谈论时，Larimer的雄心壮志可能会显得狂热，希望渺茫，或者不专注，但是当一个人开始研究EOS以及它背后的技术时，他逐渐意识到这个工具可以引领人类进入一个新的时代，一个可以改变一切的平台。
 
 This is not hyperbole; this is a real possibility. The central philosophy behind EOS, and almost all cryptocurrencies, is that of decentralization. Decentralization simply means that there is no central source of command, control, or power in the organization. Larimer took this a step further and invented the concept of DAC (decentralized autonomous company). A DAC has no captain on the ship, rather it lives and dies by the passion, involvement, and ingenuity of its community. EOS holders have real power in this system; in fact, they ARE the system.
 
-这不是夸张;这是一种真正的可能性。EOS背后的核心理念，几乎所有的加密货币，都是去中心化的。去中心化意味着在组织中没有中心化的命令、控制或权力。Larimer更进一步，提出了DAC(分散式自治公司)的概念。一个DAC，如同在船上没有船长，而它的生死是由它社区的激情，参与和创造力说决定。EOS持有者在这个系统中拥有真正的权力;事实上，它们就是系统。
+这不是夸张；这是真实可能的。EOS背后的核心理念，几乎所有的加密货币，都是去中心化的。去中心化意味着在组织中没有中心化的命令、控制或权力。Larimer更进一步，提出了DAC(分散式自治公司)的概念。一个DAC，如同在船上没有船长，而它的生死是由它社区的激情，参与和创造力说决定。EOS持有者在这个系统中拥有真正的权力;事实上，它们就是系统。
 
 EOS token holders will have a variety of responsibilities, each as important as the next. They vote for block producers (block producers are charged with securing the system and ensuring creating “blocks” or pages of the public ledger that are accessible by all in the system), they control which DAPPS can use the EOS bandwidth for their projects (each coin will represent a certain amount of bandwidth on the system), and holding EOS coins entitles them to “free” tokens given out to them as payment for certain DAPPS that end up using their system (possibly killing the ICO model that has come under heat as of late as regulators grapple with the crypto space). No other coin allots its holders as many perks, privileges or POWER as EOS; its function is truly unprecedented in the blockchain sphere.
 
