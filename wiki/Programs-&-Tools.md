@@ -19,7 +19,7 @@
 
 ### eosd
 
-The core EOS daemon that can be configured with plugins to run a node. Example uses are block production, dedicated API endpoints and local development. 
+The core EOS daemon that can be configured with plugins to run a node. Example uses are block production, dedicated API endpoints and local development.
 
 EOS 核心守护进程可以配置插件，运行为一个节点。例如，作为区块生产者运行，用于API端口和本地开发。
 
@@ -102,7 +102,7 @@ The launcher application simplifies the distribution of multiple eosd nodes acro
 
 ### snapshot | 快照
 
-A submodule referencing `EOSIO/genesis` repository that contains a nodejs application for generating a snapshot from crowdsale contract, a web GUI for configuring a genesis block and other genesis related tools. 
+A submodule referencing `EOSIO/genesis` repository that contains a nodejs application for generating a snapshot from crowdsale contract, a web GUI for configuring a genesis block and other genesis related tools.
 
 一个引用 ``EOSIO/genesis`` 库的子模块，包含一个用来从 crowdsale 合约生成快照的 nodejs 应用程序。它有一个web界面，用于配置创始区块和其他创始相关工具。
 
@@ -300,7 +300,7 @@ struct my_new_table {
 /*
  * @abi table
  * @abi action
- */ 
+ */
 struct my_type {
   eosio::string key;
   eosio::name value;
@@ -417,7 +417,7 @@ void apply( uint64_t code, uint64_t action ) {
         auto msg = eosio::current_message<test_action>();
         eosio::print("test_action content\n");
         eosio::dump(msg);
-         
+
         bytes b = eosio::raw::pack(msg);
         printhex(b.data, b.len);
      }
@@ -470,4 +470,3 @@ e8030000d8010000000000000568656c6c6fa40000000c736d616c6c2d737472696e6702b0ca03b4
 版权所有，转载需完整注明以上内容。
 
 ----------------------------------------------------
-
