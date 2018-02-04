@@ -28,7 +28,7 @@ EOS是Dan Larimer的创意，他是一个成熟的区块链开发者，在代币
 
 While blockchain technology has had some big wins (Bitcoin and Ethereum are the two “household names”), no one blockchain has been able to “crack the code” as of yet. There are problems. The technology is relatively new, and there are kinks - bugs to be worked out. Blockchains can be slow and congested; systems can go off-line and fall victim to virtual attacks. Not only can transactions be slow, but they can be EXPENSIVE:
 
-虽然区块链技术已经取得了一些重大的进展(比特币和以太坊是两个“家喻户晓的名字”)，但迄今为止还没有一个区块链能够“破解成功之道”。他们都有一些问题。这项技术相对较新，有一些缺陷需要解决。区块链可能缓慢而拥挤;系统可能离线并成为虚拟攻击的受害者。交易过程不仅可以缓慢，而且价格昂贵:
+虽然区块链技术已经取得了一些重大的进展(比特币和以太坊是两个“家喻户晓的名字”)，但迄今为止还没有一个区块链能够“破解成功之道”。他们都有一些问题。这项技术相对较新，有一些缺陷需要解决。区块链可能缓慢而拥挤;系统可能掉线并成为虚拟攻击的受害者。交易过程不仅可以缓慢，而且价格昂贵:
 
 Blockchains can be hard to build on as well - the foundational code is often hard to decipher, and very restrictive in their language requirements. What should an aspiring blockchain developer do?
 
