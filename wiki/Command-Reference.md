@@ -1,50 +1,60 @@
-## eosc command
+> 本文翻译自：https://github.com/EOSIO/eos/wiki
+>
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) 鱼
+>
+> 翻译时间：2018-2-3
+>
 
-| Action | Syntax | Example 
+本文由[币乎社区（bihu.com）](http://www.bihu.com)内容支持计划奖励。
+
+## eosc command |  eosc 命令
+
+| Action 功能 | Syntax 语法 | Example 示例
 |--|--|--|
-| Get ALL commands | $ eosc | [View](#all-command) |
-| Get ALL subcommands | $ eosc ${command} | [View](#all-subcommand) |
-| Connect to node | $ eosc -H {node} -p {port} | [View](#connect-to-node) |
-| Query blockchain state | $ eosc get info | [View](#query-blockchain-state) |
-| Get transaction by id | $ eosc get transaction ${transaction_id} | [View](#get-transaction-by-transaction_id) |
-| Get transactions by account | $ eosc get transaction ${account} | [View](#get-transaction-by-account) |
-| Transfer EOS | $ eosc transfer ${from_account} ${to_account} ${quantity} | [View](#transfer-eos) |
-| Wallet - Create wallet | $ eosc wallet create {-n} ${wallet_name} | [View](#create-wallet) |
-| Wallet - List wallets | $ eosc wallet list | [View](#list-wallets) |
-| Wallet - Import key | $ eosc wallet import ${key} | [View](#import-key-to-wallet) |
-| Wallet - List keys| $ eosc wallet keys | [View](#list-wallet-keys) |
-| Wallet - Lock | $ eosc wallet lock -n ${wallet_name} | [View](#lock-wallet) |
-| Wallet - Unlock | $ eosc wallet unlock -n ${wallet_name} --password ${password} | [View](#unlock-wallet) |
-| Wallet - Open | $ eosc wallet open | [View](#open-wallet) |
-| Account - Create keys | $ eosc create key | [View](#create-keys) |
-| Account - Create account | $ eosc create account ${control_account} ${account_name} ${owner_public_key} ${active_public_key} | [View](#create-account) |
-| Account - See servants | $ eosc get servants ${account_name} | [View](#account-servants) |
-| Account - Check balance | $ eosc get account ${account_name} | [View](#check-account-balance) |
-| Permission - Create/Modify | $ eosc set account permission ${permission} ${account} ${permission_json} ${account_authority} | [View](#create-or-modify-permissions) |
-| Contract - Deploy | $ eosc set contract ../${contract}.wast ../${contract}.abi | [View](#deploy-contract) |
-| Contract - Query ABI | $ eosc get code --a ${contract}.abi ${contract} | [View](#query-contract-abi) |
-| Contract - Push Message | $ eosc push message ${contract} ${action} ${param} -S ${scope_1} -S ${scope_2} -p ${account}@active | [View](#push-message-to-contract) |
-| Contract - Query table | $ eosc get table ${field} ${contract} ${table} | [View](#querying-contract) |
+| Get ALL commands 显示全部命令| $ eosc | [View 查看](#all-command) |
+| Get ALL subcommands 显示子命令| $ eosc ${command} | [View 查看](#all-subcommand) |
+| Connect to node 连接到节点| $ eosc -H {node} -p {port} | [View 查看](#connect-to-node) |
+| Query blockchain state 区块链状态查询| $ eosc get info | [View 查看](#query-blockchain-state) |
+| Get transaction by id 通过 id 获取交易信息| $ eosc get transaction ${transaction_id} | [View 查看](#get-transaction-by-transaction_id) |
+| Get transactions by account 获取帐户的交易信息| $ eosc get transaction ${account} | [View 查看](#get-transaction-by-account) |
+| Transfer EOS EOS 转帐| $ eosc transfer ${from_account} ${to_account} ${quantity} | [View 查看](#transfer-eos) |
+| Wallet - Create wallet 钱包 - 新建钱包| $ eosc wallet create {-n} ${wallet_name} | [View 查看](#create-wallet) |
+| Wallet - List wallets 钱包 - 钱包列表 | $ eosc wallet list | [View 查看](#list-wallets) |
+| Wallet - Import key 钱包 - 导入密钥| $ eosc wallet import ${key} | [View 查看](#import-key-to-wallet) |
+| Wallet - List keys 钱包 -  私钥列表| $ eosc wallet keys | [View 查看](#list-wallet-keys) |
+| Wallet - Lock 钱包 -  锁定钱包| $ eosc wallet lock -n ${wallet_name} | [View 查看](#lock-wallet) |
+| Wallet - Unlock 钱包 - 解锁钱包| $ eosc wallet unlock -n ${wallet_name} --password ${password} | [View 查看](#unlock-wallet) |
+| Wallet - Open 钱包 - 打开钱包| $ eosc wallet open | [View 查看](#open-wallet) |
+| Account - Create keys 帐户 - 生成密钥对| $ eosc create key | [View 查看](#create-keys) |
+| Account - Create account 帐户 - 创建帐户| $ eosc create account ${control_account} ${account_name} ${owner_public_key} ${active_public_key} | [View 查看](#create-account) |
+| Account - See servants 帐户 - 查看控制的用户| $ eosc get servants ${account_name} | [View 查看](#account-servants) |
+| Account - Check balance 帐户 - 查看帐户余额 | $ eosc get account ${account_name} | [View 查看](#check-account-balance) |
+| Permission - Create/Modify 权限 - 创建/修改| $ eosc set account permission ${permission} ${account} ${permission_json} ${account_authority} | [View 查看](#create-or-modify-permissions) |
+| Contract - Deploy 智能合约 - 布署| $ eosc set contract ../${contract}.wast ../${contract}.abi | [View 查看](#deploy-contract) |
+| Contract - Query ABI 智能合约 - 查询 ABI| $ eosc get code --a ${contract}.abi ${contract} | [View 查看](#query-contract-abi) |
+| Contract - Push Message 智能合约 - 发送消息| $ eosc push message ${contract} ${action} ${param} -S ${scope_1} -S ${scope_2} -p ${account}@active | [View 查看](#push-message-to-contract) |
+| Contract - Query table 智能合约 - 查看表数据| $ eosc get table ${field} ${contract} ${table} | [View 查看](#querying-contract) |
 
 
 ## eosd command
 
-| Action | Syntax | Example |
+| Action 功能 | Syntax 语法 | Example 示例|
 |--|--|--|
-| Skip signatures | $ eosd --skip-transaction-signatures | [View](#skip-signatures) |
+| Skip signatures 跳过签名| $ eosd --skip-transaction-signatures | [View 查看](#skip-signatures) |
 
 
 ## eos-wallets command
 
-| Action | Syntax | Example |
+| Action 功能 | Syntax 语法 | Example 示例|
 |--|--|--|
-| Use separate wallet app | $ eos-walletd --http-server-endpoint ${node}:{port} | [View](#using-separate-wallet-app) |
+| Use separate wallet app 使用单独的钱包应用| $ eos-walletd --http-server-endpoint ${node}:{port} | [View 查看](#using-separate-wallet-app) |
 
 
-## Examples
-### All command
+## Examples | 示例
+### All command | 所有命令
 eosc contains documentation for all of its commands. For a list of all commands known to eosc, simply run it with no arguments:
 
+eosc 包含所有命令的文档。不带参数直接运行时，它会列出所有已知的命令。
 ```
 $ eosc
 ERROR: RequiredError: Subcommand required
@@ -58,7 +68,7 @@ Options:
                               the host where eos-walletd is running
   --wallet-port UINT=8888     the port where eos-walletd is running
   -v,--verbose                output verbose messages on error
-  
+
 Subcommands:
   version                     Retrieve version information
   create                      Create various items, on and off the blockchain
@@ -70,9 +80,10 @@ Subcommands:
   benchmark                   Configure and execute benchmarks
   push                        Push arbitrary transactions to the blockchain
 ```
-  
-### All subcommand  
+
+### All subcommand | 所有子命令
 To get help with any particular subcommand, run it with no arguments as well:
+不带参数直接运行，可以显示所有指定的子命令帮助。
 
 ```
 $ eosc create
@@ -83,7 +94,7 @@ Subcommands:
   key                         Create a new keypair and print the public and private keys
   account                     Create a new account on the blockchain
   producer                    Create a new producer on the blockchain
-  
+
 $ eosc create account
 ERROR: RequiredError: creator
 Create a new account on the blockchain
@@ -93,12 +104,14 @@ Positionals:
   name TEXT                   The name of the new account
   OwnerKey TEXT               The owner public key for the account
   ActiveKey TEXT              The active public key for the account
-  
+
 ```
 
-### Connect to node
+### Connect to node | 连接到节点
 
 This will connect you to your local node
+
+连接到你的本地节点
 
 ```
 $ eosc -H localhost -p 8889 <subcommand>
@@ -106,13 +119,16 @@ $ eosc -H localhost -p 8889 <subcommand>
 
 You can also adjust the node params to connect to a different node, e.g. the public testnet
 
+也可以调整参数连接到一个不同的节点，如，公共测试网。
 ```
 $ eosc -H test1.eos.io -p 80 <subcommand>
 ```
 
-**Note** You need to include the `-H` and `-p` arguments with each request to `eosc` 
+**Note** You need to include the `-H` and `-p` arguments with each request to `eosc`
 
-### Query blockchain state
+**注意** 每次运行 `eosc` 都必需包括  `-H` 和 `-p` 参数。
+
+### Query blockchain state | 区块链状态查询
 
 ```bash
 $ eosc get info
@@ -128,8 +144,11 @@ $ eosc get info
 }
 ```
 
-### Get Transaction by transaction_id
+### Get Transaction by transaction_id | 通过 id 获取交易信息
 With account_history_api_plugin loaded in eosd, we can query for particular transaction using the transaciton_id
+
+eosd 在 account_history_api_plugin 插件运行时，我们可以使用 transaciton_id 查询特定交易。
+
 ```
 $ eosc get transaction eb4b94b72718a369af09eb2e7885b3f494dd1d8a20278a6634611d5edd76b703
 {
@@ -187,8 +206,10 @@ $ eosc get transaction eb4b94b72718a369af09eb2e7885b3f494dd1d8a20278a6634611d5ed
 }
 ```
 
-### Get Transaction by account
+### Get Transaction by account | 获取帐户的交易信息
 We can also query list of transactions performed by certain account starting from recent one
+
+可以查询特定帐户的交易列表，最近的交易排在前面。
 
 ```
 $ eosc get transactions inita
@@ -205,7 +226,7 @@ $ eosc get transactions inita
 ]
 ```
 
-### Transfer EOS
+### Transfer EOS | EOS 转帐
 
 ```
 $ eosc transfer inita tester 1000
@@ -256,9 +277,11 @@ $ eosc transfer inita tester 1000
 }
 ```
 
-### Create wallet 
+### Create wallet | 新建钱包
 
 Create wallet without specifying a name, the wallet will be created with the name 'default'
+
+创建钱包时如果没有指定名称，将使用 'default' 作为钱包名。
 
 ```base
 $ eosc wallet create
@@ -270,6 +293,8 @@ Without password imported keys will not be retrievable.
 
 You can name the wallet adding the ```-n ${wallet_name}``` in the command
 
+可以在命令中加入 ```-n ${wallet_name}``` 来指定名称
+
 ```base
 $ eosc wallet create -n second-wallet
 Creating wallet: second-wallet
@@ -278,8 +303,11 @@ Without password imported keys will not be retrievable.
 "PW5Ji6JUrLjhKAVn68nmacLxwhvtqUAV18J7iycZppsPKeoGGgBEw"
 ```
 
-### List wallets
+### List wallets | 钱包列表
 The list wallet command will list all wallet with status of each wallet, the * symbol indicates that the wallet is currently unlocked.
+
+list wallet 命令将会列出全部钱包及每个钱包的状态，标记 * 的钱包表示此钱包当前未锁定。
+
 ```base
 $ eosc wallet list
 Wallets:
@@ -289,15 +317,21 @@ Wallets:
 ]
 ```
 
-### Import key to wallet
+### Import key to wallet | 导入密钥到钱包
 Note: If you do not hold an account key, you will need to use the create account command to first create account keys.
+
+注意：如果没有帐户密钥，需要使用 create account 命令先建帐户密钥。
+
 ```base
 $ eosc wallet import 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
 imported private key for: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
 ```
 
-### List wallet keys
+### List wallet keys | 私钥列表
 This will list all the keys stored in the wallet in public private key pair.
+
+此命令会显示所有存储在钱包中的公钥私钥对。
+
 ```base
 $ eosc wallet keys
 [[
@@ -307,12 +341,14 @@ $ eosc wallet keys
 ]
 ```
 
-### Lock wallet
+### Lock wallet | 锁定钱包
 ```base
 $ eosc wallet lock -n second-wallet
 Locked: 'second-wallet'
 
 Notice that the locked wallet doesn't have * symbol in the list
+
+注意锁定的钱包没有 * 标记。
 
 $ eosc wallet list
 Wallets:
@@ -322,14 +358,17 @@ Wallets:
 ]
 ```
 
-### Unlock wallet
+### Unlock wallet | 解锁钱包
 To unlock it specify the password you get when creating the wallet
+
+使用你创建时得到的密码解锁钱包。
+
 ```base
 $ eosc wallet unlock -n second-wallet --password PW5Ji6JUrLjhKAVn68nmacLxwhvtqUAV18J7iycZppsPKeoGGgBEw
 Unlocked: 'second-wallet'
 ```
 
-### Open wallet
+### Open wallet | 打开钱包
 ```base
 $ eosc wallet open
 Wallets: [
@@ -342,17 +381,24 @@ Wallets: [
 ]
 ```
 
-### Create keys
+### Create keys | 生成密钥对
 
 In order to create an account you will need two new keys: owner and active. You can ask eosc to create some keys for you:
 
 This will be your owner key,
+
+创建账号需要两组新的密钥：owner 和 active。你可以让 `eosc` 创建它们。
+
+这将是你的 owner 密钥,
+
 ```base
 $ eosc create key
 public: EOS4toFS3YXEQCkuuw1aqDLrtHim86Gz9u3hBdcBw5KNPZcursVHq
 private: 5JKbLfCXgcafDQVwHMm3shHt6iRWgrr9adcmt6vX3FNjAEtJGaT
 ```
 And this will be your active key,
+这是你的 active 密钥,
+
 ```base
 $ eosc create key
 public: EOS7d9A3uLe6As66jzN8j44TXJUqJSK3bFjjEEqR4oTvNAB3iM9SA
@@ -360,8 +406,12 @@ private: 5Hv22aPcjnENBv6X9o9nKGdkfrW44En6z4zJUt2PobAvbQXrT9z
 ```
 Note: eosc does not save the generated private key.
 
-### Create account
-You will need your EOS keys in order to create an account, you must either have your EOS keys registered on the Ethereum network or you can use the [create keys](#create-keys) function to create a new sets of keys 
+注意： `eosc` 不保存生成的私钥。
+
+### Create account | 创建帐户
+You will need your EOS keys in order to create an account, you must either have your EOS keys registered on the Ethereum network or you can use the [create keys](#create-keys) function to create a new sets of keys
+
+创建用户帐号需要 EOS 密钥，可以用在以太坊网络上注册的 EOS 密钥，也可以使用 [create keys](#create-keys) 函数来创建密钥。
 
 ```base
 $ eosc create account inita tester EOS4toFS3YXEQCkuuw1aqDLrtHim86Gz9u3hBdcBw5KNPZcursVHq EOS7d9A3uLe6As66jzN8j44TXJUqJSK3bFjjEEqR4oTvNAB3iM9SA
@@ -397,8 +447,11 @@ $ eosc create account inita tester EOS4toFS3YXEQCkuuw1aqDLrtHim86Gz9u3hBdcBw5KNP
 }
 ```
 
-### Account servants
+### Account servants | 查看控制的用户
 To check the servant accounts created by an account (control account)
+
+查看由帐户创建的被控制帐户。
+
 ```base
 $ eosc get servants inita
 {
@@ -408,7 +461,7 @@ $ eosc get servants inita
 }
 ```
 
-### Check account balance
+### Check account balance | 查看帐户余额
 ```base
 $ eosc get account tester
 {
@@ -446,16 +499,21 @@ $ eosc get account tester
 }
 ```
 
-### Create or Modify Permissions
-To modify permissions of an account, you must have the authority over the account and the permission of which you are modifying. The `set account permission` command is subject to change so it's associated Class is not fully documented. 
+### Create or Modify Permissions | 创建/修改权限
+To modify permissions of an account, you must have the authority over the account and the permission of which you are modifying. The `set account permission` command is subject to change so it's associated Class is not fully documented.
 
 The first example associates a new key to the active permissions of an account
 
+修改一个帐户的权限，你必需要有控制这个帐户的权力和对应修改权限。`set account permission` 命令以后可能会更改，因此它的关联类没有完整文档化。
+
+第一个示例：在激活的帐户权限中加入一个新的键值。
 ```bash
 $ eosc set account permission test active '{"threshold" : 1, "keys" : [{"permission":{"key":"EOS8X7Mp7apQWtL6T2sfSZzBcQNUqZB7tARFEm9gA9Tn9nbMdsvBB","permission":"active"},"weight":1}], "accounts" : [{"permission":{"account":"acc2","permission":"active"},"weight":50}]}' owner
 ```
 
-This second example modifies the same account permission, but removes the *key* set in the last example, and grants active authority of the **@test** account to another *account*. 
+This second example modifies the same account permission, but removes the *key* set in the last example, and grants active authority of the **@test** account to another *account*.
+
+第二个示例修改同一个帐户的权限，但是删除了上个例子设置的 *key* 的键值，同时将 **@test** 帐户的 active 权限授予另一个*帐户*。
 
 ```bash
 $ eosc set account permission test active '{"threshold" : 1, "keys" : [], "accounts" : [{"permission":{"account":"sandwich","permission":"active"},"weight":1},{"permission":{"account":"acc1","permission":"active"},"weight":50}]}' owner
@@ -463,13 +521,19 @@ $ eosc set account permission test active '{"threshold" : 1, "keys" : [], "accou
 
 The third example demonstrates how to setup permissions for multisig
 
+第三个列子演示了如何设置多签权限。
+
 ```bash
 $ eosc set account permission test active '{"threshold" : 100, "keys" : [{"permission":{"key":"EOS8X7Mp7apQWtL6T2sfSZzBcQNUqZB7tARFEm9gA9Tn9nbMdsvBB","permission":"active"},"weight":25}], "accounts" : [{"permission":{"account":"@sandwich","permission":"active"},"weight":75}]}' owner
 ```
 
 The JSON object used in this command is actually composed of two different types of objects
 
+这个命令中使用的 JSON 对象实际上是由两种不同类型的对象组成的
+
 *The authority JSON object ...*
+
+*authority JSON 对象 ...*
 
 ```javascript
 {
@@ -480,6 +544,8 @@ The JSON object used in this command is actually composed of two different types
 ```
 
 *...which includes one or more permissions objects*
+
+*...其中包含一个或多个权限对象*
 
 ```javascript
 /*Set Permission with Key*/
@@ -501,13 +567,17 @@ The JSON object used in this command is actually composed of two different types
 }
 ```
 
-*You can read more about some practical uses of permissions [here]()*
+*You can read more about some practical uses of permissions
+*您可以阅读更多关于权限的实际用法 [here]()*
 
-### Deploy Contract
+### Deploy Contract | 布署智能合约
 To upload a contract to the blockchain, you must first hold an account and a wallet that holds the account unlocked.
 Secondly, you will need your contract files (.wast) and its abi (.abi).
 Then you may proceed with setting the code.
 
+为了上传智能合约到区块链，你必需首先拥有一个帐户并且一个具有未锁定的帐户的钱包。
+另外，你需要有合约文件(.wast)和(.abi)
+然后您就可以继续设置代码。
 ```
 $ eosc set contract currency ../../../contracts/currency/currency.wast ../../../contracts/currency/currency.abi
 Reading WAST...
@@ -545,9 +615,12 @@ Publishing contract...
 }
 ```
 
-### Query Contract ABI
+### Query Contract ABI | 查询 ABI
 
 We can query the blockchain for the .abi of the contract, on which we can check the list of available actions and their respective message structure
+
+我们可以查询区块链上合约的 .abi，在那我们可以检查可用的命令和他们各自的消息结构列表
+
 ```
 $ eosc get code --a currency.abi currency
 code hash: 9b9db1a7940503a88535517049e64467a6e8f4e9e03af15e9968ec89dd794975
@@ -594,10 +667,15 @@ $ cat currency.abi
 }
 ```
 
-### Push Message to Contract
+### Push Message to Contract | 发送消息到合约
 A message should be contract according to the contract ABI.
 
 For example, the ABI of the currency contract is contructed as follow.
+
+消息应该按照合约 ABI 制定的格式。
+
+例如，货币的合约 ABI 构造如下。
+
 ```
 $ eosc get code --a currency.abi currency
 code hash: 9b9db1a7940503a88535517049e64467a6e8f4e9e03af15e9968ec89dd794975
@@ -645,6 +723,8 @@ $ cat currency.abi
 ```
 
 From the above abi, we can see that currency contract accepts an action called transfer that accepts message with fields from, to, and amount.
+
+从上面的 abi 中, 我们可以看到这个货币合约接受一个命令叫 transfer， 它授受带有 from, to, 和 amount 三个参数的消息。
 ```
 $ ./eosc push message currency transfer '{"from":"currency","to":"tester","amount":50}' -S currency -S tester -p currency@active
 1589302ms thread-0   main.cpp:271                  operator()           ] Converting argument to binary...
@@ -694,11 +774,15 @@ $ ./eosc push message currency transfer '{"from":"currency","to":"tester","amoun
 }
 ```
 
-### Querying Contract
+### Querying Contract | 查看合约
 
 Depending on the table structure defines in the contract, you can query the data within the contract.
 
 For example, the currency contract ABI contains the account table.
+
+根据合同中定义的表结构，您可以查询合同中的数据。
+
+例如，货币合约 ABI 包含账户表。
 ```
 $ eosc get code --a currency.abi currency
 code hash: 9b9db1a7940503a88535517049e64467a6e8f4e9e03af15e9968ec89dd794975
@@ -720,6 +804,8 @@ $ cat currency.abi
 ```
 
 You can query the table specifying the necessary fields.
+
+您可以查询表中指定的字段。
 ```
 $ eosc get table inita currency account
 {
@@ -732,8 +818,10 @@ $ eosc get table inita currency account
 }
 ```
 
-### Skip signatures
+### Skip signatures | 跳过签名
 If you have eosd running in your local, as an easy way for developers to test functionality without dealing with keys, eosd can be run so that Transaction signatures are not required.
+
+如果您已经在本地运行了 eosd，作为一种简便方法，开发人员可以在不用处理密钥的情况下测试功能，那么可以增加不需要交易签名的参数来运行 eosd。
 
 ```
 $ eosd --skip-transaction-signatures
@@ -741,13 +829,17 @@ $ eosd --skip-transaction-signatures
 
 And then for any operation that requires signing, use the -s option
 
+然后对于任何需要签名的操作，使用 -s 选项
+
 ```
 $ eosc ${command} ${subcommand} -s ${param}
 ```
 
-### Using Separate Wallet App
+### Using Separate Wallet App | 使用单独的钱包应用
 
 Instead of using the wallet functionality built-in to eosd, you can also use a separate wallet app which can be found inside programs/eos-walletd. By default, port 8888 is used by eosd, so choose another port for the wallet app.
+
+也可以不使用 eosd 内置的钱包功能，programs/eos-walletd 是一个单独的钱包应用程序。 默认情况下，eosd 使用了端口 8888，因此请为此钱包应用选择另一个端口。
 
 ```
 $ eos-walletd --http-server-endpoint 127.0.0.1:8887
@@ -755,11 +847,13 @@ $ eos-walletd --http-server-endpoint 127.0.0.1:8887
 
 Then for any operation that requires signing, use the –wallet-host and –wallet-port option
 
+然后，对于任何需要签名的操作，使用 -wallet-host 和 -wallet-port 选项
+
 ```
 $ eosc --wallet-host 127.0.0.1 --wallet-port 8887 ${command} ${subcommand} ${param}
 ```
 
-## Error Examples
+## Error Examples | 错误示例
 
 ```
 status_code == 200: Error
@@ -769,4 +863,3 @@ test: assertion failed: integer underflow subtracting token balance
     thread-1  wasm_interface.cpp:248 assertnonei32i32
 [...snipped...]
 ```
-
