@@ -24,7 +24,7 @@ The Visionary | 愿景
 
 EOS is the brainchild of Dan Larimer, a mature blockchain developer in the emerging market of alt-coins. While many second generation coins are the result of first-time blockchain developers, Larimer is unique in that EOS will be his third creation and most ambitious project to date. He hopes EOS will become the blockchain platform that allows the world to “decentralize everything”. He plans on doing this by creating a “software” that allows large online companies, or DAPPS to build and run on the EOS platform as smoothly and easily as they would any centralized software; this is a big task.
 
-+EOS是Dan Larimer的创意，他是一个成熟的区块链开发者，在代币这一新兴市场里。虽然许多第二代币，是由区块链首次开发者开发的，但Larimer是独一无二的，EOS将是他迄今为止的第三个，并最具雄心的项目。他希望EOS将成为一个区块链基础平台，让世界“一切去中心化”。他计划通过创建一个“软件”来实现这一目标，该软件允许大型在线公司或DAPPS在EOS平台上构建和运行，像任何中心化的软件一样流畅和轻松；这是一项艰巨的任务。
+EOS是Dan Larimer的创意，他是一个成熟的区块链开发者，在代币这一新兴市场里。虽然许多第二代币，是由区块链首次开发者开发的，但Larimer是独一无二的，EOS将是他迄今为止的第三个，并最具雄心的项目。他希望EOS将成为一个区块链基础平台，让世界“一切去中心化”。他计划通过创建一个“软件”来实现这一目标，该软件允许大型在线公司或DAPPS在EOS平台上构建和运行，像任何中心化的软件一样流畅和轻松；这是一项艰巨的任务。
 
 While blockchain technology has had some big wins (Bitcoin and Ethereum are the two “household names”), no one blockchain has been able to “crack the code” as of yet. There are problems. The technology is relatively new, and there are kinks - bugs to be worked out. Blockchains can be slow and congested; systems can go off-line and fall victim to virtual attacks. Not only can transactions be slow, but they can be EXPENSIVE:
 
