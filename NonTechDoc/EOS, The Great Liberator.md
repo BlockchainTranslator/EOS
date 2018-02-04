@@ -18,7 +18,7 @@ Jump onto any EOS chat online and the following phrases can be read:
 
 This kind of online cheerleading is fairly typical in the cryptocurrency world; every coin has its followers, and since most followers have invested time and money into the coin they follow, every coin has its die hard fans. Convinced that their coin will be the one that “changes it all”, they take to their computers to sing the the praises of the tech, the team, and the community. They breathlessly relay the latest news, rumors, price charts, progress, and encourage each other to HODL through the highs and lows of the market. In this regard, the relatively small but dedicated EOS community is rather typical; they love the coin and often talk about its tech, its team and its ability to change the world as we know it. What sets the EOS community apart from other blockchain projects is that they might actually be right.
 
-这种线上啦啦队，在加密货币的世界里相当常见；每一种虚拟币都有它自己的追随者，大多数追随者都把时间和金钱投入到他们追随的币上，每一种币都有它的死忠粉。他们相信他们的币将会“改变一切”，他们会用自己的电脑去颂扬他们的技术、团队和社区。他们一刻不停地传播着最新的消息、谣言、价格图表、进展，相互鼓励随市场的涨跌买入。在这方面，相对较小，但专注的EOS社区是相当典型的；他们热爱EOS，经常谈论它的技术，它的团队以及它改变世界的能力，正如我们所知道的那样。但是，EOS社区与其他区块链项目的区别在于，他们可能是正确的。
+这种线上啦啦队，在加密货币的世界里相当常见；每一种虚拟币都有它自己的追随者，大多数追随者都把时间和金钱投入到他们追随的币上，每一种币都有它的死忠粉。他们相信他们的币将会“改变一切”，他们会带着他们的电脑去颂扬他们的技术、团队和社区。他们一刻不停地传播着最新的消息、谣言、价格图表、进展，相互鼓励随市场的涨跌买入。在这方面，相对较小，但专注的EOS社区是相当典型的；他们热爱EOS，经常谈论它的技术，它的团队以及它改变世界的能力，正如我们所知道的那样。但是，EOS社区与其他区块链项目的区别在于，他们可能是正确的。
 
 ### The Visionary | 愿景
 
@@ -78,7 +78,7 @@ Live in a country with hyper-inflation? Invest your money into a stable cryptocu
 
 Meritocracy would be king. Democracy and capitalism, two often-times seemingly incompatible partners would finally peacefully co-exist. Our planet’s most creative, artistic, and passionate souls could survive by their talents, without pesky middle men taking most of the profit. By cutting out centralization, EOS holders envision a world that is more efficient, accessible, and fair. With the EOS blockchain as the backbone of this redistribution of wealth, large swaths of peoples and nations can re-write their destiny; any and everything that exists online today can be reconfigured to perform on the blockchain - let that sink in for a moment.
 
-知识精英为王。民主和资本主义，这两个经常看似不兼容的东西，最终会和平共存。我们这个星球上最具创造力、最具艺术性和激情灵魂的人，可以靠他们的才能生存，而不需要那些讨厌的中间人攫取大部分的利润。通过消除中心化，EOS持有者设想一个更高效、更便捷、更公平的世界。随着EOS区块链作为财富再分配的支柱，很多的民众和国家可以改写他们的命运；今天线上的任何东西都可以被重新配置为在区块链上运行。
+知识精英为王。民主和资本主义，这两个经常看似不兼容的东西，最终会和平共存。我们这个星球上最具创造力、最具艺术性和激情灵魂的人，可以靠他们的才能生存，而不需要那些讨厌的中间人攫取大部分的利润。通过消除中心化，EOS持有者构想了一个更高效、更便捷、更公平的世界。随着EOS区块链作为财富再分配的支柱，很多的民众和国家可以改写他们的命运；今天线上的任何东西都可以被重新配置为在区块链上运行。
 
 This is a game changer. The world would be more meaningfully united.
 
