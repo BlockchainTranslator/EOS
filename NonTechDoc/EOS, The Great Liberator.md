@@ -48,15 +48,15 @@ If Facebook’s Mark Zuckerberg’s aim is to “bring the world closer together
 
 This is not hyperbole; this is a real possibility. The central philosophy behind EOS, and almost all cryptocurrencies, is that of decentralization. Decentralization simply means that there is no central source of command, control, or power in the organization. Larimer took this a step further and invented the concept of DAC (decentralized autonomous company). A DAC has no captain on the ship, rather it lives and dies by the passion, involvement, and ingenuity of its community. EOS holders have real power in this system; in fact, they ARE the system.
 
-这不是夸张，是真实可能的。EOS背后的核心理念，几乎所有的加密货币，是去中心化。去中心化意味着，在组织中没有中心化的命令、控制或权力。Larimer更进一步，提出了DAC(去中心化自治公司)的概念。一个DAC，如同在船上没有船长，而它的生死是由它社区的激情、参与程度和创造力所决定。EOS持有者在这个系统中拥有真正的权力；事实上，它们就是系统。
+这不是夸张，是真实可能的。EOS背后的核心理念，几乎所有的加密货币，是去中心化。去中心化意味着，在组织中没有中心化的命令、控制或权力。Larimer更进一步，提出了DAC(去中心化自治公司)的概念。一个DAC，如同在船上没有船长，而它的生死是由它社区的激情、参与程度和创造力所决定。EOS持有者在这个系统中拥有真正的权力；事实上，他们就是系统。
 
 EOS token holders will have a variety of responsibilities, each as important as the next. They vote for block producers (block producers are charged with securing the system and ensuring creating “blocks” or pages of the public ledger that are accessible by all in the system), they control which DAPPS can use the EOS bandwidth for their projects (each coin will represent a certain amount of bandwidth on the system), and holding EOS coins entitles them to “free” tokens given out to them as payment for certain DAPPS that end up using their system (possibly killing the ICO model that has come under heat as of late as regulators grapple with the crypto space). No other coin allots its holders as many perks, privileges or POWER as EOS; its function is truly unprecedented in the blockchain sphere.
 
-EOS代币持有者负有各种各样的责任，每一个都和下一个一样重要。他们投票给区块生产者(区块生产者负责系统安全,确保生产区块或公共账本,并能够被系统中所有的人访问),他们决定哪个DAPPS可以使用EOS带宽(每个代币都代表一定的系统带宽),持有EOS使他们有权获得“免费”代币，作为一个DAPPS最终能使用系统的支付手段(可能消灭ICO模型，最近很热门以致监管机构尽力打击)。没有任何一种代币，能像EOS一样给它的持有者带来许多福利、特权或权力;它的功能在区块链领域，是前所未有的。
+EOS代币持有者负有各种各样的责任，每一个都和下一个一样重要。他们投票给区块生产者(区块生产者负责系统安全,确保生产区块或公共账本,并能够被系统中所有的人访问),他们决定哪个DAPPS可以使用EOS带宽(每个代币都代表一定的系统带宽),持有EOS使他们有权获得“免费”代币，作为一个DAPPS最终能使用系统的支付手段(可能消灭ICO模型，最近很热门以致监管机构尽力打击)。没有任何一种代币，能像EOS一样给它的持有者带来许多福利、特权或权力；它的功能在区块链领域，前所未有。
 
 Zoomed in, the technology can seem quite specific and inconsequential in the greater scheme of things, but zoom out and the revolution starts to take shape. In a centralized company, much of the profits, benefits, and power concentrates in a few, strong hands. The CEO, board of directors, majority share holders, etc, reap the rewards of a working class; the many for the few. The innovation and proclamation of a DAC is quite the opposite; wealth will be spread far and wide, opportunity is plentiful, and the fate of a company relies on those in the community that have built it, so they shall reap the rewards.
 
-从小处看，这项技术似乎在更大的计划中显得过于具体和无关紧要，但宏观来看，革命正在开始成形。在一个集中化的公司里，大部分利润、利益和权力集中在少数几个强有力的人手中。首席执行官、董事会、多数股东等，收获了劳动阶级的报酬;大多数人为少数人服务。DAC的创新和宣言是完全相反的;财富将会广泛传播，机会也很丰富，公司的命运依赖于社区，他们将会收获回报。
+光从技术看，似乎显得过于具体甚至无关紧要，但宏观来看，一场革命正在开始成形。在一个集中化的公司里，大部分利润、利益和权力集中在，少数几个强有力的人手中。首席执行官、董事会、多数股东等，收割了劳动阶级的成果;大多数人为少数人服务。DAC的创新和宣言是完全相反的；财富将会广泛传播，机会也很丰富。公司的命运依赖于社区，他们将会收获回报。
 
 What does this mean? Well, let’s do a thought experiment.
 
@@ -64,11 +64,11 @@ What does this mean? Well, let’s do a thought experiment.
 
 Need a home-loan? No need to go to the bank, plug in to your local blockchain-run lending company and get approved; the loan is processed immediately and the money is put into your online wallet. The contract is saved on the blockchain, so the terms cannot be altered. Since overhead is minimal, so is the interest rate; in fact, the company only charges a fraction of a percent on your loan.
 
-需要一个房屋贷款？没有必要去银行，走进你当地的区块链贷款公司，申请批准贷款;贷款立即被处理，钱被放入你的网上钱包。该合同保存在区块链上，所以条款不能更改。因为开销很小，利率也是如此；事实上，公司只收取你贷款的一小部分费用。
+需要一个房屋贷款？没有必要去银行，走进你当地的区块链贷款公司，申请批准贷款；贷款会立即处理，钱将放入你的网上钱包。合同保存在区块链上，条款不能更改。因为开销很小，所以利率也是很小；事实上，公司只收取你贷款的一小部分费用。
 
 Spending a great deal of time on Twitter? Do your tweets attract a good amount of traffic? What if every “retweet” you got resulted in money, and you could make your living by tweeting? It would only be natural; you provide the content that Twitter relies on, of course you should get paid.
 
-花大量时间在Twitter上？你的Twitter吸引大量的流量?如果你的每一个“转发”都带来了收入，你可以通过推特来谋生？这会是自然的;你提供Twitter所依赖的内容，当然你应该得到报酬。
+花大量时间在Twitter上？你的Twitter吸引大量的流量？如果你的每一个“转发”都带来了收入，你可以通过推特来谋生？这会是自然的;你提供Twitter所依赖的内容，当然你应该得到报酬。
 
 Live in a country with hyper-inflation? Invest your money into a stable cryptocurrency that is secured not by a government, but by crypto-holders across the globe.
 
