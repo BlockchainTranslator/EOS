@@ -78,7 +78,7 @@ Live in a country with hyper-inflation? Invest your money into a stable cryptocu
 
 Meritocracy would be king. Democracy and capitalism, two often-times seemingly incompatible partners would finally peacefully co-exist. Our planet’s most creative, artistic, and passionate souls could survive by their talents, without pesky middle men taking most of the profit. By cutting out centralization, EOS holders envision a world that is more efficient, accessible, and fair. With the EOS blockchain as the backbone of this redistribution of wealth, large swaths of peoples and nations can re-write their destiny; any and everything that exists online today can be reconfigured to perform on the blockchain - let that sink in for a moment.
 
-知识精英为王。民主和资本主义，这两个经常看似不兼容的方面最终会和平共存。我们这个星球上最具创造力、最具艺术性和激情灵魂的人，可以靠他们的才能生存，而不需要那些讨厌的中间人攫取大部分的利润。通过消除中心化，EOS持有者设想一个更高效、更便捷、更公平的世界。随着EOS区块链作为财富再分配的支柱，很多的民众和国家可以改写他们的命运;今天线上的任何东西都可以被重新配置为在区块链上运行。
+知识精英为王。民主和资本主义，这两个经常看似不兼容的东西，最终会和平共存。我们这个星球上最具创造力、最具艺术性和激情灵魂的人，可以靠他们的才能生存，而不需要那些讨厌的中间人攫取大部分的利润。通过消除中心化，EOS持有者设想一个更高效、更便捷、更公平的世界。随着EOS区块链作为财富再分配的支柱，很多的民众和国家可以改写他们的命运；今天线上的任何东西都可以被重新配置为在区块链上运行。
 
 This is a game changer. The world would be more meaningfully united.
 
@@ -88,7 +88,7 @@ This is a game changer. The world would be more meaningfully united.
 
 This worldview is reflected in the setup of EOS and the community building efforts already taking shape around the coin itself. Several online forums have been created to discuss EOS and the best ways to get involved. EOStalk.io is dedicated to anything and everything EOS and is built upon the Steem blockchain, the aforementioned Larimer project. There you can find posters from all walks of life discussing the latest EOS news and price charts.
 
-这一世界观反映，在EOS及其社区的建设上，目前这种努力已经在代币周围形成。几个在线论坛已创建，来讨论EOS及其最佳的参与方式。EOStalk.io致力于收集所有的EOS信息，并建立在Steem上，即上面提到的Larimer项目。在那里你可以找到来自各行各业的，讨论EOS新闻和价格图表的文章。
+这一世界观反映在，EOS及其社区的建设上，目前这种努力已经在代币周围形成。几个在线论坛已创建，讨论EOS及其最佳的参与方式。EOStalk.io致力于收集所有的EOS信息，并建立在Steem上，即上面提到的Larimer项目。在那里你可以找到来自各行各业的，讨论EOS新闻和价格图表的文章。
 
 Another option is forums.eosgo.io for a focused approach, aiming to become the go - to resource for community members come together to plan for the presumed June 2018 launch. The forum is a one-stop networking shop full of entrepreneurs, evangelists, and idealists all working together to breathe life into the newly forming EOS ecosystem.
 
@@ -100,7 +100,7 @@ On Telegram, several EOS centric chats have been created, with the main group bo
 
 A small, unofficial discord channel has a dedicated crew that logs in to discuss rumors and ideas about EOS and its latest developments.
 
-一个小的，非官方的频道，有一个专门的工作人员，他们登录，以讨论关于EOS的谣言和想法以及它的最新发展。
+一个小的，非官方的频道，有专门的工作人员，他们登录，以讨论关于EOS的谣言和想法，以及它的最新发展。
 
 The EOS sub-reddit is full of believers and naysayers arguing over the merits of the coin and its ability to deliver on its hefty promises.
 
@@ -108,11 +108,11 @@ EOS 的sub-reddit，充斥着信徒和反对者的争论，他们争论EOS代币
 
 In a decentralized system, these organically forming communities are key to the success of EOS; without a centralized hub, the deployment of EOS and the technology will literally be in the EOS coin holders hands.
 
-在一个去中心化的系统中，这些有机组成的社区是EOS成功的关键；没有一个中心化机构，EOS的部署和技术将掌握在EOS持有者手中。
+在一个去中心化的系统中，这些有机组成的社区是EOS成功的关键；没有一个中心化机构，EOS的部署和技术掌握在EOS持有者手中。
 
 The EOS community does not take the responsibility lightly, and those that share Larimer’s vision are encouraging spectators to jump on the EOS bandwagon before it’s too late. Early and committed involvement are essential to the success of EOS, and there are a variety of ways to get involved. Join any EOS forum and you can participate in the creation of a launch party, or organize a local meet-up with your fellow EOS enthusiasts. DAPP (decentralized apps) teams are starting to take form over in the EOS opportunities Telegram, and potential block producers are beginning to test the waters over at EOStalk.io, but it’s not too late.
 
-EOS社区并没有对这一责任掉以轻心，而那些分享Larimer愿景的人，也在鼓励旁观者加入到EOS的洪流中，以免为时过晚。早期的参与对于EOS的成功至关重要，并且已经有各种各样的方法来参与。加入任何EOS论坛，你可以参与创建一个组织，或组织一个本地meet-up，和EOS的爱好者。DAPP(去中心化的应用程序)团队已经开始形成，在EOS的电报中。潜在的区块生产者开始试水，在EOStalk.io上，但现在还不算太晚。
+EOS社区并没有对这一责任掉以轻心，而那些分享Larimer愿景的人，也在鼓励旁观者加入到EOS的洪流中，以免为时过晚。早期的参与，对于EOS的成功至关重要，并且已经有各种各样的方法来参与。加入任何EOS论坛，你可以参与创建一个组织，或组织一个本地meet-up，和EOS的爱好者。DAPP(去中心化的应用程序)团队已经开始形成，在EOS的电报中。潜在的区块生产者开始试水，在EOStalk.io上，但现在还不算太晚。
 
 Since EOS is decentralized, there is no job interview, no secret club, no hand you must shake to join the movement - all you have to do is simply join. Find a niche where you feel comfortable, do some networking, make some friends, and work on projects that you enjoy. No where else is the barrier to entry so low.
 
@@ -120,7 +120,7 @@ Since EOS is decentralized, there is no job interview, no secret club, no hand y
 
 The message radiating from the EOS community is clear; if you want to you make your dent in the universe, NOW is the time, HERE is the place, and EOS is the conduit.
 
-来自EOS社区的消息是清晰的；如果你想在这个世界留下印记，现在正是合适的时间，这里正是合适的地点，EOS正是这条通道。
+来自EOS社区的信息是非常清晰的；如果你想在这个世界留下印记，现在正是合适的时间，这里正是合适的地方，EOS正是合适的通道。
 
 GET INVOLVED!
 
