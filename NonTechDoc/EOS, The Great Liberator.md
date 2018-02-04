@@ -68,11 +68,11 @@ Need a home-loan? No need to go to the bank, plug in to your local blockchain-ru
 
 Spending a great deal of time on Twitter? Do your tweets attract a good amount of traffic? What if every “retweet” you got resulted in money, and you could make your living by tweeting? It would only be natural; you provide the content that Twitter relies on, of course you should get paid.
 
-花大量时间在Twitter上？你的Twitter吸引大量的流量？如果你的每一个“转发”都带来了收入，你可以通过推特来谋生？这会是自然的;你提供Twitter所依赖的内容，当然你应该得到报酬。
+花大量时间在Twitter上？你的Twitter吸引大量的流量？如果你的每一个“转发”都带来了收入，你可以通过推特来谋生？这是自然的；你提供Twitter所依赖的内容，当然你应该得到报酬。
 
 Live in a country with hyper-inflation? Invest your money into a stable cryptocurrency that is secured not by a government, but by crypto-holders across the globe.
 
-生活在一个通货膨胀过度的国家?把你的钱投资到一种稳定的加密货币上，它不是由政府担保的，而是由全球各地的加密持有者所保证的。
+生活在一个通货膨胀过度的国家？把你的钱投资到一种稳定的加密货币上，它不是由政府担保的，而是由全球各地的加密持有者所保证的。
 
 ###  The implications are immense. | 影响是巨大的
 
