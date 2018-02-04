@@ -18,7 +18,7 @@ Jump onto any EOS chat online and the following phrases can be read:
 
 This kind of online cheerleading is fairly typical in the cryptocurrency world; every coin has its followers, and since most followers have invested time and money into the coin they follow, every coin has its die hard fans. Convinced that their coin will be the one that “changes it all”, they take to their computers to sing the the praises of the tech, the team, and the community. They breathlessly relay the latest news, rumors, price charts, progress, and encourage each other to HODL through the highs and lows of the market. In this regard, the relatively small but dedicated EOS community is rather typical; they love the coin and often talk about its tech, its team and its ability to change the world as we know it. What sets the EOS community apart from other blockchain projects is that they might actually be right.
 
-这种线上啦啦队，在加密货币的世界里相当常见；每一种虚拟币都有它自己的追随者，大多数追随者都把时间和金钱投入到他们追随的虚拟币上，每一种虚拟币都有它的死忠粉。他们相信他们的币将会“改变一切”，他们会用自己的电脑去颂扬他们的技术、团队和社区。他们一刻不停传播着最新的消息、谣言、价格图表、进展，相互鼓励买入，通过市场的涨跌。在这方面，相对较小但专注的EOS社区是相当典型的;他们喜欢这EOS这种币，经常谈论它的技术，它的团队以及它改变世界的能力，正如我们所知道的那样。EOS社区与其他区块链项目的区别在于，它们可能是正确的。
+这种线上啦啦队，在加密货币的世界里相当常见；每一种虚拟币都有它自己的追随者，大多数追随者都把时间和金钱投入到他们追随的币上，每一种币都有它的死忠粉。他们相信他们的币将会“改变一切”，他们会用自己的电脑去颂扬他们的技术、团队和社区。他们一刻不停地传播着最新的消息、谣言、价格图表、进展，相互鼓励买入，通过市场的涨跌。在这方面，相对较小，但专注的EOS社区是相当典型的；他们热爱EOS，经常谈论它的技术，它的团队以及它改变世界的能力，正如我们所知道的那样。EOS社区与其他区块链项目的区别在于，他们可能是正确的。
 
 The Visionary | 愿景
 
