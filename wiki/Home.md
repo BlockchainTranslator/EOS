@@ -92,7 +92,7 @@ Welcome to the EOS.IO wiki. This resource is intended as a guide for developers 
 - Community Resources (Coming Soon)  | 社区资源（即将推出）
   * Software  | 软件
   * Guides  | 指南
-- [Command Reference  | 命令参考](Command%20Reference) 楷书 龙心小台
+- √ [Command Reference  | 命令参考](Command%20Reference) 楷书 龙心小台
 - √ [Doxygen Guidelines  | Doxygen 指南](Doxygen%20Guidelines) 龙心小台 楷书
 - [Releases  | 版本发布](Releases)
 
