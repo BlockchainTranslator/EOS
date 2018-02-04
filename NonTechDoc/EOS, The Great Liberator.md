@@ -20,7 +20,7 @@ This kind of online cheerleading is fairly typical in the cryptocurrency world; 
 
 这种线上啦啦队，在加密货币的世界里相当常见；每一种虚拟币都有它自己的追随者，大多数追随者都把时间和金钱投入到他们追随的币上，每一种币都有它的死忠粉。他们相信他们的币将会“改变一切”，他们会用自己的电脑去颂扬他们的技术、团队和社区。他们一刻不停地传播着最新的消息、谣言、价格图表、进展，相互鼓励买入，通过市场的涨跌。在这方面，相对较小，但专注的EOS社区是相当典型的；他们热爱EOS，经常谈论它的技术，它的团队以及它改变世界的能力，正如我们所知道的那样。EOS社区与其他区块链项目的区别在于，他们可能是正确的。
 
-The Visionary | 愿景
+### The Visionary | 愿景
 
 EOS is the brainchild of Dan Larimer, a mature blockchain developer in the emerging market of alt-coins. While many second generation coins are the result of first-time blockchain developers, Larimer is unique in that EOS will be his third creation and most ambitious project to date. He hopes EOS will become the blockchain platform that allows the world to “decentralize everything”. He plans on doing this by creating a “software” that allows large online companies, or DAPPS to build and run on the EOS platform as smoothly and easily as they would any centralized software; this is a big task.
 
@@ -34,13 +34,13 @@ Blockchains can be hard to build on as well - the foundational code is often har
 
 区块链也很难构建，—— 基础代码通常很难理解，而且在开发语言要求也非常高。一个有抱负的区块链开发人员应该怎么办?
 
-Enter EOS | 进入EOS 
+### Enter EOS | 进入EOS 
 
 Larimer states that EOS will solve all these problems and more; the system will be able to process thousands of transactions a second, it will have NO fees, and it will be “out of the box” ready - in other words, all the pertinent problems currently perplexing the blockchain world would be no more. This kind of talk shouldn’t come as a shock; the volatile alt-coin market rises and falls based on hype, and these kinds of claims are common place in the crypto world, but what sets EOS apart is that Larimer has already delivered on these promises twice before. The creator of not one, but two top 50 coins on coinmarketcap.com, his creations are among the fastest performing blockchains on the market. Bitshares, his original work, is a decentralized financial platform that in many ways, was ahead of its time. With Bitshares Larimer invented DPOS, or delegated proof-of-stake, a system that makes the energy intensive, and hard to break into mining model, obsolete. His next coding project turned into Steem, the backbone of Steemit, a social media site that pays its content creators directly. While other coin communities depend on a promise and a white paper, the EOS community has Larimer.
 
 Larimer指出，EOS将解决以上的这些问题，甚至更多；该系统将能够每秒处理数千事务，它将没有任何交易费用，而且它将“开箱即用”——换句话说，当前困扰区块链世界的这些问题将不复存在。这种谈话不让人感到震惊；暴涨暴跌的代币市场是建立在炒作的基础上，这种说法在加密货币的世界中是常见，但是EOS的不同之处在于，Larimer已经在这些承诺上努力两次了。在coinmarketcap.com网站上，他创造了两个前50的货币，他创造的链位列市场上性能最快的区块链之中。他的原创作品Bitshares是一个去中心化的金融平台，在很多方面都领先于时代。通过Bitshares， Larimer发明了DPOS，或委托权益证明，这一系统使得能源密集并且难以进入的挖矿模式，过时了。他的下一个编码项目是Steem，这是一个社交媒体网站，它直接付费给内容创建者。当其他的代币社区依赖于一个承诺和一张白纸时，EOS社区就有了Larimer。
 
-The New World Economy | 新世界经济
+### The New World Economy | 新世界经济
 
 If Facebook’s Mark Zuckerberg’s aim is to “bring the world closer together”, Larimer’s would be to reinvent it. A libertarian, he is not driven by accolades or riches, but rather philosophy. He envisions a new world order in which power and control lies far and wide, with community and cooperation taking center stage. When spoken about abstractly, Larimer’s ambitions may seem euphoric, pie in the sky, or unfocused, but when one begins to explore EOS and the technology behind it, realization dawns that this tool could usher in a new era in humanity, one that could change it all.
 
@@ -74,7 +74,7 @@ Live in a country with hyper-inflation? Invest your money into a stable cryptocu
 
 生活在一个通货膨胀过度的国家?把你的钱投资到一种稳定的加密货币上，它不是由政府担保的，而是由全球各地的加密持有者所保证的。
 
-The implications are immense. | 影响是巨大的
+###  The implications are immense. | 影响是巨大的
 
 Meritocracy would be king. Democracy and capitalism, two often-times seemingly incompatible partners would finally peacefully co-exist. Our planet’s most creative, artistic, and passionate souls could survive by their talents, without pesky middle men taking most of the profit. By cutting out centralization, EOS holders envision a world that is more efficient, accessible, and fair. With the EOS blockchain as the backbone of this redistribution of wealth, large swaths of peoples and nations can re-write their destiny; any and everything that exists online today can be reconfigured to perform on the blockchain - let that sink in for a moment.
 
@@ -84,7 +84,7 @@ This is a game changer. The world would be more meaningfully united.
 
 这是一个游戏改变者。世界将更有意义地联合起来。
 
-The Opportunity | 机遇
+### The Opportunity | 机遇
 
 This worldview is reflected in the setup of EOS and the community building efforts already taking shape around the coin itself. Several online forums have been created to discuss EOS and the best ways to get involved. EOStalk.io is dedicated to anything and everything EOS and is built upon the Steem blockchain, the aforementioned Larimer project. There you can find posters from all walks of life discussing the latest EOS news and price charts.
 
