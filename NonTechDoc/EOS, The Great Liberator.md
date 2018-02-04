@@ -1,3 +1,11 @@
+# EOS, The Great Liberator | EOS，一个伟大的解放者
+
+> 本文翻译自：https://steemit.com/eos/@eosgo/eos-the-great-liberator
+> 
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [何德林](https://github.com/BlockchainTranslator/EOS)
+> 
+> 翻译时间：2018-2-4
+
 Jump onto any EOS chat online and the following phrases can be read:
 
 登上EOS的任何一个在线聊天室，以下的句子随处可见：
@@ -117,3 +125,23 @@ The message radiating from the EOS community is clear; if you want to you make y
 GET INVOLVED!
 
 参与进来吧！
+
+----------------------------------------------------
+
+#### 区块链中文字幕组
+
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
+
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
+
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
+
+#### 本文译者简介
+
+何德林 区块链技术爱好者，热衷于区块链业务创新研究与分析，欢迎加微信号:tongxwl
+
+本文由币乎社区（bihu.com）内容支持计划赞助。
+
+版权所有，转载需完整注明以上内容。
+
+----------------------------------------------------
