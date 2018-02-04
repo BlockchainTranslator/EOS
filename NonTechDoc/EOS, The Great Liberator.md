@@ -8,7 +8,7 @@
 
 Jump onto any EOS chat online and the following phrases can be read:
 
-登上EOS的任何一个在线聊天室，以下的句子随处可见：
+登上任何一个EOS的在线聊天室，以下的句子随处可见：
 
 “EOS to the MOON” -- EOS飞向月球
 
