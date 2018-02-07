@@ -18,17 +18,17 @@ Jump onto any EOS chat online and the following phrases can be read:
 
 This kind of online cheerleading is fairly typical in the cryptocurrency world; every coin has its followers, and since most followers have invested time and money into the coin they follow, every coin has its die hard fans. Convinced that their coin will be the one that “changes it all”, they take to their computers to sing the the praises of the tech, the team, and the community. They breathlessly relay the latest news, rumors, price charts, progress, and encourage each other to HODL through the highs and lows of the market. In this regard, the relatively small but dedicated EOS community is rather typical; they love the coin and often talk about its tech, its team and its ability to change the world as we know it. What sets the EOS community apart from other blockchain projects is that they might actually be right.
 
-这种线上啦啦队，在加密货币的世界里相当常见；每一种虚拟币都有它自己的追随者，大多数追随者都把时间和金钱投入到他们追随的币上，每一种币都有它的死忠粉。他们相信他们的币将会“改变一切”，他们会带着他们的电脑去颂扬他们的技术、团队和社区。他们一刻不停地传播着最新的消息、谣言、价格图表、进展，相互鼓励随市场的涨跌买入。在这方面，相对较小，但专注的EOS社区相当典型；他们热爱EOS，经常谈论它的技术，它的团队以及它改变世界的能力，正如我们所知道的那样。但是，EOS社区与其他区块链项目的区别在于，他们可能是正确的。
+这种线上啦啦队，在加密货币的世界里相当常见；每一种虚拟币都有它自己的追随者和死忠粉，他们把时间和金钱投入到他们追随的币种上。他们相信他们的币将会“改变一切”，他们会带着他们的电脑去颂扬他们的技术、团队和社区。他们一刻不停地传播着最新的消息、谣言、价格图表、进展，他们相互鼓励，不管市场的涨跌，都长线持有他们的币。随市场的涨跌买入。在这方面，相对较小，但专注的EOS社区相当典型；他们热爱EOS，经常谈论它的技术，它的团队以及它改变世界的能力，正如我们所知道的那样。但是，EOS社区与其他区块链项目的区别在于，事实可能证明他们可能正确的。
 
 ### The Visionary | 愿景
 
 EOS is the brainchild of Dan Larimer, a mature blockchain developer in the emerging market of alt-coins. While many second generation coins are the result of first-time blockchain developers, Larimer is unique in that EOS will be his third creation and most ambitious project to date. He hopes EOS will become the blockchain platform that allows the world to “decentralize everything”. He plans on doing this by creating a “software” that allows large online companies, or DAPPS to build and run on the EOS platform as smoothly and easily as they would any centralized software; this is a big task.
 
-EOS是Dan Larimer的创意，他是一个成熟的区块链开发者，在代币这一新兴市场里。虽然许多第二代币，是由区块链首次开发者开发的，但Larimer是独一无二的，EOS将是他迄今为止的第三个，并最具雄心的项目。他希望EOS将成为一个区块链基础平台，让世界“一切去中心化”。他计划通过创建一个“软件”来实现这一目标，该软件允许大型在线公司或DAPPS在EOS平台上构建和运行，像任何中心化的软件一样流畅和轻松；这是一项艰巨的任务。
+EOS是Dan Larimer的创意。在蓬勃发展的虚拟货币市场里，他是一个成熟的区块链开发者。虽然许多第二代币，是由没有经验第一次做区块链的开发者所开发的，但Larimer是独一无二的，EOS将是他迄今为止的第三个，并最具雄心的项目。他希望EOS将成为一个区块链基础平台，让世界“一切去中心化”。他计划通过创建一个“软件”来实现这一目标，该软件允许大型在线公司或DAPPS在EOS平台上构建和运行，像任何中心化的软件一样流畅和轻松；这是一项艰巨的任务。
 
 While blockchain technology has had some big wins (Bitcoin and Ethereum are the two “household names”), no one blockchain has been able to “crack the code” as of yet. There are problems. The technology is relatively new, and there are kinks - bugs to be worked out. Blockchains can be slow and congested; systems can go off-line and fall victim to virtual attacks. Not only can transactions be slow, but they can be EXPENSIVE:
 
-虽然区块链技术已经取得了一些重大的进展(比特币和以太坊已是两个“家喻户晓的名字”)，但迄今为止还没有一个区块链能够真正“破解成功之道”。他们都有一些问题。这项技术相对较新，有一些缺陷需要解决。区块链可能缓慢而拥挤;系统可能掉线并成为虚拟攻击的受害者。交易过程不仅可以缓慢，而且价格昂贵:
+虽然区块链技术已经取得了一些重大的进展(比特币和以太坊已是两个“家喻户晓的名字”)，但迄今为止还没有一个区块链能够真正“破解成功之道”。他们都有一些问题。这项技术相对较新，有一些缺陷需要解决。现有的区块链可能缓慢而拥挤;系统可能掉线并成为虚拟攻击的受害者。区块链的交易过程不仅可以缓慢，而且费用昂贵:
 
 Blockchains can be hard to build on as well - the foundational code is often hard to decipher, and very restrictive in their language requirements. What should an aspiring blockchain developer do?
 
@@ -38,7 +38,7 @@ Blockchains can be hard to build on as well - the foundational code is often har
 
 Larimer states that EOS will solve all these problems and more; the system will be able to process thousands of transactions a second, it will have NO fees, and it will be “out of the box” ready - in other words, all the pertinent problems currently perplexing the blockchain world would be no more. This kind of talk shouldn’t come as a shock; the volatile alt-coin market rises and falls based on hype, and these kinds of claims are common place in the crypto world, but what sets EOS apart is that Larimer has already delivered on these promises twice before. The creator of not one, but two top 50 coins on coinmarketcap.com, his creations are among the fastest performing blockchains on the market. Bitshares, his original work, is a decentralized financial platform that in many ways, was ahead of its time. With Bitshares Larimer invented DPOS, or delegated proof-of-stake, a system that makes the energy intensive, and hard to break into mining model, obsolete. His next coding project turned into Steem, the backbone of Steemit, a social media site that pays its content creators directly. While other coin communities depend on a promise and a white paper, the EOS community has Larimer.
 
-Larimer指出，EOS将解决以上的这些问题，甚至更多；系统将能够处理每秒数千的事务，没有任何交易费用，而且“开箱即用”——换句话说，当前困扰区块链世界的这些问题将不复存在。这种谈话不让人感到震惊，暴涨暴跌的代币市场建立在炒作的基础上，这种说法在加密货币的世界中是常见的，但是EOS的不同之处在于，Larimer已经在这些承诺上努力两次了。在coinmarketcap.com网站上，他创造了两个前50的货币，他创造的链位列市场上性能最快的区块链之中。他的原创作品Bitshares是一个去中心化的金融平台，在很多方面都领先于时代。通过Bitshares， Larimer发明了DPOS，或委托权益证明，这一系统使得能源密集并且难以进入的挖矿模式，过时了。他的下一个项目是Steem，这是一个社交媒体网站，它直接付费给内容创建者。当其他的代币社区依赖于一个承诺和一张白纸时，EOS社区就有了Larimer。
+Larimer指出，EOS将解决以上的这些问题，甚至更多；系统将能够处理每秒数千的事务，没有任何交易费用，而且“开箱即用”——换句话说，当前困扰区块链世界的这些问题将不复存在。这种谈话不让人感到震惊，暴涨暴跌的代币市场建立在炒作的基础上，这种说法在加密货币的世界中是常见的，但是EOS的不同之处在于，Larimer已经两次实现了承诺。在coinmarketcap.com网站上，他创造了两个前50的货币，他创造的链位列市场上性能最快的区块链之中。他的原创作品Bitshares是一个去中心化的金融平台，在很多方面都领先于时代。通过Bitshares， Larimer发明了DPOS，或委托权益证明，这一系统使得能源密集并且难以进入的挖矿模式，过时了。他的下一个项目是Steem，这是一个社交媒体网站，它直接付费给内容创建者。当其他的代币社区依赖于一个承诺和一张白纸时，EOS社区就有了Larimer。
 
 ### The New World Economy | 新世界经济
 
@@ -64,7 +64,7 @@ What does this mean? Well, let’s do a thought experiment.
 
 Need a home-loan? No need to go to the bank, plug in to your local blockchain-run lending company and get approved; the loan is processed immediately and the money is put into your online wallet. The contract is saved on the blockchain, so the terms cannot be altered. Since overhead is minimal, so is the interest rate; in fact, the company only charges a fraction of a percent on your loan.
 
-需要一个房屋贷款？没有必要去银行，走进你当地的区块链贷款公司，申请贷款；贷款会立即处理，钱将放入你的网上钱包。合同保存在区块链上，条款不能更改。因为开销很小，所以利率也是很小；事实上，公司只收取你贷款的一小部分费用。
+需要一个房屋贷款？没有必要去银行，走进你当地的区块链贷款公司，申请贷款；贷款会立即处理，钱将放入你的网上钱包。合同保存在区块链上，条款不能更改。因为开销很少，所以利率也是很少；事实上，公司只收取你贷款的一小部分费用。
 
 Spending a great deal of time on Twitter? Do your tweets attract a good amount of traffic? What if every “retweet” you got resulted in money, and you could make your living by tweeting? It would only be natural; you provide the content that Twitter relies on, of course you should get paid.
 
@@ -82,13 +82,13 @@ Meritocracy would be king. Democracy and capitalism, two often-times seemingly i
 
 This is a game changer. The world would be more meaningfully united.
 
-这是一个游戏改变者。世界将更有意义地联合起来。
+这是一个游戏规则的颠覆者。世界将更有意义地联合起来。
 
 ### The Opportunity | 机遇
 
 This worldview is reflected in the setup of EOS and the community building efforts already taking shape around the coin itself. Several online forums have been created to discuss EOS and the best ways to get involved. EOStalk.io is dedicated to anything and everything EOS and is built upon the Steem blockchain, the aforementioned Larimer project. There you can find posters from all walks of life discussing the latest EOS news and price charts.
 
-这一世界观反映在，EOS及其社区的建设上，目前这种努力已经在代币周围形成。几个在线论坛已创建，讨论EOS及其最佳的参与方式。EOStalk.io致力于收集所有的EOS信息，并建立在Steem上，即上面提到的Larimer项目。在那里，你可以找到来自各行各业的，讨论EOS新闻和价格图表的文章。
+这一世界观已反映在，EOS及其社区的建设上，目前这种努力已经在EOS代币周围形成。几个在线论坛已创建，讨论EOS及其最佳的参与方式。EOStalk.io致力于收集所有的EOS信息，并建立在Steem上，即上面提到的Larimer项目。在那里，你可以找到来自各行各业的，讨论EOS新闻和价格图表的文章。
 
 Another option is forums.eosgo.io for a focused approach, aiming to become the go - to resource for community members come together to plan for the presumed June 2018 launch. The forum is a one-stop networking shop full of entrepreneurs, evangelists, and idealists all working together to breathe life into the newly forming EOS ecosystem.
 
@@ -100,7 +100,7 @@ On Telegram, several EOS centric chats have been created, with the main group bo
 
 A small, unofficial discord channel has a dedicated crew that logs in to discuss rumors and ideas about EOS and its latest developments.
 
-一个小的，非官方的频道，有专门的工作人员，他们登录，以讨论关于EOS的谣言和想法，以及它的最新发展。
+一个小的，非官方的频道，有专门的工作人员组织讨论关于EOS的谣言和想法，以及它的最新发展。
 
 The EOS sub-reddit is full of believers and naysayers arguing over the merits of the coin and its ability to deliver on its hefty promises.
 
@@ -112,11 +112,11 @@ In a decentralized system, these organically forming communities are key to the 
 
 The EOS community does not take the responsibility lightly, and those that share Larimer’s vision are encouraging spectators to jump on the EOS bandwagon before it’s too late. Early and committed involvement are essential to the success of EOS, and there are a variety of ways to get involved. Join any EOS forum and you can participate in the creation of a launch party, or organize a local meet-up with your fellow EOS enthusiasts. DAPP (decentralized apps) teams are starting to take form over in the EOS opportunities Telegram, and potential block producers are beginning to test the waters over at EOStalk.io, but it’s not too late.
 
-EOS社区并没有对这一责任掉以轻心，而那些分享Larimer愿景的人，也在鼓励旁观者加入到EOS的洪流中，以免为时过晚。早期的参与，对于EOS的成功至关重要，并且已经有各种各样的方法来参与。加入任何EOS论坛，你可以参与创建一个组织，或组织一个本地meet-up，和EOS的爱好者。DAPP(去中心化的应用程序)团队已经开始形成，在EOS的电报中。潜在的区块生产者开始试水，在EOStalk.io上，但现在还不算太晚。
+EOS社区并没有对这一责任掉以轻心，而那些分享Larimer愿景的人，也在鼓励旁观者加入到EOS的洪流中，以免为时过晚。早期的参与，对于EOS的成功至关重要，并且已经有各种各样的方法来参与。加入任何EOS论坛，你可以参与创建一个组织，或和EOS的爱好者组织一个本地meet-up。在EOS的电报中，DAPP(去中心化的应用程序)团队已经开始形成。潜在的区块生产者开始试水，在EOStalk.io上，但现在还不算太晚。
 
 Since EOS is decentralized, there is no job interview, no secret club, no hand you must shake to join the movement - all you have to do is simply join. Find a niche where you feel comfortable, do some networking, make some friends, and work on projects that you enjoy. No where else is the barrier to entry so low.
 
-因为EOS是去中心化的，没有工作面试，没有秘密的俱乐部，不用依赖别人就能加入这场运动——你所要做的很简单，就是加入。找一个你觉得舒服的地方，做一些社交活动，交一些朋友，做一些你喜欢的项目。没有别的地方，有这么低的进入门槛。
+因为EOS是去中心化的，没有工作面试，没有秘密俱乐部，不用依赖别人就能加入这场运动——你所要做的很简单，就是加入。找一个你觉得舒服的地方，做一些社交活动，交一些朋友，做一些你喜欢的项目。没有别的地方--有这么低的进入门槛。
 
 The message radiating from the EOS community is clear; if you want to you make your dent in the universe, NOW is the time, HERE is the place, and EOS is the conduit.
 
