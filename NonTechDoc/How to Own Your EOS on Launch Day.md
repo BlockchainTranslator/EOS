@@ -1,7 +1,8 @@
 
 Written by Andrew M - EOS Atlanta.
 
-#Why Registering an EOS Public Key is Important.|为什么注册EOS公钥很重要
+# Why Registering an EOS Public Key is Important.|为什么注册EOS公钥很重要
+
 I’d like to speak to the importance of registering your ETH address, where you hold your current EOS tokens, to a public EOS key. You may have noticed the saying: “secure life, liberty, and property” crop up quite a bit in your EOS research. Registering a public key to your ETH address is doing just that, securing your property. This article will have cover a few points:
 
 Basics Reasons Not to Store on an Exchange
