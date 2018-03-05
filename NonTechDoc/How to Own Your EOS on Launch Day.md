@@ -55,31 +55,42 @@ Before we get deep into the multiple chain scenario, let’s first mention that 
 
 在深入讨论多重链场景之前，首先要说明的是，即使只有一个链，交易所有也可能存在不能将ERC20代币转换成正确的EOS币的的可能性。这次主网启动不保证一定会顺利进行，你的代币将被遗忘，或者在某个时期处于未知状态。
 
-EOS Launch Day, Hypothetical Multi-Chain Scenario
+# EOS Launch Day, Hypothetical Multi-Chain Scenario | EOS启动日，假设多链场景
 
 I think it’s a very likely scenario that arises, multiple communities launch EOS blockchains using the genesis snapshot created by the EOS.io software. For the purposes of this, I will simply call them EOS1, EOS2, and EOS3. Also, the following exchange scenario I am simply using a generic exchange. I now dub it ACMEex
 
-Launch Day for the Exchange Hodler:
+我认为这是一个很可能出现的情况，多个社区使用EOS创建的创始快照启动EOS区块链。为了达到这个目的，我将简单地称它们为EOS1、EOS2和EOS3。另外，下面的交换场景我只是使用通用交易所。我以ACMEex为例。
 
+# Launch Day for the Exchange Hodler:
 
 (Photo: Artist’s rendition of exchange hodlers.)
+
 So, ERC20 tokens are now frozen, and you’ve given all agency and voting rights to a centralized organization, ACMEex, over which you have no control. First, you have to trust they will give you any EOS at all, but wait, there’s multiple EOS chains, which EOS will ACMEex give you? WIll they give you all 3? That answer can get complicated...
+
+ERC20代币现在被冻结，您将所有的代理和投票权授予了一个中心化的组织ACMEex，您已没有控制权它。首先，你只能相信交易所会给你任何EOS，但是，有多个EOS链，EOS会给哪个?他们会全部给你吗?这个答案可能会变得很复杂……
 
 Let’s say ACMEex runs a pretty decent campaign to be a block producer, yet fall short of the top 21 on EOS1 chain. ACMEex decides they want to round up some other large Asia based block producer candidates and create EOS2 to compete. Finally, some mid level block producer candidates decide to band together and create EOS3 but fail to gain wide adoption. Which token do you think ACMEex will feed you first? Well, EOS2, even if it ends up being a secondary public chain.They have a vested interest to try and make EOS2 the winner and take their spot in the top 21 block producer rotation. Will they eventually give you EOS1? Probably if I am being perfectly honest, but there is no guarantee. Will they give you EOS3 tokens to match your original stake in EOS? Highly unlikely. You’ve just missed out on accumulating and having say in two other EOS blockchains.
 
+比方说，ACMEex参与了见证人的竞选，但却未能进入EOS1链的前21名。ACMEex决定，他们希望联合在其他一些大型的亚洲矿场，创建EOS2来竞争。最后，一些中等的见证候选人决定联合起来创建EOS3，但是没有得到广泛的同意。你认为ACMEex会先发给你什么?嗯，EOS2，即使它最终是一个二手公共链。他们有巨大的兴趣，努力让EOS2成为赢家，并在前21个区块的生产者轮换中占有一席之地。他们最终会给你EOS1吗?也许很诚实的话会，但是没有保证。他们会给你EOS3代币吗?极不可能。你只是错过这个多重领取，只能使用另外两个EOS区块链。
+
 This doesn’t even account for the fallout that would happen if ACMEex voted your stake into both EOS1 and EOS2 in order to win a block producer position. Those tokens are locked in, and cannot be redistributed, save the trickling back schedule over 6 months. Does this sound like you have any sense of control in the EOS ecosystem? Your answer should be a resounding no.
 
-Launch Day for the Private Hodler w/ Unregistered Wallet:
+如果ACMEex将你的代币投给EOS1和EOS2，后果将会无法预计。这些代币被锁定，不能重新分配，在6个月的时间内。这听起来像你在EOS生态系统中有任何掌控感吗?你的回答应该是响亮的“不”。
 
+# Launch Day for the Private Hodler w/ Unregistered Wallet:| 如果启动日钱包没有注册
 
 (Photo: Artist’s rendering of an unregistered user accessing their new EOS tokens.)
+
 Things are much simpler but you give up some valuable rights and add complexity to recovering your property. You will eventually get tokens on all three chains; however, the process for actually logging in and broadcasting a transaction on the network will be mired in doubt for hours, days, weeks or longer. Block.one has hinted at, but not given any real workflows for this transition, and one option presented could mean exposing your ETH private key to claim the tokens. This opens you up to security flaws, and it gives you no say in the early days of a token you feel has promise. You will not get to participate in the initial block producer voting or potentially validate tokens on EOS2 and EOS3. No matter how it shakes out, those tokens are likely to have some value greater than zero and you will delay your access to them for an unknown amount of time.
 
-Launch Day for the Private Hodler w/ Registered Wallet:
+事情要简单得多，但你放弃了一些有宝贵的权利，增加了财产恢复的复杂性。你最终会得到所有三个链上的虚拟币;然而，实际登录和在网络上广播交易的过程将会陷入困境，可能长达数小时、几天、几周甚至更长时间。Block.one已经暗示过，但是没有为这个转换提供任何实际的工作流程，而且一个种可能是，暴露您的ETH私钥来领取这些币。这会让你暴露在安全漏洞上，在你代币的早期，它不会给你任何发言权。您将无法参与初始的块生产者投票，也不能在EOS2和EOS3上验证代币。不管它如何抖动，这些代币不会归零，只是将会延迟对它们的访问，时间是未知的。
 
+# Launch Day for the Private Hodler w/ Registered Wallet:
 
 (Photo: Artist’s rendering of a registered wallet hodler during launch.)
 You wake up, grab a nice cup of coffee. You pull up your countdown to launch of what you consider to be EOS1 and you prepare to open your EOS wallet of choice. You prepare to type in your EOS public key and retrieve your EOS private key from the waterproof and fireproof storage method of choice. You start hunting and pecking away as you transcribe your private key to take ownership of your shiny new EOS tokens. You cast some votes for block producers on the EOS1 chain and you sit back to finish your coffee. By the time the cup is looking empty, you see a flurry of Twitter activity that ACMEex is launching a new chain because they did not like the outcome of block producer voting. Hmm, interesting, that could gain traction. You head back over to your new EOS wallet, and point it at the new EOS2 chain. You sign a transaction and you wait to see if EOS2 gains the 15% required for being a proper EOS public chain. Finally, you come back a bit later and see EOS3 emerge. Perhaps they’ve announced a major change to the expected governance model and will be honoring one account is one vote for block producers. Wow, that could really be in interesting use case, so you point your wallet at the chain and sign your transaction. It may or may not get to 15% acceptance, but it’s all a grand experiment.
+
+你早上醒来，喝杯好咖啡。你打开你的倒计时开始你认为是EOS1，你准备打开你的EOS钱包的选择。您准备键入您的EOS公钥，并从选择的防水和防火存储方法中检索EOS私钥。当你抄写你的私钥时，你开始搜寻并啄开，以获取你的崭新的EOS令牌。你在EOS1链上投了几张票，然后坐下来喝完咖啡。当杯子看起来是空的时候，你会看到一系列的Twitter活动，ACMEex正在推出一个新的链，因为他们不喜欢区块生产者投票的结果。嗯，有意思，这可能会有吸引力。你返回到新的EOS钱包，并指向新的EOS2链。你签了一个交易，你就等着看EOS2是否获得了作为一个合适的EOS公共链所需的15%。最后，您稍后回来，看到EOS3出现。也许他们已经宣布了对预期的治理模式的重大改变，并且将对一个帐户表示敬意，这是对阻止生产者的投票。哇，这可能真的是一个有趣的用例，所以你把你的钱包放在链子上并签上你的交易。它可能会或可能不会得到15%的认可，但这都是一个宏大的实验。
 
 Job done, now you sit back and let the chains figure out and fight for dominance. Either way, it doesn’t matter for a personal property standpoint, because you have stakes in them all and can even involve yourself in the early governance structures of these chains. The EOS2 and EOS3 chains will not likely share the same token value as EOS1, but there is a decent chance that their value is greater than zero. Congratulations, you just increased your holdings, secured your property and took the future in your own hands.
 
