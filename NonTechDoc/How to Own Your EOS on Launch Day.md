@@ -5,21 +5,40 @@ Written by Andrew M - EOS Atlanta.
 
 I’d like to speak to the importance of registering your ETH address, where you hold your current EOS tokens, to a public EOS key. You may have noticed the saying: “secure life, liberty, and property” crop up quite a bit in your EOS research. Registering a public key to your ETH address is doing just that, securing your property. This article will have cover a few points:
 
+本文将讲述注册你EOS代币的ETH地址到到一个EOS公钥的重要性。你可能已经注意到一句不断出现在EOS研究文章中的名言:“安全的生活、自由和财产”。注册一个EOS公钥你的ETH地址即为实现这一目标，保护你的财产。本文将包括以下几部分:
+
 Basics Reasons Not to Store on an Exchange
+
+不把币存在交易所的根本原因
+
 Difficulty of ERC20-EOS Token for Exchanges
+
+ERC20-EOS代币的交易所困难
+
 Launch Scenarios Involving Multiple Chains If You:
-Hold EOS on an Exchange
-Hold EOS in an Unregistered Private Wallet
-Hold EOS in a Registered Wallet
-The Basics: “Not Your Keys, Not Your Tokens.”
+
+启动场景涉及多种链
+
+     Hold EOS on an Exchange
+     Hold EOS in an Unregistered Private Wallet
+     Hold EOS in a Registered Wallet
+
+# The Basics: “Not Your Keys, Not Your Tokens.” | 根本原因：“不是你的密钥，不是你的币”
+
 This is blockchain and crypto 101. If you do not own the private keys to your tokens, you do not own them, PERIOD - storing tokens on an exchange can be bad news. If you are not an active trader, there is zero reason to not secure your property in a private wallet to which you own the key. The plethora of wallet options leaves no excuse for not taking control of your tokens. Currently, EOS is an ERC20 token, so creating a wallet can be as simple as installing the MetaMask browser extension, or as complex as setting up an offline wallet using the MEW software on a local machine. You decide for yourself which security system best suits your investment size and tech expertise.
 
+这是区块链和加密货币的常识。如果你不拥有你的代币私钥，你就不拥有你的代币，把币放在交易所是一个坏消息。如果不是一个高频交易者，没有理由不使用你自己的钱包，保护你的财产安全。现在有很多的钱包选择，你没有理由不自己掌控你自己的代币。目前，EOS是一个ERC20代币，因此创建一个钱包可以像安装MetaMask浏览器扩展一样简单，或者也可以像在本地机器上使用MEW软件设置一个离线钱包一样复杂。你可以自己决定使用，哪种最适合你的投资规模和技术专长的钱包系统。
+
 Below are some examples of exchanges hacks, scams and fraud that have occurred:
+
+以下是一些交易所被黑或者欺骗的例子：
+
 https://www.wired.com/2014/03/bitcoin-exchange/
 https://www.coindesk.com/poloniex-loses-12-3-bitcoins-latest-bitcoin-exchange-hack/
 http://fortune.com/2016/08/03/bitcoin-stolen-bitfinex-hack-hong-kong/
 https://www.forbes.com/sites/francescoppola/2018/02/11/yet-another-theft-from-a-cryptocurrency-exchange-but-who-is-really-to-blame/#2bb2fca2f6dd
 https://cointelegraph.com/news/hacked-exchange-coincheck-to-be-sued-by-traders-for-freezing-funds
+
 Some of the cases aren’t even nefarious, but things like Binance’s recent maintenance/upgrade locked people out of their system for 32.25 hours:
 
 https://cryptovest.com/news/binance-routine-maintenance-caused-panic-hacking-fears/
