@@ -49,11 +49,14 @@ Hopefully this convinces you to not store tokens on an exchange! Now let’s tal
 
 希望这能说服您不要把币存在交易所。下面，我们谈谈EOS主网启动日，和多重链的可能性以及三种不同类型EOS持有者的情况。
 
-Difficulty of ERC20-EOS Token Conversion for Exchanges:
+# Difficulty of ERC20-EOS Token Conversion for Exchanges:|交易所ERC20-EOS代币转换的困难:
 
 Before we get deep into the multiple chain scenario, let’s first mention that there will be some potential for exchanges to be apathetic about converting your ERC20 tokens into proper EOS even if there’s just one chain. There is no guarantee this launch will go smoothly, and your tokens will be forgotten or held in limbo for an unknown period.
 
+在深入讨论多重链场景之前，首先要说明的是，即使只有一个链，交易所有也可能存在不能将ERC20代币转换成正确的EOS币的的可能性。这次主网启动不保证一定会顺利进行，你的代币将被遗忘，或者在某个时期处于未知状态。
+
 EOS Launch Day, Hypothetical Multi-Chain Scenario
+
 I think it’s a very likely scenario that arises, multiple communities launch EOS blockchains using the genesis snapshot created by the EOS.io software. For the purposes of this, I will simply call them EOS1, EOS2, and EOS3. Also, the following exchange scenario I am simply using a generic exchange. I now dub it ACMEex
 
 Launch Day for the Exchange Hodler:
