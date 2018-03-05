@@ -41,11 +41,16 @@ https://cointelegraph.com/news/hacked-exchange-coincheck-to-be-sued-by-traders-f
 
 Some of the cases aren’t even nefarious, but things like Binance’s recent maintenance/upgrade locked people out of their system for 32.25 hours:
 
+有些案例不是恶意的，但是像币安交易所最近的维护/升级，将币锁在了系统近32.25小时:
+
 https://cryptovest.com/news/binance-routine-maintenance-caused-panic-hacking-fears/
 
 Hopefully this convinces you to not store tokens on an exchange! Now let’s talk about launch day and the possibility of multiple chains and what happens to the 3 different types of EOS holders.
 
+希望这能说服您不要把币存在交易所。下面，我们谈谈EOS主网启动日，和多重链的可能性以及三种不同类型EOS持有者的情况。
+
 Difficulty of ERC20-EOS Token Conversion for Exchanges:
+
 Before we get deep into the multiple chain scenario, let’s first mention that there will be some potential for exchanges to be apathetic about converting your ERC20 tokens into proper EOS even if there’s just one chain. There is no guarantee this launch will go smoothly, and your tokens will be forgotten or held in limbo for an unknown period.
 
 EOS Launch Day, Hypothetical Multi-Chain Scenario
