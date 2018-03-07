@@ -86,7 +86,7 @@ This doesn’t even account for the fallout that would happen if ACMEex voted yo
 
 如果ACMEex为赢得见证人，将你的代币投给EOS1和EOS2，相关后果也会无法预料。因为这些代币将被锁定6个月内，不能转移。这听起来，你像在EOS生态系统中有掌控感吗？你的回答应该是响亮的“不”。
 
-# Launch Day for the Private Hodler w/ Unregistered Wallet:| 如果启动日钱包没有注册
+# Launch Day for the Private Hodler w/ Unregistered Wallet:| 启动日，钱包没有注册
 
 ![](https://steemitimages.com/0x0/https://i.imgur.com/iWZN9c2.jpg)
 (Photo: Artist’s rendering of an unregistered user accessing their new EOS tokens.)
@@ -95,7 +95,7 @@ Things are much simpler but you give up some valuable rights and add complexity 
 
 没有注册钱包，事情少了，但你放弃了宝贵的权利，增加了财产恢复的复杂性。你最终会得到所有三个链上的币;然而，登录和在网络上广播交易将会变得困难，可能长达数小时、几天、几周甚至更长时间。Block.one已经提示过，但是没有为这个转换提供任何实际的工作流程，而且有一个种可能是，需要暴露您的ETH私钥来领取这些币，这可能存在安全漏洞。在早期，你也不会有任何行使权力的机会。您将无法参与初始的见证人投票，也不能在EOS2和EOS3上做验证。不管结果如何，这些代币不会归零，只是延迟了你对它们的控制权，延迟的时间也有不确定性。
 
-# Launch Day for the Private Hodler w/ Registered Wallet:| 如果启动日已注册钱包
+# Launch Day for the Private Hodler w/ Registered Wallet:| 启动日，钱包已注册
 
 ![](https://steemitimages.com/0x0/https://i.imgur.com/MCbUQo2.jpg)
 (Photo: Artist’s rendering of a registered wallet hodler during launch.)
