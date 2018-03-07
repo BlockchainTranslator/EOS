@@ -70,7 +70,7 @@ I think it’s a very likely scenario that arises, multiple communities launch E
 
 # Launch Day for the Exchange Hodler: | 启动日，币存放在交易所
 
-![Photo: Artist’s rendition of exchange hodlers.](https://steemitimages.com/0x0/https://us.v-cdn.net/6030588/uploads/editor/uv/8a58wcstzzap.jpg)
+![](https://steemitimages.com/0x0/https://us.v-cdn.net/6030588/uploads/editor/uv/8a58wcstzzap.jpg)
 
 Photo: Artist’s rendition of exchange hodlers.
 
