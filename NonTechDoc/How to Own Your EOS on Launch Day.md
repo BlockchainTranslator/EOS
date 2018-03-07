@@ -23,7 +23,7 @@ Launch Scenarios Involving Multiple Chains If You:
      Hold EOS in an Unregistered Private Wallet  存放在未注册的钱包
      Hold EOS in a Registered Wallet 存放在注册了的钱包
     
-# The Basics: “Not Your Keys, Not Your Tokens.” | 根本原因：“不拥有密钥，即不用你的币”
+# The Basics: “Not Your Keys, Not Your Tokens.” | 根本原因：“不拥有密钥，即不拥有你的币”
 
 This is blockchain and crypto 101. If you do not own the private keys to your tokens, you do not own them, PERIOD - storing tokens on an exchange can be bad news. If you are not an active trader, there is zero reason to not secure your property in a private wallet to which you own the key. The plethora of wallet options leaves no excuse for not taking control of your tokens. Currently, EOS is an ERC20 token, so creating a wallet can be as simple as installing the MetaMask browser extension, or as complex as setting up an offline wallet using the MEW software on a local machine. You decide for yourself which security system best suits your investment size and tech expertise.
 
