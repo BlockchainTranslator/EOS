@@ -1,7 +1,10 @@
-
-Written by Andrew M - EOS Atlanta.
-
 # Why Registering an EOS Public Key is Important.|为什么映射EOS公钥很重要
+
+> 本文翻译自：https://steemit.com/eos/@eosgo/how-to-own-your-eos-on-launch-day
+> 
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [何德林](https://github.com/BlockchainTranslator/EOS)
+> 
+> 翻译时间：2018-3-7
 
 I’d like to speak to the importance of registering your ETH address, where you hold your current EOS tokens, to a public EOS key. You may have noticed the saying: “secure life, liberty, and property” crop up quite a bit in your EOS research. Registering a public key to your ETH address is doing just that, securing your property. This article will have cover a few points:
 
@@ -67,7 +70,7 @@ I think it’s a very likely scenario that arises, multiple communities launch E
 
 # Launch Day for the Exchange Hodler: | 启动日，币存放在交易所
 
-(Photo: Artist’s rendition of exchange hodlers.)
+![Photo: Artist’s rendition of exchange hodlers.](https://steemitimages.com/0x0/https://us.v-cdn.net/6030588/uploads/editor/uv/8a58wcstzzap.jpg)
 
 So, ERC20 tokens are now frozen, and you’ve given all agency and voting rights to a centralized organization, ACMEex, over which you have no control. First, you have to trust they will give you any EOS at all, but wait, there’s multiple EOS chains, which EOS will ACMEex give you? WIll they give you all 3? That answer can get complicated...
 
@@ -104,3 +107,23 @@ Job done, now you sit back and let the chains figure out and fight for dominance
 The difference between the final two hodlers in this scenario is approximately 15-20 clicks using the MEW interface, and perhaps less if you register through the token sale site. Ask yourself, do I care about securing my life, liberty and property? I hope after reading this you’ve come to the conclusion that yes, yes you do.
 
 在此场景中，如果使用MEW接口大约需要15-20次点击，如果通过代币销售网站注册的话，可能会更少。问问你自己，是否关心生命、自由和财产的安全?我希望读完这篇文章后，你会得出这样的结论:是的，是的。
+
+----------------------------------------------------
+
+#### 区块链中文字幕组
+
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
+
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
+
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
+
+#### 本文译者简介
+
+何德林 区块链技术爱好者，热衷于区块链业务创新研究与分析，欢迎加微信号:tongxwl
+
+本文由币乎社区（bihu.com）内容支持计划赞助。
+
+版权所有，转载需完整注明以上内容。
+
+----------------------------------------------------
