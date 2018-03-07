@@ -27,7 +27,7 @@ Launch Scenarios Involving Multiple Chains If You:
 
 This is blockchain and crypto 101. If you do not own the private keys to your tokens, you do not own them, PERIOD - storing tokens on an exchange can be bad news. If you are not an active trader, there is zero reason to not secure your property in a private wallet to which you own the key. The plethora of wallet options leaves no excuse for not taking control of your tokens. Currently, EOS is an ERC20 token, so creating a wallet can be as simple as installing the MetaMask browser extension, or as complex as setting up an offline wallet using the MEW software on a local machine. You decide for yourself which security system best suits your investment size and tech expertise.
 
-这是区块链和加密货币领域的常识。如果你不拥有你币的私钥，你就不拥有你的币，把币放在交易所是一个不好的事情。如果你不是一个频繁的交易者，没有理由不使用你自己的钱包，以保护你的财产安全。现在有很多的钱包可以选择，你没有借口不自己掌控自己的虚拟货币。目前，EOS是一个ERC20代币，创建一个钱包可以像安装MetaMask浏览器扩展一样简单，也可以像在本地机器上使用MEW软件安装一个离线钱包一样复杂。你可以自己决定使用哪种钱包，根据你的投资规模和技术专长。
+这是区块链和加密货币领域的常识。如果你不拥有私钥，你就不拥有你的币，把币放在交易所是一个不好的事情。如果你不是一个频繁的交易者，没有理由不使用你自己的钱包，以保护你的财产安全。现在有很多的钱包可以选择，你没有借口不自己掌控自己的虚拟货币。目前，EOS是一个ERC20代币，创建一个钱包可以像安装MetaMask浏览器插件一样简单，也可以像在本地机器上使用MEW软件安装一个离线钱包一样复杂。你可以自己决定使用哪种钱包，根据你的投资规模和技术专长。
 
 Below are some examples of exchanges hacks, scams and fraud that have occurred:
 
@@ -45,7 +45,7 @@ https://cointelegraph.com/news/hacked-exchange-coincheck-to-be-sued-by-traders-f
 
 Some of the cases aren’t even nefarious, but things like Binance’s recent maintenance/upgrade locked people out of their system for 32.25 hours:
 
-有些案例不是恶意的，像币安交易所最近的维护/升级，将币锁了32.25小时:
+有些案例不是恶意的，像币安交易所最近的维护/升级，就将币锁了32.25小时:
 
 https://cryptovest.com/news/binance-routine-maintenance-caused-panic-hacking-fears/
 
@@ -57,25 +57,25 @@ Hopefully this convinces you to not store tokens on an exchange! Now let’s tal
 
 Before we get deep into the multiple chain scenario, let’s first mention that there will be some potential for exchanges to be apathetic about converting your ERC20 tokens into proper EOS even if there’s just one chain. There is no guarantee this launch will go smoothly, and your tokens will be forgotten or held in limbo for an unknown period.
 
-在深入讨论多链同时启动的场景之前，首先要说明的是，即使只有一个链，交易所有也可能存在，不能将ERC20代币转换成正确的EOS币的可能性。这次主网启动不保证一定会顺利进行，你的代币将可能会被遗失，或者在某个时期处于未知状态。
+在深入讨论多链同时启动的场景之前，首先要说明的是，即使只有一个链，交易所也有可能，不能将ERC20代币转换成正确的EOS币。这次主网启动不保证一定会顺利进行，你的代币将可能会被遗失，或者在某个时期处于未知状态。
 
 # EOS Launch Day, Hypothetical Multi-Chain Scenario | EOS启动日，假设多个链同时启动
 
 I think it’s a very likely scenario that arises, multiple communities launch EOS blockchains using the genesis snapshot created by the EOS.io software. For the purposes of this, I will simply call them EOS1, EOS2, and EOS3. Also, the following exchange scenario I am simply using a generic exchange. I now dub it ACMEex
 
-我认为这是一个很可能出现的情况，多个社区使用EOS创建的初始快照，同时启动EOS公链。为描述方便，我将简单地称它们为EOS1、EOS2和EOS3。另外，下面的交易所场景，我以ACMEex为例。
+我认为这是很可能出现的情况，多个社区使用EOS创建的初始快照，同时启动EOS公链。为描述方便，我将简单地称它们为EOS1、EOS2和EOS3。另外，下面的交易所场景，我以ACMEex为例。
 
-# Launch Day for the Exchange Hodler: | 启动日，币放交易所
+# Launch Day for the Exchange Hodler: | 启动日，币存放在交易所
 
 (Photo: Artist’s rendition of exchange hodlers.)
 
 So, ERC20 tokens are now frozen, and you’ve given all agency and voting rights to a centralized organization, ACMEex, over which you have no control. First, you have to trust they will give you any EOS at all, but wait, there’s multiple EOS chains, which EOS will ACMEex give you? WIll they give you all 3? That answer can get complicated...
 
-EOS-ERC20代币会被冻结，你将所有的代理和投票权授予了一个中心化的组织ACMEex，你已没有了代币的控制权。你只能相信交易所会给你EOS，但是，如果有多个EOS链，EOS会给哪个？他们会全部给你吗？这个答案可能会变得很复杂……
+EOS-ERC20代币会被冻结，等于你将所有的代理和投票权授予了一个中心化的组织ACMEex，你已没有了代币的控制权。你只能相信交易所会给你EOS，但是，如果有多个EOS链，EOS会给哪个？他们会全部给你吗？这个答案可能会变得很复杂……
 
 Let’s say ACMEex runs a pretty decent campaign to be a block producer, yet fall short of the top 21 on EOS1 chain. ACMEex decides they want to round up some other large Asia based block producer candidates and create EOS2 to compete. Finally, some mid level block producer candidates decide to band together and create EOS3 but fail to gain wide adoption. Which token do you think ACMEex will feed you first? Well, EOS2, even if it ends up being a secondary public chain.They have a vested interest to try and make EOS2 the winner and take their spot in the top 21 block producer rotation. Will they eventually give you EOS1? Probably if I am being perfectly honest, but there is no guarantee. Will they give you EOS3 tokens to match your original stake in EOS? Highly unlikely. You’ve just missed out on accumulating and having say in two other EOS blockchains.
 
-比方说，ACMEex参与了见证人的竞选，但却未能进入EOS1链的前21名。ACMEex决定，联合在其他一些大型的亚洲矿场，创建EOS2。另外，一些中等规模的见证候选人联合起来创建EOS3，但是没有得到广泛的同意。你认为ACMEex会先发给哪个币？嗯，EOS2，即使它最终是一个二等的公链。他们会有巨大的兴趣，努力让EOS2成为赢家，以便在前21个见证人中占有一席之地。他们最终会给你EOS1吗？诚实的话也许会，但是不能保证。他们会给你EOS3代币吗？极不可能。你会错过这个多重领取。
+比方说，ACMEex参与了见证人的竞选，但却未能进入EOS1链的前21名。ACMEex决定，联合在其他一些大型的亚洲矿场，创建EOS2。另外，一些中等规模的候选人联合起来创建EOS3，但是没有得到广泛的同意。你认为ACMEex会先发给哪个币？嗯，EOS2，即使它最终是一个山寨的公链。他们会有巨大的兴趣，努力让EOS2成为赢家，以便在前21个见证人中占有一席之地。他们最终会给你EOS1吗？诚实的话也许会，但是不能保证。他们会给你EOS3代币吗？极不可能。你会错过这个多重领取。
 
 This doesn’t even account for the fallout that would happen if ACMEex voted your stake into both EOS1 and EOS2 in order to win a block producer position. Those tokens are locked in, and cannot be redistributed, save the trickling back schedule over 6 months. Does this sound like you have any sense of control in the EOS ecosystem? Your answer should be a resounding no.
 
