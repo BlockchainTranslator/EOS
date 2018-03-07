@@ -71,6 +71,7 @@ I think it’s a very likely scenario that arises, multiple communities launch E
 # Launch Day for the Exchange Hodler: | 启动日，币存放在交易所
 
 ![Photo: Artist’s rendition of exchange hodlers.](https://steemitimages.com/0x0/https://us.v-cdn.net/6030588/uploads/editor/uv/8a58wcstzzap.jpg)
+Photo: Artist’s rendition of exchange hodlers.
 
 So, ERC20 tokens are now frozen, and you’ve given all agency and voting rights to a centralized organization, ACMEex, over which you have no control. First, you have to trust they will give you any EOS at all, but wait, there’s multiple EOS chains, which EOS will ACMEex give you? WIll they give you all 3? That answer can get complicated...
 
@@ -86,6 +87,7 @@ This doesn’t even account for the fallout that would happen if ACMEex voted yo
 
 # Launch Day for the Private Hodler w/ Unregistered Wallet:| 如果启动日钱包没有注册
 
+![](https://steemitimages.com/0x0/https://i.imgur.com/iWZN9c2.jpg)
 (Photo: Artist’s rendering of an unregistered user accessing their new EOS tokens.)
 
 Things are much simpler but you give up some valuable rights and add complexity to recovering your property. You will eventually get tokens on all three chains; however, the process for actually logging in and broadcasting a transaction on the network will be mired in doubt for hours, days, weeks or longer. Block.one has hinted at, but not given any real workflows for this transition, and one option presented could mean exposing your ETH private key to claim the tokens. This opens you up to security flaws, and it gives you no say in the early days of a token you feel has promise. You will not get to participate in the initial block producer voting or potentially validate tokens on EOS2 and EOS3. No matter how it shakes out, those tokens are likely to have some value greater than zero and you will delay your access to them for an unknown amount of time.
@@ -94,6 +96,7 @@ Things are much simpler but you give up some valuable rights and add complexity 
 
 # Launch Day for the Private Hodler w/ Registered Wallet:| 如果启动日已注册钱包
 
+![](https://steemitimages.com/0x0/https://i.imgur.com/MCbUQo2.jpg)
 (Photo: Artist’s rendering of a registered wallet hodler during launch.)
 
 You wake up, grab a nice cup of coffee. You pull up your countdown to launch of what you consider to be EOS1 and you prepare to open your EOS wallet of choice. You prepare to type in your EOS public key and retrieve your EOS private key from the waterproof and fireproof storage method of choice. You start hunting and pecking away as you transcribe your private key to take ownership of your shiny new EOS tokens. You cast some votes for block producers on the EOS1 chain and you sit back to finish your coffee. By the time the cup is looking empty, you see a flurry of Twitter activity that ACMEex is launching a new chain because they did not like the outcome of block producer voting. Hmm, interesting, that could gain traction. You head back over to your new EOS wallet, and point it at the new EOS2 chain. You sign a transaction and you wait to see if EOS2 gains the 15% required for being a proper EOS public chain. Finally, you come back a bit later and see EOS3 emerge. Perhaps they’ve announced a major change to the expected governance model and will be honoring one account is one vote for block producers. Wow, that could really be in interesting use case, so you point your wallet at the chain and sign your transaction. It may or may not get to 15% acceptance, but it’s all a grand experiment.
