@@ -83,25 +83,23 @@ This doesn’t even account for the fallout that would happen if ACMEex voted yo
 
 Things are much simpler but you give up some valuable rights and add complexity to recovering your property. You will eventually get tokens on all three chains; however, the process for actually logging in and broadcasting a transaction on the network will be mired in doubt for hours, days, weeks or longer. Block.one has hinted at, but not given any real workflows for this transition, and one option presented could mean exposing your ETH private key to claim the tokens. This opens you up to security flaws, and it gives you no say in the early days of a token you feel has promise. You will not get to participate in the initial block producer voting or potentially validate tokens on EOS2 and EOS3. No matter how it shakes out, those tokens are likely to have some value greater than zero and you will delay your access to them for an unknown amount of time.
 
-事情要简单得多，但你放弃了一些有宝贵的权利，增加了财产恢复的复杂性。你最终会得到所有三个链上的虚拟币;然而，实际登录和在网络上广播交易的过程将会陷入困境，可能长达数小时、几天、几周甚至更长时间。Block.one已经暗示过，但是没有为这个转换提供任何实际的工作流程，而且一个种可能是，暴露您的ETH私钥来领取这些币。这会让你暴露在安全漏洞上，在你代币的早期，它不会给你任何发言权。您将无法参与初始的块生产者投票，也不能在EOS2和EOS3上验证代币。不管它如何抖动，这些代币不会归零，只是将会延迟对它们的访问，时间是未知的。
+事情要简单得多，但你放弃了一些有宝贵的权利，增加了财产恢复的复杂性。你最终会得到所有三个链上的虚拟币;然而，实际登录和在网络上广播交易的过程将会比较困难，可能长达数小时、几天、几周甚至更长时间。Block.one已经提示过，但是没有为这个转换提供任何实际的工作流程，而且一个种可能是，需要暴露您的ETH私钥来领取这些币。这可能存在在安全漏洞，在你代币的早期，你不会有任何行使权力的机会。您将无法参与初始的见证人投票，也不能在EOS2和EOS3上验证代币。不管结果如何，这些代币不会归零，只是将会延迟对它们的所有权，并且延迟的时间也有不确定性。
 
-# Launch Day for the Private Hodler w/ Registered Wallet:
+# Launch Day for the Private Hodler w/ Registered Wallet:| 如果启动日已注册钱包
 
 (Photo: Artist’s rendering of a registered wallet hodler during launch.)
+
 You wake up, grab a nice cup of coffee. You pull up your countdown to launch of what you consider to be EOS1 and you prepare to open your EOS wallet of choice. You prepare to type in your EOS public key and retrieve your EOS private key from the waterproof and fireproof storage method of choice. You start hunting and pecking away as you transcribe your private key to take ownership of your shiny new EOS tokens. You cast some votes for block producers on the EOS1 chain and you sit back to finish your coffee. By the time the cup is looking empty, you see a flurry of Twitter activity that ACMEex is launching a new chain because they did not like the outcome of block producer voting. Hmm, interesting, that could gain traction. You head back over to your new EOS wallet, and point it at the new EOS2 chain. You sign a transaction and you wait to see if EOS2 gains the 15% required for being a proper EOS public chain. Finally, you come back a bit later and see EOS3 emerge. Perhaps they’ve announced a major change to the expected governance model and will be honoring one account is one vote for block producers. Wow, that could really be in interesting use case, so you point your wallet at the chain and sign your transaction. It may or may not get to 15% acceptance, but it’s all a grand experiment.
 
-你早上醒来，喝杯好咖啡。你打开你的倒计时开始你认为是EOS1，你准备打开你的EOS钱包的选择。您准备键入您的EOS公钥，并从选择的防水和防火存储方法中检索EOS私钥。当你抄写你的私钥时，你开始搜寻并啄开，以获取你的崭新的EOS令牌。你在EOS1链上投了几张票，然后坐下来喝完咖啡。当杯子看起来是空的时候，你会看到一系列的Twitter活动，ACMEex正在推出一个新的链，因为他们不喜欢区块生产者投票的结果。嗯，有意思，这可能会有吸引力。你返回到新的EOS钱包，并指向新的EOS2链。你签了一个交易，你就等着看EOS2是否获得了作为一个合适的EOS公共链所需的15%。最后，您稍后回来，看到EOS3出现。也许他们已经宣布了对预期的治理模式的重大改变，并且将对一个帐户表示敬意，这是对阻止生产者的投票。哇，这可能真的是一个有趣的用例，所以你把你的钱包放在链子上并签上你的交易。它可能会或可能不会得到15%的认可，但这都是一个宏大的实验。
+你早上醒来，端起杯好咖啡。你开为主网EOS1的启动的倒计时，并打开你的EOS钱包。键入您的EOS公钥，并从选择的防水和防火存储中找出EOS私钥。输入你的私钥，开始搜索，获取属于你的崭新EOS币。你为EOS1链投上几张票，然后坐下来喝完咖啡。当咖啡要喝完时，你发现Twitter上正在卷起一场风暴，ACMEex正在推出一个新的链，因为他们不满意刚才见证人的投票结果。嗯，有意思，这可能会有吸引力。你回到你的新EOS钱包，并指向新的EOS2链。你做了签名，就等着看EOS2是否能获得作为EOS公链所需的15%。最后，你回来发现，又出现一个EOS3。他们已经宣布了对治理模式的重大改变，把见证人投票策略改为一个帐户一票。哇，这可能真的是一个有趣使用方法，所以你把你的钱包指到该链上并签名。它可能会也可能不会得到15%的认可，但这都是一个宏大的尝试。
 
 Job done, now you sit back and let the chains figure out and fight for dominance. Either way, it doesn’t matter for a personal property standpoint, because you have stakes in them all and can even involve yourself in the early governance structures of these chains. The EOS2 and EOS3 chains will not likely share the same token value as EOS1, but there is a decent chance that their value is greater than zero. Congratulations, you just increased your holdings, secured your property and took the future in your own hands.
 
+上述工作完成，你可以坐下来休息，让各个链去竞争。无论结果如何，从个人财产的角度来书都不重要，因为你已拥有他们所有的权益，甚至可以参与到这些链的早期治理结构中去。链EOS2和EOS3不大可能与EOS1共享相同的价值，但是它们的价值一般会大于零。恭喜你，你只是增加了你的财产，保护了你的财产，并掌握了自己的未来。
+
 The difference between the final two hodlers in this scenario is approximately 15-20 clicks using the MEW interface, and perhaps less if you register through the token sale site. Ask yourself, do I care about securing my life, liberty and property? I hope after reading this you’ve come to the conclusion that yes, yes you do.
 
-About the Author:
-Andrew M can be found in EOS Telegram for token holder support. He recently started EOS Atlanta, a group with an announcement coming soon.
+在此场景中，如果使用MEW接口大约需要15-20次点击，如果通过代币销售网站注册的话，可能会更少。问问你自己，我是否关心我的生命安全、自由和财产?我希望读完这篇文章后，你会得出这样的结论:是的，是的。
 
-Go EOS!
-Who are we?
-EOS Go is dedicated to uniting the EOS community towards launching EOS and beyond.
-Software company block.one is creating EOS.IO and releasing it as open source code; thousands of individuals will need to come together to bring this new "internet of value" to life.
-How to Get Involved:
-Telegram - Forums - Community Announcements - Twitter - YouTube
+
+
