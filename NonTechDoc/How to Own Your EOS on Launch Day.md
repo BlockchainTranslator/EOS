@@ -72,7 +72,7 @@ I think it’s a very likely scenario that arises, multiple communities launch E
 
 ![](https://steemitimages.com/0x0/https://us.v-cdn.net/6030588/uploads/editor/uv/8a58wcstzzap.jpg)
 
-Photo: Artist’s rendition of exchange hodlers.
+(Photo: Artist’s rendition of exchange hodlers.)
 
 So, ERC20 tokens are now frozen, and you’ve given all agency and voting rights to a centralized organization, ACMEex, over which you have no control. First, you have to trust they will give you any EOS at all, but wait, there’s multiple EOS chains, which EOS will ACMEex give you? WIll they give you all 3? That answer can get complicated...
 
