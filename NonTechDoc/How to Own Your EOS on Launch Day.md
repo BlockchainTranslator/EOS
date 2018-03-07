@@ -19,17 +19,9 @@ Launch Scenarios Involving Multiple Chains If You:
 
 多个链同时启动情况下的不同场景，如果你的币：
 
-     Hold EOS on an Exchange
-     
-     存放在交易所
-     
-     Hold EOS in an Unregistered Private Wallet
-     
-     存放在未注册的钱包
-     
-     Hold EOS in a Registered Wallet
-     
-     存放在注册了的钱包
+     Hold EOS on an Exchange 存放在交易所
+     Hold EOS in an Unregistered Private Wallet  存放在未注册的钱包
+     Hold EOS in a Registered Wallet 存放在注册了的钱包
     
 # The Basics: “Not Your Keys, Not Your Tokens.” | 根本原因：“不拥有密钥，即不用你的币”
 
