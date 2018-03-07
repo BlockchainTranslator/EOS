@@ -63,7 +63,7 @@ Before we get deep into the multiple chain scenario, let’s first mention that 
 
 I think it’s a very likely scenario that arises, multiple communities launch EOS blockchains using the genesis snapshot created by the EOS.io software. For the purposes of this, I will simply call them EOS1, EOS2, and EOS3. Also, the following exchange scenario I am simply using a generic exchange. I now dub it ACMEex
 
-我认为这是很可能出现的情况，多个社区使用EOS创建的初始快照，同时启动EOS公链。为描述方便，我将简单地称它们为EOS1、EOS2和EOS3。另外，下面的交易所场景，我以ACMEex为例。
+我认为这是很可能出现的情况，多个社区使用EOS创建的初始快照，同时启动EOS公链。为描述方便，我将简单地称它们为EOS1、EOS2和EOS3。下面涉及交易所的场景，我以ACMEex为例。
 
 # Launch Day for the Exchange Hodler: | 启动日，币存放在交易所
 
