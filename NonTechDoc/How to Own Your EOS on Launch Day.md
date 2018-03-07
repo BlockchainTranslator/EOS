@@ -34,9 +34,13 @@ Below are some examples of exchanges hacks, scams and fraud that have occurred:
 以下是一些交易所被黑或者诈骗的例子：
 
 https://www.wired.com/2014/03/bitcoin-exchange/
+
 https://www.coindesk.com/poloniex-loses-12-3-bitcoins-latest-bitcoin-exchange-hack/
+
 http://fortune.com/2016/08/03/bitcoin-stolen-bitfinex-hack-hong-kong/
+
 https://www.forbes.com/sites/francescoppola/2018/02/11/yet-another-theft-from-a-cryptocurrency-exchange-but-who-is-really-to-blame/#2bb2fca2f6dd
+
 https://cointelegraph.com/news/hacked-exchange-coincheck-to-be-sued-by-traders-for-freezing-funds
 
 Some of the cases aren’t even nefarious, but things like Binance’s recent maintenance/upgrade locked people out of their system for 32.25 hours:
