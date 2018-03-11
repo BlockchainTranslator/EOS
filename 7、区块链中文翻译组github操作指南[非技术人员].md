@@ -1,6 +1,5 @@
 # 区块链中文翻译组github操作指南
 
-
 为了防止在master分支上对文件进行重复编辑而对master分支的历史记录造成影响，将导致变更难以管理。我们要求每位翻译者在翻译一篇新文章之前需要新建自己的分支，在自己分支进行操作，之后再进行pull request操作回到master分支。
 
 ## 步骤如下
@@ -59,9 +58,25 @@ PR的标题标准如下，如果需要他人帮忙Review，可以在这里选择
 
 如果你是技术人员，请在本地环境建立本地分支，推送远程分支之前请合并多个commit为一个，再与master分支做rebase操作，然后再进行pull request
 
+markdown文本语法
+----------------
+
+github文本使用markdown语法，不是所见即所得的WORD文档。如果WORD文档直接拷贝过来，将很难阅读。
+所以你需要：
+
+1、译文提交时，文件名称结尾需要为：.md；
+
+2、关于markdown的语法说明，请见：
+
+新手如何入门：markdown-https://www.zhihu.com/question/20409634；
+
+markdown语法说明：https://www.appinn.com/markdown/
+
 
 技术支持
 ---------------
 任何关于git的问题都可以咨询我。
 
-胖哥 wechat: 37858036
+胖哥 wechat: 37858036 
+
+20180311-更新何德林 wechat: w1791520555.
