@@ -1,22 +1,22 @@
 I originally started this article as a comment on Fred Ehrsam’s similarly themed post. The comment just got too big because I was sipping my way through a large coffee, so I broke it out into its own article. Enjoy!
 
-我最初的这篇文章是对Fred Ehrsam的类似主题文章的评论。这条评论太大了，因为我正在喝一大杯咖啡，所以我把它写进了自己的文章。享受吧!
+这篇文章起源于对Fred Ehrsam类似主题文章的评论。这条问题太大了，因为我当时正在喝一大杯咖啡，所以我把它细化后写进了自己的文章。享受吧!
 
 Many people in the blockchain industry want to see faster progress in R&D with respect to blockchain performance, capacity (scaling), privacy, governance and secure “stable value” tokens. Naturally the question arises as to what funding and team models would best achieve this goal.
 
-区块链行业的许多人都希望在区块链性能、容量(扩展)、隐私、治理和安全“稳定值”令牌方面取得更快的研发进展。自然的问题是，什么样的资金和团队模型最能达到这个目标。
+区块链行业的许多人都希望看到，区块链能在性能、容量(扩展性)、隐私、治理和安全“稳定”代币方面，取得更快的研发进展。自然地，会引出问题：什么样的资金和团队模型最能达到这个目标。
 
 Clearly the problem is not limited to funding. The Ethereum Foundation holds ~$200M in its endowment, and Tezos and EOS have collected even greater funds from public investors in recent ICOs. That is a huge amount of financial ammo that the leaders of these projects can throw at engineering and research work. The interesting question is how such resources can best be directed towards developing blockchain protocols as fast as possible.
 
-显然，问题不限于资金。Ethereum基金会在其捐赠基金中持有2亿美元，Tezos和EOS在最近的ICOs中从公共投资者那里获得了更多的资金。这是大量的金融弹药，这些项目的领导者可以投入到工程和研究工作中。有趣的问题是，这些资源如何能够最好地以最快的速度开发区块链协议。
+显然，问题不是受限于资金。以太坊在其捐赠基金中持有2亿美元，Tezos和EOS在最近的ICO中，从大众投资者那里获得了更多的资金。项目的领导者们可以把这些巨大的金融弹药，投入到项目工程和研究工作中去。有趣的问题是，这些资源如何有效地投入到项目中，以便最快地开发区块链协议。
 
 Fred makes the case that R&D work should be thrown open to the market, with substantial bounties offered to teams that can add functionality such as sharding that would allow blockchain networks to scale-out their capacity (sharding increases capacity by partitioning responsibilities for computation and storage across the network). Tezos plans a similar approach, and explicitly states that it will foster the formation of decentralized teams that compete for chunks of its funds dispersed as bounties. The idea is that competition amongst teams, and having a larger pool of brains working on the core problems and code, will drive faster progress. There must at least be some merit to this thinking.
 
-Fred认为研发工作应该向市场开放，有大量的奖金提供给能够增加功能的团队，比如sharding，可以让区块链网络扩展他们的容量(sharding通过划分网络的计算和存储的责任来增加容量)。Tezos计划采用类似的方法，并明确表示，它将促进分散的团队的形成，而这些分散的团队将会分散成大量的资金。这个想法是，团队之间的竞争，以及在核心问题和代码上拥有更大的大脑池，将推动更快的进展。这种想法至少有一些可取之处。
+Fred认为研发工作应该向市场开放，有大量的奖金提供给增加功能的团队，比如，可以让区块链网络扩展他们容量的分片(分片通过划分网络中的计算和存储的能力来增加容量)。Tezos计划采用类似的方法，并明确表示，它将促进去中心化团队的形成，而这些去中心化的团队将会竞争留出奖金。这个想法是，团队之间的竞争，以及在核心问题和代码上拥有更大的智力，将推动更快的进展。这种想法有一些可取之处。
 
 However in my view there are two major reasons why this approach is not entirely practical: (1) the creation of novel decentralized protocols and cryptography often involves years of thinking and skills that are rare and thus these technologies cannot just be conjured on demand by those wishing to earn bounties, or indeed those who have just run ICOs (2) even though such pieces of fundamental science can often be described in isolation, their introduction into a decentralized network stack often involves far reaching technical changes, making it very difficult for teams to work independently and for critical pieces to be built out incrementally. For example, the implementation of sharding also involves the adoption of a new smart contract programming model (in which contracts communicate using asynchronous message passing) and this involves yet more complex science and engineering.
 
-但是在我看来,这种方法有两个主要的原因是不完全实用:(1)创建小说分权协议和加密通常需要多年的思维和技能,是罕见的,因此这些技术不只是祈求希望获得赏金的人的需求,甚至那些刚刚运行这个理事会(2)即使这样的基础科学中描述通常可以隔离,他们引入一个去中心化的网络栈通常包含深远的技术变化,使它很难独立工作的团队和关键部分是逐步建立起来的。例如，sharding的实现还包括采用一种新的智能契约编程模型(在该模型中使用异步消息传递)，而这涉及到更复杂的科学和工程。
+但是在我看来,这种方法是不完全实用，主要原因有两个:(1)创建小说去中心化协议和加密技术，通常需要多年的思维和技能,并且是罕见的,因此这些技术不能指望那些希望获得赏金的人或者刚刚完成ICO的人，魔幻般地变出来。(2)即使这样的基础科学中可以打散分开予以描述，但他们引入一个去中心化的网络通常包含深刻的技术变化,使它很难独立工作的团队完成，或者关键部分逐步建立起来。例如，分片的实现需要采用一种新的智能合约编程模型(在该模型中可以使用异步消息)，而这涉及到更复杂的科学和工程。
 
 For such reasons, my claim is that a far better approach is to create a “Google style” team to develop the stack. The problem here is that if you really want to build a team of similar quality to the one Google had in the early days, you need to start with extremely strong authentic original science or you will not be able to attract the initial core team of superstar talent — they would easily see through white papers that are really ICO marketing documents, and of course beautiful technical designs where what the initial Google operation was built around, not marketing. Once you have meaningful novel science supported by such a team of superstars, you then need to add further layers of superstars to the team, in the form of an onion, where the quality of each new layer will determine the quality of later layers because superstars strongly prefer to join other superstars. This is a very, very difficult thing to do — especially in a rush — and in the blockchain industry would demand a combination of technical and entrepreneurial experience that is in short supply.
 
