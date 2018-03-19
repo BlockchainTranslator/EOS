@@ -1,5 +1,4 @@
-简介
--------------------------------
+# 简介
 
 区块链中文字幕/EOS 
 
@@ -7,8 +6,7 @@
 
 欢迎更多的志愿者加入我们的团队。
 
-加入我们
--------------------------------
+# 加入我们
 
 1、加入条件：懂一些英文和区块链，能够坚持每周一篇译文或者每两周一篇译文。
 
@@ -18,94 +16,49 @@
 
 4、经过评估后，群主会拉您进群。
 
-已有成员
--------------------------------
+# 入群以后
 
-- **专家组**
-
-    @梓岑@YOYOW、程亮、@Alex、@馋嘴猫在路上、@ranger-老石、@咕噜 BIHU.COM、许昕 Xin
-
-- **翻译组**
-    
+## 1、联系群主，确定组别和身份标识，并修改昵称；
+    
 每位的身份识别，将按下面的识别体现：
 
 昵称-级别-频率-组别，如 鱼-LVL2-1-0
 
 级别：
 
-LVL0 ---刚入群；
+     LVL0 ---刚入群；
 
-LVL1 ---坚持翻译4篇；
+     LVL1 ---坚持翻译4篇；
 
-LVL2 ---坚持翻译12篇；
+     LVL2 ---坚持翻译12篇；
 
-LVL3 ---坚持翻译24篇；
+     LVL3 ---坚持翻译24篇；
 
-LVL4 ---坚持翻译48篇。
+     LVL4 ---坚持翻译48篇。
 
 频率：
 
-0---不定期翻译
+     0---不定期翻译
 
-1---1周一篇
+     1---1周一篇
 
-2---2周一篇
+     2---2周一篇
 
+## 联系战斗导师，在战斗导师的指导下完成；
 
-0组：王明华、张  奎、胡  亮、程 伟、鱼、龙心小台、晓顿、林炜鑫、胖子Ricky、AMY、楷书、Haoshi Hu、茶猫、小丹、荆凯(shuke0327)
-1组：cherry,方凯，David Kang,
-  
-- **运营组**
+1）熟悉文章来源，选择译文；
 
-    浅浅的月光杨若暄、StarFading、楚青歌
-    
+2）完成翻译，中英对照，上传GITHUB，详见[操作指导手册](https://github.com/BlockchainTranslator/EOS/blob/master/7%E3%80%81%E5%8C%BA%E5%9D%97%E9%93%BE%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91%E7%BB%84github%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97%5B%E9%9D%9E%E6%8A%80%E6%9C%AF%E4%BA%BA%E5%91%98%5D.md)；
 
-资料来源
--------------------------------
+3）上传币乎，https://bihu.com/ 保留中文和原文链接，不传英文。
 
-EOS官方博客： [https://steemit.com/@eosio](https://steemit.com/@eosio)    
+# 注意事项：
 
-EOS开发博客： [https://steemit.com/trending/eos](https://steemit.com/trending/eos)
+1）每篇文章，头尾为字幕组的标准头尾，点击查看例文；
 
-EOS开发文档： [https://eosio.github.io/eos/index.html](https://eosio.github.io/eos/index.html)
+2) 每小组按照更新频率，轮训选出一人，负责提醒和检查；
 
-EOS资料库：   [https://eos.io/resources/](https://eos.io/resources)
+3）每达到一个级别时，联系战斗导师，确认后更改昵称。
 
-EOS论坛：     [https://eostalk.io/](https://eostalk.io)
-
-EOS开发GIT：  [https://github.com/EOSIO/eos](https://github.com/EOSIO/eos)
-
-EOS官方网站： [https://eos.io/](https://eos.io)
-
-
-当前工作
--------------------------------
-
-- **翻译组成员招募**
-
-
-    负责人：何德林
-
-- **LOGO及徽章设计**
-
-
-    负责人：浅浅的月光杨若暄
-
-- **GITHUB 使用指南编写**(招募中)
-
-
-    负责人：胡亮
-
-- **区块链字典维护**
-
-
-    负责人：StarFading、楚青歌
-
-- **正式译文翻译**
-
-    
-    张  奎、胡  亮
-    
-
-
+   
 谢谢大家的支持！
