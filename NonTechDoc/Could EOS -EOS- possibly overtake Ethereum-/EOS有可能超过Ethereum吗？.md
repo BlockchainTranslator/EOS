@@ -1,4 +1,4 @@
-# Could EOS (EOS) possibly overtake Ethereum? /EOS有可能超过Ethereum吗？
+# Could EOS (EOS) possibly overtake Ethereum? | EOS有可能超过Ethereum吗？
 
 >本文翻译自：https://oracletimes.com/could-eos-eos-possibly-overtake-ethereum/
 >
