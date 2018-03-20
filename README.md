@@ -46,7 +46,7 @@
 
 ## 2、联系战队导师，在战队导师的指导下完成；
 
-1）熟悉文章来源，选择译文；
+1）熟悉[文章来源](https://github.com/BlockchainTranslator/EOS/blob/master/8%E3%80%81%E8%AF%91%E6%96%87%E6%9D%A5%E6%BA%90.md)，选择译文；
 
 2）完成翻译，中英对照，上传GITHUB，详见[操作指导手册](https://github.com/BlockchainTranslator/EOS/blob/master/7%E3%80%81%E5%8C%BA%E5%9D%97%E9%93%BE%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91%E7%BB%84github%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97%5B%E9%9D%9E%E6%8A%80%E6%9C%AF%E4%BA%BA%E5%91%98%5D.md)；
 
