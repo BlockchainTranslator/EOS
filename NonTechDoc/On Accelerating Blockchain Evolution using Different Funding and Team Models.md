@@ -1,3 +1,11 @@
+# On Accelerating Blockchain Evolution using Different Funding and Team Models | 通过不同的资金和团队模型加速区块链的革命
+
+> 本文翻译自：https://medium.com/dfinity/on-accelerating-blockchain-evolution-using-different-funding-and-team-models-1c04c3d0893a
+> 
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [何德林](https://github.com/BlockchainTranslator/EOS)
+> 
+> 翻译时间：2018-2-4
+
 I originally started this article as a comment on Fred Ehrsam’s similarly themed post. The comment just got too big because I was sipping my way through a large coffee, so I broke it out into its own article. Enjoy!
 
 这篇文章起源于对Fred Ehrsam类似主题文章的评论。这条问题太大了，因为我当时正在喝一大杯咖啡，所以我把它细化后写进了自己的文章。享受吧!
@@ -37,3 +45,22 @@ But again, the proof will be in the pudding — and of course I’m biased b
 For me personally my experience switching to the Google search engine back in the early 2000’s was defining. I remember being an “AltaVista head” until somebody told me to try out Google and I duly typed in http://google.com. I did a search and immediately saw how much better the results were and how much more quickly they were produced. Being an AltaVista head I nonetheless went back to AltaVista feeling faintly offended that my religion had been challenged. However I still became a full-time Google user within 2 days. DFINITY plans to win in a similar way and is obsessed about product/market fit, game changing technology, superstar science and engineering and culture. Given what our team is cooking, I expect the forthcoming release of the DFINITY network will ring major changes in the pace of blockchain advancement.
 
 就我个人而言，我的经验是，在2000年初，我加入到谷歌的搜索引擎。我记得我是一个“AltaVista的头”，直到有人告诉我试试谷歌，然后我就在 http://google.com 上输入了。我做了一个搜索，并立即看到结果有多好，以及他们的输出速度有多快。作为一个AltaVista的领导者，我还是回到了AltaVista，我的领域受到了挑战。然而，我还是在2天内成为了一个全职的谷歌用户。DFINITY计划以类似的方式赢得胜利，并痴迷于产品/市场适应、游戏改变技术、超级明星科学、工程和文化。考虑到我们团队正在做的事情，我预计即将发布的DFINITY网络将会对区块链升级的速度带来重大的改变。
+
+
+----------------------------------------------------
+
+#### 区块链中文字幕组
+
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
+
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
+
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
+
+#### 本文译者简介
+
+何德林 区块链技术爱好者，热衷于区块链业务创新研究与分析，欢迎加微信号:tongxwl
+
+本文由币乎社区（bihu.com）内容支持计划赞助。
+
+版权所有，转载需完整注明以上内容。
