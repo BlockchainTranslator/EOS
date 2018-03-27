@@ -1,5 +1,4 @@
-简介
--------------------------------
+# 一、简介
 
 区块链中文字幕/EOS 
 
@@ -7,108 +6,61 @@
 
 欢迎更多的志愿者加入我们的团队。
 
-任务组成
--------------------------------
+# 二、加入我们
 
-- **选题**  负责选择合适的内容，并将原文转换为 markdown 格式，提交到。
+1、加入条件：懂一些英文和区块链，能够坚持每周一篇译文或者每两周一篇译文。
 
-- **译者**  负责从选题中选择内容进行翻译。
+2、请加群主微信:w1791520555，并备注：区块链中文字幕组
 
-- **审核**  负责将初译的文章进行审核、润色、技术校对等工作。
+3、从[译文来源](https://github.com/BlockchainTranslator/EOS/blob/master/8%E3%80%81%E8%AF%91%E6%96%87%E6%9D%A5%E6%BA%90.md)中选择一篇文章，翻译后发中英文对照稿给群主。
 
-- **发布** 负责将校对后的文章，排版进行发布。
+4、经过评估后，群主会拉您进群。
 
-组织构成
--------------------------------
+# 三、入群以后
 
-- **专家组**  负责选题、指导、审核等工作
-- **翻译组**  负责翻译相关技术文档
-- **运营组**  负责传播、校核、技术支撑等工作
+## 1、联系群主，确定组别和身份标识，并修改昵称；
+    
+每位的身份识别，将按下面的识别体现：
 
-加入我们
--------------------------------
+昵称-级别-频率-组别，如 鱼-LVL2-1-0
 
-请加微信:w1791520555，并备注：BlockChainTranslator/EOS。
-群主会拉您进群。
+级别：
 
-进群后，
-- 如果您加入专家组
-  请发简历及以往翻译文档给群主，群主转专家组评估后加入
-- 如果您加入翻译组
-  请翻译[https://steemit.com/eosdev/@dan/eos-development-sneak-peek-for-very-early-developers](https://steemit.com/eosdev/@dan/eos-development-sneak-peek-for-very-early-developers)中任意链接部分的内容，以中英对照的方式提交给群主，群主转专家组评估后加入
-- 如果您加入运营组
-  留意群内消息通知，有任务招募时报名即可。
+     LVL0 ---刚入群；
 
-历史
--------------------------------
+     LVL1 ---坚持翻译4篇；
 
-* 2017/08/11 倡议并得到了大家的积极响应，成立翻译组。
-* 2017/08/12 首批3位翻译成员通过专家组的资格审查。
-* 2017/08/13 GITHUB创建。
+     LVL2 ---坚持翻译12篇；
 
-已有成员
--------------------------------
+     LVL3 ---坚持翻译24篇；
 
-- **专家组**
+     LVL4 ---坚持翻译48篇。
 
-    @梓岑@YOYOW、程亮、@Alex、@馋嘴猫在路上、@ranger-老石、@咕噜 BIHU.COM、许昕 Xin
+频率：
 
-- **翻译组**
+     0---不定期翻译
 
-    王明华-BCT001、张  奎-BCT002、胡  亮-BCT003、程 伟-BCT004、鱼-BCT005、龙心小台-BCT006、晓顿-BCT007、
-    林炜鑫-BCT008、胖子Ricky-BCT009、AMY-BCT010、楷书-BCT011、Haoshi Hu-BCT012、茶猫-BCT013、小丹-BCT014、荆凯(shuke0327)-BCT015
-  
-- **运营组**
+     1---1周一篇
 
-    浅浅的月光杨若暄、StarFading、楚青歌
-    
+     2---2周一篇
 
-资料来源
--------------------------------
+## 2、联系战队导师，在战队导师的指导下完成；
 
-EOS官方博客： [https://steemit.com/@eosio](https://steemit.com/@eosio)    
+1）熟悉[文章来源](https://github.com/BlockchainTranslator/EOS/blob/master/8%E3%80%81%E8%AF%91%E6%96%87%E6%9D%A5%E6%BA%90.md)，选择译文；
 
-EOS开发博客： [https://steemit.com/trending/eos](https://steemit.com/trending/eos)
+2）完成翻译，中英对照，上传GITHUB，详见[操作指导手册](https://github.com/BlockchainTranslator/EOS/blob/master/7%E3%80%81%E5%8C%BA%E5%9D%97%E9%93%BE%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91%E7%BB%84github%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97%5B%E9%9D%9E%E6%8A%80%E6%9C%AF%E4%BA%BA%E5%91%98%5D.md)；
 
-EOS开发文档： [https://eosio.github.io/eos/index.html](https://eosio.github.io/eos/index.html)
+3）上传币乎，https://bihu.com/ 保留中文和原文链接，不传英文。
 
-EOS资料库：   [https://eos.io/resources/](https://eos.io/resources)
+# 四、注意事项
 
-EOS论坛：     [https://eostalk.io/](https://eostalk.io)
+1）每篇文章，需联系原作者，取得授权，[点击参考文本参考](https://github.com/BlockchainTranslator/EOS/blob/master/8%E3%80%81%E8%AF%91%E6%96%87%E6%9D%A5%E6%BA%90.md)；
 
-EOS开发GIT：  [https://github.com/EOSIO/eos](https://github.com/EOSIO/eos)
+1）每篇文章，头尾为字幕组的标准头尾，点击查看例文；
 
-EOS官方网站： [https://eos.io/](https://eos.io)
+2）每小组按照更新频率，轮训选出一人，负责提醒和检查；
 
+3）每达到一个级别时，联系战队导师，确认后更改昵称。
 
-当前工作
--------------------------------
-
-- **翻译组成员招募**
-
-
-    负责人：何德林
-
-- **LOGO及徽章设计**
-
-
-    负责人：浅浅的月光杨若暄
-
-- **GITHUB 使用指南编写**(招募中)
-
-
-    负责人：胡亮
-
-- **区块链字典维护**
-
-
-    负责人：StarFading、楚青歌
-
-- **正式译文翻译**
-
-    
-    张  奎、胡  亮
-    
-
-
+   
 谢谢大家的支持！
