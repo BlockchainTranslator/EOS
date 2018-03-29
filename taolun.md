@@ -13,8 +13,7 @@
 ### stacee史黛丝
 [对比Steemit，聊一聊币乎如何设计指数分配文章奖励的公式](https://m.bihu.com/article/82068)
 
-用户身兼投资者和劳动者双重身份的币乎，怎样避免成为庞氏骗局
-(https://m.bihu.com/article/96616)
+[用户身兼投资者和劳动者双重身份的币乎，怎样避免成为庞氏骗局](https://m.bihu.com/article/96616)
 
 ### 行乎者也
 [你，不可不思考的：币乎生存之道！](https://m.bihu.com/article/99442)
