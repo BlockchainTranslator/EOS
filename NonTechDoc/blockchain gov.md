@@ -10,6 +10,7 @@
 
 [6/ Governance, Part 2: Plutocracy Is Still Bad](https://vitalik.ca/general/2018/03/28/plutocracy.html)
 --鱼 LVL2-1-0
+
 [7/ The Limits of Crypto-economic Governance](https://medium.com/@bytemaster/the-limits-of-crypto-economic-governance-9362b8d1d5aa)--蒋小珮|Boa波雅-LVL0-1-7
 
 [8/ The Future of Contracts Law and Commerce on the blockchain](https://www.youtube.com/watch?v=cmWcWLKIHpY) --aLex_区块链行者-LVL0-1-7
