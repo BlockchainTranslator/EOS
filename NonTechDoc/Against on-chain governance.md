@@ -1,5 +1,11 @@
 Against on-chain governance
+
+反对链上治理
+
 Refuting (and rebuking) Fred Ehrsam’s governance blog
+
+驳斥Ehrsam有关治理的博客。
+
 I’ve been thinking about blockchain governance for a long time, and recently my understanding of the process has become (I think) a lot more clear.
 
 I was (and still am) working on a blog post titled “Blockchain Governance 101”, which I hope will share some basic language for reasoning about governance.
