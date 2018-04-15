@@ -1,30 +1,30 @@
 Against on-chain governance
 
-反对链上治理
+驳链上治理
 
 Refuting (and rebuking) Fred Ehrsam’s governance blog
 
-驳斥Ehrsam有关治理的博客。
+兼论Fred有关治理的博客。
 
 I’ve been thinking about blockchain governance for a long time, and recently my understanding of the process has become (I think) a lot more clear.
 
-我长期以来一直在考虑区块链治理，最近我对这个过程的理解变得更加清晰了。
+我长期以来一直在思考区块链治理，最近我对这个问题的理解变得更加清晰了。
 
 I was (and still am) working on a blog post titled “Blockchain Governance 101”, which I hope will share some basic language for reasoning about governance.
 
-我曾经(现在还在)写一个名为“区块链Governance 101”的博客文章，我希望这篇博文能分享一些关于治理的基本语言。
+我曾经(现在还在)写一个名为“区块链治理 入门”的博客文章，我希望我的博文能分享一些关于治理的基本内容。
 
 Before I managed to finish (the research is ongoing, and it’s not my top priority), Fred Ehrsam published a blog post “Blockchain Governance: Programming Our Future”, framing the discussion as a primarily design problem.
 
-在我完成(这项研究还在进行中，这不是我的首要任务)之前，弗雷德·埃尔萨姆(Fred Ehrsam)发表了一篇博文“区块链治理:规划我们的未来”，把讨论作为一个主要的设计问题。
+在我快要完成的时候，Fred Ehrsam发表了一篇“区块链治理:设计我们的未来”的博文，把治理作为一个基本的设计问题。
 
 I really don’t think blockchain governance (or governance in general) can be understood as a design problem. I think it’s almost always a mistake to imagine that you can design and institute a governance process, especially for an existing blockchain community with existing processes, and especially without adequate knowledge of the existing governance processes.
 
-我真的不认为区块链治理(或一般的治理)可以理解为设计问题。我认为，想象您可以设计并建立一个治理过程，尤其是对于现有的流程，尤其是对现有的治理过程没有足够的知识，这是一个错误的想法。
+我真的不认为区块链治理(或一般意义上的治理)可以理解为设计问题。我认为，设计并建立一个治理流程，是一个错误的想法，尤其是对于已经有流程的区块链社区。
 
 This blog post is not an introduction to blockchain governance (that is still in the pipeline) and won’t give an overview of key concepts, issues or questions. Nor will it provide any blockchain governance solutions or suggestions. It is instead refutation of core positions that Fred takes in his blog, along with a warning about the dangers of suggesting that people should try to institute their favorite formalized governance model without clear regard for the existing blockchain governance processes.
 
-这篇博文不是区块链治理的介绍(它还在管道中)，也不会给出关键概念、问题或问题的概述。它也不会提供任何区块链治理解决方案或建议。相反，它驳斥了Fred在他的博客中所采取的核心立场，并警告说人们应该尝试建立他们最喜欢的正式的治理模型，而不考虑现有的区块链治理过程。
+这篇博文不是区块链治理的介绍(其还在筹划中)，也不是出治理的主要概念和关键问题概述。它不会提供任何区块链治理解决方案或建议。相反，这篇博文主要是驳斥Fred在他的博客中所采取的核心观点，Fred警告说人们应该尝试建立他们最喜欢的正式的治理模型，而不考虑现有的区块链治理过程。
 
 I think that Fred’s intentions are good, and the views he expressed in his blog post are understandable. But I also I think the blog is missing important concepts and context to the point that I consider it harmful, warranting a long-form response (i.e. a response outside of Tweet storms).
 
