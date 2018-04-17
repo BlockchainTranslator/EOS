@@ -24,21 +24,21 @@ I really don’t think blockchain governance (or governance in general) can be u
 
 This blog post is not an introduction to blockchain governance (that is still in the pipeline) and won’t give an overview of key concepts, issues or questions. Nor will it provide any blockchain governance solutions or suggestions. It is instead refutation of core positions that Fred takes in his blog, along with a warning about the dangers of suggesting that people should try to institute their favorite formalized governance model without clear regard for the existing blockchain governance processes.
 
-这篇博文不是区块链治理的介绍(其还在筹划中)，也不是出治理的主要概念和关键问题概述。它不会提供任何区块链治理解决方案或建议。相反，这篇博文主要是驳斥Fred在他的博客中所采取的核心观点，Fred警告说人们应该尝试建立他们最喜欢的正式的治理模型，而不考虑现有的区块链治理过程。
+这篇博客不是区块链治理的介绍(其还在筹划中)，也不是出治理的主要概念和关键问题概述。它不会提供任何区块链治理解决方案或建议。相反，这篇博客主要是驳斥Fred在他的博客中所采取的核心观点，Fred警告说人们应该尝试建立他们最喜欢的正式治理模型，而不考虑现有的区块链治理过程。
 
 I think that Fred’s intentions are good, and the views he expressed in his blog post are understandable. But I also I think the blog is missing important concepts and context to the point that I consider it harmful, warranting a long-form response (i.e. a response outside of Tweet storms).
 
-我认为弗雷德的意图是好的，他在博客中表达的观点是可以理解的。但我也认为博客忽略了重要的概念和背景，我认为这是有害的，并保证了一个长形式的响应(即在Tweet风暴之外的响应)。
+我认为弗雷德的用意是好的，他在博客中表达的观点是可以理解的。但我也认为博客忽略了重要的概念和背景，我认为这是有害的，并保证了一个长形式的响应(即在Tweet风暴之外的响应)。
 
-Blockchain governance is not a design problem
+Blockchain governance is not a design problem | 区块链治理不是一个设计问题
 
 Fred and I agree that blockchain governance is extremely important. I think it’s the second (rather than first) most important factor that will determine whether blockchains end up being a public good, or a menace to the public. Second only after the shared purpose of the blockchain community (a purpose that legitimate governance presumably is supposed to bear out).
 
-Fred和我同意区块链管理非常重要。我认为这是第二个(而不是第一个)最重要的因素，它将决定区块链最终是否成为公众利益，还是对公众的威胁。仅次于区块链社区的共享目的(这是合法的治理应该被证实的目的)。
+Fred和我都同意区块链的治理问题非常重要。我认为，这是仅次于区块链社区的共享目的，的第二个最重要因素，它决定区块链最终能否为公众带来利益，还是对公众造成威胁。
 
 There is no question that governance decisions matter, and big time. And the structure of a blockchain governance process can dramatically effect governance outcomes. However, this does not make blockchain governance a design problem.
 
-毫无疑问，治理决策至关重要，而且是重大时刻。而区块链治理过程的结构可以显著地影响治理结果。但是，这并不能使区块链治理成为一个设计问题。
+毫无疑问，治理决策至关重要，而且是一个重大时刻。而区块链治理的结构可以显著地影响治理结果。但是，这并不能使区块链治理成为一个设计问题。
 
 Governance is a process. It involves players who participate in that process to produce decisions that affect the governed resources. These decisions can have a lasting impacts on many stakeholders.
 
