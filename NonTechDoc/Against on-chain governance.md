@@ -42,121 +42,121 @@ There is no question that governance decisions matter, and big time. And the str
 
 Governance is a process. It involves players who participate in that process to produce decisions that affect the governed resources. These decisions can have a lasting impacts on many stakeholders.
 
-治理是一个过程。它包括参与该过程的参与者，以产生影响受治理资源的决策。这些决策可能对许多利益相关者产生持久的影响。
+治理是一个过程。它包括该过程的参与者，其决策对受治理的资源产生影响。这些决策可能对许多利益相关者产生持久的影响。
 
 The participants coordinate around this process, and they build knowledge about the governance processes, about each other, about their incentives and about their states of knowledge. This knowledge can be tacit or formal, it can be local knowledge or it can be common knowledge. Participants can develop strong norms (e.g. no contentious hard forks).
 
-参与者围绕这个过程进行协调，他们建立关于治理过程的知识，关于他们的激励和他们的知识状态的知识。这种知识可以是隐性的，也可以是正式的，可以是当地的知识，也可以是常识。参与者可以制定强有力的规范(例如，没有争议的硬叉子)。
+参与者围绕这个过程进行协调，他们建立关于治理过程的知识，关于他们的激励和他们的知识状态的知识。这种知识可以是隐性的，也可以是正式的，可以是局部的知识，也可以通用的知识。参与者可以制定强有力的规范(例如，没有争议的硬分叉)。
 
 The information and incentives of participants constrains their participation, and they need to be understood in the context of the underlying culture, as well as their individual contexts. The information and incentives of participants can change over time, but they don’t change instantly, nor do they change independently of each other’s incentives and states of knowledge. The process of changing the way that something is governed is not magic, and in our case it’s also very human.
 
-参与者的信息和激励约束了他们的参与，他们需要在潜在的文化背景下，以及他们的个人背景下被理解。参与者的信息和激励可以随着时间的推移而改变，但他们不会立刻改变，也不会因为彼此的动机和知识状态而改变。改变事物的管理方式的过程不是魔术，在我们的情况下，它也是非常人性化的。
+参与者的信息和激励约束了他们的参与，他们需要在潜在的文化背景下，以及他们的个人背景下被理解。参与者的信息和激励可以随着时间的推移而改变，但他们不会立刻改变，也不会彼此独立地改变自己的动机和知识状态。治理方式的改变过程过程不是魔术，在我们的情况下，它也是非常人性化的。
 
 So even if it was possible to come up with an ideal solution to “the governance design problem”, it might not be possible for the participants to adopt it. There are pre-existing constraints on participants’ ability to coordinate to adopt any proposed governance solutions. And these constraints can even be entirely in their heads, in the form of local or tacit knowledge, or norms and common knowledge.
 
-因此，即使有可能想出一个理想的解决方案来解决“治理设计问题”，参与者也不可能采用它。对于参与者是否有能力协调一致采用任何拟议的治理解决方案，存在着预先存在的限制。这些约束甚至可以完全在他们的头脑中，以当地或隐性知识的形式，或规范和常识。
+因此，即使有可能想出一个理想的解决方案，参与者也不可能采用它。参与者有能力协调一致地采用某个提议的治理方案，存在着一些预先约束限制。这些约束甚至可以本地或隐性知识、规范和常识的形式，完全存在于他们的头脑中。
 
 So when you make a governance proposal, the participants in the current governance process are going to ask themselves “is this a significant improvement over the process we are using now?”, “Will the other participants in the process think so, too?”, “What will it take to switch from our current process to this one?”, and “Is it worth the disruption to existing processes?”
 
-因此，当您制定治理方案时，当前治理过程中的参与者将会问自己:“这是我们现在正在使用的流程的一个显著改进吗?”“这个过程中的其他参与者也会这么想吗?”，“从目前的流程转换到这个过程需要什么?”，以及“它是否值得对现有流程的破坏?”
+因此，当您制定治理方案时，当前治理过程中的参与者会问自己:“这是对我们现在正在使用流程的显著改进吗?”“这个过程中的其他参与者也会这么想吗?”，“如何从目前的流程转换到这个目标治理过程?”，以及“彻底改变现有流程是否值得?”
 
 Even if you somehow come up with an ideal governance design, you haven’t “solved governance” for anyone until it is successfully adopted.
 
-即使你想出了一个理想的治理设计，你也没有为任何人“解决治理”，直到它被成功地采用。
+即使你想出了一个理想的治理设计，你也还没有为增加解决治理的问题，直到方案被成功地采用。
 
 Fred seems to have missed the fact that information is just as important of a “critical component of governance” as incentives or “mechanisms for coordination” (which is a subset of a broader “critical component” called “governance structure”, from my point of view). Not a huge deal!
 
-Fred似乎忽略了一个事实，即信息与激励或“协调机制”(从我的观点来看，是更广泛的“关键组件”的一个子集)一样，是“治理的关键组成部分”的重要部分。不是一个巨大的交易!
+Fred似乎忽略了一个事实，即信息与激励和“协调机制”一样，是“治理的关键组成部分”的重要部分。
 
-Look at the system before you call for revolution
+Look at the system before you call for revolution | 
 
 When you propose an alternative governance process, and especially when you suggest that we need an alternative process, you’re proclaiming “the existing governance processes are not good enough” and you’re begging the question of “are the existing processes legitimate?”. You’re a stone’s throw away from advocating for revolution; a replacement of the existing governance processes.
 
-当您提出一个可选的治理过程时，特别是当您建议我们需要一个可选的过程时，您就会宣称“现有的治理过程还不够好”，您正在请求“现有流程是否合法?”你是一个远离鼓吹革命的石头;替换现有的治理流程。
+当您提出一个治理过程的选项时，你其实是在说“现有的治理过程还不够好”，或者你正在质疑“现有流程是否合法?”。你是在鼓吹革命，要彻底地替换现有的治理流程。
 
 Revolution isn’t easy or risk-free, and forking means that you will leave some of your peers behind. When you are advocating for revolution, you had better be sure that the revolution will succeed, and that the new process will be effective and legitimate
 
-革命并不容易或无风险，而forking意味着你会让你的一些同行落后。当你主张革命的时候，你最好确信革命会成功，新的进程将是有效的和合法的。
+革命并不容易，是有无风险，分叉意味着会让你会落下的你先前的一些同行者。当你主张革命的时候，你必须确信革命会成功，新的治理过程将是有效并且合法的。
 
 Fred’s blog post showed no almost acknowledgement of the existence of functoning blockchain governance processes in either Bitcoin or Ethereum. He dismissed them out-of-hand with little consideration, perhaps because Fred knows that the reader likely already assumes that Bitcoin governance is broken and that Vitalik controls Ethereum governance.
 
-弗雷德的博客文章几乎没有承认在比特币或以太网络中使用区块链的治理过程的存在。他毫不考虑地将他们解雇，或许是因为弗雷德知道，读者可能已经假设比特币的治理已经被打破，而Vitalik控制了以太的治理。
+弗雷德的博客文章几乎没有认识到在比特币或以太网络中已有的治理过程。他完全忽略这些，或许是因为弗雷德知道，读者可能已经认为比特币的治理已经失败，而以太坊的治理由Vitalik说控制。
 
 He showed very little knowledge about how the Ethereum governence process works. That’s fair enough, because the Ethereum governance process are not very well documented, and it’s hard to understand them without actively participating in them. They evolved over time, and are not an institutionalization of a formal model, and therefore have no inherent reason to be easy to identify or communicate.
 
-他对以太王朝的治理过程知之甚少。这是很公平的，因为Ethereum治理过程没有很好的文档化，并且很难理解它们，而没有积极地参与其中。它们随着时间的推移而进化，并不是正式模型的制度化，因此没有内在的理由易于识别或交流。
+他对以太坊的治理过程知之甚少。这是很公平的，因为以太坊治理过程没有很好地文档化，如果没有积极地参与其中是很难理解它们的。它们随着时间的推移而升级，并不是一个正式模型的制度化表达，因此不易于理解或交流。
 
 No one has full information about the structure of the processes involved. Partly because documenting reality is hard work, and so is communication and education. Partly because the processes are still evolving. And also partly because people only inevitably learn about the processes that they participate in themselves. Most observers don’t participate, and can’t be expected to understand the process, at least until clear documentation is available.
 
-没有人对所涉及的过程的结构有充分的了解。部分原因在于记录现实是一项艰苦的工作，沟通和教育也是如此。部分原因是这些过程仍在发展。还有一部分原因是人们不可避免地要了解他们自己参与的过程。大多数观察者不参与，也不能期望了解这个过程，至少在清楚的文档可用之前。
+没有人对所涉及的治理过程有充分的了解。部分原因在于现实操作的文档化是一项艰苦的工作，沟通和教育也是如此。部分原因是这些过程仍在发展中。还有一部分原因是，人们往往只了解他们自己参与过的过程。大多数人是不参与的，不能期望能完全了解整个过程，至少在清楚的描述文档出来之前。
 
 To clear up some of the misinformation about Ethereum governance shared in Fred’s blog: Proof-of-stake will not change the Ethereum governance processes at all, and miners *do not* have a significant influence on the governance process today. Moreover, Vitalik does not have nearly the amount of power to influence governance outcomes that Fred (and lots of other people) assume that he does. The structure of the governance processes limit Vitalik’s power, just as it limits everyone’s power.
 
-为了清除弗雷德博客中关于Ethereum治理的一些错误信息:风险证明不会改变Ethereum的治理过程，而矿商*不*对今天的治理过程有重大影响。此外，维塔利克没有多少权力来影响弗雷德(以及其他许多人)认为他做的治理结果。治理过程的结构限制了维塔利克的权力，就像它限制了每个人的权力一样。
+为了消除Fred博客中关于以太坊治理的一些错误信息：POS不会改变以太坊的治理过程，今天矿主也不对以太坊的治理过程有重大影响。此外，Vitalik没有多大的权力，像Fred说认为那样，能直接影响治理结果。以太坊的治理过程限制了Vitalik的权力，就像它限制了其他人的权力一样。
 
 Unfortunately for the curious reader, documenting the Ethereum governance process is out of scope for this blog. Stay patient! :)
 
-不幸的是，对于好奇的读者来说，记录以太的治理过程已经超出了这个博客的范围。保持耐心!:)
+当然，对于好奇的读者来说，文档化的以太治理过程已经超出了这个博客的范围。请保持耐心!:)
 
-Against on-chain governance
+Against on-chain governance 
 
 “On-chain governance” refers to the idea that the blockchain nodes automatically upgrade when an on-chain governance process decides on an upgrade and that it’s time to install it. No hard forks required.
 
-“on-chain governance”指的是，当on-chain治理过程决定升级时，区块链节点会自动升级，现在是安装它的时候了。不需要硬叉。
+“on-chain governance”指的是，当治理过程决定升级时，区块链节点会自动升级，不需要硬分叉操作。
 
 Adopting on-chain governance is incredibly risky because it always represents a revolution. It’s not necessarily a revolt against the governance processes that merge code into software repositories (as those could conceivably be encoded on-chain, though this notably isn’t normally what is proposed), but a revolution that overthrows the processes that govern full nodes.
 
-采用连锁管理是非常危险的，因为它总是代表一场革命。对于将代码合并到软件存储库中的治理过程来说，这并不一定是一种反叛(因为它们可以被编码成链，尽管这显然不是建议的)，而是一场颠覆了整个节点的进程的革命。
+采用链上治理是非常危险的，因为它总是代表一场彻底的革命。对于将代码合并到软件存储库中的开发治理过程来说，这并不一定是一种革命(它们可以被链上编码，尽管这是不是建议方式)，而是一场颠覆了目前节点治理的革命。
 
 With off-chain governance (the current norm), a node operator has to consciously decide whether to install a hard fork to have his node be consensus-compatible with the nodes of operators who also decided to install that hard fork.
 
-有了off-chain治理(当前的规范)，节点操作员必须有意识地决定是否安装一个硬分叉以使他的节点与那些决定安装该硬fork的操作人员的节点一致。
+对于链下治理(当前的操作规范)，一个节点必须有意识地自主决定是否安装升级，与他的节点保持一致。
 
 With off-chain blockchain governance, node operators’ decision processes are absolutely necessary parts of blockchain governance, and therefore node operators are necessary participants in blockchain governance.
 
-在区块链治理下，节点运营商的决策过程是区块链治理中必不可少的部分，因此节点运营商是区块链治理的必要参与者。
+在区块链治理下，节点运作者的决策过程是区块链治理中必不可少的部分，因此节点运营者是区块链治理的必要参与者。
 
 On-chain governance makes node operator participation in governance completely unnecessary. It makes it so that a node operator, making no decision, follows the decisions made by the on-chain process. Defaults are incredibly powerful: The more nodes follow the default, the less feasible it is for a concerned node operator to refuse to install a hard fork. (Technically, it’s not actually a hard fork or a soft fork, though the upgrade would have been a hard or soft fork in an off-chain governance model.)
 
-连锁治理使得节点操作员参与治理完全没有必要。它使得一个节点操作员，没有做出任何决定，遵循链过程所做的决定。默认值非常强大:默认情况下越多的节点，就越不可行，因为相关节点操作员拒绝安装硬的fork。(从技术上讲，它实际上并不是一个硬的叉或一个软的叉，尽管升级可能是一种硬的或软的fork，在一个离线的治理模型中)。
+链上治理使得节点的运营者完全没有必要参与治理过程。它使得一个节点运营者，不参加任何决策，只是决策结果的执行者。默认是非常强大的力量：默认决策结果的节点越多，其他相关节点就越不可能拒绝一个硬分叉。
 
 Why is this a big deal? Well, the protocol doesn’t have an anti-Sybil measure on node operators (or on their users). This means that node operators (and therefore users) will necessarily be robbed of their participation in governance, by any on-chain governance proposal.
 
-这有什么大不了的?该协议没有针对节点操作符(或其用户)的反sybil度量。这意味着节点操作人员(因此用户)将必然被剥夺他们参与治理的权利，任何连锁治理方案都是如此。
+这有什么大不了的？该协议没有针对节点运营者没有抗Sybil攻击的措施。这意味着节点运营者(因此用户)必然被剥夺他们参与治理的权利，任何链上治理方案都是如此。
 
 The role of full nodes in off-chain governance provides an important check to balance against the power of processes that make changes to software. On-chain governance removes that check, and the balance it provides.
 
-在离线治理中，完整节点的角色提供了一个重要的检查来平衡对软件进行更改的过程的力量。连锁治理消除了这种检查，它提供了平衡。
+在离线治理中，全节点的角色提供了一个重要的检查，来平衡对软件进行更改的力量。链上治理消除了这种检查，以及他提供的制衡。
 
 Unless there are governance processes that get Sybil-resistant input from node operators, on-chain governance therefore has always has the potential to disenfranchise node operators (and users) of the blockchain. If you are a blockchain node operator (or user), or if you care about blockchain node operators (or users), then I hope you will learn to regard on-chain governance proposals with extreme apprehension.
 
-除非有从节点操作符获得系统支持的治理流程，否则链路治理始终有可能使区块链的节点操作符(和用户)被剥夺。如果您是区块链节点操作符(或用户)，或者您关心区块链节点操作符(或用户)，那么我希望您能学会以极端的理解来看待连锁治理建议。
+除非有治理流程允许节点运营者能够抗Sybil攻击，否则链上治理始终有可能使区块链的节点运营者的权力被剥夺。如果您是区块链运营者，或者你关心区块链运营者，那么我希望你能深刻的理解链上治理建设的弊端。
 
-Against plutocracy and all of its infinite variants
+Against plutocracy and all of its infinite variants 
 
 Coin holder interests and user interest are not naturally aligned. Users have to buy coins from coin holders to use the blockchain. Coin holders would prefer if users had to pay more. While users would prefer if they had to pay less.
 
-投币者的利益和用户的利益是不一致的。用户必须从硬币持有者手中购买硬币以使用区块链。如果用户需要支付更多，硬币持有者更愿意购买。而用户则更愿意支付更少的钱。
+投币者的利益和用户的利益一般是不一致的。用户必须从持币者手中买币以使用区块链。卖价越高，持币者越高兴，而用户则希望买价越低越好。
 
 It is critical to recognize that “user” and “coin holder” are roles that have distinct incentives corresponding to their roles. Just because you’re both a user and a coin holder, or even if most users today are also coin holders, does not mean that we should design our blockchain protocol or our blockchain governance processes to favour coin holder interests over user interests.
 
-重要的是要认识到“用户”和“硬币持有者”是具有与他们的角色相对应的独特激励的角色。仅仅因为你是一个用户和一个硬币持有者，或者即使大多数用户现在也是硬币持有者，并不意味着我们应该设计区块链协议或区块链治理过程，以支持硬币持有者的利益而不是用户的利益。
+重要的是，要认识到“用户”和“持币者”根据他们角色的不同，具有不同的激励需求。不能仅仅因为一个用户也是持币者，或者大多数用户也是持币者，我们就在设计区块链协议或区块链治理过程中，以考虑持币者的利益而不是考虑用户的利益。
 
 The market between blockchains is absolutely not perfectly competitive. It is highly oligopolistic because blockchains have strong network effects (obviously because they are p2p protocols, and more subtly because different blockchain communities have different cultures). So it’s very risky to assume that coin holders want what’s good for users because the price of coins will go down as a result. That will only happen if the users bear sufficient cost. And that cost might be high, and even if it isn’t, any cost is something I wouldn’t wish on all of the users of the blockchain.
 
-区块链之间的市场绝对不是完全竞争的。因为区块链有强大的网络效应(显然是因为它们是p2p协议，而且更微妙的原因是不同的区块链社区有不同的文化)，这是高度的寡头垄断。因此，假设硬币持有者想要对用户有利的东西是很危险的，因为硬币的价格会下降。只有用户承担了足够的成本，这种情况才会发生。这个成本可能很高，即使没有，我也不希望在区块链的所有用户身上看到任何成本。
+区块链之间的市场不是完全竞争的。因为区块链有强大的网络效应(由于它们是p2p协议，而且更可能的原因是不同的区块链社区有不同的文化)，所以也是高度的寡头垄断。因此，假设由持币者决定用户需求是危险的，因为用户要求币价下降。只有在用户承担了足够的成本，这种情况才会发生。这个成本可能很高，即使不高，我也不希望有区块链的所有用户来承担承担任何的成本。
 
 If on-chain governance is a big risk to node operators and users, then plutocratic on-chain governance is at least as risky. And any on-chain governance proposal that is driven by coin holder votes has this problem. Yes, even if it’s based on prediction markets (futarchy), and even if the coins are locked up.
 
-如果连锁治理对节点运营商和用户来说是一个很大的风险，那么财阀式的连锁治理至少是有风险的。任何由硬币持有者投票推动的连锁治理提案都有这个问题。是的，即使它是基于预测市场(futarchy)，即使硬币被锁起来了。
+相对于链上治理对节点运营者和用户来说是一个很大的风险，财阀垄断的链上治理也是一种风险的。任何由持币者投票的连锁链上治理提案都有这个问题。即使是基于预测市场(futarchy)，或者锁币机制。
 
 Not only is on-chain coin-based governance inconsistent with user interests, it is also antithetical to the ethos of public blockchains. The blockchain is for the public, to serve the public interest. It isn’t for cryptocurrency whales to get more rich. Cyptocurrency holdings (like wealth in global society) is highly concentrated in the hands of a very small number of people. The blockchain isn’t supposed to be owned by anyone… nevermind by a small group of superrich individuals.
 
-连锁经营不仅与用户利益不一致，而且与公共区块链的风气背道而驰。区块链是为公众服务的，为公众服务。这并不是为了让加密货币的鲸鱼变得更富有。Cyptocurrency holdings(就像全球社会的财富)高度集中在极少数人手中。区块链本不应该属于任何一个人，但却有一小群超级富豪。
+基于持币数量的链上治理不仅与用户利益不一致，而且与公共区块链的目标背道而驰。区块链是为公众利益服务，不是为了让持币大鲸变得更为富有。加密货币(就像全球的社会财富)高度集中在极少数人手中。区块链本不应该属于任何一个人，但却由一小群超级富豪控制。
 
 Blockchain governance is too important for us to let a small handful of cryptocurrency whales make arbitrary decisions.
 
-区块链治理对我们来说太重要了，我们不能让一小部分的秘密货币鲸鱼做出武断的决定。
+区块链治理对我们来说太重要了，我们不能让一小部分的加密货币大鲸做出武断的决定。
 
 Caveats
 
