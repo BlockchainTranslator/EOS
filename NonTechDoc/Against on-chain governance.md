@@ -1,10 +1,10 @@
 Against on-chain governance
 
-驳链上治理
+反对链上治理
 
 Refuting (and rebuking) Fred Ehrsam’s governance blog
 
-兼论Fred有关治理的博客。
+兼驳Fred有关治理的博客。
 
 I’ve been thinking about blockchain governance for a long time, and recently my understanding of the process has become (I think) a lot more clear.
 
@@ -162,34 +162,34 @@ Caveats
 
 I agree with Fred that the blockchain itself is a tremendously valuable tool for experimenting with governance tools and processes. I am a fan (in theory) of on-chain tools that are in smart contracts but aren’t part of the blockchain protocol. And I think we should experiment with that. I also agree that off-chain tools can be extremely valuable as a way for participants to signal to each other.
 
-我同意Fred的观点，区块链本身是一个非常有价值的工具，可以用来试验治理工具和过程。我是一个在智能合同中使用的链上工具的粉丝(理论上)，但不是区块链协议的一部分。我认为我们应该尝试一下。我也同意，非链的工具可以非常有价值，作为一种方式让参与者相互之间的信号。
+我同意Fred的观点，区块链本身是一个非常有价值的工具，对于试验治理相关的工具和过程。我是一个在智能合约中的链上工具的粉丝。我认为我们应该尝试一下。我也同意，链下工具，作为一种让参与者相互之间沟通的方式，也非常有价值。
 
 These kinds of tools can provide a signal to node operators that actually helps them make a decision, as opposed to on-chain processes that make their decision unnecessary. These tools can also help participants in the governance processes that affect changes to software repositories.
 
-这类工具可以向节点操作人员提供一个信号，帮助他们做出决策，而不是让他们的决策没有必要。这些工具还可以帮助治理过程中影响软件存储库变更的参与者。
+这类工具可以向节点操作人员提供帮助，帮助他们做出决策，而不是让他们不能参加决策。这些工具，还可以帮助治理过程中影响软件变更的各种参与者。
 
 If we find that we can build useful blockchain governance tools using the blockchain, that’s great! However, overthrowing the processes that govern the software implementations of the blockchain, or the processes that govern full nodes is most probably not well-advised.
 
-如果我们发现可以使用区块链构建有用的区块链治理工具，那就太棒了!然而，推翻控制区块链的软件实现的过程，或者管理完整节点的进程，很可能不是很明智。
+如果我们发现可以使用区块链构建有用的区块链治理工具，那是非常好的!然而，完成推翻区块链软件实现的治理过程，或者管理全的节点的过程，很可能是不明智。
 
-Last words (Conclusion)
+Last words (Conclusion) | 结论
 
 Blockchain governance is not an abstract design problem. It’s an applied social problem. It’s a problem that is defined in the context of existing governance structure, and in the context of the current information and incentives of today’s participants in today’s governance processes.
 
-区块链治理不是一个抽象的设计问题。这是一个应用的社会问题。这是一个在现有治理结构的背景下定义的问题，在当今的治理过程中，在当前信息和激励的背景下。
+区块链治理不是一个抽象的设计问题。这是一个应用型的社会问题。这是一个在现有治理结构下定义的问题，也需要在当前信息和激励机制下考虑的问题。
 
 We need to look very carefully at the blockchain governance processes that we already have before we declare that they don’t exist, are illegitimate, propose alternatives, fork, or advocate for revolution.
 
-我们需要非常仔细地观察我们已经拥有的区块链治理流程，在我们声明它们不存在之前，是不合法的，提出替代方案，使用fork，或者提倡革命。
+我们需要非常仔细地考察我们已有的区块链治理流程，在我们认为它们不存在、不合法的，以及提出替代方案、分叉、提倡革命之前。
 
 It is your right to propose the institutionalization of your favorite formal governance model as a replacement to the existing structure of governance, of course.
 
-当然，您有权建议将您最喜欢的正式治理模型制度化，以取代现有的治理结构。
+当然，您有权提出建议，将您喜欢的正式治理模型制度化，以取代现有的治理结构。
 
 However, consider that insodoing you may be sabotaging the legitimacy of the existing governance process. The existing process may have evolved over time and may not be well understood or documented. Replacing something you don’t understand with something you do has obvious appeal, but it is reckless. So maybe hold off until recklessness is the only tenable option?
 
-但是，考虑一下，您可能正在破坏现有治理过程的合法性。现有的过程可能已经随着时间的推移而发生了变化，并且可能没有被很好地理解或记录下来。用你所做的事情来代替你不理解的东西是很有吸引力的，但它是鲁莽的。所以，也许要等到鲁莽是唯一的可选择的选择?
+但是，考虑一下，你这样做，可能正在破坏现有治理过程的合法性。现有的过程可能已经随着时间的推移而发生了变化，并且可能没有被很好地理解或文档化。用你所做的事情来代替你不理解的东西是很有吸引力的，但它是鲁莽的。所以，也许最好等到，我们不得不做出鲁莽选择的时候?
 
 Please be careful. The effectiveness and legitimacy of our blockchain governance processes are critically important. Don’t needlessly put them at risk! Treat your articulation of governance problems and proposals as a loaded weapon and don’t shoot in the dark.
 
-请小心。我们的区块链治理过程的有效性和合法性至关重要。不要无谓地把他们置于危险之中!把你的治理问题和建议当作一件上膛的武器来对待，不要在黑暗中开枪。
+小心为上。我们区块链治理过程的有效性和合法性至关重要。除非必要，我们不要把他们置于危险之中!把你的治理问题和建议当作一件准备好的武器来对待，不要在黑暗中开枪。
