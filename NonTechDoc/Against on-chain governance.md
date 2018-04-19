@@ -1,10 +1,12 @@
-Against on-chain governance
+## Against on-chain governance | 反对链上治理
 
-反对链上治理
+### Refuting (and rebuking) Fred Ehrsam’s governance blog | 兼驳Fred有关治理的博客。
 
-Refuting (and rebuking) Fred Ehrsam’s governance blog
-
-兼驳Fred有关治理的博客。
+> 本文翻译自：https://medium.com/@Vlad_Zamfir/against-on-chain-governance-a4ceacd040ca
+> 
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [何德林](https://github.com/BlockchainTranslator/EOS)
+> 
+> 翻译时间：2018-4-19
 
 I’ve been thinking about blockchain governance for a long time, and recently my understanding of the process has become (I think) a lot more clear.
 
@@ -193,3 +195,21 @@ However, consider that insodoing you may be sabotaging the legitimacy of the exi
 Please be careful. The effectiveness and legitimacy of our blockchain governance processes are critically important. Don’t needlessly put them at risk! Treat your articulation of governance problems and proposals as a loaded weapon and don’t shoot in the dark.
 
 小心为上。我们区块链治理过程的有效性和合法性至关重要。除非必要，我们不要把他们置于危险之中!把你的治理问题和建议当作一件准备好的武器来对待，不要在黑暗中开枪。
+
+----------------------------------------------------
+
+#### 区块链中文字幕组
+
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
+
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
+
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
+
+#### 本文译者简介
+
+何德林 区块链技术爱好者，热衷于区块链业务创新研究与分析，欢迎加微信号:tongxwl
+
+译文版权所有，转载需完整注明以上内容。
+
+----------------------------------------------------
