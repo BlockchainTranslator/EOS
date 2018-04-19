@@ -1,6 +1,6 @@
 # Against on-chain governance | 反对链上治理
 
-### Refuting (and rebuking) Fred Ehrsam’s governance blog | 兼驳Fred有关治理的博客。
+### Refuting (and rebuking) Fred Ehrsam’s governance blog | 兼驳Fred有关治理的博客
 
 > 本文翻译自：https://medium.com/@Vlad_Zamfir/against-on-chain-governance-a4ceacd040ca
 > 
