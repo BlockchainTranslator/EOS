@@ -32,7 +32,7 @@ I think that Fred’s intentions are good, and the views he expressed in his blo
 
 我认为弗雷德的用意是好的，他在博客中表达的观点是可以理解的。但我也认为博客忽略了重要的概念和背景，我认为这是有害的，并保证了一个长形式的响应(即在Tweet风暴之外的响应)。
 
-### Blockchain governance is not a design problem | 区块链治理不是一个设计问题
+## Blockchain governance is not a design problem | 区块链治理不是一个设计问题
 
 Fred and I agree that blockchain governance is extremely important. I think it’s the second (rather than first) most important factor that will determine whether blockchains end up being a public good, or a menace to the public. Second only after the shared purpose of the blockchain community (a purpose that legitimate governance presumably is supposed to bear out).
 
@@ -70,7 +70,7 @@ Fred seems to have missed the fact that information is just as important of a �
 
 Fred似乎忽略了一个事实，即信息与激励和“协调机制”一样，是“治理的关键组成部分”的重要部分。
 
-### Look at the system before you call for revolution | 
+## Look at the system before you call for revolution | 
 
 When you propose an alternative governance process, and especially when you suggest that we need an alternative process, you’re proclaiming “the existing governance processes are not good enough” and you’re begging the question of “are the existing processes legitimate?”. You’re a stone’s throw away from advocating for revolution; a replacement of the existing governance processes.
 
@@ -100,7 +100,7 @@ Unfortunately for the curious reader, documenting the Ethereum governance proces
 
 当然，对于好奇的读者来说，文档化的以太治理过程已经超出了这个博客的范围。请保持耐心!:)
 
-### Against on-chain governance 
+## Against on-chain governance 
 
 “On-chain governance” refers to the idea that the blockchain nodes automatically upgrade when an on-chain governance process decides on an upgrade and that it’s time to install it. No hard forks required.
 
@@ -134,7 +134,7 @@ Unless there are governance processes that get Sybil-resistant input from node o
 
 除非有治理流程允许节点运营者能够抗Sybil攻击，否则链上治理始终有可能使区块链的节点运营者的权力被剥夺。如果您是区块链运营者，或者你关心区块链运营者，那么我希望你能深刻的理解链上治理建设的弊端。
 
-### Against plutocracy and all of its infinite variants 
+## Against plutocracy and all of its infinite variants 
 
 Coin holder interests and user interest are not naturally aligned. Users have to buy coins from coin holders to use the blockchain. Coin holders would prefer if users had to pay more. While users would prefer if they had to pay less.
 
@@ -160,7 +160,7 @@ Blockchain governance is too important for us to let a small handful of cryptocu
 
 区块链治理对我们来说太重要了，我们不能让一小部分的加密货币大鲸做出武断的决定。
 
-### Caveats | 说明
+## Caveats | 说明
 
 I agree with Fred that the blockchain itself is a tremendously valuable tool for experimenting with governance tools and processes. I am a fan (in theory) of on-chain tools that are in smart contracts but aren’t part of the blockchain protocol. And I think we should experiment with that. I also agree that off-chain tools can be extremely valuable as a way for participants to signal to each other.
 
@@ -174,7 +174,7 @@ If we find that we can build useful blockchain governance tools using the blockc
 
 如果我们发现可以使用区块链构建有用的区块链治理工具，那是非常好的!然而，完成推翻区块链软件实现的治理过程，或者管理全的节点的过程，很可能是不明智。
 
-### Last words (Conclusion) | 结论
+## Last words (Conclusion) | 结论
 
 Blockchain governance is not an abstract design problem. It’s an applied social problem. It’s a problem that is defined in the context of existing governance structure, and in the context of the current information and incentives of today’s participants in today’s governance processes.
 
