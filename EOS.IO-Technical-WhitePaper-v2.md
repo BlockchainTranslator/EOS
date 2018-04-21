@@ -252,7 +252,9 @@ EOS.IO软件允许帐户可以定义何种密钥和/或账户3的组合，可以
 
 ### Named Permission Levels 命名权限级别
 
-<img align="right" src="http://eos.io/wpimg/diagram3.png" width="228.395px" height="300px" />
+
+![](https://camo.githubusercontent.com/6fc705d33e56868cb03f5e307299837f5b91f20d/687474703a2f2f656f732e696f2f7770696d672f6469616772616d332e706e67)
+
 
 Using the EOS.IO software, accounts can define named permission levels each of which can be derived from higher level named permissions. Each named permission level defines an authority; an authority is a threshold multi-signature check consisting of keys and/or named permission levels of other accounts. For example, an account's "Friend" permission level can be set for an Action on the account to be controlled equally by any of the account's friends.
 
@@ -269,7 +271,7 @@ EOS.IO software allows each account to define a mapping between a contract/actio
 
 EOS.IO软件允许每个帐户定义在合约/动作或任何其他帐户的合约，以及账户自己的命名权限级别之间进行映射。例如，账户持有人可以将账户持有人的社交媒体应用程序映射到帐户持有者的“朋友”权限组。通过此映射，帐户的任何朋友都可以和帐户持有者一样，在帐户的社交媒体上发布内容。即使他们会作为帐户持有者来发帖，他们仍然使用自己的密钥来为Action签名。这意味着总是可以辨别出来哪些朋友以何种方式使用了其帐户。
 
-### Evaluating Permissions
+### Evaluating Permissions 权限评估
 
 When delivering an Action of type "**Action**", from **@alice** to **@bob** the EOS.IO software will first check to see if **@alice** has defined a permission mapping for **@bob.groupa.subgroup.Action**. If nothing is found then a mapping for **@bob.groupa.subgroup** then **@bob.groupa**, and lastly **@bob** will be checked. If no further match is found, then the assumed mapping will be to the named permission group **@alice.active**.
 
@@ -280,7 +282,7 @@ Once a mapping is identified then signing authority is validated using the thres
 一旦识别出权限映射，则启动多签名阈值校验过程对签名授权进行校验，把该授权与命名权限相关联。如果失败，那么它会遍历父权限，最终遍历到其所有者的权限， **@alice.owner**。
 
 
-<img align="center" src="http://eos.io/wpimg/diagram2grayscale2.jpg" width="845.85px" height="500px" />
+![](https://camo.githubusercontent.com/8cd91b490fed0c94369251791eb25d74bcf54460/687474703a2f2f656f732e696f2f7770696d672f6469616772616d32677261797363616c65322e6a7067)
 
 #### Default Permission Groups 默认权限组
 
@@ -360,6 +362,7 @@ Latency is the time it takes for one account to send an Action to another accoun
 
 延迟时间是一个帐户将动作(Action)发送到另一个帐户并收到响应所需的时间。EOS.IO软件的目标是使两个帐户能够在单个区块内来回交换Action，而不必在每个Action之间等待0.5秒。为了实现这一点，EOS.IO软件将每个区块分为周期（cycle）。每个周期分为多个碎片（shard），每个碎片(shard)包含一组事务列表。每个事务包含一组要传递的动作(Action)。该结构可以被可视化为树，其中各层依据其特性被顺序处理或者并行处理。
 
+```
       Block 区块
 
         Region 区
@@ -373,6 +376,7 @@ Latency is the time it takes for one account to send an Action to another accoun
                 Actions (sequential) 动作(顺序)
 
                   Receiver and Notified Accounts (parallel) 接收者和通知的账户(并行)
+```
 
 Transactions generated in one cycle can be delivered in any subsequent cycle or block. Block producers will keep adding cycles to a block until the maximum wall clock time has passed or there are no new generated transactions to deliver.
 
@@ -697,6 +701,8 @@ EOS.IO 软件旨在促进区块链间的跨链交互，这通过简化Action存�
 
 
 ## Merkle Proofs for Light Client Validation (LCV)  - 用于轻客户端验证的Merkle证明(LCV)
+
+![](https://camo.githubusercontent.com/d1247e97697c62a84ed549bb9b00f601beb013a0/687474703a2f2f656f732e696f2f7770696d672f4469616772616d312e6a7067)
 
 Integrating with other blockchains is much easier if clients do not need to process all transactions. After all, an exchange only cares about transfers in and out of the exchange and nothing more. It would also be ideal if the exchange chain could utilize lightweight merkle proofs of deposit rather than having to trust its own block producers entirely. At the very least a chain's block producers would like to maintain the smallest possible overhead when synchronizing with another blockchain.
 
