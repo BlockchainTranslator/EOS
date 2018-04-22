@@ -24,13 +24,13 @@ But the solution based on  constitution will face much great challenge in practi
 
 在这里，我们提出一个EOS投票机制的改进建议：
 
-在节点选择机制中，依据DAPP锁定的EOS数量决定谁做节点。
+## 在节点选择机制中，依据DAPP锁定的EOS数量决定谁做节点。
 
 Here, we propose an improvement suggustion for the EOS voting mechanism:
 
 voting based on Dapps and the amout of EOS Locked.
 
-理由如下：
+## 理由如下：
 
 following is the reasons:
 
@@ -58,7 +58,7 @@ following is the reasons:
 
 6、In an interview, for answering the question "who can be the BP",BM said  “what you'll probably end up seeing is those who provide the the biggest  applications on the platform “, see in detail 41'47''. So,why we make the rule that  who providing  the the biggest  applications on the platform can be the BPs?
 
-具体的实现方案，可以采用以下的三种方式：
+## 具体的实现方案，可以采用以下的三种方式：
 
 There are three ways to implement the above suggestion:
 
@@ -78,7 +78,7 @@ There are three ways to implement the above suggestion:
 
 the three above ways are all take advantage of the locked amount of EOS, which is key to the values of EOS. Which one is the best solution ?  May be it can be determined by discuion of the EOS communty.
 
- 其他说明: | some questions:
+## 其他说明: | some questions:
 
 1、在刚开始的时候，EOS上面的DAPP生态还没有起来，怎么办？  | at the begining, there is few Dapp on EOS,  how to determine who will be BPs?
 
@@ -98,7 +98,7 @@ DAPP和节点在技术上相关联的，大型DAPP尤其关心节点的可靠运
 
 DAPP and nodes are technically related, and large DAPPs are especially concerned about the reliable operation of BPs, so they do not affect each other. In addition, a DAPP can also give up the right of being the BP.
 
-结论 | conclusion
+## 结论 | conclusion
 
 基于的DAPP及其锁币数量的节点选择机制，比现有的持币人直接投票机制更有利于打破大户卡尔塔联盟，也更符合EOS模型。希望EOS社区能够充分考虑这一投票机制。
 
