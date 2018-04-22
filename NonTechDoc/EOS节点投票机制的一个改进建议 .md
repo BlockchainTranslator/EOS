@@ -36,9 +36,11 @@ following is the reasons:
 
 1、DAPP是EOS真正的价值生产者。EOS经济模型的核心，就是通过DAPP的EOS锁定带来EOS价格的上涨，从而回报EOS的投资人。DAPP锁定的EOS越多，EOS的价值就越大。
 
+
 1. DAPP is the real value producer of EOS coin.  According  the EOS economic model, EOS coin represents the compution and network resoure,and EOS price goes up  through EOS coins locked of DAPPs. The more EOS amout the DAPPs  lock, the greater the value of EOS is.
 
 2、一个DAPP需要锁定的EOS数量是开放和动态变化的。DAPP谁都可以做，YAHOO、GOOGLE、FACEBOOK、亚马逊都是从小网站开始长大，长大以后又随时受到新的小网站的挑战。采用DAPP投票，意味着节点的决定权随时能变化，因而避免长期的垄断。
+
 
 2. Dapps and the amout of EOS they Locked changes dynamicly. Anyone can involve to develop DAPP, and bring it to a big one. YAHOO, GOOGLE, FACEBOOK, amazon are all growing up from small websites, and they are always challenged by new small websites when they grow up. Voting based on DAPP and the EOS their locked means that the Bps can be changed following the growth of Dapps, thus avoiding long-term monopoly.
 
@@ -51,6 +53,7 @@ following is the reasons:
 4, DAPPs is the user of BPs, DAPPs  can understand deeply about the operation  ability of BPs. Meanwhile,DAPPs objectively have an incentive to choose BPs that can provide more computing resources with low cost, to minimize their locked EOS amount  to reduce their own costs.
 
 5、DAPP的运行数据，如网络资源的使用情况、交易量等都是公开透明的，一个DAPP很难为做一个节点而作弊。
+
 
 5. The operation data of DAPP, such as the usage of network resources and trading volume, are transparent can can be checked on the network publicly. It is  difficult to cheating for BP for a DAPP.
 
