@@ -1,4 +1,4 @@
-##Why the Web 3.0 Matters and you should know about it | 为什么 Web 3.0 很重要并且你应该了解它
+## Why the Web 3.0 Matters and you should know about it | 为什么 Web 3.0 很重要并且你应该了解它
 
 > 本文翻译自：https://medium.com/@matteozago/why-the-web-3-0-matters-and-you-should-know-about-it-a5851d63c949
 > 
@@ -6,7 +6,7 @@
 > 
 > 翻译时间：2018-04-24
 
-###Humble beginnings | 简陋的起点 1.0 
+### Humble beginnings | 简陋的起点 1.0 
 -------
 There’s plenty of buzz around the web 3.0 and the sweeping changes it will bring to the industry, but few people actually know why it spawned and what it will bring. To understand this, it’s necessary to travel back in time and examine it predecessors, Web 1.0 & 2.0.
 
@@ -16,7 +16,7 @@ Just like the Middle Ages, the Web 1.0 wasn’t given its name until it bit the 
 
 中世纪时期，Web 1.0 在被得到普遍应用前都尚未有自己的名字。众所周知的 'World Wide Web' 万维网，那时候只是一系列装载着信息的静态网页，也没有交互的动态内容。连接就意味着通过脆弱的调制解调器拨号，而且会阻断了在家里使用着电话的任何人。那时候的美国在线（AOL chat rooms） 、MSN Messenger（微软即时通讯软件）、Ask Jeeves（美国一种搜索引擎）以及 AltaVista（搜索引擎）都是使用这种网络。网速极慢，观看下载视频音乐是想都不用想的，下载一首歌可能至少要一天。
 
-###And then there was 2.0 | Web 2.0 时代来了
+### And then there was 2.0 | Web 2.0 时代来了
 -----------
 The memory of bleepy modems and boring interfaces has largely floated away. Faster internet speeds paved the way for interactive content, the web wasn’t about observing anymore, it was about participating. The global sharing of information spawned the age of ‘Social Media’. Youtube, Wikipedia, Flickr and Facebook gave voices to the voiceless and a means for like-minded communities to thrive.
 
@@ -26,13 +26,13 @@ Publishing this blog post will take me a hassle-free 30 seconds, an immeasurable
 
 发布这篇博客可能只需要花费 30 秒，毫不费劲。当设计师、开发人员和管理人员齐心协力地做一个简单的编辑网站时，这是一个不可估量的进步。我们可能称这是‘读-写-发布’的时代，信息的传播极其简单。那么问题来了，Web 2.0 时代如此美好，究竟哪里出问题了？
 
-####Information is money | 信息就是金钱
+#### Information is money | 信息就是金钱
 ---------
 The UN estimated internet users increased from 738 million to 3.2 billion from 2000–2015. That’s an unfathomable amount of data floating around, and as big digital corporations realized, personal information is an enormously valuable asset. So began the mass stockpiling of data in centralized servers, with Amazon, Facebook and Twitter the biggest custodians. People sacrificed security for the convenience of these services; whether they knew it or not, their identities, browsing habits, searches and online shopping information was sold to the highest bidder.
 
 联合国预计，从 2000 年 ~ 2015 年，互联网用户数量大约从 7.38 亿增长到 32 亿。随着巨量级的数据产生，慢慢地大型数字公司意识到，个人信息是一种巨大的有价值财产。因此开始大量收集数据到中心服务器，Amazon , Facebook 以及 Twitter 是最大的数据托管方。用户享受互联网服务的便利性时也牺牲了信息的安全性。他们可能不知道，他们的身份信息，浏览习惯，搜索和在线购物信息都被卖给了竞价最高的出价人。
 
-###The 3.0 revolution | 3.0 革命
+### The 3.0 revolution | 3.0 革命
 ---------
 By this stage, Web 2.0 exponents were already dreaming up a successor. The next web, they envisaged, would take nostalgic turn to the vision of the web 1.0: more ‘human’ and more privacy. Rather than concentrating the power (and data) in the hands of huge behemoths with questionable motives, it would be returned the rightful owners.
 
