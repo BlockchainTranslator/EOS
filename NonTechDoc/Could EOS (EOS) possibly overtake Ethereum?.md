@@ -75,5 +75,3 @@ This means that if the execution by Bitfinex becomes successful, and further dev
 David Kang 区块链技术爱好者，热爱探索前沿技动态
 
 版权所有，转载需完整注明以上内容。
-
-
