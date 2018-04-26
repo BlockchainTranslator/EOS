@@ -64,7 +64,7 @@
 
 # 五、战略合作伙伴
 
-<img src="https://us.v-cdn.net/6030588/uploads/editor/bd/yq64w1sxka57.jpg" width="50%" height="50%" />
+<img src="https://us.v-cdn.net/6030588/uploads/editor/gb/naeaqilmi4sy.png" width="50%" height="50%" />
 
    
 谢谢大家的支持！
