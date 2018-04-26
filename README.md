@@ -65,7 +65,8 @@
 # 五、战略合作伙伴
 
 1、EOSGO
-<a href="https://forums.eosgo.io/discussion/355/eos-go-logo-jpeg-and-transparent-png#latest">
+
+<a href="https://forums.eosgo.io/">
 <img src="https://us.v-cdn.net/6030588/uploads/editor/bd/yq64w1sxka57.jpg" width="30%" height="30%" />
 </a>
    
