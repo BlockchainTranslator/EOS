@@ -62,5 +62,10 @@
 
 3）每达到一个级别时，联系战队导师，确认后更改昵称。
 
+# 五、战略合作伙伴
+
+![EOSGO](https://us.v-cdn.net/6030588/uploads/editor/gb/naeaqilmi4sy.png)
+
+
    
 谢谢大家的支持！
