@@ -67,5 +67,5 @@
 1、EOS启动主社区：EOSGO
 
 <a href="https://forums.eosgo.io/">
-<img src="https://github.com/BlockchainTranslator/EOS/blob/master/NonTechDoc/pics/%E6%97%A0%E6%A0%87%E9%A2%98.png" width="30%" height="30%" />
+<img src="https://github.com/BlockchainTranslator/EOS/blob/master/NonTechDoc/pics/EOSGO.png" width="30%" height="30%" />
 </a>
