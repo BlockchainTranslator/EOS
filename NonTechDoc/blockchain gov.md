@@ -8,7 +8,7 @@
 
 [5/ Against on-chain governance](https://medium.com/@Vlad_Zamfir/against-on-chain-governance-a4ceacd040ca)--何德林-LVL2-2-0
 
-[6/ Governance, Part 2: Plutocracy Is Still Bad](https://vitalik.ca/general/2018/03/28/plutocracy.html)
+[6/ Governance, Part 2: Plutocracy Is Still Bad](https://github.com/BlockchainTranslator/EOS/blob/master/NonTechDoc/Governance-Part-2-Plutocracy-Is-Still-Bad.md)
 --鱼 LVL2-1-0
 
 [7/ The Limits of Crypto-economic Governance](https://medium.com/@bytemaster/the-limits-of-crypto-economic-governance-9362b8d1d5aa)--蒋小珮|Boa波雅-LVL0-1-7
