@@ -64,7 +64,7 @@
 
 # 五、战略合作伙伴
 
-![EOSGO](https://us.v-cdn.net/6030588/uploads/editor/gb/naeaqilmi4sy.png)
+![EOSGO](https://us.v-cdn.net/6030588/uploads/editor/bd/yq64w1sxka57.jpg)
 
 
    
