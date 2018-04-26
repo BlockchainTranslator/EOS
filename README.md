@@ -67,5 +67,5 @@
 1、EOSGO
 
 <a href="https://forums.eosgo.io/">
-<img src="https://us.v-cdn.net/6030588/uploads/editor/bd/yq64w1sxka57.jpg" width="30%" height="30%" />
+<img src="https://us.v-cdn.net/6030588/uploads/c61d54daa2b24d240c1d16dcaf1e30c8.png" width="30%" height="30%" />
 </a>
