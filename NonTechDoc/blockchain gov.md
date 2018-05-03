@@ -6,7 +6,7 @@
 
 [4/ Notes on Blockchain Governance](https://vitalik.ca/general/2017/12/17/voting.html)--泓-LVL0-2-2
 
-[5/ Against on-chain governance](https://medium.com/@Vlad_Zamfir/against-on-chain-governance-a4ceacd040ca)--何德林-LVL2-2-0
+[5/ Against on-chain governance](https://github.com/BlockchainTranslator/EOS/blob/master/NonTechDoc/Against%20on-chain%20governance.md)--何德林-LVL2-2-0
 
 [6/ Governance, Part 2: Plutocracy Is Still Bad](https://github.com/BlockchainTranslator/EOS/blob/master/NonTechDoc/Governance-Part-2-Plutocracy-Is-Still-Bad.md)
 --鱼 LVL2-1-0
