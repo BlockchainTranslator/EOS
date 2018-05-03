@@ -2,7 +2,7 @@
 
 [2/ How to create a meaningful Blockchain Constitution](https://steemit.com/eos/@dantheman/how-to-create-a-meaningful-blockchain-constitution) --Lau-LVL0-1-6
 
-[3/ On a Principled Approach to Blockchain Governance - 7 Requirements](https://steemit.com/eos/@iang/on-a-principled-approach-to-blockchain-governance-7-requirements) --JohnnyJ-LVL0-2-2
+[3/ On a Principled Approach to Blockchain Governance - 7 Requirements](https://github.com/BlockchainTranslator/EOS/blob/master/NonTechDoc/On%20a%20Principled%20Approach%20to%20Blockchain%20Governance%20-%207%20Requirements.md) --JohnnyJ-LVL0-2-2
 
 [4/ Notes on Blockchain Governance](https://vitalik.ca/general/2017/12/17/voting.html)--泓-LVL0-2-2
 
