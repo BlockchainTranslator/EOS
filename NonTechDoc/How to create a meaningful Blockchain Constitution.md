@@ -1,9 +1,10 @@
-How to create a meaningful Blockchain Constitution | 如何创造有意义的区块链宪法
-本文翻译自：https://steemit.com/eos/@dantheman/how-to-create-a-meaningful-blockchain-constitution
+# How to create a meaningful Blockchain Constitution | 如何创造有意义的区块链宪法
 
-译者：区块链中文字幕组 刘仁辉
-
-翻译时间：2018-4-15
+>本文翻译自：https://steemit.com/eos/@dantheman/how-to-create-a-meaningful-blockchain-constitution
+>
+>译者：区块链中文字幕组 刘仁辉
+>
+>翻译时间：2018-4-15
 
 
 ----------
