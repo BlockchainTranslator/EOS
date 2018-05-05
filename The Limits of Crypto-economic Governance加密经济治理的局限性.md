@@ -1,11 +1,10 @@
-#加密经济治理的局限性
+# 加密经济治理的局限性
 
-
-@[本文为完整译文]
-
-@[原文地址：https://medium.com/@bytemaster/the-limits-of-crypto-economic-governance-9362b8d1d5aa]
-
-@[v神原文地址：https://vitalik.ca/general/2018/03/28/plutocracy.html]
+>[本文为完整译文]
+>
+>[原文地址：https://medium.com/@bytemaster/the-limits-of-crypto-economic-governance-9362b8d1d5aa]
+>
+>[v神原文地址：https://vitalik.ca/general/2018/03/28/plutocracy.html]
 
 Vitalik recently made claims that Delegated Proof of Stake (DPOS) results in rule by plutocracy (government by the wealthy). He then goes on to argue for governance by cryptoeconomics, the use of economic incentives and cryptography to govern.
 
@@ -33,8 +32,7 @@ I, on the other hand, am looking to create tools to be used by competing groups 
 
 而我希望创造一些工具, 供那些至少有2 / 3诚实的竞争对手群体使用。 我相信人性本善。 让我们看看实际情况， 一个团体在成长过程中“保持诚实”的效率越高，这个群体的规模就会越大，而越腐败, 就会死得越快。为自由市场的竞争创造工具，需要认识到开放经济体系的现实，这是真正实现分权化的基础。
 
-##Blockchain as a Radio Station
-## 区块链像一个无线电台
+## Blockchain as a Radio Station | 区块链像一个无线电台
 
 A blockchain can be viewed as a radio station that everyone in the world subscribes to and records. On this radio station anyone can broadcast cryptographic statements and everyone will process these statements via a deterministic state machine to arrive at consensus.
 
@@ -60,8 +58,7 @@ There is a clear separation between those with control of the transmitter and th
 
 控制发射器的人和控制股份的人之间有明确的分离，没有人可以通过贿赂来获取垄断权力控制发射器。企图贿赂将会失去社区支持，支持腐败的利益相关者也可以从社区中剔除。
 
-##Limits of Crypto-economic Governance
-## 加密经济治理的局限性
+## Limits of Crypto-economic Governance | 加密经济治理的局限性
 
 Cryptography can only be used to prove logical consistency. It cannot be used to make subjective judgment calls, determine right or wrong, or even identify truth or falsehood (outside of consistency).
 
@@ -80,23 +77,19 @@ This has HUGE implications for the design of Ethereum’s scaling solutions whic
 这对以太坊缩放解决方案有着巨大的影响，而这些解决方案依赖于可以提交“不良行为证明”的加密“挑战期”。证明必须首先得到发射器端的认可，否则就永远都不会被考虑以达成共识。如果发射器端是腐败的，那么他们就可以简单地忽略密码学证据。如果有人试图从一个侧链窃取所有资金，就可以用50%的钱贿赂发射器端来审查“挑战证据”。 没有客观证据证明审查制度, 也没有办法在系统内使用密码经济手段来阻断该腐败的发射器。
 
 
-##Reliance on Strong Artificial Intelligence
-##依赖强大的人工智能
+## Reliance on Strong Artificial Intelligence | 依赖强大的人工智能
 
 If you are unwilling to trust any group of people to make judgments over subjective matters, then that implies that you are relying on artificial intelligence. This intelligence needs to be programmed with some definition of “right” and “wrong” and that definition must be measurable. Unless the AI system is omniscient, it must derive its conclusions from the potentially byzantine subjective inputs of individuals.
 
 如果你不信任任何一群人对主观问题作出判断，那就意味着你要依赖人工智能。这种情报需要用“正确”和“错误”的定义来编程，而且这个定义必须是可测量的。除非AI系统是无所不知的，否则它必须从个体可能错综复杂的主观输入中得出结论。
 
-##No Closed Economic Systems
-##没有封闭的经济体系
+## No Closed Economic Systems | 没有封闭的经济体系
 
 The heart of cryptoeconomics is the ability to impose an economic gain or loss on an individual based upon cryptographic evidence. For such a system to work it must have cryptographic proof of the an individual’s internal and external positions, an impossibility. For example, in bond-weighted voting the assumption is that a person will be truthful for fear of losing their bond. The reality is that it is not possible to “prove” the economic exposure of an individual because they might have more to gain or lose outside the system than inside.
 
 密码经济学的核心是基于加密证据对个人施行经济奖励或惩罚的能力。要使这样一个制度发挥作用，就必须有个人内部和外部立场的加密证明，这是不可能的。例如，在债券加权投票中，假设一个人会因为害怕失去债券而诚实。现实情况是，根本不可能“证明”一个人披露出来的经济状况，因为在体制外，可能会比在体制内获得更多的收益或损失。
 
-##Conclusion
-##结论
-
+## Conclusion | 结论
 
 Vitalik and I are both attempting to solve some very challenging problems in human governance. I have chosen to recognize certain realities regarding the limits of objective proofs and accept reality that each community might have its own definition of “right and wrong” which can only be measured by a poll of the subjective opinions of community members. The true goal is to lower the barrier to entry for the creation of new communities and allow free market competition to reward the most effective communities and punish the most corrupt.
 
@@ -112,9 +105,15 @@ The community I want to participate in will expel the rent-seeking vote-buyers a
 
 
 > **区块链中文字幕组：**
+
 > 致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量，如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号w1791520555
+
 > 点击查看项目 Github ，及更多的译文……
+
 > **本文译者简介**
+
 > Boa波雅 区块链写作者，微信jiangpei0111e
+
 > 本文源自Medium.com/@bytemaster/
+
 > 译文版权所有，转载需完整注明以上内容
