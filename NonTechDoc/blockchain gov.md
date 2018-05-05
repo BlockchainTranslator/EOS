@@ -1,6 +1,6 @@
 [1/ Why every Blockchain needs a Constitution](https://github.com/BlockchainTranslator/General/blob/master/NonTechDoc/blockchain-constitution.md) --Chuan-LVL0-1-6
 
-[2/ How to create a meaningful Blockchain Constitution](https://steemit.com/eos/@dantheman/how-to-create-a-meaningful-blockchain-constitution) --Lau-LVL0-1-6
+[2/ How to create a meaningful Blockchain Constitution](https://github.com/BlockchainTranslator/EOS/blob/master/NonTechDoc/How%20to%20create%20a%20meaningful%20Blockchain%20Constitution.md) --Lau-LVL0-1-6
 
 [3/ On a Principled Approach to Blockchain Governance - 7 Requirements](https://github.com/BlockchainTranslator/EOS/blob/master/NonTechDoc/On%20a%20Principled%20Approach%20to%20Blockchain%20Governance%20-%207%20Requirements.md) --JohnnyJ-LVL0-2-2
 
